@@ -1,32 +1,90 @@
-from flask import Flask
-import json
+from typing import Dict, List, Tuple, Union
+from flask import Flask, request
 
+import os
+import json
+import toml
+
+from functions.decorators import templated, webview
+
+
+def load_json_data(dataset_name:str) -> Dict:
+    """
+    This is the function which loads the generated datasets which are used by the site.
+
+    By loading them in here, we can reduce S3 calls and speed the app up significantly.
+    """
+    filename = f"data/{dataset_name}.json"
+    if os.path.exists(filename):
+        with open(filename, 'r') as f:
+            return json.load(f)
+    else:
+        return {}
+
+
+def load_pandas_data(dataset_name:str) -> Dict:
+    pass
 
 def create_app():
+    """
+    Creates an instance of the Flask app, and associated configuration and blueprints registration for specific routes. 
+
+    Configuration includes
+
+    - Relevant secrets stored in the config.toml file
+    - Storing in configuration a set of credentials for AWS (decided upon by the environment of the application e.g. development, live)
+    
+    Returns:
+            A configured instance of the Flask app
+
+    """
     app = Flask(__name__)
+
+    app.config.from_file('config.toml', toml.load)
+    # removing whitespace from templated returns    
+    app.jinja_env.trim_blocks = True
+    app.jinja_env.lstrip_blocks = True
+
     app.data = {}
+    app.data['species'] = load_json_data('species')
     return app
 
 
 app = create_app()
 
 
-@app.before_first_request
-def load_data():
-    """
-    This is the function which loads the generated datasets which are used by the site.
+def add_prototype_message(message_type:str, text:str) -> str:
+    return f"<div><{message_type}><strong>{message_type}:</strong> {text}</{message_type}></div><br />"
 
-    By loading them in here, we can reduce S3 calls and speed the app up significantly.
-    """
+@app.template_filter()
+def aside(text:str) -> str:
+    return add_prototype_message('aside', text)
+
+@app.template_filter()
+def todo(text:str) -> str:
+    return add_prototype_message('todo', text)
+
+@app.template_filter()
+def question(text:str) -> str:
+    return add_prototype_message('question', text)
+
+@app.template_filter()
+def placeholder(text:str) -> str:
+    return add_prototype_message('placeholder', text)
+
+
 
 
 @app.route('/alleles/')
 @app.route('/alleles')
+@templated('alleles_home')
 def alleles_home(api=False):
     """
     This is the handler for the alleles homepage. 
     """
-    return app.data
+    return {
+        'species':app.data['species']
+    }
 
 
 @app.route('/alleles/lookup/')
@@ -42,8 +100,9 @@ def alleles_lookup(api=False):
     return "lookup"
 
 
-@app.route('/alleles/<string:species_stem>/')
-@app.route('/alleles/<string:species_stem>')
+@app.route('/alleles/species/<string:species_stem>/')
+@app.route('/alleles/species<string:species_stem>')
+@templated('alleles_species')
 def species_page(species_stem, api=False):
     """
     This is the handler for the species page, it provides a list of loci
@@ -51,12 +110,22 @@ def species_page(species_stem, api=False):
     Args:
         species_stem (string): the slugified MHC species stem  e.g. hla
     """
-    return f'{species_stem=}'
+    if species_stem not in app.data['species']:
+        return {
+            'error': f"Species {species_stem} not found",
+            'code': 404
+        }
+    else:
+        return {
+            'species': species_stem,
+            'loci': app.data['species'][species_stem]['loci']
+        }
 
 
-@app.route('/alleles/<string:species_stem>/<string:locus>/')
-@app.route('/alleles/<string:species_stem>/<string:locus>')
-def locus_page(species_stem, locus, api=False):
+@app.route('/alleles/locus/<string:locus>/')
+@app.route('/alleles/locus/<string:locus>')
+@templated('alleles_locus')
+def locus_page(locus, api=False):
     """
     This is the handler for the locus page, it provides a list of allele groups
 
@@ -64,12 +133,16 @@ def locus_page(species_stem, locus, api=False):
         species_stem (string): the slugified MHC species stem  e.g. hla
         locus (string): the slufiied locus e.g. hla_a
     """
-    return f'{species_stem=}:{locus=}'
+    return {
+        'locus': locus,
+        'allele_groups': ['hla_a_01', 'hla_a_02', 'hla_a_03']
+    }
 
 
-@app.route('/alleles/<string:species_stem>/<string:locus>/<string:allele_group>/')
-@app.route('/alleles/<string:species_stem>/<string:locus>/<string:allele_group>')
-def allele_group_page(species_stem, locus, allele_group, api=False):
+@app.route('/alleles/allele_group/<string:allele_group>/')
+@app.route('/alleles/allele_group/<string:allele_group>')
+@templated('alleles_allele_group')
+def allele_group_page(allele_group, api=False):
     """
     This is the handler for the allele_group page, it provides a list of alleles and information on polymorphisms/features
 
@@ -78,12 +151,16 @@ def allele_group_page(species_stem, locus, allele_group, api=False):
         locus (string): the slugified locus e.g. hla_a
         allele_group (string): the slugified allele group e.g. hla_a_01
     """
-    return f'{species_stem=}:{locus=}:{allele_group=}'
+    return {
+        'allele_group': allele_group,
+        'alleles':['hla_a_01_01', 'hla_a_01_02', 'hla_a_01_03']
+    }
 
 
-@app.route('/alleles/<string:species_stem>/<string:locus>/<string:allele_group>/<string:allele>/')
-@app.route('/alleles/<string:species_stem>/<string:locus>/<string:allele_group>/<string:allele>')
-def allele_page(species_stem, locus, allele_group, allele, api=False):
+@app.route('/alleles/allele/<string:allele>/')
+@app.route('/alleles/allele/<string:allele>')
+@templated('alleles_allele')
+def allele_page(allele, api=False):
     """
    This is the handler for the allele page, it provides information on that allele, including an ESMFold prediction
 
@@ -92,7 +169,9 @@ def allele_page(species_stem, locus, allele_group, allele, api=False):
         locus (string): the slugified locus e.g. hla_a
         allele (string): the slugified allele number e.g. hla_a_01_01
     """
-    return f'{species_stem=}:{locus=}:{allele_group=}:{allele=}'
+    return {
+        'allele': allele,
+    }
 
 
 @app.route('/alleles/identifier/<string:datasource>/<string:identifier>/')

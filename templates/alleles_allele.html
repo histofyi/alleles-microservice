@@ -1,0 +1,36 @@
+{% extends "shared/base.html" %}
+
+
+{% include "styles.html" %}
+
+
+{% block main %}
+
+<section>
+    <div class="grid-container">
+        <div class="column-full-width">
+            <div class="inner">
+                <small><strong>Allele</strong></small>
+                <h1 class="heading-large vertical-spacing-bottom structure-title">{{allele}}</h1>
+            </div>
+        </div>
+        <div class="column-full-width">
+            <div class="inner">
+                <h2>Info</h2>
+
+                {{'Information about allele' | aside | safe}}
+                {{'Structure prediction with location of polymorphisms' | aside | safe}}
+                {{'Sequence with location of polymorphisms' | aside | safe}}
+                {{'Information on alleles with identical pocket residues' | aside | safe}}
+                {{'Information about motif if known' | aside | safe}}
+                {{'Information on alleles with similar motifs' | aside | safe}}
+                {{'Information on structures if there are any' | aside | safe}}
+                {{'Information on quality of structure prediction (comparison to structures)' | aside | safe}}
+                {{'Information on side chain mobility if known' | aside | safe}}
+                {{'Information on structure backbone flexibility if known' | aside | safe}}
+                
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

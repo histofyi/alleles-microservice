@@ -1,0 +1,32 @@
+{% extends "shared/base.html" %}
+
+
+{% include "styles.html" %}
+
+
+{% block main %}
+
+<section>
+    <div class="grid-container">
+        <div class="column-full-width">
+            <div class="inner">
+                <small><strong>Species</strong></small>
+                <h1 class="heading-large vertical-spacing-bottom structure-title">{{species}}</h1>
+            </div>
+        </div>
+        <div class="column-full-width">
+            <div class="inner">
+                <h2>Loci </h2>
+            </div>
+        </div>
+        <div class="column-full-width">
+            <div class="inner">
+                {% for locus in loci %}
+                    <a href="/alleles/locus/{{locus}}">{{locus}}</a>
+                {% endfor %}
+            </div>
+        </div>  
+    </div>
+</section>
+
+{% endblock %}

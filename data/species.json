@@ -1,0 +1,30 @@
+{
+    "homo_sapiens": {
+        "loci":{
+            "hla_a": {
+                "allele_group_count":0,
+                "allele_count":100
+            },
+            "hla_b": {
+                "allele_group_count":0,
+                "allele_count":100
+            },
+            "hla_c": {
+                "allele_group_count":0,
+                "allele_count":100
+            },
+            "hla_e": {
+                "allele_group_count":0,
+                "allele_count":100
+            },
+            "hla_f": {
+                "allele_group_count":0,
+                "allele_count":100
+            },
+            "hla_g": {
+                "allele_group_count":0,
+                "allele_count":100
+            }
+        }
+    }
+}

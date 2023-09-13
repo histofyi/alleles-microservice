@@ -1,0 +1,2 @@
+SITE_TITLE = 'Alleles'
+STATIC_ROUTE = 'https://static.histo.fyi'

@@ -1,0 +1,25 @@
+{% extends "shared/base.html" %}
+
+{% block main %}
+<section>
+    <div class="grid-container">
+        <div class="column-full-width">
+            <div class="inner">
+                <small><strong>{{error.code}}</strong></small>
+                <h1 class="heading-large vertical-spacing-bottom structure-title">Error</h1>
+            </div>
+        
+            <div class="inner">
+                <div>
+                    So sorry, we can't find that.
+                </div>
+                <br /><br />
+                <div>
+                    <strong>Error message:</strong> {{error.message}}
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+{% endblock %}

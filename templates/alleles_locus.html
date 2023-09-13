@@ -1,0 +1,53 @@
+{% extends "shared/base.html" %}
+
+
+{% include "styles.html" %}
+
+
+{% block main %}
+
+{% set column_headings = ['Allele group', 'Number of alleles', 'Variability of alleles', 'Number of structures', 'Known peptide motifs']%}
+
+
+<section>
+    <div class="grid-container">
+        <div class="column-full-width">
+            <div class="inner">
+                <small><strong>Locus</strong></small>
+                <h1 class="heading-large vertical-spacing-bottom structure-title">{{locus}}</h1>
+            </div>
+        </div>
+        <div class="column-full-width">
+            <div class="inner">
+                <h2>Info/statistics</h2>
+                {{'Information about locus' | aside | safe}}
+            </div>
+        </div>
+        <div class="column-full-width">
+            <div class="inner">
+                <h2>Allele groups </h2>
+            </div>
+        </div>
+        <div class="column-full-width">
+            <div class="inner">
+                <table width="100%">
+                    <thead>
+                        <tr>
+                            {% for column_heading in column_headings %}
+                                <th><strong>{{column_heading}}</strong></th>
+                            {% endfor %}
+                        </tr>
+                    </thead>
+                {% for allele_group in allele_groups %}
+                    <tr>
+                        <td>
+                            <a href="/alleles/allele_group/{{allele_group}}">{{allele_group}}</a>
+                        </td>
+                    </tr>
+                {% endfor %}
+                </table>
+            </div>
+        </div>  
+    </div>
+</section>
+{% endblock %}
