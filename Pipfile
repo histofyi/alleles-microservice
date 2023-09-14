@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 zappa = "*"
 flask = "*"
+matplotlib = "*"
+numpy = "*"
 
 [dev-packages]
 
