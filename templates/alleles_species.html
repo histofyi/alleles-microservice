@@ -11,7 +11,7 @@
         <div class="column-full-width">
             <div class="inner">
                 <small><strong>Species</strong></small>
-                <h1 class="heading-large vertical-spacing-bottom structure-title">{{species}}</h1>
+                <h1 class="heading-large vertical-spacing-bottom structure-title">Homo sapiens (Human)</h1>
             </div>
         </div>
         <div class="column-full-width">
@@ -20,11 +20,13 @@
             </div>
         </div>
         {% for locus in loci %}
-        <div class="grid-column proto-pipeline-phase">
+        <div class="column-one-third">
             <div class="inner">
                 <span class="phase-title is-indy"><a href="/alleles/locus/{{locus}}">{{locus|deslugify_locus}}</a></span>
-                <span class="heading-extra-large phase-count">100 / 1000</span><span class="small">allele groups / alleles</span>
+                <span class="heading-extra-large phase-count">{{loci[locus]['allele_group_count']}}</span><span class="small">allele groups </span><br /><br />
+                <span class="heading-large phase-count">{{loci[locus]['allele_count']}}</span><span class="small">alleles</span>
             </div>
+            <br /><br />
         </div>
         {% endfor %}
 

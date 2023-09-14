@@ -5,9 +5,16 @@ import os
 import json
 import toml
 
+import base64
+from io import BytesIO
+
+import matplotlib.pyplot as plt
+from matplotlib.figure import Figure
+import numpy as np
 
 from functions.decorators import templated
 from functions.text import slugify
+
 
 
 pockets = {
@@ -27,6 +34,70 @@ def map_pocket(position:int) -> str:
 
 
 netmhcpan_pocket_residues = [7,9,24,45,59,62,63,66,67,69,70,73,74,76,77,80,81,84,95,97,99,114,116,118,143,147,150,152,156,158,159,163,167,171]
+
+
+def top_n(dataset:Dict, n:int=10):
+    # Sort the dictionary by percentage in descending order
+    sorted_data = sorted(dataset.items(), key=lambda x: x[1]['percent'], reverse=True)
+    
+    # Extract the top 10 labels and values
+    labels = [item[0] for item in sorted_data[:n]]
+    values = [item[1]['percent'] for item in sorted_data[:n]]
+    
+    # Extract the rest of the labels and values for others category
+    others = [item[0] for item in sorted_data[n:]]
+    others_values = [item[1]['percent'] for item in sorted_data[n:]]
+    
+    return labels, values, others, others_values
+
+
+def generate_allele_group_pie_chart(allele_groups:Dict, locus:str) -> Tuple[str, str, str]:
+    labels = []
+    values = []
+    others = []
+
+    labels, values, others, others_values = top_n(allele_groups, 9)
+
+    labels = [f"{deslugify_allele_group(allele_group)} [{round(allele_groups[allele_group]['percent'], 1)}%]" for allele_group in labels]
+
+    others_percent = sum(others_values)
+
+    if len(others) > 0:
+        labels.append('Others')
+        values.append(others_percent)
+    alt_text = f"Donut chart of the allele group distribution for the {locus} locus. Alleles shown indvidually are {labels}. Alleles shown in the 'Others' category are {others}."
+    figsize = 15
+
+    fig = Figure()
+    fig.set_figwidth(figsize+4)
+    fig.set_figheight(figsize-3)
+    ax = fig.subplots()
+    bbox_props = dict(boxstyle="square,pad=0.2", fc="w", ec="k", lw=0)
+    wedges, texts = ax.pie(values, textprops={'fontsize': 30}, wedgeprops=dict(width=0.3), startangle=-40)
+
+    kw = dict(arrowprops=dict(arrowstyle="-"), bbox=bbox_props, zorder=0, va="center")
+
+    
+    for i, p in enumerate(wedges):
+        ang = (p.theta2 - p.theta1)/2. + p.theta1
+        y = np.sin(np.deg2rad(ang))
+        x = np.cos(np.deg2rad(ang))
+        horizontalalignment = {-1: "right", 1: "left"}[int(np.sign(x))]
+        connectionstyle = f"angle,angleA=0,angleB={ang}"
+        kw["arrowprops"].update({"connectionstyle": connectionstyle})
+        ax.annotate(labels[i], xy=(x, y), xytext=(1.35*np.sign(x), 1.4*y),horizontalalignment=horizontalalignment, **kw, size=32)
+
+    # Save it to a temporary buffer.
+    png = BytesIO()
+    svg = BytesIO()
+    fig.savefig(png, format="png")
+    fig.savefig(svg, format="svg")
+
+    png_data = base64.b64encode(png.getbuffer()).decode("ascii")    
+    svg_data = base64.b64encode(svg.getvalue()).decode("ascii")
+
+    return png_data, svg_data, alt_text
+
 
 def load_json_data(dataset_name:str) -> Dict:
     """
@@ -123,7 +194,9 @@ def create_app():
     app.jinja_env.trim_blocks = True
     app.jinja_env.lstrip_blocks = True
 
-    json_datasets = ['species','core','sets']
+    app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
+
+    json_datasets = ['species','core','sets', 'motifs']
     
     json_dataset_folders = ['protein_alleles','pocket_pseudosequences', 'gdomain_sequences']
 
@@ -144,8 +217,13 @@ def create_app():
     app.data['stats']['loci'] = process_locus_count(app.data)
 
     app.data['stats']['allele_groups'] = {}
+
     for locus in app.data['species']['homo_sapiens']['loci']:
         app.data['stats']['allele_groups'][locus] = process_allele_group_count(app.data, locus)
+
+    app.data['stats']['motifs'] = len(app.data['motifs'].keys())
+
+    print (app.data['stats']['motifs'])
 
     return app
 
@@ -199,9 +277,11 @@ def alleles_home(api=False):
     """
     This is the handler for the alleles homepage. 
     """
+    data = app.data.copy()
+
     return {
-        'species':app.data['species'],
-        'stats':app.data['stats']
+        'species':data['species'],
+        'stats':data['stats']
     }
 
 
@@ -228,15 +308,31 @@ def species_page(species_stem, api=False):
     Args:
         species_stem (string): the slugified MHC species stem  e.g. hla
     """
-    if species_stem not in app.data['species']:
+    data = app.data.copy()
+
+    if species_stem not in data['species']:
         return {
             'error': f"Species {species_stem} not found",
             'code': 404
         }
     else:
+        loci = data['species'][species_stem]['loci']
+
+        raw_allele_groups = {}
+
+        locus_stats = {}
+
+        for locus in loci:
+            locus_group = data['stats']['allele_groups'][locus]['allele_groups']
+            
+            allele_count = sum([locus_group[allele_group]['allele_count'] for allele_group in locus_group])
+            locus_stats[locus] = {
+                'allele_group_count': len(locus_group),
+                'allele_count': allele_count
+            }
         return {
             'species': species_stem,
-            'loci': app.data['species'][species_stem]['loci']
+            'loci': locus_stats
         }
 
 
@@ -251,9 +347,39 @@ def locus_page(locus, api=False):
         species_stem (string): the slugified MHC species stem  e.g. hla
         locus (string): the slugified locus e.g. hla_a
     """
+
+    data = app.data.copy()
+
+    raw_allele_groups = data['stats']['allele_groups'][locus]['allele_groups']
+
+    allele_group_summary = {}
+    allele_group_count = 0
+    allele_count = 0
+
+    for allele_group in raw_allele_groups:
+        allele_group_summary[allele_group] = {
+            'count': raw_allele_groups[allele_group]['allele_count'],
+            'percent': 0
+        }
+        allele_group_count += 1
+        allele_count += raw_allele_groups[allele_group]['allele_count']
+
+    for allele_group in allele_group_summary:
+        allele_group_summary[allele_group]['percent'] = round(allele_group_summary[allele_group]['count'] / allele_count * 100, 2)
+
+    print (allele_group_count)
+    print (allele_count)
+
+    print (allele_group_summary)
+    pie_chart, svg_pie_chart, alt_text = generate_allele_group_pie_chart(allele_group_summary, locus)
+
     return {
         'locus': locus,
-        'allele_groups': app.data['stats']['allele_groups'][locus]['allele_groups']
+        'allele_groups': raw_allele_groups,
+        'pie_chart': svg_pie_chart, 
+        'svg_pie_chart': svg_pie_chart,
+        'allele_group_count': allele_group_count,
+        'allele_count': allele_count
     }
 
 
@@ -272,12 +398,16 @@ def allele_group_page(allele_group, api=False):
     locus = '_'.join(allele_group.split('_')[0:2])
     data = app.data.copy()
     
+    known_motifs = {}
+
     all_allele_group_alleles = data['stats']['allele_groups'][locus]['allele_groups'][allele_group]['alleles']
     paged_alleles = all_allele_group_alleles[1:26]
     reference_allele = data['stats']['allele_groups'][locus]['allele_groups'][allele_group]['alleles'][0]
     i = 0
     allele_group_pocket_sequence = data['protein_alleles'][locus][reference_allele]['pocket_pseudosequence']
+    
     allele_dict = {}
+    
     allele_dict[reference_allele] = data['protein_alleles'][locus][reference_allele]
     allele_dict[reference_allele]['pocket_polymorphisms'] = 'Reference'
 
@@ -303,12 +433,47 @@ def allele_group_page(allele_group, api=False):
             allele_dict[allele]['structures'] = None
             allele_dict[allele]['structure_count'] = None
 
+    # THIS CURRENTLY ONLY WORKS ON THE PAGED ALLELES, DO IN THE PIPELINE FOR ALL ALLELES
+    motif_index = 1
+
+    known_motif_count = 0
+    inferred_motif_count = 0
+    structure_count = 0
+
+    if allele_group in data['sets']['allele_groups']:
+        structure_count = data['sets']['allele_groups'][allele_group]['count']
+
+    for allele in allele_dict:
+        if allele in data['motifs']:
+            simplified_motif = [None,['V','L'],None,None,None,None,None,None,['L','V']]
+            motif_entry = {'type': 'known', 'simplified_motif': simplified_motif, 'motif_index': motif_index, 'motif_allele': allele}
+            allele_dict[allele]['motif'] = motif_entry
+            pocket_pseudosequence = data['protein_alleles'][locus][allele]['pocket_pseudosequence']
+            if not pocket_pseudosequence in known_motifs:
+                known_motifs[pocket_pseudosequence] = []
+            known_motifs[pocket_pseudosequence].append(motif_entry)
+            known_motif_count += 1
+
+
+    for allele in allele_dict:
+        if 'motif' not in allele_dict[allele]:
+            pocket_pseudosequence = data['protein_alleles'][locus][allele]['pocket_pseudosequence']
+            if pocket_pseudosequence in known_motifs:
+                motif_entry = known_motifs[pocket_pseudosequence][0]
+                motif_entry['type'] = 'inferred'
+                allele_dict[allele]['motif'] = motif_entry
+                inferred_motif_count += 1
+
+            
 
     return {
         'locus': locus,
         'allele_group': allele_group,
         'alleles': allele_dict,
-        'allele_count': len(all_allele_group_alleles)
+        'allele_count': len(all_allele_group_alleles),
+        'known_motif_count': known_motif_count,
+        'inferred_motif_count': inferred_motif_count,
+        'structure_count': structure_count
     }
 
 
@@ -325,11 +490,15 @@ def allele_page(allele, api=False):
         allele (string): the slugified allele number e.g. hla_a_01_01
     """
     locus = '_'.join(allele.split('_')[0:2])
-    allele_data = app.data['protein_alleles'][locus][allele]
-    gdomain_matches = app.data['gdomain_sequences'][locus][allele_data['gdomain_sequence']]['alleles']
+    allele_group = '_'.join(allele.split('_')[0:3])
+
+    data = app.data.copy()
+
+    allele_data = data['protein_alleles'][locus][allele]
+    gdomain_matches = data['gdomain_sequences'][locus][allele_data['gdomain_sequence']]['alleles']
     print (gdomain_matches)
 
-    pocket_pseudosequence_matches = app.data['pocket_pseudosequences'][locus][allele_data['pocket_pseudosequence']]['alleles']
+    pocket_pseudosequence_matches = data['pocket_pseudosequences'][locus][allele_data['pocket_pseudosequence']]['alleles']
     pocket_pseudosequence_match_alleles = []
     cleaned_pocket_pseudosequence_matches = {}
     for pocket_pseudosequence_match in pocket_pseudosequence_matches:
@@ -342,8 +511,11 @@ def allele_page(allele, api=False):
 
     
     return {
+        'locus': locus,
+        'allele_group': allele_group,
         'allele': allele,
         'allele_data': allele_data,
+        'motif': '',
         'pocket_pseudosequence_matches': cleaned_pocket_pseudosequence_matches,
         'pocket_pseudosequence_match_count': len(cleaned_pocket_pseudosequence_matches)
     }

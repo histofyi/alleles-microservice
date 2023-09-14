@@ -14,22 +14,40 @@
         <div class="column-full-width">
             <div class="inner">
                 <small><strong>Locus</strong></small>
-                <h1 class="heading-large vertical-spacing-bottom structure-title">{{locus | deslugify_locus}}</h1>
+                <h1 class="heading-large ">{{locus | deslugify_locus}}</h1>
             </div>
         </div>
-        <div class="column-full-width">
+        <div class="column-one-half">
             <div class="inner">
-                <h2>Info/statistics</h2>
-                {{'Information about locus' | aside | safe}}
+                <div>
+                    <h3 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25 heading-small">Species</h3>
+                    <a href="/alleles/species/homo_sapiens">Homo sapiens (Human)</a>
+                </div>
+                <div>
+                    <h3 class="vertical-spacing-top-0-5  vertical-spacing-bottom-0-25 heading-small">Number of allele groups/alleles</h3>
+                    <strong>{{allele_group_count}}</strong> / {{allele_count}}
+                </div>
+                <div>
+                    <h3 class="vertical-spacing-top-0-5  vertical-spacing-bottom-0-25 heading-small">Number of structures</h3>
+                    {{structure_count}}
+                </div>
+                <div>
+                    <h3 class="vertical-spacing-top-0-5  vertical-spacing-bottom-0-25 heading-small">Number of motifs</h3>
+                    {{motif_count}}
+                </div>
+            </div>
+        </div>
+        <div class="column-one-half">
+            <div class="inner">
+                <div>
+                <img src="data:image/svg+xml;base64,{{svg_pie_chart}}" />
+                <span aria-label="[alttext contents]" class="hidden-aria-texty">{{pie_chart_alt_text}}</span>
+                </div>
             </div>
         </div>
         <div class="column-full-width">
             <div class="inner">
                 <h2>Allele groups </h2>
-            </div>
-        </div>
-        <div class="column-full-width">
-            <div class="inner">
                 <table width="100%">
                     <thead>
                         <tr>

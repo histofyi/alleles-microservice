@@ -20,17 +20,23 @@
         <div class="column-one-half">
             <div class="inner">
                 <div>
-                    <h3 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25 heading-small">Species</h3>
-                    <a href="/alleles/species/homo_sapiens">Homo sapiens (Human)</a> 
-                </div>
-                <div>
-                    <h3 class="vertical-spacing-top-0-5  vertical-spacing-bottom-0-25 heading-small">Locus</h3>
-                    <a href="/alleles/locus/{{locus}}">{{locus | deslugify_locus }}</a>
+                    <h3 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25 heading-small">Species / Locus</h3>
+                    <a href="/alleles/species/homo_sapiens">Homo sapiens (Human)</a> / <a href="/alleles/locus/{{locus}}">{{locus | deslugify_locus }}</a>
                 </div>
                 <div>
                     <h3 class="vertical-spacing-top-0-5  vertical-spacing-bottom-0-25 heading-small">Number of alleles</h3>
                     {{allele_count}}
                 </div>
+                <div>
+                    <h3 class="vertical-spacing-top-0-5  vertical-spacing-bottom-0-25 heading-small">Number of structures</h3>
+                    {{structure_count}}
+                </div>
+                <div>
+                    <h3 class="vertical-spacing-top-0-5  vertical-spacing-bottom-0-25 heading-small">Alleles with known/inferred motif</h3>
+                    <strong>{{known_motif_count}}</strong> / {{inferred_motif_count}}
+                    {{'This count is only for the 25 alleles shown, final count will be higher when performed in a pipeline'|aside|safe}}
+                </div>
+                
             </div>
         </div>
         <div class="column-one-half">
@@ -73,10 +79,26 @@
                                 {% endif %}
                             </td>
                             <td>
-                                <div class="sequence">
-                                <span>.</span> <span><strong>V</strong></span> . . . . . . <strong>L</strong><br />
-                                <span>&nbsp;</span> L <span>&nbsp;</span> <span>&nbsp;</span> <span>&nbsp;</span> <span>&nbsp;</span> <span>&nbsp;</span> <span>&nbsp;</span> V
-                                </div>
+                                {% if alleles[allele]['motif'] %}
+                                    {% if alleles[allele]['motif']['type'] == 'known' %}
+                                        <div class="sequence known-motif">
+                                    {% else %}
+                                        <div class="sequence inferred-motif">
+                                    {% endif%}
+                                    {% for i in range(0,2) %}
+                                    {% for position in alleles[allele]['motif']['simplified_motif'] %}
+                                        {% if not position %}
+                                            <span class="sequence sequence-spacer">.</span>
+                                        {% else %}
+                                            <span class="sequence">{% if i==0 %}<strong>{% endif %}{{position[i]}}{% if i==0 %}</strong>{% endif %}</span>
+                                        {% endif %}
+                                    {% endfor %}
+                                    <br />
+                                    {% endfor %}
+                                    </div>
+                                {% else %}
+                                <div><br/><br/></div>
+                                {% endif %}
                             </td>
                             <td>
                                 {% if alleles[allele]['pocket_polymorphisms'] == 'Reference' %}

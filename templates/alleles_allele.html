@@ -32,9 +32,7 @@
                     <strong>NetMHCPan Pocket Pseudosequence:</strong> 
                 </div>
                 <div>
-                {% for residue in allele_data.pocket_pseudosequence %}
-                    <span class="residue sequence">{{residue}}</span>
-                {% endfor %}
+                {% for residue in allele_data.pocket_pseudosequence %}<span class="residue sequence">{{residue}}</span>{% endfor %}
                 </div>
                 <br>
                 <strong>Number of alleles with identical binding pocket residues:</strong> {{pocket_pseudosequence_match_count}}  
