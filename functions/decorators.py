@@ -3,18 +3,6 @@ from flask import request, current_app, redirect, abort
 from functools import wraps
 from .templating import render
 
-def webview(f):
-    @wraps(f)
-    def decorated_function(*args, **kwargs):
-        """
-        This function simply rewrites requests for the root url ('/') to /lipids if it is in the histo context, rather than the Oxford one
-        """
-        if request.host in ['www.histo.fyi','127.0.0.1:8080']:
-            if request.path == '/':
-                return redirect('/lipids/')
-        return f(*args, **kwargs)
-    return decorated_function
-
 
 def templated(template:str):
     """
@@ -39,7 +27,6 @@ def templated(template:str):
                 ctx['nav'] = section
             ctx['site_title'] = current_app.config['SITE_TITLE']
             ctx['static_route'] = current_app.config['STATIC_ROUTE']
-            print (ctx)
             if 'error' in ctx:
                 return render('error', ctx)
             else:
