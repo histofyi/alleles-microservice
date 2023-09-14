@@ -6,37 +6,91 @@
 
 {% block main %}
 
-{% set column_headings = ['Allele', 'Number of structures', 'Known peptide motif', 'Binding site polymorphisms']%}
+{% set column_headings = ['Allele', 'Structures', 'Simplified peptide motif', 'Binding site polymorphisms']%}
+{% set column_widths = ['14', '15', '23', '48']%}
 
 <section>
     <div class="grid-container">
         <div class="column-full-width">
             <div class="inner">
                 <small><strong>Allele group</strong></small>
-                <h1 class="heading-large vertical-spacing-bottom structure-title">{{allele_group}}</h1>
+                <h1 class="heading-large">{{allele_group | deslugify_allele_group | safe}}</h1>
             </div>
         </div>
-        <div class="column-full-width">
+        <div class="column-one-half">
+            <div class="inner">
+                <div>
+                    <h3 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25 heading-small">Species</h3>
+                    <a href="/alleles/species/homo_sapiens">Homo sapiens (Human)</a> 
+                </div>
+                <div>
+                    <h3 class="vertical-spacing-top-0-5  vertical-spacing-bottom-0-25 heading-small">Locus</h3>
+                    <a href="/alleles/locus/{{locus}}">{{locus | deslugify_locus }}</a>
+                </div>
+                <div>
+                    <h3 class="vertical-spacing-top-0-5  vertical-spacing-bottom-0-25 heading-small">Number of alleles</h3>
+                    {{allele_count}}
+                </div>
+            </div>
+        </div>
+        <div class="column-one-half">
+            <div class="inner">
+                <img src="/static/6mpp_1_labelled_medium.png" />
+            </div>
+        </div>
+        <div class="column-one-half">
             <div class="inner">
                 <h2>Alleles</h2>
             </div>
         </div>
+        <div class="column-one-half">
+            <div class="inner">
+                <strong>Pocket key:</strong> <span class="pocket a-pocket">A</span> <span class="pocket b-pocket">B</span> <span class="pocket c-pocket">C</span> <span class="pocket d-pocket">D</span> <span class="pocket e-pocket">E</span> <span class="pocket f-pocket">F</span>
+            </div>
+        </div>
         <div class="column-full-width">
             <div class="inner">
-                <table width="100%">
+                <table width="100%" class="vertical-spacing-bottom">
                     <thead>
                         <tr>
+                            {% set i = 0 %}
                             {% for column_heading in column_headings %}
-                                <th><strong>{{column_heading}}</strong></th>
+                                {% set i = loop.index0 %}
+                                <th width="{{column_widths[i]}}%"><strong>{{column_heading}}</strong></th>
                             {% endfor %}
                         </tr>
                     </thead>
+                    <tbody>
+                        <tr class="spacer-row"></tr>
                 {% for allele in alleles %}
-                    <tr>
-                        <td>
-                            <a href="/alleles/allele/{{allele}}">{{allele}}</a>
-                        </td>
-                    </tr>
+                        <tr class="data-rows">
+                            <td>
+                               <a href="/alleles/allele/{{allele}}"><nobr>{{allele | deslugify_allele}}</nobr></a>
+                            </td>
+                            <td>
+                                {% if alleles[allele]['structure_count'] %}
+                                    {{ alleles[allele]['structure_count'] }}
+                                {% endif %}
+                            </td>
+                            <td>
+                                <div class="sequence">
+                                <span>.</span> <span><strong>V</strong></span> . . . . . . <strong>L</strong><br />
+                                <span>&nbsp;</span> L <span>&nbsp;</span> <span>&nbsp;</span> <span>&nbsp;</span> <span>&nbsp;</span> <span>&nbsp;</span> <span>&nbsp;</span> V
+                                </div>
+                            </td>
+                            <td>
+                                {% if alleles[allele]['pocket_polymorphisms'] == 'Reference' %}
+                                    Reference
+                                {% else %}
+                                    {% if alleles[allele]['pocket_polymorphisms'] %}
+                                        {% for residue in alleles[allele]['pocket_polymorphisms'] %}
+                                        {% set polymorphism = alleles[allele]['pocket_polymorphisms'][residue] %}
+                                            <span class="pocket {{ polymorphism.pocket }}-pocket sequence">{{ polymorphism.from }}{{ polymorphism.position }}{{ polymorphism.to }}</span>
+                                        {% endfor %}
+                                    {% endif %}
+                                {% endif %}
+                            </td>
+                        </tr>
                 {% endfor %}
                 </table>
             </div>

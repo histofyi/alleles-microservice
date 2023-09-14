@@ -19,13 +19,15 @@
                 <h2>Loci </h2>
             </div>
         </div>
-        <div class="column-full-width">
+        {% for locus in loci %}
+        <div class="grid-column proto-pipeline-phase">
             <div class="inner">
-                {% for locus in loci %}
-                    <a href="/alleles/locus/{{locus}}">{{locus}}</a>
-                {% endfor %}
+                <span class="phase-title is-indy"><a href="/alleles/locus/{{locus}}">{{locus|deslugify_locus}}</a></span>
+                <span class="heading-extra-large phase-count">100 / 1000</span><span class="small">allele groups / alleles</span>
             </div>
-        </div>  
+        </div>
+        {% endfor %}
+
     </div>
 </section>
 

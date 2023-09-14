@@ -14,7 +14,7 @@
         <div class="column-full-width">
             <div class="inner">
                 <small><strong>Locus</strong></small>
-                <h1 class="heading-large vertical-spacing-bottom structure-title">{{locus}}</h1>
+                <h1 class="heading-large vertical-spacing-bottom structure-title">{{locus | deslugify_locus}}</h1>
             </div>
         </div>
         <div class="column-full-width">
@@ -38,13 +38,29 @@
                             {% endfor %}
                         </tr>
                     </thead>
+                    <tbody>
+                        <tr class="spacer-row"></tr>
+                    
                 {% for allele_group in allele_groups %}
-                    <tr>
+                    <tr class="data-rows">
                         <td>
-                            <a href="/alleles/allele_group/{{allele_group}}">{{allele_group}}</a>
+                            <a href="/alleles/allele_group/{{allele_group}}">{{allele_group | deslugify_allele_group}}</a>
+                        </td>
+                        <td>
+                            {{allele_groups[allele_group].allele_count}}
+                        </td>
+                        <td>
+                            {{allele_groups[allele_group].variability}}
+                        </td>
+                        <td>
+                            {{allele_groups[allele_group].structure_count}}
+                        </td>
+                        <td>
+                            {{allele_groups[allele_group].motif_count}}  
                         </td>
                     </tr>
                 {% endfor %}
+                    </tbody>
                 </table>
             </div>
         </div>  

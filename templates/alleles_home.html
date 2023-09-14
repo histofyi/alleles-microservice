@@ -12,7 +12,16 @@
             <div class="inner">
                 <h1 class="heading-extra-large vertical-spacing-bottom">Alleles</h1>
                 {{'Need a welcome paragraph to go in here' | aside | safe}}
-                {{'Write welcome paragraph' | todo | safe}}
+                <div class="vertical-spacing-bottom-0-25">
+                    This section of the histo.fyi website contains information and structure predictions of Classical MHC Class I alleles.
+                </div>
+                <div class="vertical-spacing-bottom-0-25">
+                    Within this resource you can find information on locations of polymorphisms, peptide binding motifs where known, lists of structures and statistics on the quality of structure predictions.
+                </div>
+                <div class="vertical-spacing-bottom-0-25">
+                    It is a resource which will grow over time, with more data being added for non-Human Class I and Class II alleles in due course.
+                </div>
+                {{'Edit welcome paragraphs' | todo | safe}}
             </div>
         </div>
     </div>
@@ -22,11 +31,34 @@
     <div class="grid-container">
         <div class="column-full-width">
             <div class="inner">
-                <h2>Statistics</h2>
                 {{'Need a paragaph about stats to go in here' | aside | safe}}
             </div>
         </div>
-        <div class="column-full-width">
+        <div class="column-one-quarter">
+            <div class="inner">
+                <span class="phase-title is-histo">Species covered</span>
+                <span class="heading-extra-large phase-count">{{stats.species.completed_species}}/{{stats.species.total_species}}</span><span class="small">species in IPD resource</span>
+            </div>
+        </div>
+        <div class="column-one-quarter">
+            <div class="inner">
+                <span class="phase-title is-purple">Loci covered</span>
+                <span class="heading-extra-large phase-count">{{stats.loci.completed_loci}}/{{stats.loci.total_loci}}</span><span class="small">loci in IPD resource</span>
+            </div>
+        </div>
+        <div class="column-one-quarter">
+            <div class="inner">
+                <span class="phase-title is-teal">Allele predictions</span>
+                <span class="heading-extra-large phase-count">1000</span><span class="small">AlphaFold predictions</span>
+            </div>
+        </div>
+        <div class="column-one-quarter">
+            <div class="inner">
+                <span class="phase-title is-indigo">Motifs</span>
+                <span class="heading-extra-large phase-count">1000</span><span class="small">MHC Motif Atlas motifs</span>
+            </div>
+        </div>
+        <div class="column-full-width vertical-spacing-top">
             <div class="inner">
                 <h2>Species</h2>
             </div>

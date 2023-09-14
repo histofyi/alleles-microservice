@@ -1,34 +1,59 @@
 {% extends "shared/base.html" %}
 
 
-{% include "styles.html" %}
+
 
 
 {% block main %}
+
+{% include "styles.html" %}
 
 <section>
     <div class="grid-container">
         <div class="column-full-width">
             <div class="inner">
                 <small><strong>Allele</strong></small>
-                <h1 class="heading-large vertical-spacing-bottom structure-title">{{allele}}</h1>
+                <h1 class="heading-large vertical-spacing-bottom structure-title">{{allele | deslugify_allele }}</h1>
             </div>
         </div>
         <div class="column-full-width">
             <div class="inner">
                 <h2>Info</h2>
 
+
+
+                {{allele_data.canonical_allele}}
                 {{'Information about allele' | aside | safe}}
                 {{'Structure prediction with location of polymorphisms' | aside | safe}}
-                {{'Sequence with location of polymorphisms' | aside | safe}}
                 {{'Information on alleles with identical pocket residues' | aside | safe}}
+                
+                <h2>Binding cleft residues</h2>
+                <div>
+                    <strong>NetMHCPan Pocket Pseudosequence:</strong> 
+                </div>
+                <div>
+                {% for residue in allele_data.pocket_pseudosequence %}
+                    <span class="residue sequence">{{residue}}</span>
+                {% endfor %}
+                </div>
+                <br>
+                <strong>Number of alleles with identical binding pocket residues:</strong> {{pocket_pseudosequence_match_count}}  
+                <br />
+                {% for match in pocket_pseudosequence_matches%}
+                    <div>{{match}}</div>
+                {% endfor %}
                 {{'Information about motif if known' | aside | safe}}
                 {{'Information on alleles with similar motifs' | aside | safe}}
+                {{allele_data.canonical_sequence}}
+
+                
+                {{'Sequence with location of polymorphisms' | aside | safe}}
+                
                 {{'Information on structures if there are any' | aside | safe}}
                 {{'Information on quality of structure prediction (comparison to structures)' | aside | safe}}
                 {{'Information on side chain mobility if known' | aside | safe}}
                 {{'Information on structure backbone flexibility if known' | aside | safe}}
-                
+
             </div>
         </div>
     </div>
