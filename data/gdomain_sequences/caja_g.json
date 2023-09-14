@@ -1,0 +1,1600 @@
+{
+    "-SHSLRYFHISVSRPGRGEPRFITVGYVDDTQFVRFDSDAASPRKEPRAPWMEQEGPEYWDRETLISKQHAQTYRVNLRTLRGYYNQTEAGSHTIQRMSGCDVGPDGRLLRGYDQFAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERMRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*18:12",
+                "id": "NHP09917",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*18:12",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*18:12",
+            "id": "NHP09917",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*18:12",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHPMRYFSTAMSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPGMEPRAPWVEQEGPEYWDEETRRAKTLAQTFRGNLRTALGYYNQTDAGSHTIQWMSGCDVGPDGRLLRGYNQFAYDGKDYIALNEDLRSWTAPDVAAQITQRKWEAANEAERRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*08:15",
+                "id": "NHP06878",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*08:15",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*08:15",
+            "id": "NHP06878",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*08:15",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHPMRYFSTAMSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRRAKTLAQTFRGNLRTALGYYNQTDAGSHTIQWMSGCDVGPDGRLLRGYNQFTYDGKDYIALNEDLRSWTAPDVAAQITQRKWEAANEAERRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*08:16",
+                "id": "NHP06879",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*08:16",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*08:16",
+            "id": "NHP06879",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*08:16",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFHISVSRPGRGEPRFITVGYVDDTQFVRFDSDAASPRKEPRAPWMEQEGPEYWDRETLISKQHAQTYRVNLRTLRGYYNQTEAGSHTIQRMYGCDVGPDGRLLRGYNQDAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANAAEEMRAYLEGTCVEGLRRYLKNGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*18:11",
+                "id": "NHP09625",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*18:11",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*18:11",
+            "id": "NHP09625",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*18:11",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFHISVSRPGRGEPRFITVGYVDDTQFVRFDSDAASPRKEPRAPWMEQEGPEYWDRETLISKQNAQTDRVNLRTLRGYYNQTEAGSHTIQRMYGCDVGPDGRLLLGYHQFAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANVAEEWRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*18:13",
+                "id": "NHP09918",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*18:13",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*18:13",
+            "id": "NHP09918",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*18:13",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFHISVSRPGRGEPRFITVGYVDDTQFVRFDSDAASPRKEPRAPWMEQEGPEYWDRETLISKQNAQTYRVGLRTLRGYYNQTEAGSHTIQRMSGCDVGPDGRLLRGYDQFAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERMRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*18:02",
+                "id": "NHP04993",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*18:02",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Caja-G*18:08",
+                "id": "NHP06884",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*18:08",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*18:02",
+            "id": "NHP04993",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*18:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFHISVSRPGRGEPRFITVGYVDDTQFVRFDSDAASPRKEPRAPWMEQEGPEYWDRETLISKQNAQTYRVGLRTLRGYYNQTEAGSHTIQRMSGCDVGPDGRLLRGYDQFAYDGKDYTALNEDLRSWTAADVAAQITQRKWEAANEAERMRAYLEGTCVEWLRRYLENGKEALQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*18:07",
+                "id": "NHP06876",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*18:07",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*18:07",
+            "id": "NHP06876",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*18:07",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFHISVSRPGRGEPRFITVGYVDDTQFVRFDSDAASPRKEPRAPWMEQEGPEYWDRETLISKQNAQTYRVGLRTLRGYYNQTEAGSHTIQWMSGCDVGPDGRLLRGYNQFAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERMRAYLEGTCVEWLRRYLENGKETLQRE": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*18:05",
+                "id": "NHP06898",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*18:05",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*18:05",
+            "id": "NHP06898",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*18:05",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFHISVSRPGRGEPRFITVGYVDDTQFVRFDSDAASPRKEPRAPWMEQEGPEYWDRETLISKQNAQTYRVNLRTLRGYYNQTEAGSHTIQLMYGCDVGPDGRLLLGYHQFAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANVAEEWRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*18:10",
+                "id": "NHP09624",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*18:10",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*18:10",
+            "id": "NHP09624",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*18:10",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFHISVSRPGRGEPRFITVGYVDDTQFVRFDSDAASPRKEPRAPWMEQEGPEYWDRETLISKQNAQTYRVNLRTLRGYYNQTEAGSHTIQRMYGCDVGPDGRLLRGYNQDAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANVAERRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*18:03:01",
+                "id": "NHP05035",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*18:03",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Caja-G*18:03:02",
+                "id": "NHP09621",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*18:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*18:03:01",
+            "id": "NHP05035",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*18:03",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFHISVSRPGRGEPRFITVGYVDDTQFVRFDSDAASPRKEPRAPWMEQEGPEYWDRETLISKQNAQTYRVNLRTLRGYYNQTEAGSHTIQVMYGCDVGPDGRLLRGYNQFAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANVAEEWRAYLEGTCVEGLRRYLKNGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*18:06",
+                "id": "NHP06870",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*18:06",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*18:06",
+            "id": "NHP06870",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*18:06",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFHISVSRPGRGEPRFITVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDRETLISKQNAQTYRVGLRTLRGYYNQTEAGSHTIQRMSGCDVGPDGRLLRGYDQFAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERMRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*18:09",
+                "id": "NHP06889",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*18:09",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*18:09",
+            "id": "NHP06889",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*18:09",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFHTSVSRPRREEPRFITVGYVDDTQFVRFDSDAASPRKEPRAPWMEQEGPEYWDRETLISKQNAQTYRVNLRTLRGYYNQTEAGSHTIQLMYGCDVGPDGRLLRGYNQFAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANVAEEWRAYLEGTCVEGLRRYLKNGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*18:04:01",
+                "id": "NHP05029",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*18:04",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Caja-G*18:04:02",
+                "id": "NHP09623",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*18:04",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*18:04:01",
+            "id": "NHP05029",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*18:04",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYLHISVSRPGRGEPRFITVGYVDDTQFVRFDSDAASPRKEPRAPWMEQEGPEYWDRETLISKQNAQTYRVNLRTLRGYYNQTEAGSHTIQRMYGCDVGPDGRLLRGYNQDAHDGKDYIALNEDLRSWTAADVAAQITQRKWEAANVAERRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*18:01",
+                "id": "NHP04988",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*18:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*18:01",
+            "id": "NHP04988",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*18:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMKYFSTAMSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRRAKTLAQTFRGNLRTALGYYNQTDAGSHTIQWMSGCDVGPDGRLLRGYNQFAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*08:07",
+                "id": "NHP05297",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*08:07",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*08:07",
+            "id": "NHP05297",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*08:07",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMKYFSTAVSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRKAKTHAQTFRVNLRTALGYYNQSDAGSHTIQLMYGCYLGPDGRLLRGYRQDAYDGKDYIALNEDLRSWTAADVAAQITQRKWEATNEAEEWRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*11:01:01",
+                "id": "NHP00117",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*11:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Caja-G*11:01:02",
+                "id": "NHP04674",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*11:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*11:01:01",
+            "id": "NHP00117",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*11:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMKYFSTAVSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRRAKTLAQTFRVNLRTALGYYNQSDAGSHTIQLMYGCYLGPDGRLLRGYHQFAYDGKDYIALNEDLRSWTAADVAAQITQRKWEATNEAERRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*11:03",
+                "id": "NHP04694",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*11:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*11:03",
+            "id": "NHP04694",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*11:03",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMKYFSTAVSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRRAKTLAQTFRVNLRTALGYYNQSDAGSHTIQLMYGCYLGPDGRLLRGYRQDAYDGKDYIALNEDLRSWTAADVAAQITQRKWEATNEAEEWRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*11:02",
+                "id": "NHP04685",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*11:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*11:02",
+            "id": "NHP04685",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*11:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRCFSTAVSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWEEQTRNAKTHAQTDRVNLQTALGYYNQTDAGSHTFQVMYGCDVGPDGRLLRGYDQYAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERIRAYLEGTCLEWLHRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*10:04",
+                "id": "NHP06862",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*10:04",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*10:04",
+            "id": "NHP06862",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*10:04",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFGTAVSRPGRGEPRYIIVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRKAKAIAQIDRGNLQTLRGYYNQSDAGSHTIQWMYGCDVGPDGRLLRGYRQDAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANVAEEWRAYLEGTCLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*16:03",
+                "id": "NHP09916",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*16:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*16:03",
+            "id": "NHP09916",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*16:03",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFGTAVSRPGRGEPRYIIVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRKAKAIAQIDRVDLQTLRGYYNQSDAGSHTIQWMYGCDVGPDGRLLRGYRQDAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANVAEEWRAYLEGTCLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*16:01",
+                "id": "NHP04687",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*16:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*16:01",
+            "id": "NHP04687",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*16:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFGTAVSRPGRGEPRYLEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDGETRKAKTHAQTFRVNLQTLRGYYNQTDAGSHTIQWMSGCDVGPDGRLLRGYRQDAYDGKDYIALNEDLRSWTAADLAAQITQRKWEAANEAERMRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*25:01",
+                "id": "NHP06890",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*25:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*25:01",
+            "id": "NHP06890",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*25:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFHTAMSRPGRGELRFIIVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRKAKANAQIDRVDLQTLRGYYNQTDAGSHTIQWMSGCDVGPDGRLLRGYRQDAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANVAERRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*12:02",
+                "id": "NHP04683",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*12:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*12:02",
+            "id": "NHP04683",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*12:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFHTAMSRPGRGEPRFIIVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRKAKANAQIDRVDLQTLRGYYNQTDAGSHTIQWMSGCDVGPDGRLLRGYRQDAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERMRAYLEGTCLEWLHRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*22:01",
+                "id": "NHP05097",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*22:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*22:01",
+            "id": "NHP05097",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*22:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFHTAMSRPGRGEPRFIIVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRKAKANAQIDRVDLQTLRGYYNQTDAGSHTIQWMSGCDVGPDGRLLRGYRQDAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANVAERRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*12:03:02",
+                "id": "NHP05031",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*12:03",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Caja-G*12:03:01",
+                "id": "NHP05053",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*12:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*12:03:01",
+            "id": "NHP05053",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*12:03",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFHTAMSRPGRGEPRFIIVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRKAKANAQIDRVDLQTLRGYYNQTDAGSHTIQWMSGCDVGPDGRLLRGYRQDAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANVAERRRAYLEGTRVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*12:04",
+                "id": "NHP04989",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*12:04",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*12:04",
+            "id": "NHP04989",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*12:04",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFHTAMSRPGRGEPRFIIVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRKAKANAQIDRVNLQTLRGYYNQTDAGSHTIQWMSGCDVGPDGRLLRGYRQDAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANVAERRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*12:05",
+                "id": "NHP07325",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*12:05",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*12:05",
+            "id": "NHP07325",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*12:05",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFHTAMSRPGRGEPRFIIVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRKAKANAQIDRVNLRTLRGYYNQTDAGSHTIQWMSGCDVGPDGRLLRGYRQDAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANVAERRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*12:01",
+                "id": "NHP04679",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*12:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*12:01",
+            "id": "NHP04679",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*12:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFHTAMSRPGRGEPRFIIVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDGETRKAKAHAQTDRVDLQTLRGYCNQTDAGSHTIQWMYGCDVGPDGRLLRGYNQDAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*13:03",
+                "id": "NHP05049",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*13:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*13:03",
+            "id": "NHP05049",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*13:03",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFHTAMSRPGRGEPRFIIVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDGETRKAKAHAQTDRVDLQTLRGYYNQTDAGSHTIQWMYGCDVGPDGRLLRGYNQDAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*13:04",
+                "id": "NHP05095",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*13:04",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*13:04",
+            "id": "NHP05095",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*13:04",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFHTAMSRPGRGEPRFIIVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDGETRKAKANAQTDRVNLQTLRGYYNQTDAGSHTIQWMYGCDVGPDGRLLRGYNQDAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*13:01",
+                "id": "NHP04678",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*13:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*13:01",
+            "id": "NHP04678",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*13:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFHTAMSRPGRGEPRFIIVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWEEETRTAKANAQIDRVNLRTLRGYYNQTDAGSHTIQWMYGCDVGPDGRLLRGYRQYAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANVAERRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*13:02",
+                "id": "NHP04696",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*13:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*13:02",
+            "id": "NHP04696",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*13:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFHTAMSRPGRGEPRFIYVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRKAKANAQIDRVDLRTLRGYYNQTDAGSHTIQWMYGCDVGPDGRLLRGYWQDAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERMRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*17:02",
+                "id": "NHP05054",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*17:02",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Caja-G*17:03",
+                "id": "NHP05246",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*17:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*17:02",
+            "id": "NHP05054",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*17:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFHTAMSRPGRGEPRFIYVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRKAKANAQIDRVDLRTLRGYYNQTDAGSHTIQWMYGCDVGPDGRLLRGYWQDAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERMRAYLEGTCVEWLRRYLENGKETPQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*17:01",
+                "id": "NHP04991",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*17:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*17:01",
+            "id": "NHP04991",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*17:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFHTAVSRPGRGEPRYIIVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRKAKAIAQIDRVDLQTLRGYYNQSDAGSHTIQWMYGCDVGPDGRLLRGYRQDAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANVAEEWRAYLEGTCLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*16:02:01",
+                "id": "NHP06897",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*16:02",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Caja-G*16:02:02",
+                "id": "NHP10001",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*16:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*16:02:01",
+            "id": "NHP06897",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*16:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFHTAVVRPGRGEPRFIYVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWEEQTRRAKANAQIDRGNLQTLRGYYNQTDAGSHTIQVMYGCDVGPDGRLLRGYRQDAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERMRAYLEGTCVEWLHRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*20:01",
+                "id": "NHP04695",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*20:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*20:01",
+            "id": "NHP04695",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*20:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAMPRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRRAKTLAQTFRGNLRTALGYYNQTDAGSHTIQWMSGCDVGPDGRLLRGYNQFAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*08:13",
+                "id": "NHP06871",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*08:13",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*08:13",
+            "id": "NHP06871",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*08:13",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAMSRPGRGEPRYIEVGYVDDMQFVWFDSDAASPRMEPRAPWVEQEGPEYWDEETRRAKTLAQTFRGNLRTALGYYNQTDAGSHTIQWMSGCDVGPDGRLFRGYNQFAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*08:14",
+                "id": "NHP06873",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*08:14",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*08:14",
+            "id": "NHP06873",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*08:14",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAMSRPGRGEPRYIEVGYVDDMQYVWFDSDAASPRMEPRAPWVEQEGPEYWDEETRRAKTLAQTFRGNLRTALGYYNQTDAGSHTIQWMSGCDVGPDGRLFRGYNQFAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*08:19",
+                "id": "NHP06883",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*08:19",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*08:19",
+            "id": "NHP06883",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*08:19",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAMSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRRAKAIAQIDRVDLRTLRGYYNQSDAGSHTIQWMSGCDVGPDGRLLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITQRKWEAANAAEEMRAYLEGECLEWLHRYLENAKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*24:01",
+                "id": "NHP06869",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*24:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*24:01",
+            "id": "NHP06869",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*24:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAMSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRRAKTLAQTFRGNLRTALGYYNQTDAGSHTIQWMSGCDVGPDGRLFRGYNQFAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*08:09",
+                "id": "NHP06859",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*08:09",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*08:09",
+            "id": "NHP06859",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*08:09",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAMSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRRAKTLAQTFRGNLRTALGYYNQTDAGSHTIQWMSGCDVGPDGRLLRGYNQFAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERRRAYLEGTCVEWLCRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*08:08",
+                "id": "NHP06858",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*08:08",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*08:08",
+            "id": "NHP06858",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*08:08",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAMSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRRAKTLAQTFRGNLRTALGYYNQTDAGSHTIQWMSGCDVGPDGRLLRGYNQFAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*08:03:01",
+                "id": "NHP04686",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*08:03",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Caja-G*08:06",
+                "id": "NHP05252",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*08:06",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Caja-G*08:23",
+                "id": "NHP07261",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*08:23",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Caja-G*08:24",
+                "id": "NHP09620",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*08:24",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Caja-G*08:03:02",
+                "id": "NHP09905",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*08:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*08:03:01",
+            "id": "NHP04686",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*08:03",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAMSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRRAKTLAQTFRGNLRTALGYYNQTDAGSHTIQWMSGCDVGPDGRLLRGYNQFAYDGKDYIALNEDLRSWTAPDVAAQITQRKWEAANEAERRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*08:01",
+                "id": "NHP00119",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*08:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Caja-G*08:02",
+                "id": "NHP04693",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*08:02",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Caja-G*08:10",
+                "id": "NHP06860",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*08:10",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Caja-G*08:20",
+                "id": "NHP06891",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*08:20",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*08:01",
+            "id": "NHP00119",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*08:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAMSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRRAKTLAQTFRGSLRTALGYYNQTDAGSHTIQWMSGCDVGPDGRLLRGYNQFAYDGKDYIALNEDLRSWTAPDVAAQITQRKWEAANEAERRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*08:11",
+                "id": "NHP06864",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*08:11",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*08:11",
+            "id": "NHP06864",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*08:11",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAMSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRVEPRAPWVEQEGPEYWDEETRRAKTLAQTFRGNLRTALGYYNQTDAGSHTIQWMSGCDVGPDGRLLRGYNQFAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAEGRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*08:04",
+                "id": "NHP04983",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*08:04",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*08:04",
+            "id": "NHP04983",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*08:04",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAMSRPGRGEPRYIEVGYVDDTQFVRLDSDAASPRMEPRAPWVEQEGPEYWDEETRRAKTLAQTFRGNLRTALGYYNQTDAGSHTIQWMSGCDVGPDGRLLRGYNQFAYDGKDYIALNEDLRSWTAPDVAAQITQRKWEAANEAERRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*08:26",
+                "id": "NHP10018",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*08:26",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*08:26",
+            "id": "NHP10018",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*08:26",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAMSRPGRGEPRYVEVGYVDDTQFVRSDSDAASPRMEPRASRVEQEGPEYWDEETRRAKTLAQTFRGNLRTALGYYNQTDAGSHTIQWMSGCDVGPDGRLLRGYNQFAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*08:12",
+                "id": "NHP06866",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*08:12",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*08:12",
+            "id": "NHP06866",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*08:12",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTATSRPGHGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRRAKTLAQTFRGNLRTALGYYNQTDAGSHTIQWMSGCDVGPDGRLLRGYNQFAYDGKDYIALNEDLRSWTAPDVAAQITQRKWEAANEAERRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*08:17",
+                "id": "NHP06887",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*08:17",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*08:17",
+            "id": "NHP06887",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*08:17",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTATSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRRAKTLAQTFRGNLRTALGYYNQTDAGSHTIQWMSGCDVGPDGRLLRGYNQFAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*08:18",
+                "id": "NHP06881",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*08:18",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Caja-G*08:21",
+                "id": "NHP06885",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*08:21",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*08:18",
+            "id": "NHP06881",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*08:18",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGREEPRFISVGYVDDTQFVRFDSDAAIPRDEPRAPWVEQEGPEYWEEQTRRAKAHAQTDRVNLRTLRGYYNQTEAGSHTIQWMYGCDVGPDRRLLRGYDQYAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERRRAYLEGTCVEWLHRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*15:02",
+                "id": "NHP04677",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*15:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*15:02",
+            "id": "NHP04677",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*15:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGREEPRFISVGYVDDTQFVRFDSDAAIPRDEPRAPWVEQEGPEYWEEQTRRAKAHAQTDRVNLRTLRGYYNQTEAGSHTIQWMYGCNVGPDRRLLRGYDQYAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERRRAYLEGTCVEWLHRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*15:01",
+                "id": "NHP00120",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*15:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*15:01",
+            "id": "NHP00120",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*15:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRGEPRFIIVGYVDDTQFVRFDSDAANPRMEPRAPWVEQEGPEYWDEETRRAKAIAQIDRVDLRTLRGYYNQSDAGSHTIQWMSGCDVGPDGRLLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITQRKWEAANAAEEMRAYLEGECLEWLHRYLENAKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*07:05",
+                "id": "NHP05051",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*07:05",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*07:05",
+            "id": "NHP05051",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*07:05",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRGEPRFIIVGYVDDTQFVRFDSDAANPRMEPRAPWVEQEGPEYWDEETRRAKAIAQIDRVDLRTLRGYYNQSDAGSHTIQWMSGCDVGPDGRLLRGYRQDAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANAAEEMRAYLEGECLEWLHRYLENAKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*07:03",
+                "id": "NHP04990",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*07:03",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Caja-G*07:06",
+                "id": "NHP06427",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*07:06",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*07:03",
+            "id": "NHP04990",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*07:03",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRGEPRFIIVGYVDDTQFVRFDSDAANPRMEPRAPWVEQEGPEYWEEQTRRAKAHAQTDRVDLRTLRGYYNQSDAGSHTIQWMSGCDVGPDGRLLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITQRKWEAANAAEEMRAYLEGECLEWLHRYLENAKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*07:07",
+                "id": "NHP09904",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*07:07",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*07:07",
+            "id": "NHP09904",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*07:07",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRGEPRFIIVGYVDDTQFVRFDSDAANPRMEPRAPWVEQEGPEYWEEQTRRAKAIAQIDRVDLRTLRGYYNQSDAGSHTIQWMSGCDVGPDGRLLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITQRKWEAANAAEEMRAYLEGECLEWLHRYLENAKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*07:01:02",
+                "id": "NHP04992",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*07:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Caja-G*07:04",
+                "id": "NHP05052",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*07:04",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*07:01:02",
+            "id": "NHP04992",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*07:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRGEPRFIIVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRKAKTHAQTDRVNLRTLRGYYNQTDAGSHTIQVMYGCDVGPDGRLLRGYDQYAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERIRAYLEGTCLEWLHRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*10:05",
+                "id": "NHP09913",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*10:05",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*10:05",
+            "id": "NHP09913",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*10:05",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRGEPRLIIVGYVDDTQFVRFDSDAANPRMEPRAPWVEQEGPEYWEEQTRRAKAIAQIDRVDLRTLRGYYNQSDAGSHTIQWMSGCDVGPDGRLLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITQRKWEAANAAEEMRAYLEGECLEWLHRYLENAKETLQRV": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*23:01",
+                "id": "NHP06868",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*23:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*23:01",
+            "id": "NHP06868",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*23:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRKAKANAQTDRVNLQTALGYYNQTDAGSHTFQVMYGCDVGPDGRLLRGYDQYAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANVAEEWRAYLEGTCLEWLHRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*09:04",
+                "id": "NHP04690",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*09:04",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*09:04",
+            "id": "NHP04690",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*09:04",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRKAKANAQTDRVNLQTALGYYNQTDAGSHTFQVMYGCDVGPDGRLLRGYDQYAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANVAEEWRAYLEGTCLEWLHRYLENGKGTLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*09:05",
+                "id": "NHP04985",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*09:05",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*09:05",
+            "id": "NHP04985",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*09:05",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRKAKANAQTDRVNLQTLRGYYNQTDAGSHTFQVMYGCDVGPDGRLLRGYDQYAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANVAEEWRAYLEGTCLEWLHRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*09:09",
+                "id": "NHP10000",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*09:09",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*09:09",
+            "id": "NHP10000",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*09:09",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRKAKTNAQIDRVNLRTLRGYYNQTDAGSHTFQVMYGCDVGPDGRLLRGYDQYAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERIRAYLEGTCLEWLHRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*10:06",
+                "id": "NHP09914",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*10:06",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*10:06",
+            "id": "NHP09914",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*10:06",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRRAKANAQTDRVNLQTALGYYNQTDAGSHTFQVMYGCDVGPDGRLLRGYDQYAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANVAEEWRAYLEGTCLEWLHRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*09:03",
+                "id": "NHP04689",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*09:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*09:03",
+            "id": "NHP04689",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*09:03",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRRAKANAQTDRVNLQTALGYYNQTDAGSHTIQWMSGCDVGPDGRLLRGYDQYAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANVAEEWRAYLEGTCLEWLHRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*09:01",
+                "id": "NHP04680",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*09:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*09:01",
+            "id": "NHP04680",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*09:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRRAKANAQTFRVNLRTALGYYNQTDAGSHTFQVMYGCDVGPDGRLLRGYDQYAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANVAEEWRAYLEGTCLEWLHRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*09:02",
+                "id": "NHP04688",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*09:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*09:02",
+            "id": "NHP04688",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*09:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRRAKTLAQTFRGNLRTALGYYNQTDAGSHTIQWMSGCDVGPDGRLFRGYNQFAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*08:05",
+                "id": "NHP04982",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*08:05",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Caja-G*08:25",
+                "id": "NHP09626",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*08:25",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*08:05",
+            "id": "NHP04982",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*08:05",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRRAKTLAQTFRGNLRTALGYYNQTDAGSHTIQWMSGCDVGPDGRLLRGYNQFAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*08:22",
+                "id": "NHP06888",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*08:22",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*08:22",
+            "id": "NHP06888",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*08:22",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDGETRKAKANAQIDRVDLQTLRGYYNQTDAGSHTIQWMSGCDVGPDGRLLRGYRQDAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANVAERRRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*21:01",
+                "id": "NHP05050",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*21:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*21:01",
+            "id": "NHP05050",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*21:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWEEQTRKAKTHAQTDRVNLQTALGYYNQTDAGSHTIQWMYGCDVGPDGRLLRGYWQDAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERIRAYLEGTCLEWLHRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*14:01",
+                "id": "NHP04675",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*14:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*14:01",
+            "id": "NHP04675",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*14:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWEEQTRNAKTHAQTDRVNLQTALGYYNQTDAGSHTFQVMYGCDVGPDGRLLRGYDQYAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERIRAYLEGTCLEWLHRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*10:03:01",
+                "id": "NHP04681",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*10:03",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Caja-G*10:03:02",
+                "id": "NHP04987",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*10:03",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Caja-G*10:03:03",
+                "id": "NHP05055",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*10:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*10:03:01",
+            "id": "NHP04681",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*10:03",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWEEQTRNAKTHAQTDRVNLQTALGYYNQTDAGSHTIQWMYGCDVGPDGRLLRGYWQDAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERIRAYLEGTCLEWLHRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*14:02",
+                "id": "NHP04692",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*14:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*14:02",
+            "id": "NHP04692",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*14:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWEEQTRNAKTHAQTDRVNLQTLRGYYNQTDAGSHTFQVMYGCDVGPDGRLLRGYDQYAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERIRAYLEGTCLEWLHRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*10:07",
+                "id": "NHP09915",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*10:07",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*10:07",
+            "id": "NHP09915",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*10:07",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWEEQTRNAKTHAQTDRVNLQTLRGYYNQTDAGSHTFQVMYGCDVGPDGRLLRGYDQYAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAESIRAYLEGTCLEWLHRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*10:01",
+                "id": "NHP00118",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*10:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*10:01",
+            "id": "NHP00118",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*10:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWEEQTRNAKTHAQTDRVNLRTLRGYYNQTDAGSHTFQVMYGCDVGPDGRLLRGYDQYAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERIRAYLEGTCLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*10:02",
+                "id": "NHP04691",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*10:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*10:02",
+            "id": "NHP04691",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*10:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWEEQTRRAKANAQTDRVNLQTALGYYNQTDAGSHTFQVMYGCDVGPDGRLLRGYDQYAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANVAEEWRAYLEGTCLEWLHRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*09:07",
+                "id": "NHP06896",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*09:07",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*09:07",
+            "id": "NHP06896",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*09:07",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRGEPRYIEVGYVDDTQFVRFDSGAASPRMEPRAPWVEQEGPEYWDEETRRAKANAQTDRVNLQTALGYYNQTDAGSHTIQWMSGCDVGPDGRLLRGYDQYAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANVAEEWRAYLEGTCLEWLHRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*09:08",
+                "id": "NHP06886",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*09:08",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*09:08",
+            "id": "NHP06886",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*09:08",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRREPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRKAKTHAQTFRGNLQTLRGYYNQTEAGSHTIQWMSGCDVGPDARLLRGYDQHAYDGKDYIALNEDLRSWAAADLAAQITQRKWEAANVAEEWRAYLEGRCLEWLHRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*19:02",
+                "id": "NHP05099",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*19:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*19:02",
+            "id": "NHP05099",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*19:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRREPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRKAKTHAQTFRGNLQTLRGYYNQTEAGSHTIQWMSGCDVGPDARLLRGYDQHAYDGKDYIALNEDLRSWTAADLAAQITQRKWEAANVAEEWRAYLEGRCLEWLHRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*19:01",
+                "id": "NHP04676",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*19:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*19:01",
+            "id": "NHP04676",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*19:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRREPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWEEQTRKAKTHAQTFRGNLQTLRGYYNQTEAGSHTIQWMSGCDVGPDARLLRGYDQHAYDGKDYIALNEDLRSWTAADLAAQITQRKWEAANVAEEWRAYLEGRCLEWLHRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*19:04",
+                "id": "NHP10002",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*19:04",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*19:04",
+            "id": "NHP10002",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*19:04",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSVSRPGRGEPRFIIVGYVDDTQFVRFDSDAANPRMEPRAPWVEQEGPEYWEEQTRRAKAHAQTDRVDLRTLRGYYNQSDAGSHTIQWMSGCVVGPDGRLLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITQRKWEAANAAEEMRAYLEGECLEWLHRYLENAKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*07:02",
+                "id": "NHP00116",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*07:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*07:02",
+            "id": "NHP00116",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*07:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYLHTAMSRPGRGEPRFIYVGYVDDTQLVRFDSDAASPRMEPRAPWVEQEGPEYWDEETRRAKANAQTDRVNLQTALGYYNQTDAGSHTFQVMYGCDVGPDGRLLRGYDQYAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANVAEEWRAYLEGTCLEWLHRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-G*09:06",
+                "id": "NHP05056",
+                "locus": "Caja-G",
+                "protein_allele_name": "Caja-G*09:06",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-G*09:06",
+            "id": "NHP05056",
+            "locus": "Caja-G",
+            "protein_allele_name": "Caja-G*09:06",
+            "source": "ipd-mhc"
+        }
+    }
+}

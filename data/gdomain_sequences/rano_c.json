@@ -1,0 +1,14 @@
+{
+    "GSHSLRYFHTAVSRPGLGEPRFIIVGYVDDTEFVRYDSDAENPRYEPRVGWMEREGPEYWERETLMVKENEQVYRVSLRTLLRYYNQSEGGSHTIQWMSGCDVGSDGSLLRGYDQFAYDGRDYLALNEDLKTWMAADTAAQMTRNKWDQAGEAERHKAYLQGTCVEWLRRYLELGKETLLRS": {
+        "alleles": [
+            {
+                "gene_allele_name": "Rano-C*l",
+                "id": "RT108723",
+                "locus": "Rano-C",
+                "protein_allele_name": "Rano-C*l",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {}
+    }
+}

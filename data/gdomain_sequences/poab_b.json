@@ -1,0 +1,160 @@
+{
+    "GSHSMKYFYTGMSRPGRGEPRFISVGYVDDTQFVWFDSDAASPREEPRAPWIEQEGPEYWDRNTQICKTNTQTYREGLRILRGYYNQSEDGSHTWQRMYGCDVGPDGRLLRGYDQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAAREAEQFRAYLEGLCVESLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Poab-B*01:01:01:01",
+                "id": "NHP04658",
+                "locus": "Poab-B",
+                "protein_allele_name": "Poab-B*01:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Poab-B*01:01:01:01",
+            "id": "NHP04658",
+            "locus": "Poab-B",
+            "protein_allele_name": "Poab-B*01:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMKYFYTGMSRPGRGEPRFISVGYVDDTQFVWFDSDAVSPREEPRAPWIEQEGPEYWDRNTQIYKANTQTYRESLRNLRGYYNQSEDGSHTWQSMYGCDVGPDGRLLRGYDQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAAGWAEQFRAYLEGRCVESLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Poab-B*02:01:01:01",
+                "id": "NHP04655",
+                "locus": "Poab-B",
+                "protein_allele_name": "Poab-B*02:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Poab-B*02:01:01:01",
+            "id": "NHP04655",
+            "locus": "Poab-B",
+            "protein_allele_name": "Poab-B*02:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFDTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRMEPRAPWIEQEGPEYWDRETQKAKTSTQIYRESLGILRGYYNQSEDGSHTWQRMFGCDVGPDGRPLRGYDQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAAREAEQLRAYLEGLCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Poab-B*10:01:01:01",
+                "id": "NHP04661",
+                "locus": "Poab-B",
+                "protein_allele_name": "Poab-B*10:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Poab-B*10:01:01:01",
+            "id": "NHP04661",
+            "locus": "Poab-B",
+            "protein_allele_name": "Poab-B*10:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFDTSVSRPGRGEPRFITVGYVDDTQFVRFDSDAASPRMEPRVPCIEQEGPEYWDQETQKAKASAQTDRVSLRTLLRYYNQSEDGSHTWQRMYGCYVGPDGRLLRGYDQYAYDGKDYIALNEDLSSWTAADMAAQITQRKWEAAREAEQWRAYLEGLCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Poab-B*03:01:01:01",
+                "id": "NHP04660",
+                "locus": "Poab-B",
+                "protein_allele_name": "Poab-B*03:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Poab-B*03:01:01:01",
+            "id": "NHP04660",
+            "locus": "Poab-B",
+            "protein_allele_name": "Poab-B*03:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFDTSVSRPGRGEPRFITVGYVDDTQFVRFDSDAASPRMEPRVPCIEQEGPEYWDQETQKAKASAQTDRVSLRTLLRYYNQSEDGSHTWQRMYGCYVGPDGRLLRGYDQYAYDGKDYIALNEDLSSWTAADMAAQITQRKWEAARWAEQLRAYLEGRCVQWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Poab-B*03:02:01:01",
+                "id": "NHP04657",
+                "locus": "Poab-B",
+                "protein_allele_name": "Poab-B*03:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Poab-B*03:02:01:01",
+            "id": "NHP04657",
+            "locus": "Poab-B",
+            "protein_allele_name": "Poab-B*03:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFHTGMSRPGRGEPRFITVGYVDDTQFVWFDSDAASPRKEPRAPWIEQEGPEYWDRETQISKANTQSYRESLGILRGYYNQSEDGSHTWQRMYGCDVGPDGRLLRGYDQFAYDGKDYIALNEDLRSWTAADTAAQITQRKWEAAREAEQFRAYLEGLCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Poab-B*04:01:01:01",
+                "id": "NHP04649",
+                "locus": "Poab-B",
+                "protein_allele_name": "Poab-B*04:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Poab-B*04:01:02",
+                "id": "NHP04659",
+                "locus": "Poab-B",
+                "protein_allele_name": "Poab-B*04:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Poab-B*04:01:01:01",
+            "id": "NHP04649",
+            "locus": "Poab-B",
+            "protein_allele_name": "Poab-B*04:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRGEPRFIAVGYVDDTQFVRFDSDAVSPRVEPLVPLIEQEGPEYWDQETQKAKTQAQNDRVSLRNLRGYYNQSEDGSHTWQRMYGCDVGPDGRLLRGYCQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAAREAEQLRAYLEGLCVESLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Poab-B*08:01:01:01",
+                "id": "NHP04654",
+                "locus": "Poab-B",
+                "protein_allele_name": "Poab-B*08:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Poab-B*08:02",
+                "id": "NHP04656",
+                "locus": "Poab-B",
+                "protein_allele_name": "Poab-B*08:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Poab-B*08:01:01:01",
+            "id": "NHP04654",
+            "locus": "Poab-B",
+            "protein_allele_name": "Poab-B*08:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTGMSRPGRGEPRFISVGYVDDTQFVWFDSDAASPRVEPRAPWIEQEGPEYWDRNTQICKTNTQTYRENLRNLRGYYNHSEDGSHTWQSMYGCYVGPDGRLLGGYDQHAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQFRAYLEGRCVKSLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Poab-B*05:01:01:01",
+                "id": "NHP04662",
+                "locus": "Poab-B",
+                "protein_allele_name": "Poab-B*05:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Poab-B*05:01:01:01",
+            "id": "NHP04662",
+            "locus": "Poab-B",
+            "protein_allele_name": "Poab-B*05:01",
+            "source": "ipd-mhc"
+        }
+    }
+}

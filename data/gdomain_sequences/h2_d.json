@@ -1,0 +1,74 @@
+{
+    "GPHSLRYFETVVSRPGLGEPRFISVGYVDNTEFVRFDSDAENPRDEPRVRWMEQEGPEYWERETQIAKGNEQSFRVDLRTLLRYYNQSEGGSHTIQRLSGCDVGSDWRLLRGYEQFAYDGCDYIALNEDLKTWTAADMAALITKHKWEQAGAAERDRAYLEGTCVEWLRRYLELGNATLLHT": {
+        "alleles": [
+            {
+                "gene_allele_name": "H2-Dk",
+                "id": "P14426",
+                "locus": "D",
+                "protein_allele_name": "H2-Dk",
+                "source": "h2"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "H2-Dk",
+            "id": "P14426",
+            "locus": "D",
+            "protein_allele_name": "H2-Dk",
+            "source": "h2"
+        }
+    },
+    "GPHSLRYFVTAVSRPGLGKPRYMEVGYVDNTEFVRFDSDAENPRMKPRVRWMEQEGPEYWEQETQNAKDHEQSFRVSLRNLLGYYNQSKGGSHTIQGMRGCDVGSDWRLLRGYEQFAYDGPDYIALNEDLKTWTAADMAAQITRRKWEQAGAAETLRAYLEGACVEWLRRYLELGNATLLCT": {
+        "alleles": [
+            {
+                "gene_allele_name": "H2-Dp",
+                "id": "P14427",
+                "locus": "D",
+                "protein_allele_name": "H2-Dp",
+                "source": "h2"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "H2-Dp",
+            "id": "P14427",
+            "locus": "D",
+            "protein_allele_name": "H2-Dp",
+            "source": "h2"
+        }
+    },
+    "GPHSMRYFETAVSRPGLEEPRYISVGYVDNKEFVRFDSDAENPRYEPRAPWMEQEGPEYWERETQKAKGQEQWFRVSLRNLLGYYNQSAGGSHTLQQMSGCDLGSDWRLLRGYLQFAYEGRDYIALNEDLKTWTAADMAAQITRRKWEQSGAAEHYKAYLEGECVEWLHRYLKNGNATLLRT": {
+        "alleles": [
+            {
+                "gene_allele_name": "H2-Db",
+                "id": "P01899",
+                "locus": "D",
+                "protein_allele_name": "H2-Db",
+                "source": "h2"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "H2-Db",
+            "id": "P01899",
+            "locus": "D",
+            "protein_allele_name": "H2-Db",
+            "source": "h2"
+        }
+    },
+    "GSHSLRYFVTAVSRPGFGEPRYMEVGYVDNTEFVRFDSDAENPRYEPRARWIEQEGPEYWERETRRAKGNEQSFRVDLRTALRYYNQSAGGSHTLQWMAGCDVESDGRLLRGYWQFAYDGCDYIALNEDLKTWTAADMAAQITRRKWEQAGAAERDRAYLEGECVEWLRRYLKNGNATLLRT": {
+        "alleles": [
+            {
+                "gene_allele_name": "H2-Dd",
+                "id": "P01900",
+                "locus": "D",
+                "protein_allele_name": "H2-Dd",
+                "source": "h2"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "H2-Dd",
+            "id": "P01900",
+            "locus": "D",
+            "protein_allele_name": "H2-Dd",
+            "source": "h2"
+        }
+    }
+}

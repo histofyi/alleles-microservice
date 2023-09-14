@@ -1,0 +1,218 @@
+{
+    "GFHSLRYFYTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAAIPREEPRVPWMEQEGPEYWEDETRISKATTQTDRVSLRNLRGYYNQSEAGSHTIQAMYGCDVGPGGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQNTKRKWEATNVAEQFRAYLEGECLEGLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Atfu-B*02:01",
+                "id": "NHP05040",
+                "locus": "Atfu-B",
+                "protein_allele_name": "Atfu-B*02:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Atfu-B*02:01",
+            "id": "NHP05040",
+            "locus": "Atfu-B",
+            "protein_allele_name": "Atfu-B*02:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GFHSLRYFYTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAAIPREEPRVPWMEQEGPEYWEDETRISKATTQTDRVSLRNLRGYYNQSEAGSHTLQTMYGCDVGPEGRFLRGYRQYAYDGKDYIALNEDLRSRTAADMAAQNTKRKWEAANNAEQRRAYLEGECVEWLRRYLENGKEMLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Atfu-B*03:01",
+                "id": "NHP05041",
+                "locus": "Atfu-B",
+                "protein_allele_name": "Atfu-B*03:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Atfu-B*03:01",
+            "id": "NHP05041",
+            "locus": "Atfu-B",
+            "protein_allele_name": "Atfu-B*03:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GFHSLRYFYTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAAIPREEPRVPWMEQEGPEYWEDETRISKATTQTDRVSLRNLRGYYNQSEAGSHTLQTMYGCDVGPEGRFLRGYRQYAYDGKDYIALNEDLRSWTAADMAAQNTKRKWEATNVAEQFRAYLEGECLEGLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Atfu-B*02:02",
+                "id": "NHP05088",
+                "locus": "Atfu-B",
+                "protein_allele_name": "Atfu-B*02:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Atfu-B*02:02",
+            "id": "NHP05088",
+            "locus": "Atfu-B",
+            "protein_allele_name": "Atfu-B*02:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFYTAVSRPGRGEPRFISVGYVDDMQFVRFDSDAAIPREEPRVPWMEQEGPEYWEEQTRRVKAAAQTYRVNLRTALGYYNQSEAGSHTIQAMYGCDVGPEGRFLRGYRQYAYDGKDYIALNEDLRSWTAADMAAQNTKRKWEAANNAEQRRAYLEGECVEWLRRYLENGKEMLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Atfu-B*02:04",
+                "id": "NHP05042",
+                "locus": "Atfu-B",
+                "protein_allele_name": "Atfu-B*02:04",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Atfu-B*02:04",
+            "id": "NHP05042",
+            "locus": "Atfu-B",
+            "protein_allele_name": "Atfu-B*02:04",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFYTAVSRPGRGEPRFISVGYVDDMQFVRFDSDAAIPREEPRVPWMEQEGPEYWEEQTRRVKAAAQTYRVNLRTALGYYNQSEAGSHTIQAMYGCDVGPGGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQNTKRKWEATNVAEQFRAYLEGECLEGLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Atfu-B*02:03",
+                "id": "NHP05089",
+                "locus": "Atfu-B",
+                "protein_allele_name": "Atfu-B*02:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Atfu-B*02:03",
+            "id": "NHP05089",
+            "locus": "Atfu-B",
+            "protein_allele_name": "Atfu-B*02:03",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFYTSVSRPGRGEPRFIIVGYVDDTQFVRFDSDAASPRLEPRAPWMEQEGPEYWEEETRTAKAQAQTERVNLQILRGYYNQSEAGSHTIQLMFGCDVGPEGRFLRGYRQDAYDGKDYIALNEDLRSWTAADVAAQNTKRKWEAANVAEQLRAYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Atfu-B*01:01",
+                "id": "NHP05038",
+                "locus": "Atfu-B",
+                "protein_allele_name": "Atfu-B*01:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Atfu-B*01:01",
+            "id": "NHP05038",
+            "locus": "Atfu-B",
+            "protein_allele_name": "Atfu-B*01:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFYTSVSRPGRGEPRFIIVGYVDDTQFVRFDSDAASPRLEPRAPWMEQEGPEYWEEETRTAKAQAQTERVNLQILRGYYNQSEAGSHTIQTMYGCDVGPGGRLLRGYRQYAYDGKDYIALNEDLRSWTAADMAAQITQRKWEAANEAEQLRAYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Atfu-B*01:03",
+                "id": "NHP05087",
+                "locus": "Atfu-B",
+                "protein_allele_name": "Atfu-B*01:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Atfu-B*01:03",
+            "id": "NHP05087",
+            "locus": "Atfu-B",
+            "protein_allele_name": "Atfu-B*01:03",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRMEPRALWMEQEGPEYWEEQTRRVKAAAQTERVSLRNLRGYYNQSEAGSHTIQLMFGCDVGPEGRFLRGYRQDAYDGKDYIALNEDLRSWTAADVAAQNTKRKWEAANVAEQLRAYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Atfu-B*01:02",
+                "id": "NHP05039",
+                "locus": "Atfu-B",
+                "protein_allele_name": "Atfu-B*01:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Atfu-B*01:02",
+            "id": "NHP05039",
+            "locus": "Atfu-B",
+            "protein_allele_name": "Atfu-B*01:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "SSHSMRYLSTVVSRPGRGEPWYFAVGYVDDTQFLRFDSDAAIPRMEPQAPWAEQEGPEYWDLLTRRAEACAQTCRVSLRDIRGYYNQSEAGSHTLQVTFGCYLGPNGRLLRGYCRIAYDGKDHVALNEDLHSWTAADTAAQVTQRKLEAEKYAEQLRAQLEGECVEWLKRYLENGKEMLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Atfu-B*04:02",
+                "id": "NHP05044",
+                "locus": "Atfu-B",
+                "protein_allele_name": "Atfu-B*04:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Atfu-B*04:02",
+            "id": "NHP05044",
+            "locus": "Atfu-B",
+            "protein_allele_name": "Atfu-B*04:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "SSHSMRYLSTVVSRPGRGEPWYFAVGYVDDTQFLRFDSDAAIPRMEPQAPWAEQEGPEYWDLLTRRAEACAQTCRVSLRDIRGYYSQSEAGSHTLQVTFGCYLGPNGRLLRGYCRIAYDGKDHVALNEDLHSWTAADTAAQVTQRKLEAEKYAEQLRAQLEGECVEWLKRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Atfu-B*04:01",
+                "id": "NHP05043",
+                "locus": "Atfu-B",
+                "protein_allele_name": "Atfu-B*04:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Atfu-B*04:01",
+            "id": "NHP05043",
+            "locus": "Atfu-B",
+            "protein_allele_name": "Atfu-B*04:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "VSHSMRYFTTAVSRPGRGEPRFIAVGYVDDTQFVRFDSDAAIPREEPRVPWMEQEGPEYWEDETRISKATTQTDRVNLRTLRGYYNQSEAGSHTVQEMHGCDLGPDGRFLRGYYQSAYDGKDYISLNEDLCSWTAADTAAEITQRKCEAANEAEEWRAYLEGECVEFLRRHLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Atfu-B*05:01",
+                "id": "NHP05085",
+                "locus": "Atfu-B",
+                "protein_allele_name": "Atfu-B*05:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Atfu-B*05:01",
+            "id": "NHP05085",
+            "locus": "Atfu-B",
+            "protein_allele_name": "Atfu-B*05:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "VSHSMRYFTTAVSRPGRGEPRFISVGYVDDTQFVRFDSDAAIPREEPRVPWMEQEGPEYWEDETRISKATTQTDRVSLRNLRGYYNQSEAGSHTLQTMYGCDVGPEGRFLRGYRQYAYDGKDYIALNEDLRSWTAADMAAQNTKRKWEAANNAEQRRAYLEGECVEWLRRYLENGKEMLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Atfu-B*03:02",
+                "id": "NHP05086",
+                "locus": "Atfu-B",
+                "protein_allele_name": "Atfu-B*03:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Atfu-B*03:02",
+            "id": "NHP05086",
+            "locus": "Atfu-B",
+            "protein_allele_name": "Atfu-B*03:02",
+            "source": "ipd-mhc"
+        }
+    }
+}

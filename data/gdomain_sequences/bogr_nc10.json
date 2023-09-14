@@ -1,0 +1,20 @@
+{
+    "RSHSLQYFYSVVSEPGPGVPSFMAFGFVDNQPFIRYDSEEMKAKSCVHWLREEPSYFDDETKIFTSRMKIFHLNLRNVQQYYNQTKEDGLNRALAQKQTSPHTLQFTYGCELLEDGRTTWHWQYGYDGEDYLSLHMDPLQYTAATFVAQYTKQKWEAGGNFIERDKNYLEKECILWLWRYLT": {
+        "alleles": [
+            {
+                "gene_allele_name": "Bogr-NC10*001:01",
+                "id": "BOLA10138",
+                "locus": "Bogr-NC10",
+                "protein_allele_name": "Bogr-NC10*001:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Bogr-NC10*001:01",
+            "id": "BOLA10138",
+            "locus": "Bogr-NC10",
+            "protein_allele_name": "Bogr-NC10*001:01",
+            "source": "ipd-mhc"
+        }
+    }
+}

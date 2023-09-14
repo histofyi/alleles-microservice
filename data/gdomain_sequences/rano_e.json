@@ -1,0 +1,14 @@
+{
+    "GSHSLRYFDITVSRPGLGEPRFISVGYVDDTEFVRYDSDAENPRFKPRVRWMEREGPEYWERITRIAKESEQIYRVGLRTLRGYYNQSEGGSHTIQRLSGCEVGSDGILLRGYEQFAYDGRDYIALNEDLKTWAAADFAAGITRNKLERDGEAERLRAYLEGECVEWLRRYLELRKETLLRS": {
+        "alleles": [
+            {
+                "gene_allele_name": "Rano-E*u",
+                "id": "RT108390",
+                "locus": "Rano-E",
+                "protein_allele_name": "Rano-E*u",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {}
+    }
+}

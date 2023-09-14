@@ -1,0 +1,38 @@
+{
+    "GSHSMRYFYTGVSRPGRGEPRFITVGYVDDTQFVRFDSDAASPRMEPRAPWMEQEGPEYWERETRNMKEATQTFRVNLNNLRGYYNQSEAGSHTLQEMYGCDVGPDGRLLRGYSQDAYDGADYIALNEDLRSWTAADTAAQISRRKLEAAGVAEGLRNYLEGTCVEWLRRYLENGKETLQRV": {
+        "alleles": [
+            {
+                "gene_allele_name": "Eqca-16*003:01",
+                "id": "ELA04965",
+                "locus": "Eqca-16",
+                "protein_allele_name": "Eqca-16*003:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Eqca-16*003:01",
+            "id": "ELA04965",
+            "locus": "Eqca-16",
+            "protein_allele_name": "Eqca-16*003:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTGVSRPGRGEPRFITVGYVDDTQFVRFDSDAASPRMEPRAPWMEQEGPEYWERETRSVKGHAQTFRVNLNTLRGYYNQSEAGSHTLQLMYGCDVRPHGRRLSASFQYAYDGADYIALNEDLRSWTAADTAAQITRRKWEAAGAAEDFRNYLEGRCVESLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Eqca-16*001:01",
+                "id": "ELA04963",
+                "locus": "Eqca-16",
+                "protein_allele_name": "Eqca-16*001:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Eqca-16*001:01",
+            "id": "ELA04963",
+            "locus": "Eqca-16",
+            "protein_allele_name": "Eqca-16*001:01",
+            "source": "ipd-mhc"
+        }
+    }
+}

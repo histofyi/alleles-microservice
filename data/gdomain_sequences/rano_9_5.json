@@ -1,0 +1,14 @@
+{
+    "GSHSLRYFHTAVSRPGLGEPRFISVGYVDDTQFVRYDSDAENPRYEPRARWMEREGPEYWEEQTLVAKGQELDYRVSLRNLLSYYNQSEGGSHTIQRMYGCDVGSDGSLLRGYEQHAYDGRDYIALNEDLKTWAVADFAAWITRSKWQRNGAAERSRAYLEGTCVEWLLRYLERGKETLLRS": {
+        "alleles": [
+            {
+                "gene_allele_name": "Rano-9.5*f",
+                "id": "RT108415",
+                "locus": "Rano-9.5",
+                "protein_allele_name": "Rano-9.5*f",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {}
+    }
+}

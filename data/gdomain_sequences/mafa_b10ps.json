@@ -1,0 +1,70 @@
+{
+    "GSHSLRYFSTAMSRPGRGEPRFISLCYVDDTQFLRLDSDAESPRMEPRARWLEQEGPEYWEEQTGLAKDITQSFRVNLRTLRGYYNQSEAGSHTLQWLSGCDLGPDARLLRGYNQQAYDGKDYIALNGDLSSWTGADTAAQITQRKWEAACEAEQWRAHLEGTCVEWLRRHLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-B10Ps*01:03:01:01",
+                "id": "NHP11817",
+                "locus": "Mafa-B10Ps",
+                "protein_allele_name": "Mafa-B10Ps*01:03",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-B10Ps*01:04:01:01",
+                "id": "NHP11819",
+                "locus": "Mafa-B10Ps",
+                "protein_allele_name": "Mafa-B10Ps*01:04",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-B10Ps*01:05:01:01",
+                "id": "NHP11820",
+                "locus": "Mafa-B10Ps",
+                "protein_allele_name": "Mafa-B10Ps*01:05",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-B10Ps*01:03:01:01",
+            "id": "NHP11817",
+            "locus": "Mafa-B10Ps",
+            "protein_allele_name": "Mafa-B10Ps*01:03",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFSTAVSRPGRGEPRFISLCYVDDTQFLRLDSDAESPRMEPLARWLEQEGPEYWEEQTGLAKDITQSYRVNLRTLRGYYNQSEAGTHTLQWLSGCDLGPDGRLLRGYNQQAYDGKDYIALNGDLSSWTGADTAAQITQRKWEAAREAEQWRAHLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-B10Ps*01:07:01:01",
+                "id": "NHP11823",
+                "locus": "Mafa-B10Ps",
+                "protein_allele_name": "Mafa-B10Ps*01:07",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-B10Ps*01:07:01:01",
+            "id": "NHP11823",
+            "locus": "Mafa-B10Ps",
+            "protein_allele_name": "Mafa-B10Ps*01:07",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFSTAVSRPGRGEPRFISLCYVDYTQFLRLDSDAESPRMEPRARWLEQEGPEYWEEQTGLAKDITQSYRVNLRTLRGYYNQSEAGTHTLQWLSGCDLGPEARLLRGYNQQAYDGKDYIALNGDLSSWTGADTAAQITQRKWEAAREAEQWRAHLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-B10Ps*01:08:01:01",
+                "id": "NHP11824",
+                "locus": "Mafa-B10Ps",
+                "protein_allele_name": "Mafa-B10Ps*01:08",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-B10Ps*01:08:01:01",
+            "id": "NHP11824",
+            "locus": "Mafa-B10Ps",
+            "protein_allele_name": "Mafa-B10Ps*01:08",
+            "source": "ipd-mhc"
+        }
+    }
+}

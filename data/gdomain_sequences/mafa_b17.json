@@ -1,0 +1,117 @@
+{
+    "-SHSLRYFSTAVSRPGRGEPWYLEVGYVDDTQFVRFDSDAASPRMEPRAPWMEQEGPEYWDRNTRNAKVNAETFRGDLRNLLRYYNQSEAGSHTFQWMYGCDLGPDGRLLRGYRQFAYDGRDYIALNEDLCSWTAADTTAQITQRKWEAARAAEKLRAYLEGECLEWLRRYLENGKETLQHA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-B17*01:03",
+                "id": "NHP02554",
+                "locus": "Mafa-B17",
+                "protein_allele_name": "Mafa-B17*01:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-B17*01:03",
+            "id": "NHP02554",
+            "locus": "Mafa-B17",
+            "protein_allele_name": "Mafa-B17*01:03",
+            "source": "ipd-mhc"
+        }
+    },
+    "-SHSLRYFSTAVSRPGRGEPWYLEVGYVDDTQFVRFDSDAASPRMEPRAPWMEQEGPEYWDRNTRNAKVNAETFRGDLRNLLRYYNQSEAGSHTFQWMYGCDLGPDGRLLRGYRQFAYDGRDYIALNEDLRSWTAADTTAQITQRKWEAARAAEKLRAYLEGECLEWLRRYLENGKETLQHA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-B17*01:01",
+                "id": "NHP02081",
+                "locus": "Mafa-B17",
+                "protein_allele_name": "Mafa-B17*01:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-B17*01:04",
+                "id": "NHP02555",
+                "locus": "Mafa-B17",
+                "protein_allele_name": "Mafa-B17*01:04",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-B17*01:01",
+            "id": "NHP02081",
+            "locus": "Mafa-B17",
+            "protein_allele_name": "Mafa-B17*01:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "-SHSLRYFSTAVSRPGRGEPWYLEVGYVDDTQFVRFDSDAASPRMEPRAPWMEQEGPEYWDRNTRNAKVNAETFRGDLRNLLRYYNQSEAGSHTFQWMYGCDLGPDGRLLRGYRQFAYDGRDYIALNEDLRSWTAADTTAQITQRKWEAVRAAEKLRAYLEGECLEWLRRYLENGKETLQHA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-B17*01:02",
+                "id": "NHP02553",
+                "locus": "Mafa-B17",
+                "protein_allele_name": "Mafa-B17*01:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-B17*01:02",
+            "id": "NHP02553",
+            "locus": "Mafa-B17",
+            "protein_allele_name": "Mafa-B17*01:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFSTAVSRPGRGEPWYLEVGYVDDTQFVRFDSDAASARMEPRAPWMEQEGPEYWDRNTRNAKVNAETFRGDLRNLLRYYNQSEAGSHTFQWMYGCDLGPDGRLLRGYRQFAYDGRDYIALNEDLRSWTAADTTAQITQRKWEAARAAEKLRAYLEGECLEWLRRYLENGKETLQHA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-B17*01:06:01:01",
+                "id": "NHP11978",
+                "locus": "Mafa-B17",
+                "protein_allele_name": "Mafa-B17*01:06",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-B17*01:06:01:01",
+            "id": "NHP11978",
+            "locus": "Mafa-B17",
+            "protein_allele_name": "Mafa-B17*01:06",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFSTAVSRPGRGEPWYLEVGYVDDTQFVRFDSDAASPRMEPRAPWMEQEGPEYWDRNTRNAKVNAETFRGDLRNLLRYYNQSEAGSHTFQWMYGCDLGPDGRLLRGYRQFAYDGRDYIALNEDLRSWTAADTTAQITQRKWEAARAAAKLRAYLEGECLEWLRRYLENGKETLQHA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-B17*01:05:01:01",
+                "id": "NHP11301",
+                "locus": "Mafa-B17",
+                "protein_allele_name": "Mafa-B17*01:05",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-B17*01:05:01:01",
+            "id": "NHP11301",
+            "locus": "Mafa-B17",
+            "protein_allele_name": "Mafa-B17*01:05",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFSTAVSRPGRGEPWYLEVGYVDDTQFVRFDSDAASPRMEPRAPWMEQEGPEYWDRNTRNAKVNAETFRGDLRNLLRYYNQSEAGSHTFQWMYGCDLGPDGRLLRGYRQFAYDGRDYIALNEDLRSWTAADTTAQITQRKWEAARAAEKLRAYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-B17*01:07:01:01",
+                "id": "NHP12120",
+                "locus": "Mafa-B17",
+                "protein_allele_name": "Mafa-B17*01:07",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-B17*01:07:01:01",
+            "id": "NHP12120",
+            "locus": "Mafa-B17",
+            "protein_allele_name": "Mafa-B17*01:07",
+            "source": "ipd-mhc"
+        }
+    }
+}

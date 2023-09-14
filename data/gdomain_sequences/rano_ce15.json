@@ -1,0 +1,14 @@
+{
+    "-SHSMRCFKTAVSRPGLGEPRFIAVAYVDDTEFVRYDGDAENPRTEPRARWMEREGPEYWEEETRKIKGQEQWFRMSLRILRGYYNQSEGGSHTFQKMSGCDVGSDGSLLRGYNQYAYDGHDYIALNKDLKTWTAADFAALITKTKWDQAGTAERKRAYLEGTCVEWLRRYLELGKETLLRS": {
+        "alleles": [
+            {
+                "gene_allele_name": "Rano-CE15*n",
+                "id": "RT108385",
+                "locus": "Rano-CE15",
+                "protein_allele_name": "Rano-CE15*n",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {}
+    }
+}

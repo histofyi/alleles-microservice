@@ -1,0 +1,272 @@
+{
+    "ELHTLRYIFTAMTDPGPGLPWFVTVGYVDGELFVHYNSTARRAVPRTEWMAAKADQQYWNGQTQIVQGNEQIIRENLGILQRRYNQTGGSHTVQLMYGCDILEDGTIRGYSQYAYDGRDFIALDKDTKTFTAAVPEAVPSKRKWEEVDYAESWKNYLEATCVEWLRRYVEYGKAELGRRERP": {
+        "alleles": [
+            {
+                "gene_allele_name": "Gaga-BF2*018:01:01",
+                "id": "CHICKEN08578",
+                "locus": "Gaga-BF2",
+                "protein_allele_name": "Gaga-BF2*018:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Gaga-BF2*018:01:01",
+            "id": "CHICKEN08578",
+            "locus": "Gaga-BF2",
+            "protein_allele_name": "Gaga-BF2*018:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "ELHTLRYIHTAMTDPGPGLPWFVIVGYVDGELFMHYNSTARRAVPRTEWMAAKADQQYWDGQTQIEQHNEQIDRENLGTLQRRYNQTGGSHTVQRMSGCDILEDGTIRGYYQEADDGRDFIAFDKGTMTFTAAVPEAVPTKRKWEEGDYAEGLKQYLEETCVEWLRRYVEYGKAELGRRERP": {
+        "alleles": [
+            {
+                "gene_allele_name": "Gaga-BF2*017:01:01",
+                "id": "CHICKEN08577",
+                "locus": "Gaga-BF2",
+                "protein_allele_name": "Gaga-BF2*017:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Gaga-BF2*017:01:01",
+            "id": "CHICKEN08577",
+            "locus": "Gaga-BF2",
+            "protein_allele_name": "Gaga-BF2*017:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "ELHTLRYIHTAMTDPGPGLPWYVDVGYVDGELFVHYNSTARRYVPRTEWMAAKADQQYWDGQTQIGQGNEQIDRENLGILQRRYNQTGGSHTVQWMYGCDILEDGTIRGYYQMAYDGRDFIAFDKGTMTFTAAVPEAVPTKRKWEEGDYAEGLKQYLEETCVEWLRRYVEYGKAELGRRERP": {
+        "alleles": [
+            {
+                "gene_allele_name": "Gaga-BF2*002:02:01",
+                "id": "CHICKEN08581",
+                "locus": "Gaga-BF2",
+                "protein_allele_name": "Gaga-BF2*002:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Gaga-BF2*002:02:01",
+            "id": "CHICKEN08581",
+            "locus": "Gaga-BF2",
+            "protein_allele_name": "Gaga-BF2*002:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "ELHTLRYIHTAMTDPGPGQPWYVDVGYVDGELFVHYNSTARRYVPRTEWMAAKADEQYWDGQTQIGQGNEQIDRENLDILRRRYNQTGGSHTVQWMYGCDILEDGTIRGYYQTAYDGRDFIAFDKGTMTFTAAVPEAVPTKRKWEEGDYAEGLKQYLEETCVEGLRRYVEYGKAELGRRERP": {
+        "alleles": [
+            {
+                "gene_allele_name": "Gaga-BF2*005:02:01",
+                "id": "CHICKEN08571",
+                "locus": "Gaga-BF2",
+                "protein_allele_name": "Gaga-BF2*005:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Gaga-BF2*005:02:01",
+            "id": "CHICKEN08571",
+            "locus": "Gaga-BF2",
+            "protein_allele_name": "Gaga-BF2*005:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "ELHTLRYIQTAMTDPGPGQPWFVDVGYVDGELFTHYNSTARRAVPRTEWMAAKADQQYWDRETQIGQGHEQTDHGNLGILQRRYNQTGGSHTAQWMYGCDILEDGTIRGYSQYAYDGRDFIALDKDMKTFTAAVPEAVPTKRKWEEGDVAERWKNYLEETCVEWLRRYVEYGKAELGRRERP": {
+        "alleles": [
+            {
+                "gene_allele_name": "Gaga-BF2*006:01:01",
+                "id": "CHICKEN08570",
+                "locus": "Gaga-BF2",
+                "protein_allele_name": "Gaga-BF2*006:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Gaga-BF2*006:01:01",
+            "id": "CHICKEN08570",
+            "locus": "Gaga-BF2",
+            "protein_allele_name": "Gaga-BF2*006:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "ELHTLRYIQTAMTDPGPGQPWFVTVGYVDGELFVHYNSTARRVVPRTEWMAANTDQQYWNGQTQIVQGNEQIDRDDLGTLQRRYNQTGGSHTVQLMYGCDILEDGTIRGYSQDAYDGRDFIAFDKGTMTFTAAVPEAVPTKRKWEEGDYAEGLKQYLEETCVEWLRRYVEYGKAELGRRERP": {
+        "alleles": [
+            {
+                "gene_allele_name": "Gaga-BF2*014:01:01",
+                "id": "CHICKEN08575",
+                "locus": "Gaga-BF2",
+                "protein_allele_name": "Gaga-BF2*014:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Gaga-BF2*014:01:01",
+            "id": "CHICKEN08575",
+            "locus": "Gaga-BF2",
+            "protein_allele_name": "Gaga-BF2*014:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "ELHTLRYIQTAMTDPGPGQPWFVTVGYVDGELFVHYNSTARRYVPRTEWIAAKADQQYWDGQTQIGQGNEQIDRENLGILQRRYNQTGGSHTVQWMYGCDILEGGPIRGYYQMAYDGRDFTAFDKGTMTFTAAVPEAVPTKRKWEEESEPERWKNYLEETCVEWLRRYVEYGKAELGRRERP": {
+        "alleles": [
+            {
+                "gene_allele_name": "Gaga-BF2*012:01:01",
+                "id": "CHICKEN08574",
+                "locus": "Gaga-BF2",
+                "protein_allele_name": "Gaga-BF2*012:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Gaga-BF2*012:01:01",
+            "id": "CHICKEN08574",
+            "locus": "Gaga-BF2",
+            "protein_allele_name": "Gaga-BF2*012:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "ELHTLRYIRTAMTDPGPGLPWFVDVGYVDGELFMHYNSTARRAVPRTEWIAANTDQQYWDRETQIVQGSEQINRENLDILRRRYNQTGGSHTVQWMSGCDILEDGTIRGYHQAAYDGRDFVAFDKGTMTLTAAVPEAVPTKRKWEEGGYAEGLKQYLEETCVEWLRRYVEYGKAELGRRERP": {
+        "alleles": [
+            {
+                "gene_allele_name": "Gaga-BF2*021:01:01",
+                "id": "CHICKEN08580",
+                "locus": "Gaga-BF2",
+                "protein_allele_name": "Gaga-BF2*021:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Gaga-BF2*021:01:01",
+            "id": "CHICKEN08580",
+            "locus": "Gaga-BF2",
+            "protein_allele_name": "Gaga-BF2*021:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "ELHTLRYIRTAMTDPGPGLPWYVDVGYVDGELFVHYNSTARRYVPRTEWIAAKADQQYWDGQTQIGQGNEQIDRENLGILQRRYNQTGGSHTVQWMYGCDILEGGPIRGYYQMAYDGRDFTAFDKGTMTFTAAVPEAVPTKRKWEEGDYAEGLKQYLEETCVEWLRRYVEYGKAELGRRERP": {
+        "alleles": [
+            {
+                "gene_allele_name": "Gaga-BF2*002:01:01",
+                "id": "CHICKEN08567",
+                "locus": "Gaga-BF2",
+                "protein_allele_name": "Gaga-BF2*002:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Gaga-BF2*002:01:01",
+            "id": "CHICKEN08567",
+            "locus": "Gaga-BF2",
+            "protein_allele_name": "Gaga-BF2*002:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "ELHTLRYIRTAMTDPGPGQPWFVTVGYVDGELFVHYNSTARRYVPRTEWIAANTDQQYWDGQTQIGQLNEQINRENLGIRQRRYNQTGGSHTVQWMFGCDILEDGTIRGYRQSAYDGRDFIALDKDMKTFTAAVPEAVPTKRKWEEESEPERWKNYLEETCVEWLRRYVEYGKAELGRRERP": {
+        "alleles": [
+            {
+                "gene_allele_name": "Gaga-BF2*004:01:01",
+                "id": "CHICKEN08568",
+                "locus": "Gaga-BF2",
+                "protein_allele_name": "Gaga-BF2*004:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Gaga-BF2*004:01:01",
+            "id": "CHICKEN08568",
+            "locus": "Gaga-BF2",
+            "protein_allele_name": "Gaga-BF2*004:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "ELHTLRYISTAMTDPGPGLPWFVIVGYVDGELFTHYNSTARRYVPRTEWMAAKADEQYWDGQTQIGQGNEQIDRENLDILRRRYNQTGGSHTVQWMYGCDILEDGTIRGYYQTAYDGRDFIAFDKGTMTFTAAVPEAVPTKRKWEEGDYAEGLKQYLEETCVEGLRRYVEYGKAELGRRERP": {
+        "alleles": [
+            {
+                "gene_allele_name": "Gaga-BF2*005:01:01",
+                "id": "CHICKEN08569",
+                "locus": "Gaga-BF2",
+                "protein_allele_name": "Gaga-BF2*005:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Gaga-BF2*005:01:01",
+            "id": "CHICKEN08569",
+            "locus": "Gaga-BF2",
+            "protein_allele_name": "Gaga-BF2*005:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "ELHTLRYISTAMTDPGPGQPWFVDVGYVDGELFTHYNSTARRAVPRTEWIAANTDQQYWDSETQTSQRSEQIDRDGLGILQRRYNQTGGSHTVQWMYGCDILEDGTIRGYRQYAYDGRDFIAFDKGTMTFTAAVPEAVPTKRKWEEGDYAEGLKQYLEETCVEWLRRYVEYGKAELGRRERP": {
+        "alleles": [
+            {
+                "gene_allele_name": "Gaga-BF2*015:02:01",
+                "id": "CHICKEN08579",
+                "locus": "Gaga-BF2",
+                "protein_allele_name": "Gaga-BF2*015:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Gaga-BF2*015:02:01",
+            "id": "CHICKEN08579",
+            "locus": "Gaga-BF2",
+            "protein_allele_name": "Gaga-BF2*015:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "ELHTLRYISTAMTDPGPGQPWFVDVGYVDGELFTHYNSTARRAVPRTEWMAANTDQQYWDGQTQIAQGNEQSDRENLGTLRRRYNQTGGSHTVQWMYGCDILGGSPIRGYFQEAYDGRDLIAFDKDTMTFTAAVPEAVPSKRKWEEGGVAEGWKSYLEETCVEWLRRYVEYGKAELGRRERP": {
+        "alleles": [
+            {
+                "gene_allele_name": "Gaga-BF2*009:01:01",
+                "id": "CHICKEN08572",
+                "locus": "Gaga-BF2",
+                "protein_allele_name": "Gaga-BF2*009:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Gaga-BF2*009:01:01",
+            "id": "CHICKEN08572",
+            "locus": "Gaga-BF2",
+            "protein_allele_name": "Gaga-BF2*009:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "ELHTLRYISTAMTDPGPGQPWYVDVGYVDGELFTHYNSTARRAVPRTEWIAANTDQQYWDSETQTSQRTEQIDRDGLGTLQRRYNQTGGSHTVQLMYGCDILEDGTIRGYSQDAYDGRDFIAFDKDTMTFTAAVPEAVPTKRKWEEGDYAEGLKQYLEETCVEWLRRYVEYGKAELGRRERP": {
+        "alleles": [
+            {
+                "gene_allele_name": "Gaga-BF2*015:01:01",
+                "id": "CHICKEN08576",
+                "locus": "Gaga-BF2",
+                "protein_allele_name": "Gaga-BF2*015:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Gaga-BF2*015:01:01",
+            "id": "CHICKEN08576",
+            "locus": "Gaga-BF2",
+            "protein_allele_name": "Gaga-BF2*015:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "ELHTLRYIYTAMTDPGPGLPWFVIVGYVDGELFMHYNSTARRAVPRTEWMAAKADQQYWDGQTQLGQGHEQVNSEDLDTLQRRYNQTGGSHTAQWMYGCDILEGGPIRGYYQMAYDGRDFIALDKDMKTFTAAVPEAVPTKRKWEEVDYAESWKNYLEETCVEWLRRYVEYGKAELGRRERP": {
+        "alleles": [
+            {
+                "gene_allele_name": "Gaga-BF2*024:01:01",
+                "id": "CHICKEN08582",
+                "locus": "Gaga-BF2",
+                "protein_allele_name": "Gaga-BF2*024:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Gaga-BF2*024:01:01",
+            "id": "CHICKEN08582",
+            "locus": "Gaga-BF2",
+            "protein_allele_name": "Gaga-BF2*024:01",
+            "source": "ipd-mhc"
+        }
+    }
+}

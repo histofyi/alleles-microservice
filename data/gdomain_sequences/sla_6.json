@@ -1,0 +1,127 @@
+{
+    "GSHSLRYLHILVSRPGHGSDLYSSVGFLDDTQFVRFSSDAANPRVEPRAPWMEQEGREYWDRQTDIAKEHSKASRSNLRVIIGNHNHSQSESHSFLWVSGCDVGSDGRILRGYEQFSYDGDDYIVLNEDLRSWTAISTVAQIIRRKWEAEGVAEQYRAYLEIECVEWLRKYLEKGKDMLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "SLA-6*07:01",
+                "id": "SLA06218",
+                "locus": "SLA-6",
+                "protein_allele_name": "SLA-6*07:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "SLA-6*07:01",
+            "id": "SLA06218",
+            "locus": "SLA-6",
+            "protein_allele_name": "SLA-6*07:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYLHILVSRPGHGSDLYSSVGFLDDTQFVRFSSDAANPRVEPRAPWMEQEGREYWDRQTDIAKEHSKASRSNLRVIIGNHNHSQSESHSFLWVSGCDVGSDGRILRGYEQFSYDGDDYIVLNEDLRSWTAISTVAQIIRRKWEAEGVAEQYRAYLEIECVEWLRKYLEKGKDVLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "SLA-6*01:01",
+                "id": "SLA06212",
+                "locus": "SLA-6",
+                "protein_allele_name": "SLA-6*01:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "SLA-6*02:01",
+                "id": "SLA06213",
+                "locus": "SLA-6",
+                "protein_allele_name": "SLA-6*02:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "SLA-6*03:01",
+                "id": "SLA06214",
+                "locus": "SLA-6",
+                "protein_allele_name": "SLA-6*03:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "SLA-6*04:01",
+                "id": "SLA06215",
+                "locus": "SLA-6",
+                "protein_allele_name": "SLA-6*04:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "SLA-6*05:01",
+                "id": "SLA06216",
+                "locus": "SLA-6",
+                "protein_allele_name": "SLA-6*05:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "SLA-6*06:01",
+                "id": "SLA06217",
+                "locus": "SLA-6",
+                "protein_allele_name": "SLA-6*06:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "SLA-6*01:01",
+            "id": "SLA06212",
+            "locus": "SLA-6",
+            "protein_allele_name": "SLA-6*01:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYLHILVSRPGHGSDLYSSVGFLDDTQFVRFSSDAANPRVEPRAPWMEQEGREYWDRQTDIAKEHSKASRSNLRVIIGNHNHSQSESHSFLWVSGCDVGSEGRILRGYEQFSYDGDDYIVLNEDLRSWTAISTVAQIIRRKWEAEGVAEQYRAYLEIECVEWLRKYLEKGKDVLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "SLA-6*08:01",
+                "id": "SLA06219",
+                "locus": "SLA-6",
+                "protein_allele_name": "SLA-6*08:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "SLA-6*08:01",
+            "id": "SLA06219",
+            "locus": "SLA-6",
+            "protein_allele_name": "SLA-6*08:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYLHILVSRPGHGSDLYSSVGFLDDTQFVRFSSDAANPRVEPRAQWMEQEGREYWDRQTDIAKEHSKASRSNLRVIIGNHNHSQSESHSFLWVSGCDVGSDGRILRGYEQFSYDGDDYIVLNEDLRSWTAISTVAQIIRRKWEAEGVAEQYRAYLEIECVEWLRKYLEKGKDVLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "SLA-6*10:01",
+                "id": "SLA09736",
+                "locus": "SLA-6",
+                "protein_allele_name": "SLA-6*10:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "SLA-6*10:01",
+            "id": "SLA09736",
+            "locus": "SLA-6",
+            "protein_allele_name": "SLA-6*10:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYLHILVSRPGHGSDVYSSVGFLDDTQFVRFSSDAANPRVEPRAPWMEQEGREYWDRQTDIAKEHSKASRSNLRVIIGNHNHSQSESHSFLWVSGCDVGSDGRILRGYEQFSYDGDDYIVLNEDLRSWTAISTVAQIIRRKWEAEGVAEQYRAYLEIECVEWLRKYLEKGKDVLQRS": {
+        "alleles": [
+            {
+                "gene_allele_name": "SLA-6*09:01",
+                "id": "SLA06220",
+                "locus": "SLA-6",
+                "protein_allele_name": "SLA-6*09:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "SLA-6*09:01",
+            "id": "SLA06220",
+            "locus": "SLA-6",
+            "protein_allele_name": "SLA-6*09:01",
+            "source": "ipd-mhc"
+        }
+    }
+}

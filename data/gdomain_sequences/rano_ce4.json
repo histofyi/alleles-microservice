@@ -1,0 +1,14 @@
+{
+    "GSHSLRYFHTAVSRPGLGEPRFISVGYVDDTEFVRYDSDAENPRYEPRARWMEREGPEYWERQTQIAKRNEQVYRVDLSTLRGYYNQSEGGSHTYQRMHGCELGSDGSLLRGYMQYAYDGRDYIALNEDLKTWMVKDTAARITRNKWDQAGFGERKRTYLQVECLEWLRKYLELGKETLLRS": {
+        "alleles": [
+            {
+                "gene_allele_name": "Rano-CE4*n",
+                "id": "RT108375",
+                "locus": "Rano-CE4",
+                "protein_allele_name": "Rano-CE4*n",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {}
+    }
+}

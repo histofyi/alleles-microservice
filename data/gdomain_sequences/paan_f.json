@@ -1,0 +1,52 @@
+{
+    "GSHSLRYFSTAVSQPGRREPRYRYIAVEYVDDTQFLRFDSDAAIPRMEPRAPWVEQEGPQYWERTTGYAKANARTDRVALRKLLLRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVARITQRFYEADEYAEEFRTYLEGECLELLRRYLENGKETLQ": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-F*02:02",
+                "id": "NHP09694",
+                "locus": "Paan-F",
+                "protein_allele_name": "Paan-F*02:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-F*02:02",
+            "id": "NHP09694",
+            "locus": "Paan-F",
+            "protein_allele_name": "Paan-F*02:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFSTAVSRPGRREPRYRYIAVEYVDDTQFLRFDSDAAIPRMEPRAPWVEQEGPQYWERTTGYAKANARTDRVALRKLLLRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVARITQRFYEADEYAEEFRTYLEGECLELLRRYLENGKETLQ": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-F*02:01:01",
+                "id": "NHP09692",
+                "locus": "Paan-F",
+                "protein_allele_name": "Paan-F*02:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Paan-F*02:01:02",
+                "id": "NHP09693",
+                "locus": "Paan-F",
+                "protein_allele_name": "Paan-F*02:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Paan-F*02:03",
+                "id": "NHP09695",
+                "locus": "Paan-F",
+                "protein_allele_name": "Paan-F*02:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-F*02:01:01",
+            "id": "NHP09692",
+            "locus": "Paan-F",
+            "protein_allele_name": "Paan-F*02:01",
+            "source": "ipd-mhc"
+        }
+    }
+}

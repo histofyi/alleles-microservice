@@ -1,0 +1,707 @@
+{
+    "DSHSMRYFYTSMSRPGRGQPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRNTRIMKTETQMAPVDLQNLRGYYNQSEAGSHTIQRMHGCDLGPDGRLLRGYEQYAYDGKDYFALNEDLRSWTAADTAAQNTQRKWEAAGVAEQKRAYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*05:01",
+                "id": "NHP06786",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*05:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*05:01",
+            "id": "NHP06786",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*05:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFHTAVSRPGRGEPRFFTVGYVDDTQFVRFDSDAASPRKEPRAPWVEQEGPEYWDRETRISKANTQTYRVDLGTLRGYYNQSEAGSHTYQKMYGCDLGPDGRLLRGYDQSAYDGKDYIALNEDLRSWTAADMAAQNTQRKWEAADVAEQMRAYLEGECPEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*08:02",
+                "id": "NHP09104",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*08:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*08:02",
+            "id": "NHP09104",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*08:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFHTAVSRPGRGEPRFFTVGYVDDTQFVRFDSDAASPRKEPRAPWVEQEGPEYWDRETRISKANTQTYRVDLGTLRGYYNQSEAGSHTYQTMYGCDLGPDGRLLRGYDQSAYDGKDYIALNEDLRSWTAADMAAQNTQRKWEAADVAEQMRAYLEGECPEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*08:01",
+                "id": "NHP06797",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*08:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*08:01",
+            "id": "NHP06797",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*08:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFHTSVSRPGRGEPRFFTVGYVDDTQFVRFDSDAASPRKEPRAPWMEQEGPEYWDRETRISKAHAQTYRESLRNLRGYYNQSEAGSHTVQKMYGCDLGPDGRLLRGYYQSAYDGKDYIALNEDLRSWTAADMAAQNTQRKWEAAGDAEQYRTYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*17:01",
+                "id": "NHP07089",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*17:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*17:01",
+            "id": "NHP07089",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*17:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFSTAVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRVTGIMKTATQNYRENLRTALRYYNQSEAGSHTIQTMYGCDLGPDGRFLRGYGQDAYDGRDYIALNEDLRSWTAADMAAQNTQRKWEAAGEAERLRAYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*07:01",
+                "id": "NHP06791",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*07:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*07:01",
+            "id": "NHP06791",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*07:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFSTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAASPREEPRAPWVEQEGPEYWDRNTRIAKAETQTYRENLRTLLRYYNQSEGGSHTIQKMYGCDLGPDGRLLRGYHQLAYDGRDYIALNEDLRSWTAADMAAQNTQRKWEAAGAAEQHRTYLEETCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*10:01",
+                "id": "NHP06811",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*10:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*10:01",
+            "id": "NHP06811",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*10:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFYTFMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETRNMKTATQDAPVGLRNLRGYYNQSEAGSHTLQVMYGCDLGPHGRLLRGYEQFAYDGKDYIALNEDLRSWTAADMAAQNTQRKFQMAGVAEQMRAYLEGTCVEWLRRHLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*09:01",
+                "id": "NHP06809",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*09:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*09:01",
+            "id": "NHP06809",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*09:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFYTFMSRPGRGQPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETRNMKTATQDAPVGLRNLRGYYNQSEAGSHTLQVMYGCDLGPHGRLLRGYEQFAYDGKDYIALNEDLRSWTAADMAAQNTQRKFQMAGVAEQMRAYLEGTCVEWLRRHLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*09:02",
+                "id": "NHP09925",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*09:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*09:02",
+            "id": "NHP09925",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*09:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFYTSMSRPGRGEPRFIAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRNTQNMKTATQNAPVNLRNLRGYYNRSEAGSHTLQKMYGCDLGPDGRLLRGYHQSAYDGRDYIALNEDLRSWTAADMAAQNTQRKWEAANVAEQKRAYLEGECPEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*14:02",
+                "id": "NHP07078",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*14:02",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Paan-A*14:04",
+                "id": "NHP08845",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*14:04",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*14:02",
+            "id": "NHP07078",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*14:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFYTSMSRPGRGEPRFIAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRNTQNMKTATQNAPVNLRNLRGYYNRSEAGSHTLQTMYGCDLGPDGRLLRGYHQSAYDGRDYIALNEDLRSWTAADMAAQNTQRKWEAADVAEQKRAYLEGECPEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*14:01:01",
+                "id": "NHP07080",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*14:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Paan-A*14:01:02",
+                "id": "NHP07082",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*14:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*14:01:01",
+            "id": "NHP07080",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*14:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFYTSVSRPGRGEPRFFTVGYVDDTQFVRFDSDAASPRKEPRAPWMEQEGPEYWDRETRISKANTQTYRENLRTLLRYYNQSEAGSHTIQKMYGCDLGPDGRLLRGYEQFAYDGRDYIALNEDLRSWTAADVAAQNTQRKWEAAGAAEQHRTYLEGRCVEGLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*16:01",
+                "id": "NHP07087",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*16:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*16:01",
+            "id": "NHP07087",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*16:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMKYFYTAVSRPGRGEPRFIAVGYVDDTQFVRFDSDAGSPRTEPRAPWMEQEGPEYWEEQTRIAKETAQFFRVGLGTLRGYYNQSEAGSHTLQTMYGCDLGPDGRLLRGYHQSAYDGRDYIALNEDLRSWTAADMAAQNTQRKWEAADVAEQKRAYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*04:01",
+                "id": "NHP06783",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*04:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*04:01",
+            "id": "NHP06783",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*04:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFGTSVSRPGRGQPRFIAVGYVDDTQFVRFDSDAASPRMEPRAPWMEQEGPEYWEEQTRKVKDSAQTFRENLRTLLRYYNQSEGGSHTIQMMFGCDLGPDGRLLHGYGQFAYDGRDYIALNEDLRSWTAADMAAQNTQRKWEAAGAAEQYRTYLEGQCLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*20:01",
+                "id": "NHP08980",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*20:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*20:01",
+            "id": "NHP08980",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*20:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFHTCMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDRETQKMKAETQMAPVALRNLRGYYNQSEAGSHTIQVMYGCDLGPDGRLLHGYSQYAYDGRDYIALNEDLRSWTAADMAAQNTQRTLQTAGAAEQHRAYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*27:01",
+                "id": "NHP09110",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*27:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*27:01",
+            "id": "NHP09110",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*27:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAESPREEPRAPWVEQEGPEYWEEETRKAKANAQTDRVGLGILRGYYNQSEAGSHTYQNMYGCDLGPDGRLLSGYDQYAYDGKDYIALNEDLRSWTAADMAAQNTQRKWEAEGWAERFRAYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*11:01",
+                "id": "NHP06812",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*11:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*11:01",
+            "id": "NHP06812",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*11:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTSVSRPGRGQPRFISVGYVDDTQFVRFDSDAESPREEPRAPWMEQEGPEYWDRNTRRAKEAAQTFRVGLGTLRGYYNQSEAGSHTYQNMYGCDLGPDGRLLRGYYQSAYDGKDYIALNEDLRSWTAADMAAQNTQRKWEAEGWAEQHRTYLEGQCLEWLRRHLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*29:01",
+                "id": "NHP09927",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*29:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*29:01",
+            "id": "NHP09927",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*29:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTAVSRPGRWEPRFIAVGYVDDTQFVRFDSDAGSPRTEPRAPWMEQEGPEYWEEQTRIAKETAQSFRVGLGTLRGYYNQSEAGSHTYQNMYGCDLGPDGRLLSGYNQYAYDGRDYIALNEDLRSWTAADMAAQNTQRKWEAEGWAERDRAYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*21:01",
+                "id": "NHP08848",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*21:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*21:01",
+            "id": "NHP08848",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*21:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGEPRFFAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETQNMKAQTQNAPVNLRNLRGYYNQSEAGSHTLQRMHGCDLGPDGRLLRGYYQSAYDGKDYFALNEDLRSWTAADLAAQNTQRKWEAADVAEQIRAYLEGRCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*01:01",
+                "id": "NHP00645",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*01:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*01:01",
+            "id": "NHP00645",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*01:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGEPRFFAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRSTRIMKTATQNAPVGLRNLRGYYNQSEAGSHTYQSMYGCDLGPDGRLLRGYYQSAYDGRDYIALNEDLRSWTAADMAAQNTQRKWETEGVAEQLSAYLEGECLEWLRRHLENGKEMLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*02:01",
+                "id": "NHP00646",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*02:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*02:01",
+            "id": "NHP00646",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*02:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDRNTRYFKTETQRAPVNLRNLRGYYNQSQGGSHTLQTMYGCDLGPDGRLLRGYHQSAYDGRDYIALNEDLRSWTAVDLAAQNTQRKWEAEGWAEQVRAYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*25:01",
+                "id": "NHP09108",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*25:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*25:01",
+            "id": "NHP09108",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*25:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPLAPWVEQEGPEYWDRETRIMKTETQRAPVDLQNLRGYYNQSEAGSHTYQRMYGCDLGPDGRLLRGYHQHAYDGRDYIALNKDLRSWTAADLAAQNTQRKWEAAGEAERFRTYLEGTCMELLRRHLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*24:01",
+                "id": "NHP09107",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*24:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*24:01",
+            "id": "NHP09107",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*24:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGQPRFFAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYRDRETRNMKTETQNAPVNLRNLRGYYNQSEAGSHTIQTMYGCDLGPDGRLLRGYHQHAYDGKDYIALNEDLRSWTAADMAAQNTQRKWEAADVAEQYRTYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*23:01",
+                "id": "NHP09106",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*23:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*23:01",
+            "id": "NHP09106",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*23:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGQPRFFAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETQNMKAQTQNAPVNLRNLRGYYNQSEAGSHTLQTMHGCDLGPDGRLLRGYYQSAYDGKDYFALNEDLRSWTAADLAAQNTQRKWEAADVAEQIRAYLEGRCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*01:02",
+                "id": "NHP06911",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*01:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*01:02",
+            "id": "NHP06911",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*01:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGQPRFFAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETQNMKAQTQNAPVNLRNLRGYYNQSEAGSHTLQTMLGCDLGPDGRLLRGYYQSAYDGKDYFALNEDLRSWTAADLAAQNTQRKWEAADVAEQIRAYLEGRCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*01:04",
+                "id": "NHP09105",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*01:04",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*01:04",
+            "id": "NHP09105",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*01:04",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGQPRFFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKAQTQNAPVNLRNLRGYYNQSEAGSHTLQTMHGCDLGPDGRLLRGYYQSAYDGKDYFALNEDLRSWTAADLAAQNTQRKWEAADVAEQIRAYLEGRCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*01:03",
+                "id": "NHP08843",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*01:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*01:03",
+            "id": "NHP08843",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*01:03",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGQPRFIAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRNTRNMKTATQNAPVNLQTLLRYYNQSEAGSHTLQTMYGCDLGPDGRLLRGYHQSAYDGRDYIALNEDLRSWTAADMAAQNTQRKWEAADVAEQKRAYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*14:03",
+                "id": "NHP07075",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*14:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*14:03",
+            "id": "NHP07075",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*14:03",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSVSRPGRGEPRFFAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRNTRIMKTATQNAPVNLRNLRGYYNQSEAGSHTYQRMYGCDLGPDGRLLHGYEQYAYDGKDYIALNEDLRSWTAADLAAQNTQRKWEAEGWAEQHRTYLEGRCVESLRRYLKNGKEMLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*28:01",
+                "id": "NHP09924",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*28:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*28:01",
+            "id": "NHP09924",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*28:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSVSRPGRGEPRFFAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRSTRYMKTETQRAPVDLRNLRSYYNQSEEGSHTYQRMYGCDLGPDGRLLRGYGQFAYDGRDYIALNEDLRSWTAADMAAQNTQRKWEAAGDAEQWRAYLEGTCLEWLRRHLENGKETLLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*06:01",
+                "id": "NHP06789",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*06:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*06:01",
+            "id": "NHP06789",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*06:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAESPREEPRAPWMEQEGPEYWDRNTRIYKAATQTYRESLRNLRGYYNQSEAGSHTFQKMYGCDLGPDGRLLRGYEQYAYDGRDYIALNGDLRSWTAADMAAQNTQRKWEAEGWAERFRTYVEGLCVESLRRYLENGKEKLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*26:01",
+                "id": "NHP09109",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*26:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*26:01",
+            "id": "NHP09109",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*26:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSVSRPGRGQPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDSQTRYMKTETQNAPVNLRNLRGYYNQSEAGSHTFQNMYGCDLGPDGRLLRGYYQHAYDGKDYIALNEDLRSWTAADLAAQNTQRKWEAAGDAEQWRAYLEGLCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*12:01",
+                "id": "NHP06826",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*12:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*12:01",
+            "id": "NHP06826",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*12:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSVSRPGRGQPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDSQTRYMKTQTQNAPVNLRNLRGYYNQSEAGSHTLQTMYGCDLGPDGRLLRGYYQFAYDGKDYIALNEDLRSWTAADLAAQNTQRKWEAAGEAEQRRAYLEGLCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*13:01",
+                "id": "NHP07074",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*13:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*13:01",
+            "id": "NHP07074",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*13:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSVSRPGRGQPRFISVGYVDDTQFVRFDSDAESPREEPRAPWVEQEGPEYWDRETRISKANTQTYRENLRTLLRYYNQSEAGSHTLQTMYGCDLGPDGRLLRGYEQFAYDGRDYIALNEDLRSWTAADMAAQNTQRKWEAAGAAEQMRAYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*18:01",
+                "id": "NHP08846",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*18:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*18:01",
+            "id": "NHP08846",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*18:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSVSRPGRGQPRFISVGYVDDTQFVRFDSDAESPREEPRAPWVEQEGPEYWDRNTRIYEAETQNYRENLRNLRGYYNQSEAGSHTLQTMYGCDLGPDGRLLRGYDQSAYDGRDYIALNEDLRSWTAADMAAQNTQRKWEAAGAAEQWRAYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*19:01",
+                "id": "NHP08847",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*19:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*19:01",
+            "id": "NHP08847",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*19:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSVSRPGRGQPRFISVGYVDDTQFVRFDSDAESPREEPRAPWVEQEGPEYWDRNTRIYKAATQNYRESLRNLRGYYNQSEAGSHTLQTMYGCDLGPDGRLLRGYEQFAYDGRDYIALNEDLRSWTAADMAAQNTQRKWEAAGAAEQMRAYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*19:02",
+                "id": "NHP09926",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*19:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*19:02",
+            "id": "NHP09926",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*19:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMSYFYTSMSRPGRGEPRFFAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRSTRIMKTATQNAPVGLRNLRGYYNQSEAGSHTYQRMYGCDLGPDGRLLRGYYQSAYDGRDYIALNEDLRSWTAADMAAQNTQRKWETEGVAEQLSAYLEGECLEWLRRHLENGKEMLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*02:03",
+                "id": "NHP08844",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*02:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*02:03",
+            "id": "NHP08844",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*02:03",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMSYFYTSMSRPGRGEPRFFAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRSTRIMKTATQNAPVGLRNLRGYYNQSEAGSHTYQSMYGCDLGPDGRLLRGYYQSAYDGRDYIALNEDLRSWTAADMAAQNTQRKWETEGVAEQLSAYLEGECLEWLRRHLENGKEMLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*02:02",
+                "id": "NHP07084",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*02:02",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Paan-A*02:04",
+                "id": "NHP09923",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*02:04",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*02:02",
+            "id": "NHP07084",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*02:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMSYFYTYMSRPGRGEPRFVAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETQNMKTETQMAPVALRNLRGYYNQSEAGSHTYQIMYGCDLGRDGRLLRGYEQFAYDGKDYIALNDDLRSWTAADLAAQNTQRKWEAAGEAEQFRTYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*15:01",
+                "id": "NHP07085",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*15:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*15:01",
+            "id": "NHP07085",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*15:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "SSHSMRYFYTSVSRPGRGEPRFIAVGYVDDTQFLRFDSDAASQRLEPRARWVEQEGPEYWDRNTRIVKAETQNAPVNLQNLRGYYNQSEAGSHTIQRMYGCDLGPDGRLLRGYEQYAYDGRDYIALNEDLRSWTAADMAAQNTQRKWEAARAAEQHRTYLEGECLEWLRRHLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Paan-A*03:01",
+                "id": "NHP00647",
+                "locus": "Paan-A",
+                "protein_allele_name": "Paan-A*03:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Paan-A*03:01",
+            "id": "NHP00647",
+            "locus": "Paan-A",
+            "protein_allele_name": "Paan-A*03:01",
+            "source": "ipd-mhc"
+        }
+    }
+}

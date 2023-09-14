@@ -1,0 +1,20 @@
+{
+    "GSHSLRYFSTTVSPPGRWEPRYRYIGVGYVDDTQIVRFDSDAASPRMEPRAPWVEQEGPQYWEEETLVVKASAQTDRVKLRIALGYYNQSEAGSHPPGNEWLRCGTRWTLPPRVSPARLRRQGLHLPEQGPALLDHGGSGGSDHAAQVGGREICRGIQHLPGGRVRGVDPPKAHVAHHPISD": {
+        "alleles": [
+            {
+                "gene_allele_name": "Caja-F1*08:01N",
+                "id": "NHP10779",
+                "locus": "Caja-F1",
+                "protein_allele_name": "Caja-F1*08:01N",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Caja-F1*08:01N",
+            "id": "NHP10779",
+            "locus": "Caja-F1",
+            "protein_allele_name": "Caja-F1*08:01N",
+            "source": "ipd-mhc"
+        }
+    }
+}

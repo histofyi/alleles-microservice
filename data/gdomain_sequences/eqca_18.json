@@ -1,0 +1,20 @@
+{
+    "GSHSMRYFYTAVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWERETRNMKEATQNFRVGLNTLHGYYNQSEAGSHTLQRMYGCDVGPDGRLLRGYRQDAYDGADYIALNEDLRSWTAADAAAQITRRKREEAGEAEQCRNYLEGTCVEWLLRYLENGNETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Eqca-18*001:02",
+                "id": "ELA05021",
+                "locus": "Eqca-18",
+                "protein_allele_name": "Eqca-18*001:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Eqca-18*001:02",
+            "id": "ELA05021",
+            "locus": "Eqca-18",
+            "protein_allele_name": "Eqca-18*001:02",
+            "source": "ipd-mhc"
+        }
+    }
+}

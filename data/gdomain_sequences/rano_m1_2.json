@@ -1,0 +1,14 @@
+{
+    "GSHSLRYLQTLLSWPGLAEPQFIFVGYVGNTQFIGFNSRSQSQWSLHRAPWKDQQTPEYWEKTIQEVLSEKRNLKEVMEKMLHIYPNSTTGNHTIQMRYGCDVLPGGYFSHGILELNFDSQDYIILNDELHNWIIDGKAAEMLKQEWEDTHYAQIVKNYLKGSCVDELLTELDLGKDYLLRT": {
+        "alleles": [
+            {
+                "gene_allele_name": "Rano-M1-2*n",
+                "id": "RT108395",
+                "locus": "Rano-M1-2",
+                "protein_allele_name": "Rano-M1-2*n",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {}
+    }
+}

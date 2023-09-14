@@ -1,0 +1,303 @@
+{
+    "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRNVKAHSQTDRVNLGTLRGYYNQSEDGSHTIQIMYGCDVGSDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITKRKWEAAHAAEQRRAYLEGLCVDGLRRYLENGKETLQRT": {
+        "alleles": [
+            {
+                "gene_allele_name": "Papa-A*01:01",
+                "id": "NHP00678",
+                "locus": "Papa-A",
+                "protein_allele_name": "Papa-A*01:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Papa-A*01:01",
+            "id": "NHP00678",
+            "locus": "Papa-A",
+            "protein_allele_name": "Papa-A*01:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRNVKAQAQTDRVDLGTLRGYYNQSEDGSHTIQIMYGCDVGSDGRFLRGYEQHAYDGKDYIALNEDLRSWTAADMAAQITQRKWEAAHAAEQLRAYLEGRCVDGLRRYLENGKETLQRT": {
+        "alleles": [
+            {
+                "gene_allele_name": "Papa-A*08:01",
+                "id": "NHP05497",
+                "locus": "Papa-A",
+                "protein_allele_name": "Papa-A*08:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Papa-A*08:03:01:01",
+                "id": "NHP09231",
+                "locus": "Papa-A",
+                "protein_allele_name": "Papa-A*08:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Papa-A*08:01",
+            "id": "NHP05497",
+            "locus": "Papa-A",
+            "protein_allele_name": "Papa-A*08:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRSVKAGAQIYRANLGTLRGYYNQSEDGSHTIQLMFGCDVGSDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITQRKWEAAHAAEQHRASLEGTCVEWLRRYLENGKETLQRT": {
+        "alleles": [
+            {
+                "gene_allele_name": "Papa-A*04:01",
+                "id": "NHP00681",
+                "locus": "Papa-A",
+                "protein_allele_name": "Papa-A*04:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Papa-A*04:02:01:01",
+                "id": "NHP09226",
+                "locus": "Papa-A",
+                "protein_allele_name": "Papa-A*04:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Papa-A*04:01",
+            "id": "NHP00681",
+            "locus": "Papa-A",
+            "protein_allele_name": "Papa-A*04:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRSVKAQAQTDRVDLGTLRGYYNQSEDGSHTIQIMYGCDVGSDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITQRKWEAAHEAEQWRAYLEGLCVEWLRRYLENGKETLQRT": {
+        "alleles": [
+            {
+                "gene_allele_name": "Papa-A*03:01",
+                "id": "NHP00680",
+                "locus": "Papa-A",
+                "protein_allele_name": "Papa-A*03:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Papa-A*03:06:01:01",
+                "id": "NHP09225",
+                "locus": "Papa-A",
+                "protein_allele_name": "Papa-A*03:06",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Papa-A*03:01",
+            "id": "NHP00680",
+            "locus": "Papa-A",
+            "protein_allele_name": "Papa-A*03:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRNVKASAQTDRVDLGTLRGYYNQSEDGSHTIQLMFGCDVGSDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITQRKWEAAHAAEQLRAYLEGRCVDGLRRYLENGKETLQRT": {
+        "alleles": [
+            {
+                "gene_allele_name": "Papa-A*06:02:01:01",
+                "id": "NHP09237",
+                "locus": "Papa-A",
+                "protein_allele_name": "Papa-A*06:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Papa-A*06:02:01:01",
+            "id": "NHP09237",
+            "locus": "Papa-A",
+            "protein_allele_name": "Papa-A*06:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRNVKASAQTDRVDLGTLRGYYNQSEDGSHTIQLMFGCDVGSDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITQRKWEAAHAAEQLRAYLEGTCVEWLRRYLENGKETLQRT": {
+        "alleles": [
+            {
+                "gene_allele_name": "Papa-A*06:01",
+                "id": "NHP05495",
+                "locus": "Papa-A",
+                "protein_allele_name": "Papa-A*06:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Papa-A*06:03:01:01",
+                "id": "NHP09227",
+                "locus": "Papa-A",
+                "protein_allele_name": "Papa-A*06:03",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Papa-A*06:03:01:02",
+                "id": "NHP09228",
+                "locus": "Papa-A",
+                "protein_allele_name": "Papa-A*06:03",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Papa-A*06:03:01:03",
+                "id": "NHP09229",
+                "locus": "Papa-A",
+                "protein_allele_name": "Papa-A*06:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Papa-A*06:01",
+            "id": "NHP05495",
+            "locus": "Papa-A",
+            "protein_allele_name": "Papa-A*06:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRSVKAHSQTDRVDLGTLRGYYNQSEDGSHTIQLMYGCDVGSDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITKRKWEAAHEAEQLRAYLEGRCVDGLRRYLENGKETLQRT": {
+        "alleles": [
+            {
+                "gene_allele_name": "Papa-A*05:02",
+                "id": "NHP05496",
+                "locus": "Papa-A",
+                "protein_allele_name": "Papa-A*05:02",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Papa-A*05:03:01:01",
+                "id": "NHP09230",
+                "locus": "Papa-A",
+                "protein_allele_name": "Papa-A*05:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Papa-A*05:02",
+            "id": "NHP05496",
+            "locus": "Papa-A",
+            "protein_allele_name": "Papa-A*05:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRSVKAHSQTDRVDLGTLRGYYNQSEDGSHTIQLMYGCDVGSDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITQRKWEAAHEAEQLRAYLEGRCVDGLRRYLENGKETLQRT": {
+        "alleles": [
+            {
+                "gene_allele_name": "Papa-A*05:01",
+                "id": "NHP00682",
+                "locus": "Papa-A",
+                "protein_allele_name": "Papa-A*05:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Papa-A*05:01",
+            "id": "NHP00682",
+            "locus": "Papa-A",
+            "protein_allele_name": "Papa-A*05:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTSVSRPGRGEPRFIAVGYVDNTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRSVKAGAQINRANLGTLRGYYNQSEDGSHTIQIMFGCDVGSDGRFLRGYEQYAYDGKDYIALNEDLRSWTAADMAAQITQRKWEAAHAAEQHRASLEGTCVEWLRRYLENGKETLQRT": {
+        "alleles": [
+            {
+                "gene_allele_name": "Papa-A*02:01",
+                "id": "NHP00679",
+                "locus": "Papa-A",
+                "protein_allele_name": "Papa-A*02:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Papa-A*02:01",
+            "id": "NHP00679",
+            "locus": "Papa-A",
+            "protein_allele_name": "Papa-A*02:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDEETRSVKAHSQTDRVDLGTLRGYYNQSEDGSHTIQIMYGCDVGSDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITQRKWEAAHEAEQQRAYLEGLCVEWLRRYLENGKETLQRT": {
+        "alleles": [
+            {
+                "gene_allele_name": "Papa-A*03:02:01:01",
+                "id": "NHP09233",
+                "locus": "Papa-A",
+                "protein_allele_name": "Papa-A*03:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Papa-A*03:02:01:01",
+            "id": "NHP09233",
+            "locus": "Papa-A",
+            "protein_allele_name": "Papa-A*03:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRNVKAQAQTDRVDLGTLRGYYNQSEDGSHTIQIMYGCDVGSDGRFLRGYEQHAYDGKDYIALNEDLRSWTAADMAAQITQRKWEAAHAAEQLRAYLEGLCVEWLRRYLENGKETLQRT": {
+        "alleles": [
+            {
+                "gene_allele_name": "Papa-A*08:02:01:01",
+                "id": "NHP09232",
+                "locus": "Papa-A",
+                "protein_allele_name": "Papa-A*08:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Papa-A*08:02:01:01",
+            "id": "NHP09232",
+            "locus": "Papa-A",
+            "protein_allele_name": "Papa-A*08:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRNVKAQAQTDRVDLGTLRGYYNQSEDGSHTIQIMYGCDVGSDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITQRKWEAAHEAEQQRAYLEGRCVDGLRRYLENGKETLQRT": {
+        "alleles": [
+            {
+                "gene_allele_name": "Papa-A*03:05:01:01",
+                "id": "NHP09236",
+                "locus": "Papa-A",
+                "protein_allele_name": "Papa-A*03:05",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Papa-A*03:05:01:01",
+            "id": "NHP09236",
+            "locus": "Papa-A",
+            "protein_allele_name": "Papa-A*03:05",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRNVKASAQTDRVNLGTLRGYYNQSEDGSHTIQIMYGCDVGSDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITQRKWEAARAAEQWRAYLEGRCVDGLRRYLENGKETLQRT": {
+        "alleles": [
+            {
+                "gene_allele_name": "Papa-A*09:02:01:01",
+                "id": "NHP09235",
+                "locus": "Papa-A",
+                "protein_allele_name": "Papa-A*09:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Papa-A*09:02:01:01",
+            "id": "NHP09235",
+            "locus": "Papa-A",
+            "protein_allele_name": "Papa-A*09:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRSVKASAQTDRVDLGTLRGYYNQSEDGSHTIQIMYGCDVGSDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITQRKWEAAHAAEQHRAYLEGRCVDGLRRYLENGKETLQRT": {
+        "alleles": [
+            {
+                "gene_allele_name": "Papa-A*03:03:01:02",
+                "id": "NHP09234",
+                "locus": "Papa-A",
+                "protein_allele_name": "Papa-A*03:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Papa-A*03:03:01:02",
+            "id": "NHP09234",
+            "locus": "Papa-A",
+            "protein_allele_name": "Papa-A*03:03",
+            "source": "ipd-mhc"
+        }
+    }
+}

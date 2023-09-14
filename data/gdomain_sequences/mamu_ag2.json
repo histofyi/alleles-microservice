@@ -1,0 +1,148 @@
+{
+    "GSHSMRYFYTAVSRPGRWEPRFIAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYQGNLRTLLRYYNQSEAGSHTVQKMYGCDLGPDGRLLRGYEQFAYDGRDYIILNEDLRSWTAADMAAQNTQRKWEAAGVAEQHRTYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mamu-AG2*01:08:01:01",
+                "id": "NHP11219",
+                "locus": "Mamu-AG2",
+                "protein_allele_name": "Mamu-AG2*01:08",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mamu-AG2*01:08:01:01",
+            "id": "NHP11219",
+            "locus": "Mamu-AG2",
+            "protein_allele_name": "Mamu-AG2*01:08",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTAVSRPGRWEPRFIAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYQGNLRTLLRYYNQSEARSHTVQKMYGCDLGPDGRLLRGYEQFAYDGRDYIILNEDLRSWTAADMAAQNTQRKWEAAGVAEQHRTYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mamu-AG2*01:05:01:01",
+                "id": "NHP11214",
+                "locus": "Mamu-AG2",
+                "protein_allele_name": "Mamu-AG2*01:05",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mamu-AG2*01:06:01:01",
+                "id": "NHP11215",
+                "locus": "Mamu-AG2",
+                "protein_allele_name": "Mamu-AG2*01:06",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mamu-AG2*01:07:01:01",
+                "id": "NHP11216",
+                "locus": "Mamu-AG2",
+                "protein_allele_name": "Mamu-AG2*01:07",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mamu-AG2*01:07:01:02",
+                "id": "NHP11217",
+                "locus": "Mamu-AG2",
+                "protein_allele_name": "Mamu-AG2*01:07",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mamu-AG2*01:07:01:03",
+                "id": "NHP11218",
+                "locus": "Mamu-AG2",
+                "protein_allele_name": "Mamu-AG2*01:07",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mamu-AG2*01:05:01:01",
+            "id": "NHP11214",
+            "locus": "Mamu-AG2",
+            "protein_allele_name": "Mamu-AG2*01:05",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTAVSRPGRWEPRFIAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRENLRTLLRYYNQSEAGSHTVQKMYGCDLGPDGRLLRGYEQFAYDGRDYIILNEDLRSWTAADMAAQNTQRKWEAAGAAEQHRTYLEGKCLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mamu-AG2*01:02:01:01",
+                "id": "NHP11055",
+                "locus": "Mamu-AG2",
+                "protein_allele_name": "Mamu-AG2*01:02",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mamu-AG2*01:02:02:01",
+                "id": "NHP11056",
+                "locus": "Mamu-AG2",
+                "protein_allele_name": "Mamu-AG2*01:02",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mamu-AG2*01:03:01:01",
+                "id": "NHP11057",
+                "locus": "Mamu-AG2",
+                "protein_allele_name": "Mamu-AG2*01:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mamu-AG2*01:02:01:01",
+            "id": "NHP11055",
+            "locus": "Mamu-AG2",
+            "protein_allele_name": "Mamu-AG2*01:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTAVSRPGRWEPRFIAVGYVDDTQFVRFDSDAQSPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYQGNLRTLLRYYNQSEARSHTVQKMYGCDLGPDGRLLRGYEQFAYDGRDYIILNEDLRSWTAADMAAQNTQRKWEAAGVAEQHRTYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mamu-AG2*01:04:01:01",
+                "id": "NHP11058",
+                "locus": "Mamu-AG2",
+                "protein_allele_name": "Mamu-AG2*01:04",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mamu-AG2*01:04:01:02",
+                "id": "NHP11059",
+                "locus": "Mamu-AG2",
+                "protein_allele_name": "Mamu-AG2*01:04",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mamu-AG2*01:04:01:03",
+                "id": "NHP12087",
+                "locus": "Mamu-AG2",
+                "protein_allele_name": "Mamu-AG2*01:04",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mamu-AG2*01:04:01:01",
+            "id": "NHP11058",
+            "locus": "Mamu-AG2",
+            "protein_allele_name": "Mamu-AG2*01:04",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSVSRPGRWEPRFIAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTPTQTYRVNLRTLLRYYNQSEAGSHTIQKMYGCDLGPDGRLLRGYEQFAYDGRDYIILNEDLRSWTAADMAAQNTQRKWEAAGAAEQHRTYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mamu-AG2*01:01",
+                "id": "NHP11047",
+                "locus": "Mamu-AG2",
+                "protein_allele_name": "Mamu-AG2*01:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mamu-AG2*01:01",
+            "id": "NHP11047",
+            "locus": "Mamu-AG2",
+            "protein_allele_name": "Mamu-AG2*01:01",
+            "source": "ipd-mhc"
+        }
+    }
+}

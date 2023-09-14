@@ -1,0 +1,308 @@
+{
+    "CSHSMRYFDTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRVEPRAPWIEQEGPEYWDQETQKAKTQAQTYREGLRNLRGYYNQSEDGSHTWQSMYGCDVGPDGRLLRGYGQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAAREAEQFRAYLEGLCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Popy-B*11:01",
+                "id": "NHP04669",
+                "locus": "Popy-B",
+                "protein_allele_name": "Popy-B*11:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Popy-B*11:01",
+            "id": "NHP04669",
+            "locus": "Popy-B",
+            "protein_allele_name": "Popy-B*11:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFYTGMSRPGRGEPRFISVGYVDDTQFVWFDSDAASPRVEPRAPWIEQEGPEYWDRNTQICKTNTQTYRENLRNLRGYYNQSEDGSHTWQSMYGCYVGPDGRLLGGYDQHAYDSKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQFRAYLEGRCVKSLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Popy-B*05:02",
+                "id": "NHP04673",
+                "locus": "Popy-B",
+                "protein_allele_name": "Popy-B*05:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Popy-B*05:02",
+            "id": "NHP04673",
+            "locus": "Popy-B",
+            "protein_allele_name": "Popy-B*05:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMKYFYTGMSRPGRGEPRFISVGYVDDTQFVWFDSDAASPREEPRAPWIEQEGPEYWDRNTQICKTNTQTYREGLRILRGYYNQSEDGSHTWQRMFGCDVGPDGRLLRGYDQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAAREAEQFRAYLEGLCVESLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Popy-B*01",
+                "id": "NHP00925",
+                "locus": "Popy-B",
+                "protein_allele_name": "Popy-B*01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Popy-B*01",
+            "id": "NHP00925",
+            "locus": "Popy-B",
+            "protein_allele_name": "Popy-B*01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMKYFYTGMSRPGRGEPRFISVGYVDDTQFVWFDSDAVSPREEPRAPWIEQEGPEYWDRNTQIYKANTQTYRESLRNLRGYYNQSEDGSHTWQSMYGCDVGPDGRLLRGYDQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAAGWAEQFRAYLEGRCVESLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Popy-B*02",
+                "id": "NHP00926",
+                "locus": "Popy-B",
+                "protein_allele_name": "Popy-B*02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Popy-B*02",
+            "id": "NHP00926",
+            "locus": "Popy-B",
+            "protein_allele_name": "Popy-B*02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMKYFYTGMSRPGRGEPRFTAVGYVDDTQFVWFDSDAASPREEPRAPWIEQEGPEYRDRNTRIYKTNTQTYRESLGILRGYYNQSEDGSHTWQSMYGCDVGPDGRLLRGYDQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAAREAEQLRAYLEGLCVESLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Popy-B*12:01",
+                "id": "NHP04668",
+                "locus": "Popy-B",
+                "protein_allele_name": "Popy-B*12:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Popy-B*12:01",
+            "id": "NHP04668",
+            "locus": "Popy-B",
+            "protein_allele_name": "Popy-B*12:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFDTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAASPRMEPRAPWIEQEGPEYWDQETQKAKANTQTDRENLRTALRYYNQSEDGSHTWQRMYGCDVGPDGRLLRGYCQFAYDGKDYIALNEDLSSWTAADMAAQITQRKWEAAREAEQLRPYLEGLCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Popy-B*07:01",
+                "id": "NHP00932",
+                "locus": "Popy-B",
+                "protein_allele_name": "Popy-B*07:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Popy-B*07:01",
+            "id": "NHP00932",
+            "locus": "Popy-B",
+            "protein_allele_name": "Popy-B*07:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFDTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAASPRMEPRAPWIEQEGPEYWDQETQKAKTSTQTDRENLRILRGYYNQSEDGSHTIQRMYGCDVGPDGRLLRGYGQFAYDGKDYIALNEDLSSWTAADMAAQITQRKWEAARWAEQLRPYLEGLCVESLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Popy-B*06:01",
+                "id": "NHP00931",
+                "locus": "Popy-B",
+                "protein_allele_name": "Popy-B*06:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Popy-B*06:01",
+            "id": "NHP00931",
+            "locus": "Popy-B",
+            "protein_allele_name": "Popy-B*06:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFDTSVSRPGRGEPRFITVGYVDDTQFVRFDSDAASPRMEPRVPCIEQEGPEYWDQETQKAKASAQTDRVSLRTLLRYYNQSEDGSHTWQRMYGCYVGPDGRLLRGYDQYAYDGKDYIALNEDLSSWTAADMAAQITQRKWEAARWAEQFRAYLEGRCVQWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Popy-B*03:03:01:01",
+                "id": "NHP04672",
+                "locus": "Popy-B",
+                "protein_allele_name": "Popy-B*03:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Popy-B*03:03:01:01",
+            "id": "NHP04672",
+            "locus": "Popy-B",
+            "protein_allele_name": "Popy-B*03:03",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFDTSVSRPGRGEPRFITVGYVDDTQFVRFDSDAASPRMEPRVPCIEQEGPEYWDQETQKAKASAQTDRVSLRTLLRYYNQSEDGSHTWQRMYGCYVGPDGRLLRGYDQYAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARWAEQLRAYLEGRCVQWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Popy-B*03:02",
+                "id": "NHP00928",
+                "locus": "Popy-B",
+                "protein_allele_name": "Popy-B*03:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Popy-B*03:02",
+            "id": "NHP00928",
+            "locus": "Popy-B",
+            "protein_allele_name": "Popy-B*03:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFDTSVSRPGRGEPRFITVGYVDDTQFVRFDSDAASPRMEPRVPCIEQEGPEYWDQETQKAKASAQTDRVSLRTLLRYYNQSEDGSHTWQRMYGCYVGPDGRLLRGYDQYAYDGKDYIALNEDLSSWTAADTAAQITQRKWEARRWAEQLRAYLEGRCVQWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Popy-B*03:01",
+                "id": "NHP00927",
+                "locus": "Popy-B",
+                "protein_allele_name": "Popy-B*03:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Popy-B*03:01",
+            "id": "NHP00927",
+            "locus": "Popy-B",
+            "protein_allele_name": "Popy-B*03:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFHTGMSRPGRGEPRFITVGYVDDTQFVWFDSDAASPRKEPRAPWIEQEGPEYWDRETQISKANTQSYRESLGILRGYYNQSEDGSHTWQRMYGCDVGPDGRLLRGYDQFAYDGKDYIALNEDLRSWTAADTAAQITQRKWEAAREAEQFRAYLEGLCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Popy-B*04:01",
+                "id": "NHP00929",
+                "locus": "Popy-B",
+                "protein_allele_name": "Popy-B*04:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Popy-B*04:01",
+            "id": "NHP00929",
+            "locus": "Popy-B",
+            "protein_allele_name": "Popy-B*04:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFHTGMSRPGRGEPRFITVGYVDDTQFVWFDSDAASPRKEPRAPWIEQEGPEYWDRETQISKANTQSYRESLGILRGYYNQSEDGSHTWQRMYGCYVGPDGRLLRGYDQFAYDGKDYIALNEDLRSWTAADTAAQITQRKWEAAREAEQFRAYLEGLCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Popy-B*04:02:01:01",
+                "id": "NHP04667",
+                "locus": "Popy-B",
+                "protein_allele_name": "Popy-B*04:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Popy-B*04:02:01:01",
+            "id": "NHP04667",
+            "locus": "Popy-B",
+            "protein_allele_name": "Popy-B*04:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFHTGMSRPGRGEPRFITVGYVDDTQFVWFDSDAASPRKEPRAPWIEQEGPEYWDRETQISKANTQTYRESLRNVRGYYNQSEDGSHTIQRMYGCDVGPDGRLLRGYDQYAYDGKDYIALNEDLSSWTAADMAAQITQRKWEAARVAEQWRAYLEGRCVQWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Popy-B*13:01",
+                "id": "NHP04670",
+                "locus": "Popy-B",
+                "protein_allele_name": "Popy-B*13:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Popy-B*13:01",
+            "id": "NHP04670",
+            "locus": "Popy-B",
+            "protein_allele_name": "Popy-B*13:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRVEPLVPLIEQEGPEYWDQETQKAKTQAQNDRVSLQNLRGYYNQSEDGSHTWQRMYGCDVGPDGRLLRGYCQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAAREAEQLRAYLEGLCVESLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Popy-B*08:01",
+                "id": "NHP00933",
+                "locus": "Popy-B",
+                "protein_allele_name": "Popy-B*08:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Popy-B*08:01",
+            "id": "NHP00933",
+            "locus": "Popy-B",
+            "protein_allele_name": "Popy-B*08:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRVEPLVPLIEQEGPEYWDQETQKAKTQAQNDRVSLRNLLRYYNQSEDGSHTWQRMYGCDVGPDGRLLRGYCQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAAREAEQLRAYLEGLCVESLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Popy-B*08:02:01:01",
+                "id": "NHP04671",
+                "locus": "Popy-B",
+                "protein_allele_name": "Popy-B*08:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Popy-B*08:02:01:01",
+            "id": "NHP04671",
+            "locus": "Popy-B",
+            "protein_allele_name": "Popy-B*08:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRGEPRFIAVGYVDDTQFVRFDSDAVSPRVEPLVPLIEQEGPEYWDQETQKAKTQAQNDRVSLRNLRGYYNQSEDGSHTWQRMYGCDVGPDGRLLRGYCQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAAREAEQLRAYLEGLCVESLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Popy-B*08:03",
+                "id": "NHP04666",
+                "locus": "Popy-B",
+                "protein_allele_name": "Popy-B*08:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Popy-B*08:03",
+            "id": "NHP04666",
+            "locus": "Popy-B",
+            "protein_allele_name": "Popy-B*08:03",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTGMSRPGRGEPRFISVGYVDDTQFVWFDSDAASPRVEPRAPWIEQEGPEYWDRNTQICKTNTQIYRENLRNLRGYYNQSEDGSHTWQSMYGCYVGPDGRLLGGYDQHAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQFRAYLEGRCVKSLRRYLENGKETLQHA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Popy-B*05:01",
+                "id": "NHP00930",
+                "locus": "Popy-B",
+                "protein_allele_name": "Popy-B*05:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Popy-B*05:01",
+            "id": "NHP00930",
+            "locus": "Popy-B",
+            "protein_allele_name": "Popy-B*05:01",
+            "source": "ipd-mhc"
+        }
+    }
+}

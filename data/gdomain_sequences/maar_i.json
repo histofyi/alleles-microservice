@@ -1,0 +1,56 @@
+{
+    "GSHSLRYFGTTVSRPDRGEPRFIAVGYVDDTQFVRFDSDAESPRMEPRAPWMEQEGPEYWEEETRIAKARAQTERGNLRTALRYYNQGEGGSHTLQKMCGCDLGPDGRLLRGYYQSAYDGRDYIALNEDLRSWTAAGEAAQNTQRKWEAAGEAEQRRAYLEGRCVEWLRRYLEKGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Maar-I*01:05",
+                "id": "NHP05127",
+                "locus": "Maar-I",
+                "protein_allele_name": "Maar-I*01:05",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Maar-I*01:05",
+            "id": "NHP05127",
+            "locus": "Maar-I",
+            "protein_allele_name": "Maar-I*01:05",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFGTTVSRPGRGEPRFIAVGYVDDTQFVRFDSDAESPRMEPRAPWMEQEGPEYWEEETRIAKARAQTERGNLRTALRYYNQSEGGSHTLQKMCGCDLGPDGRLLRGYYQSAYDGRDYIALNEDLRSWTAAGEAAQNTQRKWEAAGEAEQRRAYLEGRCVEWLRRYLEKGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Maar-I*01:01",
+                "id": "NHP00269",
+                "locus": "Maar-I",
+                "protein_allele_name": "Maar-I*01:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Maar-I*01:01",
+            "id": "NHP00269",
+            "locus": "Maar-I",
+            "protein_allele_name": "Maar-I*01:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFGTTVSRPGRGEPRFIAVGYVDDTQFVRFDSDAESPRMEPRAPWMEQEGPEYWEEETRIAKARAQTERGSLRTALRYYNQSEGGSHTLQKMCGCDLGPDGRLLRGYYQSAYDGRDYIALNEDLRSWTAAGEAAQNTQRKWEAAGEAERRRAYLEGRCVEWLRRYLEKGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Maar-I*01:04",
+                "id": "NHP05125",
+                "locus": "Maar-I",
+                "protein_allele_name": "Maar-I*01:04",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Maar-I*01:04",
+            "id": "NHP05125",
+            "locus": "Maar-I",
+            "protein_allele_name": "Maar-I*01:04",
+            "source": "ipd-mhc"
+        }
+    }
+}

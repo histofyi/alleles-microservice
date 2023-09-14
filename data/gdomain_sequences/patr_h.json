@@ -1,0 +1,20 @@
+{
+    "RSHSMRYFYTTMSRPGRGEPRFISVGYVDDTQFVRFDSDDASPREEPRAPWMEREGPEYWDRNTQICKAQAQTERENLRMALRYYNQSEGCSHTMQVMYGCDVGPDGRFLRGYEQHAYDGKDYIALNEDLSSWTAADMAAQITKRKWEAARRPEQLRAYLEGEFVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Patr-H*01",
+                "id": "NHP00912",
+                "locus": "Patr-H",
+                "protein_allele_name": "Patr-H*01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Patr-H*01",
+            "id": "NHP00912",
+            "locus": "Patr-H",
+            "protein_allele_name": "Patr-H*01",
+            "source": "ipd-mhc"
+        }
+    }
+}

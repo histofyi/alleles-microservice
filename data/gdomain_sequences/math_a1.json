@@ -1,0 +1,182 @@
+{
+    "GSHSMRYFYTAVSRPGRGQPRFIAVGYVDDTQFVRFDSDAESPREEPRAPWVEQEGPEYWDRNTRIYKAETQNYRENLRTALRYYNQSEAGSHTIQKMYGCDLGPDGRLLRGYDQSAYDGSDYIALNEDLRSWTAADMAAQNTQRKWEAAGAAEQMRTYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Math-A1*085:01",
+                "id": "NHP05164",
+                "locus": "Math-A1",
+                "protein_allele_name": "Math-A1*085:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Math-A1*085:01",
+            "id": "NHP05164",
+            "locus": "Math-A1",
+            "protein_allele_name": "Math-A1*085:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGQPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETRNMKAETQNAPVNLRNLLRYYNQSEAGSHTLQRMVGCDLGPDGRLLRGYEQSAYDGKDYISLNEDLRSWTAADLAAQNTQRKWEAAGVAEQDRVYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Math-A1*126:01",
+                "id": "NHP05073",
+                "locus": "Math-A1",
+                "protein_allele_name": "Math-A1*126:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Math-A1*126:01",
+            "id": "NHP05073",
+            "locus": "Math-A1",
+            "protein_allele_name": "Math-A1*126:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGQPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETRNMKAETQNAPVNLRNLLRYYNQSEAGSHTVQRMYGCDLGPDGRLLRGYEQSAYDGKDYIALNEDLRSWTAADVAAQNTQRKWEAADVAESMRAYLEGECLEWLPRYLEKGKETLQRT": {
+        "alleles": [
+            {
+                "gene_allele_name": "Math-A1*001:02",
+                "id": "NHP05072",
+                "locus": "Math-A1",
+                "protein_allele_name": "Math-A1*001:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Math-A1*001:02",
+            "id": "NHP05072",
+            "locus": "Math-A1",
+            "protein_allele_name": "Math-A1*001:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGQPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDSQTRIMKADTQTYRESLRNLRGYYNQSEAGSHTVQRMYGCDLGPDGRLLRGYEQFAYDGKDYISLNEDLRSWTAADLAAQNTQRKWEAAGVAEQDRVYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Math-A1*057:01",
+                "id": "NHP05074",
+                "locus": "Math-A1",
+                "protein_allele_name": "Math-A1*057:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Math-A1*057:01",
+            "id": "NHP05074",
+            "locus": "Math-A1",
+            "protein_allele_name": "Math-A1*057:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGQPRFIAVGYVDDTQFVRFDSDAASQRVEPRAPWVEQEGPEYWDRETRNMKAETQNAPVNLRNLLRYYNQSEAGSHTLQRMVGCDLGPDGRLLRGYEQSAYDGKDYIALNEDLRSWTAADVAAQNTQRKWEAADVAESMRAYLEGECLEWLPRYLEKGKETLQRT": {
+        "alleles": [
+            {
+                "gene_allele_name": "Math-A1*001:01",
+                "id": "NHP05165",
+                "locus": "Math-A1",
+                "protein_allele_name": "Math-A1*001:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Math-A1*001:01",
+            "id": "NHP05165",
+            "locus": "Math-A1",
+            "protein_allele_name": "Math-A1*001:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSVSRPGRGQPRFIAVGYVDDTQFVRFDSDAESPREEPRAPWVEQEGPEYWDRNTRIYKAQTQNYRESLRNLRGYYNQSEAGSHTIQTMYGCDLGPDGRLLRGYEQFAYDGRDYFALNEDLRSWTAADMAAQNTQRKWEAAGEAERFRAYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Math-A1*085:02",
+                "id": "NHP05166",
+                "locus": "Math-A1",
+                "protein_allele_name": "Math-A1*085:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Math-A1*085:02",
+            "id": "NHP05166",
+            "locus": "Math-A1",
+            "protein_allele_name": "Math-A1*085:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSVSRPGRGQPRFMSVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETRISKANTQTYREGLQILRGYYNQSEAGSHTYQKMYGCDLGPDGRLLRGYSQYAYDGRDYIALNGDLRSWTAADMAAQNTQRKWEAAGVAERFRTYVEGRCVESLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Math-A1*054:01",
+                "id": "NHP05076",
+                "locus": "Math-A1",
+                "protein_allele_name": "Math-A1*054:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Math-A1*054:01",
+            "id": "NHP05076",
+            "locus": "Math-A1",
+            "protein_allele_name": "Math-A1*054:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMSYFYTYMSRPGRGEPRFVAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRNTRIMKTETQNAPVALRNLRGYYNQSEAGSHTYQIMYGCDLGPDGRLLRGYDQFAYDGSDYIALNEDLRSWTAADLAAQNTQRKWEAAGVAEQHRTYLEGLCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Math-A1*004:02",
+                "id": "NHP10383",
+                "locus": "Math-A1",
+                "protein_allele_name": "Math-A1*004:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Math-A1*004:02",
+            "id": "NHP10383",
+            "locus": "Math-A1",
+            "protein_allele_name": "Math-A1*004:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMSYFYTYMSRPGRGEPRFVAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRNTRIMKTETQNAPVALRNLRGYYNQSEAGSHTYQMMYGCDLGPDGRLLRGYDQFAYDGKDYIALNDDLRSWTAADLAAQNTQRKWEAAGVAEQHRTYLEGLCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Math-A1*004:01",
+                "id": "NHP05079",
+                "locus": "Math-A1",
+                "protein_allele_name": "Math-A1*004:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Math-A1*004:01",
+            "id": "NHP05079",
+            "locus": "Math-A1",
+            "protein_allele_name": "Math-A1*004:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMSYFYTYMSRPGRGEPRFVAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRSTRIMKAETQNAPVALRNLRGYYNQSEAGSHTFQTMYGCDLGPDGRLLRGYDQYAYDGKDYIALNDDLRSWTAADLAAQNTQRKWEAAGVAEQDRVYLEGECLEWLRRHLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Math-A1*040:01",
+                "id": "NHP05080",
+                "locus": "Math-A1",
+                "protein_allele_name": "Math-A1*040:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Math-A1*040:01",
+            "id": "NHP05080",
+            "locus": "Math-A1",
+            "protein_allele_name": "Math-A1*040:01",
+            "source": "ipd-mhc"
+        }
+    }
+}

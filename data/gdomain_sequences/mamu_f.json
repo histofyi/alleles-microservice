@@ -1,0 +1,269 @@
+{
+    "GSHSLRYFSTAVSRPGRREPQYRYIAVEYVDDTQFLRFDSDAAIPRMEPLAPWVEQEGPQYWERTTGYAKANARTDRVALRKLLLRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVARITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQ": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mamu-F*02:14",
+                "id": "NHP09666",
+                "locus": "Mamu-F",
+                "protein_allele_name": "Mamu-F*02:14",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mamu-F*02:14",
+            "id": "NHP09666",
+            "locus": "Mamu-F",
+            "protein_allele_name": "Mamu-F*02:14",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFSTAVSRPGRREPQYRYIAVEYVDDTQFLRFDSDAAIPRMEPRAPWVEQEGPQYWERTTGYAKANARTDRVALRKLLLRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVARITQRFYEAEEYAEEFRTYLEGECLELLPRYLENGKETLQ": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mamu-F*02:17",
+                "id": "NHP09669",
+                "locus": "Mamu-F",
+                "protein_allele_name": "Mamu-F*02:17",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mamu-F*02:17",
+            "id": "NHP09669",
+            "locus": "Mamu-F",
+            "protein_allele_name": "Mamu-F*02:17",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFSTAVSRPGRREPQYRYIAVEYVDDTQFLRFDSDAAIPRMEPRAPWVEQEGPQYWERTTGYAKANARTDRVALRKLLLRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVARITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQ": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mamu-F*02:04:01",
+                "id": "NHP00585",
+                "locus": "Mamu-F",
+                "protein_allele_name": "Mamu-F*02:04",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mamu-F*02:02",
+                "id": "NHP02347",
+                "locus": "Mamu-F",
+                "protein_allele_name": "Mamu-F*02:02",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mamu-F*02:06",
+                "id": "NHP02644",
+                "locus": "Mamu-F",
+                "protein_allele_name": "Mamu-F*02:06",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mamu-F*02:04:02",
+                "id": "NHP09654",
+                "locus": "Mamu-F",
+                "protein_allele_name": "Mamu-F*02:04",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mamu-F*02:04:03",
+                "id": "NHP09655",
+                "locus": "Mamu-F",
+                "protein_allele_name": "Mamu-F*02:04",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mamu-F*02:07:01",
+                "id": "NHP09656",
+                "locus": "Mamu-F",
+                "protein_allele_name": "Mamu-F*02:07",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mamu-F*02:07:02",
+                "id": "NHP09657",
+                "locus": "Mamu-F",
+                "protein_allele_name": "Mamu-F*02:07",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mamu-F*02:07:03",
+                "id": "NHP09658",
+                "locus": "Mamu-F",
+                "protein_allele_name": "Mamu-F*02:07",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mamu-F*02:09",
+                "id": "NHP09661",
+                "locus": "Mamu-F",
+                "protein_allele_name": "Mamu-F*02:09",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mamu-F*02:11",
+                "id": "NHP09663",
+                "locus": "Mamu-F",
+                "protein_allele_name": "Mamu-F*02:11",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mamu-F*02:15",
+                "id": "NHP09667",
+                "locus": "Mamu-F",
+                "protein_allele_name": "Mamu-F*02:15",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mamu-F*02:02",
+            "id": "NHP02347",
+            "locus": "Mamu-F",
+            "protein_allele_name": "Mamu-F*02:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFSTAVSRPGRREPQYRYIAVEYVDDTQFLRFDSDAAIPRMEPRAPWVEQEGPQYWERTTGYAKANARTDRVALRKLLLRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYVSLNEDLRSWTAADTVARITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQ": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mamu-F*02:13",
+                "id": "NHP09665",
+                "locus": "Mamu-F",
+                "protein_allele_name": "Mamu-F*02:13",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mamu-F*02:13",
+            "id": "NHP09665",
+            "locus": "Mamu-F",
+            "protein_allele_name": "Mamu-F*02:13",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFSTAVSRPGRREPQYRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWERTTGYAKANARTDRVALRKLLLRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVARITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQ": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mamu-F*02:03:01",
+                "id": "NHP01983",
+                "locus": "Mamu-F",
+                "protein_allele_name": "Mamu-F*02:03",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mamu-F*02:03:02",
+                "id": "NHP09653",
+                "locus": "Mamu-F",
+                "protein_allele_name": "Mamu-F*02:03",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mamu-F*02:12",
+                "id": "NHP09664",
+                "locus": "Mamu-F",
+                "protein_allele_name": "Mamu-F*02:12",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mamu-F*02:03:01",
+            "id": "NHP01983",
+            "locus": "Mamu-F",
+            "protein_allele_name": "Mamu-F*02:03",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFSTAVSRPGRREPRYRYIAVEYVDDTQFLRFDSDAAIPRMEPRAPWVEQEGPQYWERTTGYAKANARTDRVALRKLLLRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVARITQRFYEAEEYAEEFRIYLEGECLELLRRYLENGKETLQ": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mamu-F*02:01",
+                "id": "NHP01627",
+                "locus": "Mamu-F",
+                "protein_allele_name": "Mamu-F*02:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mamu-F*02:01",
+            "id": "NHP01627",
+            "locus": "Mamu-F",
+            "protein_allele_name": "Mamu-F*02:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFSTAVSRPGRREPRYRYIAVEYVDDTQFLRFDSDAAIPRMEPRAPWVEQEGPQYWERTTGYAKANARTDRVALRKLLLRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVARITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQ": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mamu-F*02:08:01",
+                "id": "NHP09659",
+                "locus": "Mamu-F",
+                "protein_allele_name": "Mamu-F*02:08",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mamu-F*02:08:02",
+                "id": "NHP09660",
+                "locus": "Mamu-F",
+                "protein_allele_name": "Mamu-F*02:08",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mamu-F*02:16",
+                "id": "NHP09668",
+                "locus": "Mamu-F",
+                "protein_allele_name": "Mamu-F*02:16",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mamu-F*02:18",
+                "id": "NHP09670",
+                "locus": "Mamu-F",
+                "protein_allele_name": "Mamu-F*02:18",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mamu-F*02:08:01",
+            "id": "NHP09659",
+            "locus": "Mamu-F",
+            "protein_allele_name": "Mamu-F*02:08",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFSTAVSRPGSREPQYRYIAVEYVDDTQFLRFDSDAAIPRMEPRAPWVEQEGPQYWERTTGYAKANARTDRVALRKLLLRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVARITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQ": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mamu-F*02:10",
+                "id": "NHP09662",
+                "locus": "Mamu-F",
+                "protein_allele_name": "Mamu-F*02:10",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mamu-F*02:10",
+            "id": "NHP09662",
+            "locus": "Mamu-F",
+            "protein_allele_name": "Mamu-F*02:10",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLWYFSTAVSRPGRREPQYRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWERTTGYAKANARTDRVALRKLLLRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVARITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQ": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mamu-F*02:05",
+                "id": "NHP02348",
+                "locus": "Mamu-F",
+                "protein_allele_name": "Mamu-F*02:05",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mamu-F*02:05",
+            "id": "NHP02348",
+            "locus": "Mamu-F",
+            "protein_allele_name": "Mamu-F*02:05",
+            "source": "ipd-mhc"
+        }
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "GSHSLRYFETAVSRPGLGEPRYMEVGYVDDTQFVRYDSDAENPRMEPRARWIEREGREYWEQQTQNAKGHEQVNRVDLRTLRGYYNQSEGGSHTIQRMHGCDVGTDGSLLRGYEQHAYDGRDYIALNEDLKTWTAADFAAQITRNKWDQAGAAERSRAYLEGTCVEWLRRYLEHGKETLLRS": {
+        "alleles": [
+            {
+                "gene_allele_name": "Rano-A2*b",
+                "id": "RT108358",
+                "locus": "Rano-A2",
+                "protein_allele_name": "Rano-A2*b",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {}
+    },
+    "GSHSLRYFETAVSRPGLGEPRYMEVGYVDDTQFVRYDSDAENPRYEPRVQWIEREGPEYWERNTRIAKENEQNYRVSLRTALHYYNQSEGGSHTIQRMYGCDVGSDGSLLRGYEQYAYDGRDYIALNEDLKTWTAADFAARISRNKWERDGVAERSRAYVEGTCVESLRRYLEHGKEMVLRS": {
+        "alleles": [
+            {
+                "gene_allele_name": "Rano-A2*c",
+                "id": "RT108359",
+                "locus": "Rano-A2",
+                "protein_allele_name": "Rano-A2*c",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {}
+    },
+    "GSHSLRYFVTAVSRPGLGEPRYMEVGYVDDTQFVRYDSDAENPRYEPRAPWMEREGPEYWERETQNAKRNEQVYRVDLRTALRYYNQSEGGSHTIQRMYGCDMGSDGSLLRGYYQDAYDGRDYIALNEDLKTWTAADFAAQITRSKWDQAGVAERLRAYLEGTCVEWLRRYLELGKETLLRS": {
+        "alleles": [
+            {
+                "gene_allele_name": "Rano-A2*n",
+                "id": "RT108362",
+                "locus": "Rano-A2",
+                "protein_allele_name": "Rano-A2*n",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {}
+    },
+    "GSHSLRYFYIAVSRPGLGEPRYMEVGYVDDTQFVRYDSDAENPRYEPRARWMEREGPEYWERETQGAKEGEQIYRVDLRTLRGYYNQSEGGSHTIQEMYGCDVGSDGSLLRGYRQDAYDGRDYIALNEDLKTWTAADFAAQITRNKWERARYAERLRAYLEGTCVESLRRYLELGKETLLRS": {
+        "alleles": [
+            {
+                "gene_allele_name": "Rano-A2*o",
+                "id": "RT108363",
+                "locus": "Rano-A2",
+                "protein_allele_name": "Rano-A2*o",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {}
+    },
+    "GSHSLRYFYTAVSRPGLGEPRFISVGYVDDTQFVRFDSDAENPREEPRARWMEREGPEYWERNTRIVKGHEQTYRGNLRTALRYYNQSEGGSHTIQRMYGCDVGSDGSLLRGYNQYAYDGRDYIALNEDLKTWTAADFAAQITRSKWEQTGYAERSRAYLEGKCLESLLRYLELGKETLLRS": {
+        "alleles": [
+            {
+                "gene_allele_name": "Rano-A2*q",
+                "id": "RT108364",
+                "locus": "Rano-A2",
+                "protein_allele_name": "Rano-A2*q",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {}
+    },
+    "GSHSLRYFYTAVSRPGLGEPRYMEVGYVDDTQFVRYDSDAENPRYEPRARWMEREGPEYWEEETQKAKEGEQIYRVDLRTLRGYYNQSEGGSHTIQVMYGCDVGSDGSLLRGYRQDAYDGRDYIALNEDLKTWTAADFAAQITRNKWEQTGYAERLRAYLEGTCVEWLRRYLELGKETLLRS": {
+        "alleles": [
+            {
+                "gene_allele_name": "Rano-A2*f",
+                "id": "RT108360",
+                "locus": "Rano-A2",
+                "protein_allele_name": "Rano-A2*f",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {}
+    },
+    "GSHSMRYFDIAVSRPGLGEPRYISVGYVDHTEFVRFDSDAEKPRYEPRAPWMEREGPDYWERETQKAKGHEQNYRVSLRNLRGYYNQSEGGSHTIQLMYGCDLGSDGRLLRGYWQFAYDSHDYIALNEDLKTWTAADTAAQITRNKWEREGAADYEKAYLEGECVEWLRRYLELGKETLLRS": {
+        "alleles": [
+            {
+                "gene_allele_name": "Rano-A2*h",
+                "id": "RT108361",
+                "locus": "Rano-A2",
+                "protein_allele_name": "Rano-A2*h",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {}
+    }
+}

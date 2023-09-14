@@ -1,0 +1,212 @@
+{
+    "mafa_ag4_08_01": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-AG4*08:01:01:01",
+                "id": "NHP11468",
+                "locus": "Mafa-AG4",
+                "protein_allele_name": "Mafa-AG4*08:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-AG4*08:01:01:01",
+            "id": "NHP11468",
+            "locus": "Mafa-AG4",
+            "protein_allele_name": "Mafa-AG4*08:01",
+            "source": "ipd-mhc"
+        },
+        "canonical_sequence": "GSHSMRYFYTSMSRPGRGEPRFFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDQETQNMKNATQTYRGNLRTLLRYYNQSEAGSHTLQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADLAAQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDYEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPEPLTLRWE",
+        "gdomain_sequence": "GSHSMRYFYTSMSRPGRGEPRFFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDQETQNMKNATQTYRGNLRTLLRYYNQSEAGSHTLQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADLAAQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRA",
+        "pocket_pseudosequence": null,
+        "sequences": [
+            "GSHSMRYFYTSMSRPGRGEPRFFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDQETQNMKNATQTYRGNLRTLLRYYNQSEAGSHTLQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADLAAQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDYEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPEPLTLRWE"
+        ]
+    },
+    "mafa_ag4_08_02": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-AG4*08:02:01:01",
+                "id": "NHP11469",
+                "locus": "Mafa-AG4",
+                "protein_allele_name": "Mafa-AG4*08:02",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-AG4*08:02:02:01",
+                "id": "NHP11473",
+                "locus": "Mafa-AG4",
+                "protein_allele_name": "Mafa-AG4*08:02",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-AG4*08:02:03:01",
+                "id": "NHP11475",
+                "locus": "Mafa-AG4",
+                "protein_allele_name": "Mafa-AG4*08:02",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-AG4*08:02:04:01",
+                "id": "NHP11476",
+                "locus": "Mafa-AG4",
+                "protein_allele_name": "Mafa-AG4*08:02",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-AG4*08:02:04:02",
+                "id": "NHP11477",
+                "locus": "Mafa-AG4",
+                "protein_allele_name": "Mafa-AG4*08:02",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-AG4*08:02:04:03",
+                "id": "NHP11480",
+                "locus": "Mafa-AG4",
+                "protein_allele_name": "Mafa-AG4*08:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-AG4*08:02:01:01",
+            "id": "NHP11469",
+            "locus": "Mafa-AG4",
+            "protein_allele_name": "Mafa-AG4*08:02",
+            "source": "ipd-mhc"
+        },
+        "canonical_sequence": "GSHSMRYFYTSMSRPGRGEPRFFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRGNLRTLLRYYNQSEAGSHTLQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADLAAQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDYEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPEPLTLRWE",
+        "gdomain_sequence": "GSHSMRYFYTSMSRPGRGEPRFFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRGNLRTLLRYYNQSEAGSHTLQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADLAAQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRA",
+        "pocket_pseudosequence": null,
+        "sequences": [
+            "GSHSMRYFYTSMSRPGRGEPRFFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRGNLRTLLRYYNQSEAGSHTLQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADLAAQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDYEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPEPLTLRWE"
+        ]
+    },
+    "mafa_ag4_08_03": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-AG4*08:03:01:01",
+                "id": "NHP11470",
+                "locus": "Mafa-AG4",
+                "protein_allele_name": "Mafa-AG4*08:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-AG4*08:03:01:01",
+            "id": "NHP11470",
+            "locus": "Mafa-AG4",
+            "protein_allele_name": "Mafa-AG4*08:03",
+            "source": "ipd-mhc"
+        },
+        "canonical_sequence": "GSHSMRYFYTSMSRPGRGEPRFFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRGNLRTLLRYYNQSEAGSHTLQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADLAAQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDYEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPEPLTLRWE",
+        "gdomain_sequence": "GSHSMRYFYTSMSRPGRGEPRFFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRGNLRTLLRYYNQSEAGSHTLQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADLAAQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRA",
+        "pocket_pseudosequence": null,
+        "sequences": [
+            "GSHSMRYFYTSMSRPGRGEPRFFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRGNLRTLLRYYNQSEAGSHTLQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADLAAQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDYEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPEPLTLRWE"
+        ]
+    },
+    "mafa_ag4_08_04": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-AG4*08:04:01:01",
+                "id": "NHP11471",
+                "locus": "Mafa-AG4",
+                "protein_allele_name": "Mafa-AG4*08:04",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-AG4*08:04:02:01",
+                "id": "NHP11472",
+                "locus": "Mafa-AG4",
+                "protein_allele_name": "Mafa-AG4*08:04",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-AG4*08:04:01:01",
+            "id": "NHP11471",
+            "locus": "Mafa-AG4",
+            "protein_allele_name": "Mafa-AG4*08:04",
+            "source": "ipd-mhc"
+        },
+        "canonical_sequence": "GSHSMRYFYTSMSRPGRGEPRFFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRGNLRTLLRYYNQSEAGSHTLQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADLAAQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDYEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPEPLTLRWE",
+        "gdomain_sequence": "GSHSMRYFYTSMSRPGRGEPRFFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRGNLRTLLRYYNQSEAGSHTLQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADLAAQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRA",
+        "pocket_pseudosequence": null,
+        "sequences": [
+            "GSHSMRYFYTSMSRPGRGEPRFFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRGNLRTLLRYYNQSEAGSHTLQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADLAAQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDYEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPEPLTLRWE"
+        ]
+    },
+    "mafa_ag4_08_05": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-AG4*08:05:01:01",
+                "id": "NHP11478",
+                "locus": "Mafa-AG4",
+                "protein_allele_name": "Mafa-AG4*08:05",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-AG4*08:05:01:01",
+            "id": "NHP11478",
+            "locus": "Mafa-AG4",
+            "protein_allele_name": "Mafa-AG4*08:05",
+            "source": "ipd-mhc"
+        },
+        "canonical_sequence": "GSHSMRYFYTSMSRPGRGEPRFFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRGNLRTLLRYYNQSEAGSHTLQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADLAAQNTQRKWEAARAAEQHRTYLEGKCLEWLRRYLENGKETLQRADPPKTHVTHHPVSDYEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPEPLTLRWE",
+        "gdomain_sequence": "GSHSMRYFYTSMSRPGRGEPRFFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRGNLRTLLRYYNQSEAGSHTLQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADLAAQNTQRKWEAARAAEQHRTYLEGKCLEWLRRYLENGKETLQRA",
+        "pocket_pseudosequence": null,
+        "sequences": [
+            "GSHSMRYFYTSMSRPGRGEPRFFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRGNLRTLLRYYNQSEAGSHTLQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADLAAQNTQRKWEAARAAEQHRTYLEGKCLEWLRRYLENGKETLQRADPPKTHVTHHPVSDYEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPEPLTLRWE"
+        ]
+    },
+    "mafa_ag4_09_01": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-AG4*09:01:01:01",
+                "id": "NHP11474",
+                "locus": "Mafa-AG4",
+                "protein_allele_name": "Mafa-AG4*09:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-AG4*09:01:01:01",
+            "id": "NHP11474",
+            "locus": "Mafa-AG4",
+            "protein_allele_name": "Mafa-AG4*09:01",
+            "source": "ipd-mhc"
+        },
+        "canonical_sequence": "GSHSLRYFYTSVSRPGRGEPRFFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRENLRTLLRYYNQSEAGSHTVQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADVAAQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDYEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWE",
+        "gdomain_sequence": "GSHSLRYFYTSVSRPGRGEPRFFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRENLRTLLRYYNQSEAGSHTVQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADVAAQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRA",
+        "pocket_pseudosequence": null,
+        "sequences": [
+            "GSHSLRYFYTSVSRPGRGEPRFFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRENLRTLLRYYNQSEAGSHTVQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADVAAQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDYEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWE"
+        ]
+    },
+    "mafa_ag4_09_02": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-AG4*09:02:01:01",
+                "id": "NHP11479",
+                "locus": "Mafa-AG4",
+                "protein_allele_name": "Mafa-AG4*09:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-AG4*09:02:01:01",
+            "id": "NHP11479",
+            "locus": "Mafa-AG4",
+            "protein_allele_name": "Mafa-AG4*09:02",
+            "source": "ipd-mhc"
+        },
+        "canonical_sequence": "GSHSLRYFYTSVSRPGRGEPRFFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRENLRTLLRYYNQSEAGSHTVQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADVAAQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTQVTHHPVSDYEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWE",
+        "gdomain_sequence": "GSHSLRYFYTSVSRPGRGEPRFFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRENLRTLLRYYNQSEAGSHTVQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADVAAQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRA",
+        "pocket_pseudosequence": null,
+        "sequences": [
+            "GSHSLRYFYTSVSRPGRGEPRFFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRENLRTLLRYYNQSEAGSHTVQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADVAAQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTQVTHHPVSDYEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWE"
+        ]
+    }
+}

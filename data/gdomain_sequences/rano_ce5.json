@@ -1,0 +1,38 @@
+{
+    "-SHSLRYFHTAVSRPGLREPRFIIVGYVDHTEFVRYDSDAENPRYEPRARWMEREGPEYWEQQTQIVKGHEWSFRVSLRNLLGYYNQSEGGSHTLQVMSGCDMGSDRSLRRGYEQYAYDGRDYISLNEDLKTWSAADLAAQITLNKWDQAGELDYYKAYLEGPCLEWLLRYLEHGKETLMRS": {
+        "alleles": [
+            {
+                "gene_allele_name": "Rano-CE5*g",
+                "id": "RT108376",
+                "locus": "Rano-CE5",
+                "protein_allele_name": "Rano-CE5*g",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {}
+    },
+    "-SHSLRYFHTAVSRPGLREPRFVIVGYVDHTEFVRYDSDAENPRYEQRARWMEREGPEYWEQQTQIVKGHEWSFRVSLRNLLGYYNQSEGGSHTLQVMSGCDMGSDRSLRRGYEQYAYDGRDYISLNEDLKTWSAADLAAQITLNKWDQAGELDYYKTYLEGPCLEWLLRYLEHGKETLMRS": {
+        "alleles": [
+            {
+                "gene_allele_name": "Rano-CE5*l",
+                "id": "RT108377",
+                "locus": "Rano-CE5",
+                "protein_allele_name": "Rano-CE5*l",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {}
+    },
+    "GSHSLRYFHTAVSRPGLGEPRFIIVGYVDHTEFVRYDSDAENPRYEPRARWMEREGPEYWEQQTQIVKGHEWSFRVSLRNLLGYYNQSEGGSHTLQVMSGCDMGSDQSLRRGYEQYAYDGRDYISLNEDLKTWSAADLAAQITLNKWDQAGELDYYKAYLEGPCLEWLLRYLEHGKETLMRS": {
+        "alleles": [
+            {
+                "gene_allele_name": "Rano-CE5*n",
+                "id": "RT108378",
+                "locus": "Rano-CE5",
+                "protein_allele_name": "Rano-CE5*n",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {}
+    }
+}

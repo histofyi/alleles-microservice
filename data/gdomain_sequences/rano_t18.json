@@ -1,0 +1,14 @@
+{
+    "GSHSLRYFYTALSRPAPGESWYIAVGYVDDTQFVRFNSAGESARYKLRASWVEQEGPEYWQKETEIVTSNAQFFRGNLQTMLDYYNLSHDGSHIIQVMYGCDVESDGSLLRGYEQYAYDGRDYITLNEDLKTWTAEDRAAQITRLKWEQAGYAELRRTYLEGPCKDSLLRYLENRKEMLQCT": {
+        "alleles": [
+            {
+                "gene_allele_name": "Rano-T18*n",
+                "id": "RT108410",
+                "locus": "Rano-T18",
+                "protein_allele_name": "Rano-T18*n",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {}
+    }
+}

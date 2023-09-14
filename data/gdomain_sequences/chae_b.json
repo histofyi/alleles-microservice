@@ -1,0 +1,380 @@
+{
+    "GLHSLRYFSTAVSRPGRGEPRFISVGYVDNTQILRFNSDAESPRMEPRAPWLEQEGPEYWEEQTGLAKANAQTFRGCLRTVPGYYNQSEAGSHTFQWMYGCDLGPDGRLLRGYHRFAYDGQDYIALNRDLRSRIAADTAAQNTQRKWEAAREAEQIRAHLEGTCVEWLRRYLENGEETLRRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chae-B*05:01",
+                "id": "NHP05338",
+                "locus": "Chae-B",
+                "protein_allele_name": "Chae-B*05:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chae-B*05:01",
+            "id": "NHP05338",
+            "locus": "Chae-B",
+            "protein_allele_name": "Chae-B*05:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFHTAVSRPGRWEPHFISVGYVDDTQFVRFDSDAESPREEPRAPWVEQEGPEYWDRNTRRAKAHAQTDRRNLRTLLRYYNQSEWGSHTLQRMCGCDLGPDGRLLRGYHQSAYDGKDYIALNEDLRSWTTADMAAQSTQRKWEAAGVAEQIRAYLEGTCVEWLRRHLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chae-B*02:01",
+                "id": "NHP04085",
+                "locus": "Chae-B",
+                "protein_allele_name": "Chae-B*02:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chae-B*02:01",
+            "id": "NHP04085",
+            "locus": "Chae-B",
+            "protein_allele_name": "Chae-B*02:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFHTAVSRPGRWEPHFISVGYVDDTQFVRFDSDAESPTMEPRAPWVEQEGPEYWDRNTRIAKGNAQTDRRNLRTLLRYYNQSEWGSHTLQRMFGCDLGPDGRLLRGYHQSAYDGKDYIALNEDLRSWTTADMAAQSTQRKWEAAGTAEQLRAYLEGTCVEWLRRHLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chae-B*13:01",
+                "id": "NHP05316",
+                "locus": "Chae-B",
+                "protein_allele_name": "Chae-B*13:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chae-B*13:01",
+            "id": "NHP05316",
+            "locus": "Chae-B",
+            "protein_allele_name": "Chae-B*13:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFHTAVSRPGRWEPWYLAVGYVDDTQFVRFDSDAESPRMEPRAPWMEQEGPEYWEEQTRRAKAHAQSHRVGLRNLRGYYNQSEGGSHTLQRMYGCDLGPDGHLLRGYEQFAYDGKDYFALNEDLRSWTAADMAAQNTQRKWESAGAAERLRAYLEGECLEWLRRYLENGKETLQRT": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chae-B*22:01",
+                "id": "NHP05322",
+                "locus": "Chae-B",
+                "protein_allele_name": "Chae-B*22:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chae-B*22:01",
+            "id": "NHP05322",
+            "locus": "Chae-B",
+            "protein_allele_name": "Chae-B*22:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFHTAVSRPGRWEPWYLAVGYVDDTQFVRFDSDAESPRMEPRAPWMEQEGPEYWEEQTRRAKAHAQSHRVSLRNLRGYYNQSEGGSHTLQRMYGCDLGPDGHLLSGYEQFAYDGKDYFALNEDLRSWTAADMAAQNTQRKWESAGAAERLRAYLEGECLEWLRRYLENGKETLQRT": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chae-B*27:01",
+                "id": "NHP05332",
+                "locus": "Chae-B",
+                "protein_allele_name": "Chae-B*27:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chae-B*27:01",
+            "id": "NHP05332",
+            "locus": "Chae-B",
+            "protein_allele_name": "Chae-B*27:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFSTAVSRPGRREPWYFEVGYVDDTQFVRFDSDAESPRVEPRAPWMEQEGPEYWEEATRRAKGNAQTHRGNLRTALRYYNQSEGGSHTLQWMYGCDLGPDGRLLRGYEQFAYDGKDYIALNEDLRSWTAADMAARFTQRKWEAARAAEQLRAYLEGKCLEWLRRNLENQNESLLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chae-B*03:02",
+                "id": "NHP05336",
+                "locus": "Chae-B",
+                "protein_allele_name": "Chae-B*03:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chae-B*03:02",
+            "id": "NHP05336",
+            "locus": "Chae-B",
+            "protein_allele_name": "Chae-B*03:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFSTAVSRPGRREPWYLEVGYVDDTQFVRFDSDAESPRMEPRAPWMEQEGPEYWEEATRRAKGNAQTHRGNLRTALRYYNQSEGGSHTLQWMYGCDLGPDGRLLRGYEQFAYDGKDYIALNEDLRSWTAADMAARFTQRKWEAARAAEQLRAYLEGKCLEWLRRYLENQKESLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chae-B*03:01",
+                "id": "NHP05328",
+                "locus": "Chae-B",
+                "protein_allele_name": "Chae-B*03:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chae-B*03:01",
+            "id": "NHP05328",
+            "locus": "Chae-B",
+            "protein_allele_name": "Chae-B*03:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFSTAVSRPGRREPWYVEVGYVDDTQFVRFDSDAESPRMEPRAQWVEQEGPEYWDRNTRRAKAHAQTDRGNLRTLLRYYNQSEGGSHTIQRMFGCDLGPDGHLLRGYEQHAYDGKDYIALNEDLRSWTAADVAAQNTQRKWEAARAAERLRAYLEGECLEWLRRHLENGKETLQRT": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chae-B*15:03",
+                "id": "NHP05335",
+                "locus": "Chae-B",
+                "protein_allele_name": "Chae-B*15:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chae-B*15:03",
+            "id": "NHP05335",
+            "locus": "Chae-B",
+            "protein_allele_name": "Chae-B*15:03",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFSTAVSRPGRREPWYVEVGYVDDTQFVRFDSDAESPTMEPRAPWMEQEGPEYWDRNTRRVKANAQTDRGNLRILLRYYNQSEGGSHTIQRMYGCDLGPDGRLLRGYEQHAYDGKDYIALNEDLRSWTAADMAAQNTQRKWEAARAAEQLRAYLEGECLEWLRRHLENGKETLQRT": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chae-B*15:02",
+                "id": "NHP05334",
+                "locus": "Chae-B",
+                "protein_allele_name": "Chae-B*15:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chae-B*15:02",
+            "id": "NHP05334",
+            "locus": "Chae-B",
+            "protein_allele_name": "Chae-B*15:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFSTAVSRPGRWEPHFISVGYVDDTQFVRFDSDAESPTMEPRAPWVEQEGPEYWDRETRIAKGHAQTDRRNLRTLLRYYNQSEWGSHTVQRMFGCDLGPDGRLLRGYHQSAYDGKDYIALNEDLRSWTTADMAAQNTQRKWEAAGTAEQLRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chae-B*13:02",
+                "id": "NHP05323",
+                "locus": "Chae-B",
+                "protein_allele_name": "Chae-B*13:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chae-B*13:02",
+            "id": "NHP05323",
+            "locus": "Chae-B",
+            "protein_allele_name": "Chae-B*13:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFGTTVSRPGRGEPRFIYVGYVDDTQFVRFDSDAESPRMEPRAPWIEQEGPEYWEEETRKAKNIAQTDRVDLGTLRGYYNQSEGGSHTIQSMCGCDLGPDGRLLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQNTQRKWEAAGVAEQLRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chae-B*16:01",
+                "id": "NHP05330",
+                "locus": "Chae-B",
+                "protein_allele_name": "Chae-B*16:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chae-B*16:01",
+            "id": "NHP05330",
+            "locus": "Chae-B",
+            "protein_allele_name": "Chae-B*16:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFHTAVSRPGRGEPRFISVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWEEETRIAKAHAQNHRVSLRNLRGYYNQSEGGSHTLQRMSGCDLGPDGRLLRGYRQFAYDGKDYFALNEDLRSWTAADMAAQNTQRKWEAAGAAEQVRAYLEGKCLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chae-B*25:01",
+                "id": "NHP05327",
+                "locus": "Chae-B",
+                "protein_allele_name": "Chae-B*25:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chae-B*25:01",
+            "id": "NHP05327",
+            "locus": "Chae-B",
+            "protein_allele_name": "Chae-B*25:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFHTAVSRPGRREPWYLEVGYVDDTQFVRFDSDAASPRMEPRAPWIEQEGPEYWDRNTRNAKAHAQTDRVDLGTLLRYYNQSEGGSHTIQWMYGCDLGPDGRLLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQNTQRRWEAAREAEQWRAYLEGTCVEWLRRYLENGKEMLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chae-B*23:01",
+                "id": "NHP05324",
+                "locus": "Chae-B",
+                "protein_allele_name": "Chae-B*23:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chae-B*23:01",
+            "id": "NHP05324",
+            "locus": "Chae-B",
+            "protein_allele_name": "Chae-B*23:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFHTAVSRPGRWEPRFISVGYVDDTQFMRFDSDAASPREEPRAPWAEQEGPEYWEEETRRAKGNARAHRGNLRILLRYYNQSEWGSHTIQRMSGCDVGPDGRLLRGYEQFAYDGKDYIALNEDLHSWTAADMAAQNTQRKWEAAGAAEQSRAYLEGPCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chae-B*24:01",
+                "id": "NHP05325",
+                "locus": "Chae-B",
+                "protein_allele_name": "Chae-B*24:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chae-B*24:01",
+            "id": "NHP05325",
+            "locus": "Chae-B",
+            "protein_allele_name": "Chae-B*24:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFHTAVSRPGRWEPRFISVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETRKAKANAQTDRGNLRTLLRYYNQSEWGSHTIQWMSGCDLGPDGRLLRGYDQHAYDGKDYIALNEDLRSWTAADTAAQNTQRKWEAAGAAEQLRAYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chae-B*20:01",
+                "id": "NHP05318",
+                "locus": "Chae-B",
+                "protein_allele_name": "Chae-B*20:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chae-B*20:01",
+            "id": "NHP05318",
+            "locus": "Chae-B",
+            "protein_allele_name": "Chae-B*20:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFHTAVSRPGRWEPWYLAVGYVDDTQFVRFDSDAESPRMEPRAPWMEQEGPEYWEEETRNAEANARAHRVNLRNLLRYYNQSEGGSHTVQRMSGCDLGPDGRLLRGYDQFAYDGKDYIALNEDLRSWTAADMAAQNTQRKWEAAREAEQWRAYLEGTCVESLRRYLENGKETLHRT": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chae-B*19:01",
+                "id": "NHP05314",
+                "locus": "Chae-B",
+                "protein_allele_name": "Chae-B*19:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chae-B*19:01",
+            "id": "NHP05314",
+            "locus": "Chae-B",
+            "protein_allele_name": "Chae-B*19:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRREPWYLAVGYVDDTQFVWFDSDAESPRMEPRAPWIEQEEPEYWEEQTRRAKGNAQADRGNLRTLLRYYNQSEGGSHTFQWMYGCDLGPDGRLLRGYHQSAYDGKDYIALNEDLRSWTAADMAAGFTQRKWEAARAAERFRAYLEGECLEWLRRHLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chae-B*01:01",
+                "id": "NHP04086",
+                "locus": "Chae-B",
+                "protein_allele_name": "Chae-B*01:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chae-B*01:01",
+            "id": "NHP04086",
+            "locus": "Chae-B",
+            "protein_allele_name": "Chae-B*01:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGRREPWYVEVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWEENTRRVKGHAQTDRGNLRTLLRYYNQSEGGSHTLQSMCGCDLGPDGRLLRGYEQFAYDGKDYIALNEDLRSWTAADMAAQNTQRKWEAARAAEKLRAYLEGECLEWLRRHLENGKETLQRT": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chae-B*15:01",
+                "id": "NHP05333",
+                "locus": "Chae-B",
+                "protein_allele_name": "Chae-B*15:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chae-B*15:01",
+            "id": "NHP05333",
+            "locus": "Chae-B",
+            "protein_allele_name": "Chae-B*15:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFTTAVSRPGRGEPRFIAVGYVDDTQFVRFDKDAASPRMEPRAPWVEQEGPEYWEEETRIAKANAQTFRGNLRTLLRYYNQSEGGSHTFQWMSGCDLGPDGRLLRGYHQFAYDGKDYIALNEDLRSWTAADLAAQNTQRKWEAAGVAEQQRAYLEGECVEWLRRYLENGEETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chae-B*26:01",
+                "id": "NHP05331",
+                "locus": "Chae-B",
+                "protein_allele_name": "Chae-B*26:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chae-B*26:01",
+            "id": "NHP05331",
+            "locus": "Chae-B",
+            "protein_allele_name": "Chae-B*26:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFTTAVSRPGRREPWYLEVGYVDDTQFVWFDSDAESPRMEPRAPWVEQEGPEYWDRETRIAKGNAQTNRGNLRTLLRYYNQSEGGSHTIQKMYGCDLGPDGRLLRGYDQYAYDGKDYIALNEDLRSWTAADMAARFTQRKWEAAREAEQRRAYLEGRCLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chae-B*21:02",
+                "id": "NHP05326",
+                "locus": "Chae-B",
+                "protein_allele_name": "Chae-B*21:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chae-B*21:02",
+            "id": "NHP05326",
+            "locus": "Chae-B",
+            "protein_allele_name": "Chae-B*21:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFTTAVSRPGRREPWYLEVGYVDDTQFVWFDSDAESPRMEPRAPWVEQEGPEYWDRETRIAKGNAQTNRGNLRTLLRYYNQSEGGSHTIQKMYGCDLGPDGRLLRGYHQYAYDGKDYIALNEDLCSWTAADMVARFTQRKWEAAREAEQRRAYLEGTCVKWLRRHLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chae-B*21:01",
+                "id": "NHP05320",
+                "locus": "Chae-B",
+                "protein_allele_name": "Chae-B*21:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chae-B*21:01",
+            "id": "NHP05320",
+            "locus": "Chae-B",
+            "protein_allele_name": "Chae-B*21:01",
+            "source": "ipd-mhc"
+        }
+    }
+}

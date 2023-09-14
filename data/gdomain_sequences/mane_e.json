@@ -1,0 +1,74 @@
+{
+    "-SHSLKYFHTSVSRPGCGGPRFISVGYVDDTQFVRYDSDAASPRMEPRAPWVEQEGPEYWDQETRSARDTAQTFRVNLETLRGYYNQSEAGSHTLQWMHGCDLGSDGRFLRGYEQFAYDGKDYLTLNEDLRSWSAVDTAAQISEQKSNDGSEAEHQRAYLEDTCVEWLHRYLENGKETLQRS": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mane-E*02:04",
+                "id": "NHP02214",
+                "locus": "Mane-E",
+                "protein_allele_name": "Mane-E*02:04",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mane-E*02:04",
+            "id": "NHP02214",
+            "locus": "Mane-E",
+            "protein_allele_name": "Mane-E*02:04",
+            "source": "ipd-mhc"
+        }
+    },
+    "-SHSLKYFHTSVSRPGGGGPRFISVGYVDDTQFVRYDSDAASPRMEPRALWMKQEGPEYWDQETRSARDTAQTFRVNLETLRGYYNQSEAGSHTLQWMHGCDLGPDGRFLRGYEQFAYDGKDYLTLNEDLRSWSAVDTAAQISEQKSNDGSEAEHQRAYLEDTCVEWLHRYLENGKETLQRS": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mane-E*02:06",
+                "id": "NHP02216",
+                "locus": "Mane-E",
+                "protein_allele_name": "Mane-E*02:06",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mane-E*02:06",
+            "id": "NHP02216",
+            "locus": "Mane-E",
+            "protein_allele_name": "Mane-E*02:06",
+            "source": "ipd-mhc"
+        }
+    },
+    "-SHSLKYFHTSVSRPGRGEPRFISVGYVDDTQFVRYDSDAASPRMEPRALWMKQEGPEYWDQETRSARDTAQTFRVNLKTLRGYYNQSEAGSHTLQWMHGCDLGPDGRFFRGYEQFAYDGKDYLTLNEDLRSWSAVDTAAQISEQKSNDGSEAEHQRAYLEDTCVEWLRRYLENGKETLLRS": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mane-E*02:07",
+                "id": "NHP02217",
+                "locus": "Mane-E",
+                "protein_allele_name": "Mane-E*02:07",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mane-E*02:07",
+            "id": "NHP02217",
+            "locus": "Mane-E",
+            "protein_allele_name": "Mane-E*02:07",
+            "source": "ipd-mhc"
+        }
+    },
+    "-SHSLKYFHTSVSRPGRGEPRFISVGYVDDTQFVRYDSDAASPRMEPRAPWVEQEGPEYWDQETRSARDTAQTFRVNLKTLRGYYNQSEAGSHTLQWMHGCDLGPDGRFLRGYEQFAYDGKDYLTLNEDLRSWSAVDTAAQISERKSNDGSEAEHQRAYLEDTCVEWLRRYLENGKETLQRP": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mane-E*02:01",
+                "id": "NHP02211",
+                "locus": "Mane-E",
+                "protein_allele_name": "Mane-E*02:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mane-E*02:01",
+            "id": "NHP02211",
+            "locus": "Mane-E",
+            "protein_allele_name": "Mane-E*02:01",
+            "source": "ipd-mhc"
+        }
+    }
+}

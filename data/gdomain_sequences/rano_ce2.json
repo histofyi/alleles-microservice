@@ -1,0 +1,14 @@
+{
+    "GSHSLRYFKTAVSRPGLGKPLFMEVGYVDDTEFVRFDSDAENPRMEPRARWMEREGPEYWDRETRIAKGNEQRFRVHLRTLLGHYNQSEGGSHTFQLMYGCDLGSDGSLLRGYDHYAYDGRDYIALNEDLKTWTAADAAARITLNQWHQTGYAERRRADLEGECVESLRRYLELGKETLLRS": {
+        "alleles": [
+            {
+                "gene_allele_name": "Rano-CE2*n",
+                "id": "RT108373",
+                "locus": "Rano-CE2",
+                "protein_allele_name": "Rano-CE2*n",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {}
+    }
+}

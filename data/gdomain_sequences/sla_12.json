@@ -1,0 +1,110 @@
+{
+    "GPHSLRYFYTAVSRPDLGDSRFIAVGYVDDTQFVRFDSYAPNPRMEPRVPWIEQERQEYWDRNTRNAMRSAQTFRVNLRTALGYYNQSEAGSHTYQWMYGCDVGPDGLFLRGYSQDAYDGADYVALNEDLRSWTAADTAAQITKRKWEAADEAEGERSYLQGTCVESLRKYLEMGKDTLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "SLA-12*01:01",
+                "id": "SLA09721",
+                "locus": "SLA-12",
+                "protein_allele_name": "SLA-12*01:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "SLA-12*01:01",
+            "id": "SLA09721",
+            "locus": "SLA-12",
+            "protein_allele_name": "SLA-12*01:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GPHSLSYFYTAVSRPDLGDSRFIAVGYVDDTQFVRFDSYAPNPRMEPRVPWIEQERQEYWDRNTRNAMRSAQTFRVNLRTALGYYNQSEAGSHTYQWMYGCDMGPDGLFLRGYSQDAYDGADYVALNEDLRSWTAADMAAQITKRKWEAANEAEGERSYLQGTCVESLRKYLEMGKDTLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "SLA-12*03:01",
+                "id": "SLA09720",
+                "locus": "SLA-12",
+                "protein_allele_name": "SLA-12*03:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "SLA-12*03:01",
+            "id": "SLA09720",
+            "locus": "SLA-12",
+            "protein_allele_name": "SLA-12*03:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GPHSLSYFYTAVSRPDLGDSRFIAVGYVDDTQFVRFDSYAPNPRMEPRVPWIEQERQEYWDRNTRNAMRSAQTFRVNLRTALGYYNQSEAGSHTYQWMYGCDVGPDGLFLRGYSQDAYDGADYLALNEDLRSWTAADTAAQITKRKWEAADEAEGERSYLQGTCVESLRKYLEMGKDTLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "SLA-12*05:01",
+                "id": "SLA08526",
+                "locus": "SLA-12",
+                "protein_allele_name": "SLA-12*05:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "SLA-12*05:01",
+            "id": "SLA08526",
+            "locus": "SLA-12",
+            "protein_allele_name": "SLA-12*05:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GPHSLSYFYTAVSRPDLGDSRFIAVGYVDDTQFVRFDSYAPNPRMEPRVPWIEQERQEYWDRNTRNAMRSAQTFRVNLRTALGYYNQSEAGSHTYQWMYGCDVGPDGLFLRGYSQDAYDGADYVALNQDQRSWTAADTAAQISKRKWEAADEAEGERSYLQGTCVESLRKYLEMGKDTLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "SLA-12*02:01",
+                "id": "SLA08524",
+                "locus": "SLA-12",
+                "protein_allele_name": "SLA-12*02:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "SLA-12*02:01",
+            "id": "SLA08524",
+            "locus": "SLA-12",
+            "protein_allele_name": "SLA-12*02:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GPHSLSYFYTAVSRPDLGDSRFIAVGYVDDTQFVRFDSYAPNPRMEPRVPWIEQERQEYWDRNTRNAMRSAQTFRVNLRTALGYYNQSEAGSHTYQWMYGCYVGPDGLFLRGYSQDAYDGADYVALNEDLRSWTAADTAAQITKRKWEAADEAEGERSYLQGTCVESLRKYLEMGKDTLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "SLA-12*04:01",
+                "id": "SLA08525",
+                "locus": "SLA-12",
+                "protein_allele_name": "SLA-12*04:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "SLA-12*04:01",
+            "id": "SLA08525",
+            "locus": "SLA-12",
+            "protein_allele_name": "SLA-12*04:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GPHSLSYFYTAVSRPDRGEPRFIAVGYVDDTQFVRFDNYAPNPRMEPRVPWIEQERQEYWDRNTRNAMRSAQTFRVNLRTALGYYNQSEAGSHTYQWMYGCDVGPDGFFLRGYSQDAYDGADYLALNEDLRSWTAADTAAQITKRKWEAADEAEGERSYLQGTCVEWLQKYLEMGKDTLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "SLA-12*06:01",
+                "id": "SLA08527",
+                "locus": "SLA-12",
+                "protein_allele_name": "SLA-12*06:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "SLA-12*06:01",
+            "id": "SLA08527",
+            "locus": "SLA-12",
+            "protein_allele_name": "SLA-12*06:01",
+            "source": "ipd-mhc"
+        }
+    }
+}

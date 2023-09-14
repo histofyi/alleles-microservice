@@ -1,0 +1,556 @@
+{
+    "GPHSLRYFLTAVSRPGLGEPRFIAVGYVDDMQFVRFDSDAPDPRMEPRARWMEQEGPEYWDQETRSAKGDAQSFRANLNTLRGYYNQSEAGSHTLQEMYGCDVGPDGRLLRGYTQYAYDGRDYIALNEDLRSWTAADTAAQITQRKLEKEGAAEAERNYLEGTCVEWLRRYLETGKDTLLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*09:01",
+                "id": "OLA02779",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*09:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*09:01",
+            "id": "OLA02779",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*09:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GPHSLRYFLTAVSRPGLGEPRFIAVGYVDDTQFVRFDSDAPDPRMEPRAPWMEQEGPEYWDLNTRNAKGHAQTFRVSLNNLRGYYNQSEAGSHTLQWMSGCDVGPGGRLLRGYSQFGYDGRDYLALNEDLRSWTAADAAAQISKRKMEAAGEAERHRNYVEGTCVEWLRRYLENGKDTLLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*19:01",
+                "id": "OLA08703",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*19:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*19:01",
+            "id": "OLA08703",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*19:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GPHSLRYFLTAVSRPGLGEPRFIAVGYVDDTQFVRFDSDAPDPRMEPRARWMEQEGPEYWDQETRSAKGHAQSFRANLNTLRGYYNQSEAGSHTLQWMYGCDVGPDGRLLRGYRQDAYDGRDYIALNEDLRSWTAADTAAQITQRKWEKEGAAEAERNYLEGTCVEWLRRYLETGKDTLLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*10:01",
+                "id": "OLA02780",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*10:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*10:01",
+            "id": "OLA02780",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*10:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GPHSLRYFLTAVSRPGRGEPRFIAVGYVDDTQFVRFDSDAADPRMEPRARWVEQEGPEYWDQETRSAKGHAQTFRVNLNTLRGYYNQSEPGSHTLQRMYGCDVGPDGRLLSGYEQFAYDGRDYIALNQDLRSWTAADAAAQISKRKLEKEGVAARVRIYLEGRCVEGLRRYLETGKDTLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*07:01",
+                "id": "OLA02436",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*07:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*07:01",
+            "id": "OLA02436",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*07:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GPHSLRYFLTAVSRPGRGEPRFIAVGYVDDTQFVRFDSDAADPRMEPRARWVEQEGPEYWDRETRKANDDAQTFRVNLNTLRGYYNQSEPGSHTLQCMYGCDVGPDGLLLRGFMQYGYEGRDYIALNEDLRSWTAADTAAQISKHNAEAAGAADHYRNYLVGECVEWLLRHLETGKDTLLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*12:01",
+                "id": "OLA08695",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*12:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*12:01",
+            "id": "OLA08695",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*12:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GPHSLRYFLTAVSRPGRGEPRFIAVGYVDDTQFVRFDSDAADPRMEPRARWVEQEGPEYWDRETRKANDDAQTFRVNLNTLRGYYNQSEPGSHTLQEMYGCDVGPDGLLLRGFMQYGYEGRDYLALNEDLRFWTAADTAAQISKHNAVVAGAADHYRNYLVGECVEWLLRHLETGKDTLLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*22:01",
+                "id": "OLA08723",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*22:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*22:01",
+            "id": "OLA08723",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*22:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GPHSLRYFLTAVSRPGRGEPRFIAVGYVDDTQFVRFDSDAADPRMEPRARWVEQEGPEYWDRETRKANDDAQTFRVNLNTLRGYYNQSEPGSHTLQEMYGCDVGPDGLLLRGFMQYGYEGRDYLALNEDLRSWTAADTAAQISKHNAVVAGAADHYRNYLVGECVEWLLRHLETGKDTLLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*08:01",
+                "id": "OLA02438",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*08:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*08:01",
+            "id": "OLA02438",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*08:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GPHSLRYFYTAVSRPGRGEPRFIAVGYVDDTQFVRFDSDAPDPREEPRARWVEQEGPEYWDRNTRIYKDAAQIFRVSLNILRGYYNQSEAGSHTWQRMYGCEVGPDGRLLRGYSQYGYDGRDYIALNEDLRSWTAADTAAQITQRKWEKEGVAEGFRNYVEGLCVEGLRRYLEIGKDTLLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*26:01",
+                "id": "OLA08727",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*26:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*26:01",
+            "id": "OLA08727",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*26:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GPHSLRYFYTGVSRPGRGEPRFIIVGYVDDTQFVRFDSDAPDPRDEPRAPWIEQEGPEYWDQETRKSKDAAQTFRVDLNTLRGYYNQSEAGSHTVQAMYGCDVGPDGRFLRGYRQDAYDGRDYIALNEDLRSWTAADTAAQITQRKWEKEGVAEAHRNYLEGECVEWLRRYLENGKDTLLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*14:01",
+                "id": "OLA08698",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*14:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*14:01",
+            "id": "OLA08698",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*14:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GPHSLRYVYTGVSRPGLGEPRFIAVGYVDDTQFVRFDSDAPDPREEPRARWVEQEGPEYWDRNTRIYKDTAQIFRANLNTALGYYNQSEAGSHTFQEMYGCDVGPDGRLLRGYDQLGYDGRDYIALNEDLRSWTAADTAAQVTQRKWEKEGVAERFRNYVEGRCVEGLRRYLEIGKDTLLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*01:01",
+                "id": "OLA02432",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*01:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*01:01",
+            "id": "OLA02432",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*01:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GPHSMRYFSTAVSRPGLGEPRYLEVGYVDDTQFVRFDSDAPDPKMEPRAPWMEQEGPEYWDRETRRAKGNAQTFRVGLNTLRGYYNQSEAGSHTWQWMYGCEVGPDGRLLRGYSQDAYDGRDYIALNEDLRSWTAADTAAQVTQRKWEKEGAADHYRNYLEGTCVEWLRRHLENGKDTLLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*16:01",
+                "id": "OLA08700",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*16:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*16:01",
+            "id": "OLA08700",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*16:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GPHSMRYFSTAVSRPGRGEPRYLEVGYVDDTQFVRFDSDAPDPKMEPRARWVEQEGPEYWDRNTRNAKGTAQTFRVNLNTALSYYNQSEAGSHTWQLMYGCDVGPDGRLLRGFMQYGYDGRDYIALNEDLRSWTAADTAAQITQRKWEKEGVAERFRNYLEGTCVEWLRRYLETGKDTLLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*03:02:01",
+                "id": "OLA08869",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*03:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*03:02:01",
+            "id": "OLA08869",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*03:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GPHSMRYFSTAVSRPGRGEPRYLEVGYVDDTQFVRFDSDAPDPKMEPRARWVEQEGPEYWDRNTRNAKGTAQTFRVNLNTALSYYNQSEAGSHTWQWMYGCDVGPDGRLLRGFMQYGYDGRDYIALNEDLRSWTAADTAAQITQRKWEKEGVAERHRNYLEGTCVEWLRRHLENGKDTLLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*03:01",
+                "id": "OLA02437",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*03:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*03:01",
+            "id": "OLA02437",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*03:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GPHSMRYFSTAVSRPGRGEPRYLEVGYVDDTQFVRFDSDAPDPKMEQRAPWMEQVGPEYWDRETRRAKGNGQSFRVGLTILRGYYNQSEAGSHTWQWMYGCDVGPDGRLLRGFMQYGYDGRDYIALNEDLRSWTAADTAAQVTQRKWEKEGAADHYRNYLEGTCVEWLRRYLEIGKDTLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*05:01",
+                "id": "OLA02439",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*05:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*05:01",
+            "id": "OLA02439",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*05:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GPHSMRYFSTAVSRPGRGEPRYLEVGYVDDTQFVRFDSDAPDPKMEQRAPWMEQVGPEYWDRNTRNAKGNAQTFRVGLTILRGYYNQSEAGSHTWQCMYGCDVGPDGRLLRGFMQFGYDGRDYIALNEDLRSWTAADTAAQVTQRKWEKEGAADHYRNYVEGTCVEWLRRYLEIGKDTLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*15:01",
+                "id": "OLA08699",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*15:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*15:01",
+            "id": "OLA08699",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*15:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GPHSMRYFSTAVSRPGRGEPRYLEVGYVDDTQFVRFDSDAPDPKMEQRAPWMEQVGPEYWDRNTRNAKGTAQTFRVDLNTLRGYYNQSEAGSHTIQWMYGCEVGPDGRLLRGYSQFGYDGRDYIALNEDLRSWTAADTAAQITKRKWEKEGAAEARRNYLEGTCVEWLRRHLENGKDTLLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*17:01",
+                "id": "OLA08701",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*17:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*17:01",
+            "id": "OLA08701",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*17:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GPHSMRYFSTAVSRPGRGEPRYLEVGYVDDTQFVRFDSDAPDPKMEQRAPWMEQVGPEYWDRNTRNAKGTAQTFRVDLNTLRGYYNQSEAGSHTWQWMYGCEVGPDGRLLRGYSQDAYDGRDYIALNEDLRSWTAADTAAQVTQRKWEKEGAADHYRNYLEGTCVEWLRRHLENGKDTLLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*18:01",
+                "id": "OLA08702",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*18:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*18:01",
+            "id": "OLA08702",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*18:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GPHSMRYFSTAVSRPGRGEPRYLEVGYVDDTQFVRFDSDAPDPRMEQRAPWMEQVGPEYWDQETRRAKDTAQTFRVNLNTALGYYNQSEAGSHTFQWMYGCEVGPDGRLLRGYEQLGYDGRDYIALNEDLRSWTAADTAAQITKRKWEKEGAAEAHRNYLEGECVEWLHRHLETGKDTLLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*27:01",
+                "id": "OLA08728",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*27:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*27:01",
+            "id": "OLA08728",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*27:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GPHSMRYVFTGVSRPGRGEPRFIAVGYVDDTQFVRFDSDAADPRMEPRARWVEQEGPEYWDRETRNMKDTTQSFRANLNTLRGYYNQSAAGSHTLQWMVGCDVGPDGRLLRGFWQFGYDGRDYIALNEDLRSWTAADTAAQITKRKWEKEGAAEAERNYLEGRCVEWLRRYLENGKDTLLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*02:01",
+                "id": "OLA02433",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*02:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*02:01",
+            "id": "OLA02433",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*02:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GPHSMRYVYTGVSRPGLGEPRFIAVGYVDDTQFVRFDSDAPDPRMEPRARWVEQEGPEYWDRETRNMKDATQSFRVGLNTLRGYYNQSEAGSHTWQRMYGCYVGPDGRLLRGYEQFGYDGRDYIALNEDLRSWTAADTAAQITQRKWEKEGVAEAERNYLEGRCVEWLRRYLETGKDTLLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*11:01",
+                "id": "OLA02781",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*11:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*11:01",
+            "id": "OLA02781",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*11:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFLTAVSRPGLGEPRFIAVGYVDDTQFVRFDSDARDPRMEPRARWAEQEGPEYWDQETRLAKDAAQTFRANLNTALGYYNQSEAGSHTVQEMYGCDVGPDGRFLRGYEQHGYDGRDYLALNEDLRSWTAADTAAQITKRKWEAAGEAERHRNSLVGECVEELRRHLETGKDTLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*50:00",
+                "id": "OLA02441",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*50:00",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*50:00",
+            "id": "OLA02441",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*50:00",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFLTAVSRPGLGEPRFIIVGYVDDTQFLRFDSDAPHPRLEPRTRWIEQEGPEYWDEETRIAKDGIQTFRANLNTLRGYYNQSEAGSHTLQNMHCCGVGPDGRLLRGFMQFGYDGRDYIALNEDLRSWTAADTAARITQRKWEALGAAEEQRNYFEGKCVNLLRRHLENGKDTLLRT": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*50:03",
+                "id": "OLA02442",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*50:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*50:03",
+            "id": "OLA02442",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*50:03",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFLTAVSRPGRGEPRYLEVGYVDDMQFVRFDSDAPDPKMEPRARWVEQEGPEYWDQETRRAKDTAQTFRVSLNILRGYYNQSEAGSHTWQWMVGCYVGPDGRLLRGYSQFGYDGRDYIALNEDLRSWTAADAAAQISKRKWEAAGEAERFRNYLEGRCVEGLRRYLEIGKDTLLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*24:01",
+                "id": "OLA08724",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*24:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*24:01",
+            "id": "OLA08724",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*24:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFYTGVSRPGLGEPRFIAVGYVDDTQFVRFDSDAPDPREEPRARWVEQEGPEYWDRNTRIYKDTAQSFRVSLNNLRGYYNQSAAGSHTLQRMYGCYVGPDGRLLRGYSQFGYDGRDYIALNEDLRSWTAADTAAQITQRKWEKEGAAEADRNYLEGTCVEWLRRYLETGKDTLLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*25:01",
+                "id": "OLA08726",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*25:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*25:01",
+            "id": "OLA08726",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*25:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYVYTAVSRPGRGEPRFIAVGYVDDTQFVRFDSDAADPRMEPRARWVEQEGPEYWDQETQGTKDAAQTFRANLNTLRGYYNQSEAGSHTLQCMYGCDVGPDGLLLRGFMQYGYEGRDYIALNEDLRSWTAADTAAQISKHNAVVAGAADHYRNYLEGECVEWLRRHLETGKDTLLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*06:01",
+                "id": "OLA02443",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*06:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*06:01",
+            "id": "OLA02443",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*06:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYVYTAVSRPGRGEPRFIAVGYVDDTQFVRFDSDAPDPRMEPRARWVEQEGPEYWDQETRIYKDAAQNFRANLNTLRGYYNQSEAGSHTLQAMCGCDVGPDGRLLRGFMQYGYDGRDYIALNEDLRSWTAADTAAQISKRKIEAAGGAEGHRNYFEGLCVEELRRYLETGKDTLLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*50:01",
+                "id": "OLA02435",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*50:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*50:01",
+            "id": "OLA02435",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*50:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYVYTCVSRPGLGEPRFIAVGYVDDTQFVRFDSEARNPRMEPRARWAEQEGPEYWDQETRMAKDAAQNFRVNLNTLRGYYNQSEAGSHTVQAMCGCDVGPDWRLLRGFMQYGYDGRDYLALNEDLRSWTAADAAAQISKRKIEAAGGAEGHRNYFEGLCVEMLRRYLEKGKDTLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*50:02",
+                "id": "OLA02434",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*50:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*50:02",
+            "id": "OLA02434",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*50:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYVYTGVSRPGRGEPRFIAVGYVDDTQFVRFDSDTPDPRMEPRARWVEQEGPEYWDRETRNMKDATQRFRANLNTLRGYYNQSEAGSHTLQWMYGCDVGPDGRLLRGYRQDAYDGRDYIALNEDLRSWTAADTAAQITKRKWEKEGAAEAERNYLEGLCVEGLRRYLEIGKDTLLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*04:01",
+                "id": "OLA02440",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*04:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*04:01",
+            "id": "OLA02440",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*04:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGLGEPRYLEVGYVDDTQFVRFDSDAPDPRMEPRAPWMEQVGPEYWDRNTRNAKGNAQTFRVNLNTLRGYYNQSEAGSHTLQWMYGCDVGPDGRPLRGFMQYGYDGRDYLALNEDLRSWTAADTAAQISKRKWEAAGEAERFRNYLEGTCVEWLRRYLETGKDTLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*13:01",
+                "id": "OLA08697",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*13:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Ovar-N*21:01",
+                "id": "OLA08705",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*21:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Ovar-N*13:02",
+                "id": "OLA08706",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*13:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*13:01",
+            "id": "OLA08697",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*13:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSRPGLGEPRYLEVGYVDDTQFVRFDSDAPDPRMEPRARWVEQEGPEYWDLNTRNAKGTALTFRVSLNNLRGYYNQSEAGSHTLQWMYGCDVGPDGRPLRGFMQYGYDGRDYLALNEDLRSWTAADTAAQISKRKWEAAGAAERFRNYLEGTCVEWLRRYLETGKDTLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Ovar-N*20:01",
+                "id": "OLA08704",
+                "locus": "Ovar-N",
+                "protein_allele_name": "Ovar-N*20:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Ovar-N*20:01",
+            "id": "OLA08704",
+            "locus": "Ovar-N",
+            "protein_allele_name": "Ovar-N*20:01",
+            "source": "ipd-mhc"
+        }
+    }
+}

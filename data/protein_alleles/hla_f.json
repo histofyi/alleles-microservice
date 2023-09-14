@@ -1,0 +1,626 @@
+{
+    "hla_f_01_01": {
+        "alleles": [
+            {
+                "gene_allele_name": "HLA-F*01:01:01:01",
+                "id": "HLA01096",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:01:02",
+                "id": "HLA02280",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:01:03",
+                "id": "HLA02263",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:01:04",
+                "id": "HLA02271",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:01:05",
+                "id": "HLA02274",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:01:06",
+                "id": "HLA02266",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:01:07",
+                "id": "HLA02269",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:01:08",
+                "id": "HLA02647",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:01:09",
+                "id": "HLA02275",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:01:10",
+                "id": "HLA02270",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:01:11",
+                "id": "HLA02277",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:01:12",
+                "id": "HLA02278",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:01:13",
+                "id": "HLA17164",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:01:14",
+                "id": "HLA17268",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:01:15",
+                "id": "HLA18019",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:01:16",
+                "id": "HLA18021",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:01:17",
+                "id": "HLA21228",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:01:18",
+                "id": "HLA21304",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:01:19",
+                "id": "HLA21360",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:01:20",
+                "id": "HLA22256",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:01:21",
+                "id": "HLA22478",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:01:22",
+                "id": "HLA29008",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:01:23",
+                "id": "HLA35825",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:02:01",
+                "id": "HLA01755",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:02:02",
+                "id": "HLA02265",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:02:03",
+                "id": "HLA02273",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:02:04",
+                "id": "HLA02279",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:02:05",
+                "id": "HLA02264",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:02:06",
+                "id": "HLA05914",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:02:07",
+                "id": "HLA17561",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:02:08",
+                "id": "HLA18055",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:02:09",
+                "id": "HLA21499",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:02:10",
+                "id": "HLA21300",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:02:11",
+                "id": "HLA21929",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:02:12",
+                "id": "HLA22339",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:02:13",
+                "id": "HLA35867",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:04",
+                "id": "HLA22431",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:05",
+                "id": "HLA22750",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:06",
+                "id": "HLA32356",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:07",
+                "id": "HLA32453",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:08",
+                "id": "HLA33857",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:01:09",
+                "id": "HLA35225",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:01",
+                "source": "ipd-imgt/hla"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "HLA-F*01:01:01:01",
+            "id": "HLA01096",
+            "locus": "F",
+            "protein_allele_name": "HLA-F*01:01",
+            "source": "ipd-imgt/hla"
+        },
+        "canonical_sequence": "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRADPPKAHVAHHPISDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPQPLILRWE",
+        "gdomain_sequence": "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRA",
+        "pocket_pseudosequence": "YSAMYWTYAANTDVANLRLGNHHYTYEYFTYELY",
+        "sequences": [
+            "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRADPPKAHVAHHPISDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPQPLILRWE"
+        ]
+    },
+    "hla_f_01_02": {
+        "alleles": [
+            {
+                "gene_allele_name": "HLA-F*01:02:01:01",
+                "id": "HLA02267",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:02",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:02:01:02",
+                "id": "HLA35880",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:02",
+                "source": "ipd-imgt/hla"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "HLA-F*01:02:01:01",
+            "id": "HLA02267",
+            "locus": "F",
+            "protein_allele_name": "HLA-F*01:02",
+            "source": "ipd-imgt/hla"
+        },
+        "canonical_sequence": "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRADPPKAHVAHHPISDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPQPLILRWE",
+        "gdomain_sequence": "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRA",
+        "pocket_pseudosequence": "YSAMYWTYAANTDVANLRLGNHHYTYEYFTYELY",
+        "sequences": [
+            "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRADPPKAHVAHHPISDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPQPLILRWE"
+        ]
+    },
+    "hla_f_01_03": {
+        "alleles": [
+            {
+                "gene_allele_name": "HLA-F*01:03:01:01",
+                "id": "HLA02276",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:03",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:03:01:02",
+                "id": "HLA02268",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:03",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:03:01:03",
+                "id": "HLA17982",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:03",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:03:01:04",
+                "id": "HLA21470",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:03",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:03:01:05",
+                "id": "HLA34439",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:03",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:03:02",
+                "id": "HLA34956",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:03",
+                "source": "ipd-imgt/hla"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "HLA-F*01:03:01:01",
+            "id": "HLA02276",
+            "locus": "F",
+            "protein_allele_name": "HLA-F*01:03",
+            "source": "ipd-imgt/hla"
+        },
+        "canonical_sequence": "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRADPPKAHVAHHPISDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPAGDGTFQKWAAVVVPPGEEQRYTCHVQHEGLPQPLILRWE",
+        "gdomain_sequence": "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRA",
+        "pocket_pseudosequence": "YSAMYWTYAANTDVANLRLGNHHYTYEYFTYELY",
+        "sequences": [
+            "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRADPPKAHVAHHPISDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPAGDGTFQKWAAVVVPPGEEQRYTCHVQHEGLPQPLILRWE"
+        ]
+    },
+    "hla_f_01_04": {
+        "alleles": [
+            {
+                "gene_allele_name": "HLA-F*01:04:01:01",
+                "id": "HLA02272",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:04",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-F*01:04:01:02",
+                "id": "HLA22420",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:04",
+                "source": "ipd-imgt/hla"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "HLA-F*01:04:01:01",
+            "id": "HLA02272",
+            "locus": "F",
+            "protein_allele_name": "HLA-F*01:04",
+            "source": "ipd-imgt/hla"
+        },
+        "canonical_sequence": "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREQWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRADPPKAHVAHHPISDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPQPLILRWE",
+        "gdomain_sequence": "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREQWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRA",
+        "pocket_pseudosequence": "YSAMYWTYAANTDVANLRLGNHHYTYEYFTYELY",
+        "sequences": [
+            "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREQWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRADPPKAHVAHHPISDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPQPLILRWE"
+        ]
+    },
+    "hla_f_01_05": {
+        "alleles": [
+            {
+                "gene_allele_name": "HLA-F*01:05",
+                "id": "HLA17339",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:05",
+                "source": "ipd-imgt/hla"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "HLA-F*01:05",
+            "id": "HLA17339",
+            "locus": "F",
+            "protein_allele_name": "HLA-F*01:05",
+            "source": "ipd-imgt/hla"
+        },
+        "canonical_sequence": "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRADPPKAHVAHHPISDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPQPLILRWE",
+        "gdomain_sequence": "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRA",
+        "pocket_pseudosequence": "YSAMYWTYAANTDVANLRLGNHHYTYEYFTYELY",
+        "sequences": [
+            "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRADPPKAHVAHHPISDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPQPLILRWE"
+        ]
+    },
+    "hla_f_01_06": {
+        "alleles": [
+            {
+                "gene_allele_name": "HLA-F*01:06",
+                "id": "HLA19135",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:06",
+                "source": "ipd-imgt/hla"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "HLA-F*01:06",
+            "id": "HLA19135",
+            "locus": "F",
+            "protein_allele_name": "HLA-F*01:06",
+            "source": "ipd-imgt/hla"
+        },
+        "canonical_sequence": "GSHSLRFFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRADPPKAHVAHHPISDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPQPLILRWE",
+        "gdomain_sequence": "GSHSLRFFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRA",
+        "pocket_pseudosequence": "FSAMYWTYAANTDVANLRLGNHHYTYEYFTYELY",
+        "sequences": [
+            "GSHSLRFFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRADPPKAHVAHHPISDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPQPLILRWE"
+        ]
+    },
+    "hla_f_01_07": {
+        "alleles": [
+            {
+                "gene_allele_name": "HLA-F*01:07",
+                "id": "HLA33592",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:07",
+                "source": "ipd-imgt/hla"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "HLA-F*01:07",
+            "id": "HLA33592",
+            "locus": "F",
+            "protein_allele_name": "HLA-F*01:07",
+            "source": "ipd-imgt/hla"
+        },
+        "canonical_sequence": "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRADPPKAHVAHHPISDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPAGDGTFQKWAAVVVPSGKEQRYTCHVQHEGLPQPLILRWE",
+        "gdomain_sequence": "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRA",
+        "pocket_pseudosequence": "YSAMYWTYAANTDVANLRLGNHHYTYEYFTYELY",
+        "sequences": [
+            "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRADPPKAHVAHHPISDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPAGDGTFQKWAAVVVPSGKEQRYTCHVQHEGLPQPLILRWE"
+        ]
+    },
+    "hla_f_01_08": {
+        "alleles": [
+            {
+                "gene_allele_name": "HLA-F*01:08",
+                "id": "HLA35014",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:08",
+                "source": "ipd-imgt/hla"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "HLA-F*01:08",
+            "id": "HLA35014",
+            "locus": "F",
+            "protein_allele_name": "HLA-F*01:08",
+            "source": "ipd-imgt/hla"
+        },
+        "canonical_sequence": "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRADPPKAHVAHHPISDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRTAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPQPLILRWE",
+        "gdomain_sequence": "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRA",
+        "pocket_pseudosequence": "YSAMYWTYAANTDVANLRLGNHHYTYEYFTYELY",
+        "sequences": [
+            "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRADPPKAHVAHHPISDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRTAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPQPLILRWE"
+        ]
+    },
+    "hla_f_01_09": {
+        "alleles": [
+            {
+                "gene_allele_name": "HLA-F*01:09",
+                "id": "HLA34858",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:09",
+                "source": "ipd-imgt/hla"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "HLA-F*01:09",
+            "id": "HLA34858",
+            "locus": "F",
+            "protein_allele_name": "HLA-F*01:09",
+            "source": "ipd-imgt/hla"
+        },
+        "canonical_sequence": "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRANPPKAHVAHHPISDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPAGDGTFQKWAAVVVPPGEEQRYTCHVQHEGLPQPLILRWE",
+        "gdomain_sequence": "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRA",
+        "pocket_pseudosequence": "YSAMYWTYAANTDVANLRLGNHHYTYEYFTYELY",
+        "sequences": [
+            "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRANPPKAHVAHHPISDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPAGDGTFQKWAAVVVPPGEEQRYTCHVQHEGLPQPLILRWE"
+        ]
+    },
+    "hla_f_01_10": {
+        "alleles": [
+            {
+                "gene_allele_name": "HLA-F*01:10",
+                "id": "HLA34883",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:10",
+                "source": "ipd-imgt/hla"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "HLA-F*01:10",
+            "id": "HLA34883",
+            "locus": "F",
+            "protein_allele_name": "HLA-F*01:10",
+            "source": "ipd-imgt/hla"
+        },
+        "canonical_sequence": "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETPQRADPPKAHVAHHPISDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPQPLILRWE",
+        "gdomain_sequence": "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETPQRA",
+        "pocket_pseudosequence": "YSAMYWTYAANTDVANLRLGNHHYTYEYFTYELY",
+        "sequences": [
+            "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETPQRADPPKAHVAHHPISDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPQPLILRWE"
+        ]
+    },
+    "hla_f_01_11": {
+        "alleles": [
+            {
+                "gene_allele_name": "HLA-F*01:11",
+                "id": "HLA34948",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:11",
+                "source": "ipd-imgt/hla"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "HLA-F*01:11",
+            "id": "HLA34948",
+            "locus": "F",
+            "protein_allele_name": "HLA-F*01:11",
+            "source": "ipd-imgt/hla"
+        },
+        "canonical_sequence": "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRADPPKAHVAHHPISDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPQPLILRWE",
+        "gdomain_sequence": "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRA",
+        "pocket_pseudosequence": "YSAMYWTYAANTDVANLRLGNHHYTYEYFTYELY",
+        "sequences": [
+            "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRADPPKAHVAHHPISDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPQPLILRWE"
+        ]
+    },
+    "hla_f_01_12": {
+        "alleles": [
+            {
+                "gene_allele_name": "HLA-F*01:12",
+                "id": "HLA37646",
+                "locus": "F",
+                "protein_allele_name": "HLA-F*01:12",
+                "source": "ipd-imgt/hla"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "HLA-F*01:12",
+            "id": "HLA37646",
+            "locus": "F",
+            "protein_allele_name": "HLA-F*01:12",
+            "source": "ipd-imgt/hla"
+        },
+        "canonical_sequence": "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAFDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRADPPKAHVAHHPISDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPQPLILRWE",
+        "gdomain_sequence": "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAFDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRA",
+        "pocket_pseudosequence": "YSAMYWTYAANTDVANLRLGNHHFTYEYFTYELY",
+        "sequences": [
+            "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAFDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRADPPKAHVAHHPISDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPQPLILRWE"
+        ]
+    }
+}

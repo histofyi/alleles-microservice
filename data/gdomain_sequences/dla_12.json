@@ -1,0 +1,20 @@
+{
+    "GSHSLRYFYTSVSRPGRGDPRFIAVGYVDDTQFVRFDSDAATGRMEPRAPWVEQEGPEYWDPQTRTIKETARTFRVDLDTLRGYYNQSEAGSHTFQWMFGCDLGPGGRLLRGYSQDAYDGADYIALNEDLRSWTAADAAAQITRRKREAAGDAGHLRNYLETTCVEWLRRYLEMGKETLLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "DLA-12*001:01:01",
+                "id": "DLA08375",
+                "locus": "DLA-12",
+                "protein_allele_name": "DLA-12*001:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "DLA-12*001:01:01",
+            "id": "DLA08375",
+            "locus": "DLA-12",
+            "protein_allele_name": "DLA-12*001:01",
+            "source": "ipd-mhc"
+        }
+    }
+}

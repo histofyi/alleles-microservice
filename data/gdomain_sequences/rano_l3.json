@@ -1,0 +1,14 @@
+{
+    "-SHSLRYFETAVSQPGLGEPPVISVGFVDDTQFVRYDSDEENPKYEPRARWMEREGPEYWERETQRAKGNEQWSRVNLGTALRYYNQSEGGSHTMQRLSGCAVGSDGSLLRGYDQYAYDGRDYIALNEDLKTWTAADTAAQITQSKWDQAGEAERSRAYLEGKCVEWLLRYLELGKETLLRS": {
+        "alleles": [
+            {
+                "gene_allele_name": "Rano-L3*l",
+                "id": "RT108394",
+                "locus": "Rano-L3",
+                "protein_allele_name": "Rano-L3*l",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {}
+    }
+}

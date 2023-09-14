@@ -1,0 +1,14 @@
+{
+    "GSHSLRYFKTAVSRPGLGEPRFMEVGYVDDTEFVRFDSDAENPRYEPRARWMEQQGPEYWERETQGAKEKEQTFRVNLRTLLGYYNQSEGDSHTLQLMFGCDVGSDGRLLRGYDQFAYDGRDYIALNEDLKTWAAADVVAQMTRNKWERARYAEKRRANLEGECVESLRRFLELGKETLLRS": {
+        "alleles": [
+            {
+                "gene_allele_name": "Rano-CE12*n",
+                "id": "RT108382",
+                "locus": "Rano-CE12",
+                "protein_allele_name": "Rano-CE12*n",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {}
+    }
+}

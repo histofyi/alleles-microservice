@@ -1,0 +1,20 @@
+{
+    "GSHSWRYFSTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDRETRNAEGHAQTHRENLRTLLRYYNQSEAGSHTIRRVFGCDLGPDGRLLRGYNQHAYNGKDYIALNEDLRSWTAADTAAQITQRKWEAAGVAEEWSVYLEGECVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-B22*01:02:01:01",
+                "id": "NHP12098",
+                "locus": "Mafa-B22",
+                "protein_allele_name": "Mafa-B22*01:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-B22*01:02:01:01",
+            "id": "NHP12098",
+            "locus": "Mafa-B22",
+            "protein_allele_name": "Mafa-B22*01:02",
+            "source": "ipd-mhc"
+        }
+    }
+}

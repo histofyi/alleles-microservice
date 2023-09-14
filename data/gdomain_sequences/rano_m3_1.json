@@ -1,0 +1,26 @@
+{
+    "GTHSLRYFHTALSRPGRGEPQYISVGYVDDKLFQRCDSVEEIPRMEARAPWMEKEGPEYWEELKLKVKSIAQRARARLRTLIRYYNQSEGGSHILQWMVACEVGPDMRLLGAHYQAAYDGSDYITLNEDLSSWTAADMVAQITKSELESEGRAEYFRAYVDGECLELLHRFLQNGKEILQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Rano-M3-1*av1",
+                "id": "RT108399",
+                "locus": "Rano-M3-1",
+                "protein_allele_name": "Rano-M3-1*av1",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {}
+    },
+    "GTHSLRYFHTALSRPGRGEPQYISVGYVDDKLFQRCDSVEEIPRMEARAPWMEKEGPEYWEELKLKVKSIAQRARARLRTLIRYYNQSEGSSHILQWMVACEVGPDMRLLGAHYQAAYDGSDYITLNEDLSSWTAADMVAQITKSELESEGRAEYFRAYVDGECLELLHRFLQNGKEILQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Rano-M3-1*n",
+                "id": "RT108400",
+                "locus": "Rano-M3-1",
+                "protein_allele_name": "Rano-M3-1*n",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {}
+    }
+}

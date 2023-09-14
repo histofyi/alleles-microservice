@@ -1,0 +1,610 @@
+{
+    "-SHSMRYFYTSMSRPGRGEPRFIAVGYVDDTQFVQFDSDAASQRMEPRAPWVEQEGPEYWDRETRNMKTATQNAPVALRNLRGYYNQSEAGSHTFQRMVGCDLGPDGRLQRGYEQFAYDGRDYIALNEDLRSWFAADVAAQNTQRKWEAAGMAEQDRVYLEGRCVESLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-A4*14:06",
+                "id": "NHP03396",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*14:06",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-A4*14:06",
+            "id": "NHP03396",
+            "locus": "Mafa-A4",
+            "protein_allele_name": "Mafa-A4*14:06",
+            "source": "ipd-mhc"
+        }
+    },
+    "-SHSMRYFYTSMSRPGRGEPRFIAVGYVDDTQFVQFDSDAASQRMEPRAPWVEQEGPEYWDRETRNMKTATQNAPVALRNLRGYYNQSEAGSHTFQRMVGCDLGPDGRLQRGYEQFAYDGRDYIALNEDLRSWFAADVAAQNTQRKWEAAGVAEQDRVYLEGRCVESLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-A4*14:08:01",
+                "id": "NHP03402",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*14:08",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-A4*14:08:02",
+                "id": "NHP03411",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*14:08",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-A4*14:08:01",
+            "id": "NHP03402",
+            "locus": "Mafa-A4",
+            "protein_allele_name": "Mafa-A4*14:08",
+            "source": "ipd-mhc"
+        }
+    },
+    "-SHSMRYFYTSMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETRNMKTATQNAPVALRNLRGYYNQSEVGSHTFQRMVGCDLGPDGRLLRGYEQFAYDGRDYIALNEDLRSWSAADVAAQNTQRKWEAAGVAEQDRVYLEGRCLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-A4*01:03:02",
+                "id": "NHP03389",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*01:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-A4*01:03:02",
+            "id": "NHP03389",
+            "locus": "Mafa-A4",
+            "protein_allele_name": "Mafa-A4*01:03",
+            "source": "ipd-mhc"
+        }
+    },
+    "-SHSMRYFYTSMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETRNMKTATQNAPVALRNLRGYYNQSEVGSHTFQRMVGCDLGPDGRLLRGYEQFAYDGRDYIALNEDLRSWSAADVAAQNTQRKWEAAGVAEQDRVYLEGRCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-A4*01:10",
+                "id": "NHP03397",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*01:10",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-A4*01:10",
+            "id": "NHP03397",
+            "locus": "Mafa-A4",
+            "protein_allele_name": "Mafa-A4*01:10",
+            "source": "ipd-mhc"
+        }
+    },
+    "-SHSMRYFYTSMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETRNMKTATQNAPVALRNLRGYYNQSEVGSHTFQRMVGCDLGPDGRLLRGYEQSAYDGRDYIALNEDLRSWSAADVAAQNTQRKWEAAGVAEQDRVYLEGRCLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-A4*01:06",
+                "id": "NHP03321",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*01:06",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-A4*01:06",
+            "id": "NHP03321",
+            "locus": "Mafa-A4",
+            "protein_allele_name": "Mafa-A4*01:06",
+            "source": "ipd-mhc"
+        }
+    },
+    "-SHSMRYFYTSMSRPGRREPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETRNMKTATQNAPVALRNLRGYYNQSEVGSHTFQRMVGCDLGPDGRLLRGYEQYAYDGRDYIALKEDLRSWTAADVAAQNTQRKWEAAGAAERMRAYLEGTCLEWLRRHLENWKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-A4*03:02",
+                "id": "NHP03320",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*03:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-A4*03:02",
+            "id": "NHP03320",
+            "locus": "Mafa-A4",
+            "protein_allele_name": "Mafa-A4*03:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTFMSRPGRGEHRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETRNMKTATQNAPVALRNLRGYYNQSEAGSHTFQRMVGCDLGPDGRLLRGYEQFAYDGRDYISLNEDLRSWSAADVAAQNTQRKWEAAGVAEQDRVYLEGRCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-A4*01:02:01:01",
+                "id": "NHP01748",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*01:02",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-A4*01:04",
+                "id": "NHP02021",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*01:04",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-A4*01:11",
+                "id": "NHP03398",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*01:11",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-A4*01:13",
+                "id": "NHP07508",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*01:13",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-A4*01:02:01:02",
+                "id": "NHP11600",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*01:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-A4*01:02:01:01",
+            "id": "NHP01748",
+            "locus": "Mafa-A4",
+            "protein_allele_name": "Mafa-A4*01:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTFMSRPGRGEHRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETRNMKTATQNAPVALWNLRGYYNQSEAGSHTFQRMVGCDLGPDGRLLRGYEQFAYDGRDYISLNEDLRSWSAADMAAQNTQRKWEAAGVAEQDRVYLEGRCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-A4*01:05",
+                "id": "NHP02372",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*01:05",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-A4*01:05",
+            "id": "NHP02372",
+            "locus": "Mafa-A4",
+            "protein_allele_name": "Mafa-A4*01:05",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTFMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETRNMKTATQNAPVALRNLRGYYNQSEAGSHTFQRMVGCDLGPDGRLLRGYEQFAYDGRDYIALNEDLRSWSAADVAAQNTQRKWEAAGVAEQDRVYLEGRCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-A4*01:01:01:01",
+                "id": "NHP01733",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*01:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-A4*01:01:01:01",
+            "id": "NHP01733",
+            "locus": "Mafa-A4",
+            "protein_allele_name": "Mafa-A4*01:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGEPRFIAVGYVDDTHFVQFDSDAASQRMEPRAPWVEQEGPEYWDRETRNMKTATQMAPVALRNLRGYYNQSEAGSHTFQRMVGCDLGPDGRLQRGYEQFAYDGRDYIALNEDLRSWFAADVAAQNTQRKWEATGVAEQDRVYLEGRCVESLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-A4*14:14N",
+                "id": "NHP06902",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*14:14N",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-A4*14:14N",
+            "id": "NHP06902",
+            "locus": "Mafa-A4",
+            "protein_allele_name": "Mafa-A4*14:14N",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGEPRFIAVGYVDDTQFVQFDSDAASQRMEPRAPWVEQEGPEYWDRETRNMKTATQNAPVALRNLLRYYNQSEAGSHTFQRMVGCDLGPDGRLQRGYEQFAYDGRDYIALNEDLRSWFAADVAAQNTQRKWEAAGVAEQDRVHLEGRCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-A4*14:19:01:01",
+                "id": "NHP07432",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*14:19",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-A4*14:19:01:01",
+            "id": "NHP07432",
+            "locus": "Mafa-A4",
+            "protein_allele_name": "Mafa-A4*14:19",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGEPRFIAVGYVDDTQFVQFDSDAASQRMEPRAPWVEQEGPEYWDRETRNMKTATQNAPVALRNLLRYYNQSEAGSHTFQRMVGCDLGPDGRLQRGYEQFAYDGRDYIALNEDLRSWFAADVAAQNTQRKWEAAGVAEQDRVYLEGPCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-A4*14:16:01:01",
+                "id": "NHP06963",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*14:16",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-A4*14:16:01:01",
+            "id": "NHP06963",
+            "locus": "Mafa-A4",
+            "protein_allele_name": "Mafa-A4*14:16",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGEPRFIAVGYVDDTQFVQFDSDAASQRMEPRAPWVEQEGPEYWDRETRNMKTATQNAPVALRNLLRYYNQSEAGSHTFQRMVGCDLGPDGRLQRGYEQFAYDGRDYIALNEDLRSWFAADVAAQNTQRKWEAAGVAEQDRVYLEGRCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-A4*14:03:01:01",
+                "id": "NHP03322",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*14:03",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-A4*14:04:01",
+                "id": "NHP03325",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*14:04",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-A4*14:13",
+                "id": "NHP06745",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*14:13",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-A4*14:17:01:01",
+                "id": "NHP07329",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*14:17",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-A4*14:03:01:02",
+                "id": "NHP10510",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*14:03",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-A4*14:03:01:03",
+                "id": "NHP10527",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*14:03",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-A4*14:03:01:04",
+                "id": "NHP10528",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*14:03",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-A4*14:03:01:05",
+                "id": "NHP10529",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*14:03",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-A4*14:04:03",
+                "id": "NHP10698",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*14:04",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-A4*14:03:02:01",
+                "id": "NHP11603",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*14:03",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-A4*14:03:01:06",
+                "id": "NHP11606",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*14:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-A4*14:03:01:01",
+            "id": "NHP03322",
+            "locus": "Mafa-A4",
+            "protein_allele_name": "Mafa-A4*14:03",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGEPRFIAVGYVDDTQFVQFDSDAASQRMEPRAPWVEQEGPEYWDRETRNMKTATQNAPVALRNLRGYYNQSEAGSHTFQRMVGCDLGPDGRLQCGYEQFAYDGRDYIALNEDLRSWFAADVAAQNTQRKWEAAGVAEQDRVYLEGRCVESLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-A4*14:05:01:01",
+                "id": "NHP03395",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*14:05",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-A4*14:05:01:01",
+            "id": "NHP03395",
+            "locus": "Mafa-A4",
+            "protein_allele_name": "Mafa-A4*14:05",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGEPRFIAVGYVDDTQFVQFDSDAASQRMEPRAPWVEQEGPEYWDRETRNMKTATQNAPVALRNLRGYYNQSEAGSHTFQRMVGCDLGPDGRLQRGYEQFAYDGRDYIALNEDLRSWFAADVAAQNTQRKWEAAGVAEQDRVYLEGRCVESLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-A4*14:01:01:01N",
+                "id": "NHP01798",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*14:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-A4*14:10",
+                "id": "NHP04020",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*14:10",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-A4*14:01:01:02N",
+                "id": "NHP11315",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*14:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-A4*14:21:01:01N",
+                "id": "NHP11602",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*14:21",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-A4*14:08:03:01",
+                "id": "NHP11605",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*14:08",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-A4*14:01:01:01N",
+            "id": "NHP01798",
+            "locus": "Mafa-A4",
+            "protein_allele_name": "Mafa-A4*14:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGEPRFIAVGYVDDTQFVQFDSDAASQRMEPRAPWVEQEGPEYWDRETRNMKTATQNAPVALRNLRGYYNQSEAGSHTFQRMVGCDLGPDGRLQRGYEQFAYDGRDYIALNEDLRSWFAADVAAQNTQRKWEAAGVAEQMRVYLEGRCVESLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-A4*14:07",
+                "id": "NHP03401",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*14:07",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-A4*14:07",
+            "id": "NHP03401",
+            "locus": "Mafa-A4",
+            "protein_allele_name": "Mafa-A4*14:07",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGEPRFIAVGYVDDTQFVQFDSDAASQRMEPRAPWVEQEGPEYWDRETRNMKTATQNAPVALRNLRGYYNQSEAGSHTFQRMVGCDLGPDGRLQRGYEQFAYDGRDYIALNEDLRSWFAADVAAQNTQRKWEATGVAEQDRVYLEGRCVESLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-A4*14:02N",
+                "id": "NHP01799",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*14:02N",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-A4*14:02N",
+            "id": "NHP01799",
+            "locus": "Mafa-A4",
+            "protein_allele_name": "Mafa-A4*14:02N",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGEPRFIAVGYVDDTQFVQFDSDAASQRMEPRAPWVEQEGPEYWDRETRNMKTATQNAPVALRNLRGYYNQSEAGSHTFQRMVGCDLGPDWRLQRGYEQFAYDGRDYIALNEDLRSWFAADVAAQNTQRKWEAAGVAEQDRVYLEGRCVESLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-A4*14:15",
+                "id": "NHP06966",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*14:15",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-A4*14:15",
+            "id": "NHP06966",
+            "locus": "Mafa-A4",
+            "protein_allele_name": "Mafa-A4*14:15",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETQNMKTATQNAPVALRNLRGYYNQSEAGSHTFQRMVGCDLGPDGRLLRGYEQFAYDGRDYISLNEDLRSWSAADVAAQNTQRKWEAAGVAEQDRVYLEGRCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-A4*01:07:01:01",
+                "id": "NHP03323",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*01:07",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-A4*01:07:01:01",
+            "id": "NHP03323",
+            "locus": "Mafa-A4",
+            "protein_allele_name": "Mafa-A4*01:07",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETQNMKTATQNAPVALRNLRGYYNQSEVGSHTFQRMVGCDLGPDGRLLRGYEQFAYDGRDYIALNEDLRSWSAADVAAQNTQRKWEAAGVAEQDRVYLEGRCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-A4*01:08:01:01",
+                "id": "NHP03326",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*01:08",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Mafa-A4*01:08:02:01",
+                "id": "NHP11601",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*01:08",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-A4*01:08:01:01",
+            "id": "NHP03326",
+            "locus": "Mafa-A4",
+            "protein_allele_name": "Mafa-A4*01:08",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETRNMKTATQNAPVALRNLRGYYNQSEAGSHTFQRMVGCDLGPDGRLQRGYEQFAYDGRDYIALNEDLRSWFAADVAAQNTQRKWEAAGVAEQDRVYLEGRCVESLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-A4*14:18:01:01",
+                "id": "NHP07431",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*14:18",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-A4*14:18:01:01",
+            "id": "NHP07431",
+            "locus": "Mafa-A4",
+            "protein_allele_name": "Mafa-A4*14:18",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETRNMKTATQNAPVALRNLRGYYNQSEVGSHTFQRMVGCDLGPDGRLLRGYEQFAYDGRDYIALNEDLHSWSAADVAAQNTQRKWEAAGVAEQDRVYLEGRCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-A4*01:12N",
+                "id": "NHP07430",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*01:12N",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-A4*01:12N",
+            "id": "NHP07430",
+            "locus": "Mafa-A4",
+            "protein_allele_name": "Mafa-A4*01:12N",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETRNMKTATQNAPVALRNLRGYYNQSEVGSHTFQRMVGCDLGPDGRLLRGYEQFAYDGRDYIALNEDLRSWSAADVAAQNTQRKWEAAGVAEQDRVYLEGRCLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-A4*01:03:01",
+                "id": "NHP01635",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*01:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-A4*01:03:01",
+            "id": "NHP01635",
+            "locus": "Mafa-A4",
+            "protein_allele_name": "Mafa-A4*01:03",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETRNMKTATQNAPVALRNLRGYYNQSEVGSHTFQRMVGCDLGPDGRLLRGYEQFAYDGRDYIALNEDLRSWSAADVAAQNTQRKWEAAGVAEQDRVYLEGRCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-A4*01:09:01:01N",
+                "id": "NHP03394",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*01:09",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-A4*01:09:01:01N",
+            "id": "NHP03394",
+            "locus": "Mafa-A4",
+            "protein_allele_name": "Mafa-A4*01:09",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETRNMKTATQNAPVALRNLRGYYNQSEVGSHTFQRMVGCDLGPDGRLLRGYEQYAYDGRDYIALNEDLRSWTAADVAAQNTQRKWEAAGAAERMRAYLEGTCLEWLRRHLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-A4*03:01",
+                "id": "NHP02550",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*03:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-A4*03:01",
+            "id": "NHP02550",
+            "locus": "Mafa-A4",
+            "protein_allele_name": "Mafa-A4*03:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETRNMKTATQNAPVALRNLRGYYNQSEVGSHTFQRMVGCDLGPDGRLQRGYEQFAYDGRDYIALNEDLRSWFVADVAAQNTQRKWEAAGVAEQDRVYLEGRCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Mafa-A4*14:22:01:01",
+                "id": "NHP11604",
+                "locus": "Mafa-A4",
+                "protein_allele_name": "Mafa-A4*14:22",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Mafa-A4*14:22:01:01",
+            "id": "NHP11604",
+            "locus": "Mafa-A4",
+            "protein_allele_name": "Mafa-A4*14:22",
+            "source": "ipd-mhc"
+        }
+    }
+}

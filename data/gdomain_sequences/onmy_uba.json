@@ -1,0 +1,56 @@
+{
+    "-THSLRYFYTATTGIPDFPEFVDVGVVNGKVISYYDSITKRKVPKQSWMEENLNQQYWNQGTDQLKGAEQTFKANIQIVQTRFNQTGGVHTFQNMYGCEWDDDTGATEGFFQYGYDGEDFLALDLKTKKWIAPTPQAVITKHKWDSNTANEERRKHYLTQECIEWLKKYLDYGKSTLMRTVP": {
+        "alleles": [
+            {
+                "gene_allele_name": "Onmy-UBA*09:01",
+                "id": "FISH08161",
+                "locus": "Onmy-UBA",
+                "protein_allele_name": "Onmy-UBA*09:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Onmy-UBA*09:01",
+            "id": "FISH08161",
+            "locus": "Onmy-UBA",
+            "protein_allele_name": "Onmy-UBA*09:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "-THSLRYVYTATSGVPDFPEFVSLGIVDGMQIDYYDSNTKRVVPKQDWMAKTEGSDYWERQTQNSIGDEQTFKANIDVAKQRFNQTGGVHIVQNMYGCEWDDESGVTEGFDQYGYDGEDFIAFDLKTKTWIAPKPQAVITKQKWDSNTAQNEQYNNYYTQECIEWLKKYMDYGKSTLMRTVP": {
+        "alleles": [
+            {
+                "gene_allele_name": "Onmy-UBA*22:01",
+                "id": "FISH08179",
+                "locus": "Onmy-UBA",
+                "protein_allele_name": "Onmy-UBA*22:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Onmy-UBA*22:01",
+            "id": "FISH08179",
+            "locus": "Onmy-UBA",
+            "protein_allele_name": "Onmy-UBA*22:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "-THSLRYVYTATSGVPDFPEFVSLGIVDGMQIDYYDSNTKRVVPKQDWMAKTEGSDYWERQTQNSIGDEQTFKANIDVAKQRFNQTGGVHTFQLMYGCELGDDGITRGDFQLGYDGADFLSLDKSTLTWTAANQKAVITKLKWDATGAEANFQKNYLENTCIEWLKKYVNYGKDTLERKVRP": {
+        "alleles": [
+            {
+                "gene_allele_name": "Onmy-UBA*05:01",
+                "id": "FISH08155",
+                "locus": "Onmy-UBA",
+                "protein_allele_name": "Onmy-UBA*05:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Onmy-UBA*05:01",
+            "id": "FISH08155",
+            "locus": "Onmy-UBA",
+            "protein_allele_name": "Onmy-UBA*05:01",
+            "source": "ipd-mhc"
+        }
+    }
+}

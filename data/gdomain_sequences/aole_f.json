@@ -1,0 +1,59 @@
+{
+    "GSHSLKYLSTAVSRPGRQEPRYRYIAVGYVDDTLFMRFDSDAASPRMEPRAPWVEQERPEYWDREVKANAQTDRVNLRILLRYYNQSEAGSHTLQGMNGCDVGPDGRFLRGYHQHAYDGKDYISLNEDLRSWTAADVAAQITKRKWEAEKYAEEFSTYLKGGCVEWLHRYLENGKETLQRAD": {
+        "alleles": [
+            {
+                "gene_allele_name": "Aole-F*05:03",
+                "id": "NHP10006",
+                "locus": "Aole-F",
+                "protein_allele_name": "Aole-F*05:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Aole-F*05:03",
+            "id": "NHP10006",
+            "locus": "Aole-F",
+            "protein_allele_name": "Aole-F*05:03",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLKYLSTAVSRPGRREPRYRYIAVGYVDDTLFMRFDSDAASPRMEPRAPWVEQERPEYWDREVKANAQTDRVNLRILLRYYNQSEAGSHTLQGMNGCDVGPDGRFLRGYHQHAYDGKDYISLNEDLRSWTAADVAAQITKRKWEAEKYAEEFSTYLKGGCVEWLHRYLENGKETLQRAD": {
+        "alleles": [
+            {
+                "gene_allele_name": "Aole-F*05:01",
+                "id": "NHP10004",
+                "locus": "Aole-F",
+                "protein_allele_name": "Aole-F*05:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Aole-F*05:02",
+                "id": "NHP10005",
+                "locus": "Aole-F",
+                "protein_allele_name": "Aole-F*05:02",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Aole-F*05:04",
+                "id": "NHP10007",
+                "locus": "Aole-F",
+                "protein_allele_name": "Aole-F*05:04",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Aole-F*05:05",
+                "id": "NHP10008",
+                "locus": "Aole-F",
+                "protein_allele_name": "Aole-F*05:05",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Aole-F*05:01",
+            "id": "NHP10004",
+            "locus": "Aole-F",
+            "protein_allele_name": "Aole-F*05:01",
+            "source": "ipd-mhc"
+        }
+    }
+}

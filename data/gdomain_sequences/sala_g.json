@@ -1,0 +1,236 @@
+{
+    "GSHSMRYFETSVSRPGREEPRYISVGYVDDTQFVRFDSDAASPRMEPRAPWMEQEGPEYWEEETRKAKAAAQTFRVNLQTALGYYNQSEAGSHTIQRMFGCDLGPDGRLLRGYDQHAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANAVEGLRAYLEGACVEWLLRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Sala-G*03:11N",
+                "id": "NHP04247",
+                "locus": "Sala-G",
+                "protein_allele_name": "Sala-G*03:11N",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Sala-G*03:11N",
+            "id": "NHP04247",
+            "locus": "Sala-G",
+            "protein_allele_name": "Sala-G*03:11N",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFETSVSRPGRGEPRFITVGYVDDTQFVRFDSDAASPRMEPRTPWMEQEGPEYWEEETRKAKAAAQTFRVDLQTALGYYNQSEAGSHTIQWMYGCDLGPDGRLLRGYDQLAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERMRAYLEGTCVEWLLRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Sala-G*03:01",
+                "id": "NHP04241",
+                "locus": "Sala-G",
+                "protein_allele_name": "Sala-G*03:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Sala-G*03:01",
+            "id": "NHP04241",
+            "locus": "Sala-G",
+            "protein_allele_name": "Sala-G*03:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFETSVSRPGRGEPRFITVGYVDDTQFVRFDSDAASPRMEPRTPWMEQEGPEYWEEETRKVKAHAQTDRMDLQTALGYYNQSEAGSHTIQRMSGCDLGPDGRLLRGYDQLAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAERMRAYLEGTCVEWLLRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Sala-G*03:07",
+                "id": "NHP04250",
+                "locus": "Sala-G",
+                "protein_allele_name": "Sala-G*03:07",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Sala-G*03:07",
+            "id": "NHP04250",
+            "locus": "Sala-G",
+            "protein_allele_name": "Sala-G*03:07",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFETSVSRPGRGEPRYISVGYVDDTQFVRFDSDAASPRMEPRAPWMEQEGPEYWEEETRKAKAAAQTFRVNLQTALGYYNQSEAGSHTIQRMFGCDLGPDGRLLRGYDQHAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANAAEGLRAYLEGACVEWLLRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Sala-G*03:10N",
+                "id": "NHP04246",
+                "locus": "Sala-G",
+                "protein_allele_name": "Sala-G*03:10N",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Sala-G*03:10N",
+            "id": "NHP04246",
+            "locus": "Sala-G",
+            "protein_allele_name": "Sala-G*03:10N",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFETSVSRPGRGEPRYISVGYVDDTQFVRFDSDAASPRMEPRAPWMEQEGPEYWEEETRKAKAAAQTFRVNLQTALGYYNQSEAGSHTIQRMFGCDLGPDGRLLRGYDQHAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANAVEGLRAYLEGACVEWLLRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Sala-G*03:12N",
+                "id": "NHP04251",
+                "locus": "Sala-G",
+                "protein_allele_name": "Sala-G*03:12N",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Sala-G*03:12N",
+            "id": "NHP04251",
+            "locus": "Sala-G",
+            "protein_allele_name": "Sala-G*03:12N",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFETSVSRPGRGEPRYISVGYVDDTQFVRFDSDAASPRMEPRAPWMEQEGPEYWEEETRKAKAAAQTFRVNLQTALGYYNQSEAGSHTIQWMSGCDLGPDGRLLRGYDQYAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANGAERMRAYLEGACVEWLLRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Sala-G*03:13N",
+                "id": "NHP04253",
+                "locus": "Sala-G",
+                "protein_allele_name": "Sala-G*03:13N",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Sala-G*03:13N",
+            "id": "NHP04253",
+            "locus": "Sala-G",
+            "protein_allele_name": "Sala-G*03:13N",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFGTALSRPGRGEPRFITVGYVDDTQFVRFDSDAASPRMEPRAQWVEQEGPEYWEEETRKAKAAAQTYRVGLQTLLGYYNQSESGSHTIQWMYGCDLGPDGRLLRGYDQHAYDGKDYIALNEDLRSWTAVDVAAQSTQRKWVAANVAERMRAYLEGRCLEWLLRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Sala-G*03:06",
+                "id": "NHP04249",
+                "locus": "Sala-G",
+                "protein_allele_name": "Sala-G*03:06",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Sala-G*03:06",
+            "id": "NHP04249",
+            "locus": "Sala-G",
+            "protein_allele_name": "Sala-G*03:06",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTALSRLGRGEPRFITVGYVDDTQFVRFDSDAASPRMEPRAPWMEQEGPEYWEEETRKVKAHAQTDRMDLQTLLGYYNQSEAGSHSIQWMSGCDLGPDGRLLRGYDQHAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANVAEGLRAYLEGTCVEWLHRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Sala-G*03:08",
+                "id": "NHP04252",
+                "locus": "Sala-G",
+                "protein_allele_name": "Sala-G*03:08",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Sala-G*03:08",
+            "id": "NHP04252",
+            "locus": "Sala-G",
+            "protein_allele_name": "Sala-G*03:08",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTAVSQPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWVLQTRNSKASAQNFRVDLQTLRGYYNQSEAGSHTIQRMYGCDLGPDGGLLRGYDQYAYDGKDYIALNEDLRSWTAADAAAQITQRKWVAANGAERLRAYLEGTCVEWLRRYLENGKEMLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Sala-G*03:03",
+                "id": "NHP04243",
+                "locus": "Sala-G",
+                "protein_allele_name": "Sala-G*03:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Sala-G*03:03",
+            "id": "NHP04243",
+            "locus": "Sala-G",
+            "protein_allele_name": "Sala-G*03:03",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTTVSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEQRAPWMEQEGPEYWEEETQRAKALAQTFRVNLQTLLGYYNQSEAGSHTIQWMYGCELGPDGRLLRGYDQHAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANEAEGKRAYLEGTCVEWLHRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Sala-G*03:04",
+                "id": "NHP04244",
+                "locus": "Sala-G",
+                "protein_allele_name": "Sala-G*03:04",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Sala-G*03:04",
+            "id": "NHP04244",
+            "locus": "Sala-G",
+            "protein_allele_name": "Sala-G*03:04",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFSTTVSRPGRGEPRYIEVGYVDDTQFVRFDSDTASPRMEPRAPWVEKEGREYWEEETQRAKAFAQTFRVNLQTLLGYYNQSEAGSHTIQRMSGCDLGPDGRLLRGYDQHAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANAAERTRAYLEGTCVEWLLRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Sala-G*03:02",
+                "id": "NHP04242",
+                "locus": "Sala-G",
+                "protein_allele_name": "Sala-G*03:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Sala-G*03:02",
+            "id": "NHP04242",
+            "locus": "Sala-G",
+            "protein_allele_name": "Sala-G*03:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMWYFETSVSRPGRGEPRYISVGYVDDTQFVRFDSDAASPRMEPRAPWMEQEGPEYWEEETRKAKAAAQTFRVNLQTALGYYNQSEAGSHTIQRMFGCDLGPDGRLLRGYDQHAYDGKDYIALNEDLRSWTAADVAAQITQRKWEAANAVEGLRAYLEGACVEWLLRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Sala-G*03:09N",
+                "id": "NHP04245",
+                "locus": "Sala-G",
+                "protein_allele_name": "Sala-G*03:09N",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Sala-G*03:09N",
+            "id": "NHP04245",
+            "locus": "Sala-G",
+            "protein_allele_name": "Sala-G*03:09N",
+            "source": "ipd-mhc"
+        }
+    },
+    "SSHSMRYFSTAVSRPGRGEPRYIEVGYVDDTQFVRFDSDAASPRMEPRAPWMEQEGPEYWEEETQRAKAFAQIFRVNLQTLLGYYNQSGAGSHTIQMMYGCDLGPDGRLLRGYDQFAYDGKDYIALNEDLHSWTAADVAAQITQRKWEATNAAEEMRAYLEGTCVEWLLRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Sala-G*03:05",
+                "id": "NHP04248",
+                "locus": "Sala-G",
+                "protein_allele_name": "Sala-G*03:05",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Sala-G*03:05",
+            "id": "NHP04248",
+            "locus": "Sala-G",
+            "protein_allele_name": "Sala-G*03:05",
+            "source": "ipd-mhc"
+        }
+    }
+}

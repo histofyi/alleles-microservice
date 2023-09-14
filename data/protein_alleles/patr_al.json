@@ -1,0 +1,168 @@
+{
+    "patr_al_01_01": {
+        "alleles": [
+            {
+                "gene_allele_name": "Patr-AL*01:01:01:01",
+                "id": "NHP04088",
+                "locus": "Patr-AL",
+                "protein_allele_name": "Patr-AL*01:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Patr-AL*01:01:02",
+                "id": "NHP04089",
+                "locus": "Patr-AL",
+                "protein_allele_name": "Patr-AL*01:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Patr-AL*01:01:03",
+                "id": "NHP04092",
+                "locus": "Patr-AL",
+                "protein_allele_name": "Patr-AL*01:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Patr-AL*01:01:01:02",
+                "id": "NHP09254",
+                "locus": "Patr-AL",
+                "protein_allele_name": "Patr-AL*01:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Patr-AL*01:01:01:03",
+                "id": "NHP09255",
+                "locus": "Patr-AL",
+                "protein_allele_name": "Patr-AL*01:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Patr-AL*01:01:01:04",
+                "id": "NHP09256",
+                "locus": "Patr-AL",
+                "protein_allele_name": "Patr-AL*01:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Patr-AL*01:01:01:05",
+                "id": "NHP09257",
+                "locus": "Patr-AL",
+                "protein_allele_name": "Patr-AL*01:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Patr-AL*01:01:01:06",
+                "id": "NHP09258",
+                "locus": "Patr-AL",
+                "protein_allele_name": "Patr-AL*01:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Patr-AL*01:01:01:07",
+                "id": "NHP09259",
+                "locus": "Patr-AL",
+                "protein_allele_name": "Patr-AL*01:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Patr-AL*01:01:01:08",
+                "id": "NHP09260",
+                "locus": "Patr-AL",
+                "protein_allele_name": "Patr-AL*01:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Patr-AL*01:01:01:09",
+                "id": "NHP09261",
+                "locus": "Patr-AL",
+                "protein_allele_name": "Patr-AL*01:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Patr-AL*01:01:01:01",
+            "id": "NHP04088",
+            "locus": "Patr-AL",
+            "protein_allele_name": "Patr-AL*01:01",
+            "source": "ipd-mhc"
+        },
+        "canonical_sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASKRMEPRAPWMEQEEPEYWDQETQISKVYAQNDRVNLGTLRGYYNQSEAGSHTIQLMYGCDVGPDGRFLRGYRQYAYDGKDYIALNEDLRSWTAADMAARITKRKWEAARRAEQLRVYLKGRCVDWLRRYVENGKEMLQRTDAPKTRMTHHPVSDRETTLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGKEQRYTCLVQHEGLPEPLTLRWE",
+        "gdomain_sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASKRMEPRAPWMEQEEPEYWDQETQISKVYAQNDRVNLGTLRGYYNQSEAGSHTIQLMYGCDVGPDGRFLRGYRQYAYDGKDYIALNEDLRSWTAADMAARITKRKWEAARRAEQLRVYLKGRCVDWLRRYVENGKEMLQRT",
+        "pocket_pseudosequence": null,
+        "sequences": [
+            "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASKRMEPRAPWMEQEEPEYWDQETQISKVYAQNDRVNLGTLRGYYNQSEAGSHTIQLMYGCDVGPDGRFLRGYRQYAYDGKDYIALNEDLRSWTAADMAARITKRKWEAARRAEQLRVYLKGRCVDWLRRYVENGKEMLQRTDAPKTRMTHHPVSDRETTLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGKEQRYTCLVQHEGLPEPLTLRWE"
+        ]
+    },
+    "patr_al_01_02": {
+        "alleles": [
+            {
+                "gene_allele_name": "Patr-AL*01:02:01:01",
+                "id": "NHP04090",
+                "locus": "Patr-AL",
+                "protein_allele_name": "Patr-AL*01:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Patr-AL*01:02:01:01",
+            "id": "NHP04090",
+            "locus": "Patr-AL",
+            "protein_allele_name": "Patr-AL*01:02",
+            "source": "ipd-mhc"
+        },
+        "canonical_sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASKRMEPRAPWIEQEEPEYWDQETQISKVYAQNDRVNLGTLRGYYNQSEAGSHTIQLMYGCDVGPDGRFLRGYRQYAYDGKDYIALNEDLRSWTAADMAARITKRKWEAARRAEQLRVYLKGRCVDWLRRYVENGKEMLQRTDAPKTRMTHHPVSDRETTLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGKEQRYTCLVQHEGLPEPLTLRWE",
+        "gdomain_sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASKRMEPRAPWIEQEEPEYWDQETQISKVYAQNDRVNLGTLRGYYNQSEAGSHTIQLMYGCDVGPDGRFLRGYRQYAYDGKDYIALNEDLRSWTAADMAARITKRKWEAARRAEQLRVYLKGRCVDWLRRYVENGKEMLQRT",
+        "pocket_pseudosequence": null,
+        "sequences": [
+            "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASKRMEPRAPWIEQEEPEYWDQETQISKVYAQNDRVNLGTLRGYYNQSEAGSHTIQLMYGCDVGPDGRFLRGYRQYAYDGKDYIALNEDLRSWTAADMAARITKRKWEAARRAEQLRVYLKGRCVDWLRRYVENGKEMLQRTDAPKTRMTHHPVSDRETTLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGKEQRYTCLVQHEGLPEPLTLRWE"
+        ]
+    },
+    "patr_al_01_03": {
+        "alleles": [
+            {
+                "gene_allele_name": "Patr-AL*01:03",
+                "id": "NHP04091",
+                "locus": "Patr-AL",
+                "protein_allele_name": "Patr-AL*01:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Patr-AL*01:03",
+            "id": "NHP04091",
+            "locus": "Patr-AL",
+            "protein_allele_name": "Patr-AL*01:03",
+            "source": "ipd-mhc"
+        },
+        "canonical_sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASKRMEPRAPWMEQEEPEYWDQETQISKVYAQNDRVNLGTLRGYYNQSEADSHTIQLMYGCDVGPDGRFLRGYRQYAYDGKDYIALNEDLRSWTAADMAARITKRKWEAARRAEQLRVYLKGRCVDWLRRYVENGKEMLQRTDAPKTRMTHHPVSDRETTLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGKEQRYTCLVQHEGLPEPLTLRWE",
+        "gdomain_sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASKRMEPRAPWMEQEEPEYWDQETQISKVYAQNDRVNLGTLRGYYNQSEADSHTIQLMYGCDVGPDGRFLRGYRQYAYDGKDYIALNEDLRSWTAADMAARITKRKWEAARRAEQLRVYLKGRCVDWLRRYVENGKEMLQRT",
+        "pocket_pseudosequence": null,
+        "sequences": [
+            "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASKRMEPRAPWMEQEEPEYWDQETQISKVYAQNDRVNLGTLRGYYNQSEADSHTIQLMYGCDVGPDGRFLRGYRQYAYDGKDYIALNEDLRSWTAADMAARITKRKWEAARRAEQLRVYLKGRCVDWLRRYVENGKEMLQRTDAPKTRMTHHPVSDRETTLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGKEQRYTCLVQHEGLPEPLTLRWE"
+        ]
+    },
+    "patr_al_01_04": {
+        "alleles": [
+            {
+                "gene_allele_name": "Patr-AL*01:04:01:01",
+                "id": "NHP09262",
+                "locus": "Patr-AL",
+                "protein_allele_name": "Patr-AL*01:04",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Patr-AL*01:04:01:01",
+            "id": "NHP09262",
+            "locus": "Patr-AL",
+            "protein_allele_name": "Patr-AL*01:04",
+            "source": "ipd-mhc"
+        },
+        "canonical_sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDRDAASKRMEPRAPWMEQEEPEYWDQETQISKVYAQNDRVNLGTLRGYYNQSEAGSHTIQLMYGCDVGPDGRFLRGYRQYAYDGKDYIALNEDLRSWTAADMAARITKRKWEAARRAEQLRVYLKGRCVDWLRRYVENGKEMLQRTDAPKTRMTHHPVSDRETTLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGKEQRYTCLVQHEGLPEPLTLRWE",
+        "gdomain_sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDRDAASKRMEPRAPWMEQEEPEYWDQETQISKVYAQNDRVNLGTLRGYYNQSEAGSHTIQLMYGCDVGPDGRFLRGYRQYAYDGKDYIALNEDLRSWTAADMAARITKRKWEAARRAEQLRVYLKGRCVDWLRRYVENGKEMLQRT",
+        "pocket_pseudosequence": null,
+        "sequences": [
+            "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDRDAASKRMEPRAPWMEQEEPEYWDQETQISKVYAQNDRVNLGTLRGYYNQSEAGSHTIQLMYGCDVGPDGRFLRGYRQYAYDGKDYIALNEDLRSWTAADMAARITKRKWEAARRAEQLRVYLKGRCVDWLRRYVENGKEMLQRTDAPKTRMTHHPVSDRETTLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGKEQRYTCLVQHEGLPEPLTLRWE"
+        ]
+    }
+}

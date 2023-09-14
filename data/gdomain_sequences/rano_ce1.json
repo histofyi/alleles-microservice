@@ -1,0 +1,26 @@
+{
+    "-SHSLRYFKTAVSRPGLGEPRFMEVGYVDDTEFVRFDSDAENPRCEPRARWMERQRPEYWERETQGAKEKEQTFRVNLRTLLGYYNQSEGDSHTLQLMFGCDLGSDGRLLRGYDQFAYDGRDYIALNEDLKTWAAADVVAQMTRNKWERARYAEERRANLEGECVESLRRYLELGKETLLRS": {
+        "alleles": [
+            {
+                "gene_allele_name": "Rano-CE1*c",
+                "id": "RT108371",
+                "locus": "Rano-CE1",
+                "protein_allele_name": "Rano-CE1*c",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {}
+    },
+    "GSHSLRYFKTAVSRPGLGEPRFMEVGYVDDTEFVRFDSDAENPRYEPRVRWMERQRPEYWERETQGAKEKEQTFRVNLRTLLGYYNQSEGDSHTLQLMFGCDVGSDGRLLRGYDQFAYDGRDYIALNEDLKTWAAADVVAQMTRNKWERARYAEKRRANLEGECVESLRRYLELGKETLLRS": {
+        "alleles": [
+            {
+                "gene_allele_name": "Rano-CE1*n",
+                "id": "RT108372",
+                "locus": "Rano-CE1",
+                "protein_allele_name": "Rano-CE1*n",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {}
+    }
+}

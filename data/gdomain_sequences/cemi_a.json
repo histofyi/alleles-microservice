@@ -1,0 +1,56 @@
+{
+    "GSHSLRYFYTSMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRNTRNMKTETQNYRESLRTALRYYNQSEAGSHTIQKMYGCDLGPDGRLLRGYLQDAYDGRDYIALNEDLRSWTAADTAAQNTQRKWEAAGVEEQVRAYLEGQCVESLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Cemi-A*02:01",
+                "id": "NHP05311",
+                "locus": "Cemi-A",
+                "protein_allele_name": "Cemi-A*02:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Cemi-A*02:01",
+            "id": "NHP05311",
+            "locus": "Cemi-A",
+            "protein_allele_name": "Cemi-A*02:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTAVSRPSRGEPRFIAVGYVDDTQFVRFDSDAAIPRMEPRAPWVEQEGPEYWDRNTRILKAETQGAPVALRNLRGYYNQSEAGSHTLQIMYGCDLGPDGRLLRGYEQSAYDGKDYIALNEDLRSWTAADMAAQNTQRKWEAAGVAERHRAYLEGECLEWLRRHLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Cemi-A*01:01",
+                "id": "NHP05309",
+                "locus": "Cemi-A",
+                "protein_allele_name": "Cemi-A*01:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Cemi-A*01:01",
+            "id": "NHP05309",
+            "locus": "Cemi-A",
+            "protein_allele_name": "Cemi-A*01:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGQPRFIAVGYVDDTQFVWFDSDAASQKMEPRAPWVEQEGPEYWDRNTRIMKTETQKAPVDLQILRGYYNQSEAGSHTYQTMYGCDLDPDGRLLRGYYQYAYDGKDYIALNEDLRSWTAADLAAQNTQRKWEVEGWAERDRAYLEGRCVESLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Cemi-A*03:01",
+                "id": "NHP05313",
+                "locus": "Cemi-A",
+                "protein_allele_name": "Cemi-A*03:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Cemi-A*03:01",
+            "id": "NHP05313",
+            "locus": "Cemi-A",
+            "protein_allele_name": "Cemi-A*03:01",
+            "source": "ipd-mhc"
+        }
+    }
+}

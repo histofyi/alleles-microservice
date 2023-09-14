@@ -1,0 +1,685 @@
+{
+    "GSHSLRYFHISVSRPGRGEPRFFTVGYVDDTQFVWFDSDAASPRKEPRAPWMEQEGPEYWDRETRISKANAQIYRESLQNLRGYYNQSEAGSHTFQRMVGCDLGPDGRLLRGYEQYAYDGKDYIALNEDLRSWTAADMAAQNTQRKWEVSGWAEQIRTYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*17:01",
+                "id": "NHP09321",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*17:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*17:01",
+            "id": "NHP09321",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*17:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFHISVSRPGRGEPRFFTVGYVDDTQFVWFDSDAASPRKEPRAPWMEQEGPEYWDRETRISKANAQTYRENLRTALRYYNQSEAGSHTVQKMYGCDLDPDGRLLRGYEQLAYDGKDYIALNEDLRSWTAADLAAQNTQRKWEAEGWAEQHRTYLEGRCVESLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*17:04",
+                "id": "NHP09324",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*17:04",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*17:04",
+            "id": "NHP09324",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*17:04",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFHISVSRPGRGEPRFFTVGYVDDTQFVWFDSDAASPRKEPRAQWMEQEGPEYWDRETRISKANAQTYRENLRTALRYYNQSEAGSHTVQKMYGCDLDPDGRLLRGYEQLAYDGKDYIALNEDLRSWTAADLAAQNTQRKWEAEGWAEQHRTYLEGRCVESLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*17:03",
+                "id": "NHP09323",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*17:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*17:03",
+            "id": "NHP09323",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*17:03",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFHTSVSRPGRGEPRFIAVGYVDDTQFVWFDSDAASPRKEPRAPWMEQEGPEYWDRETRISKANAQTYRENLRTALRYYNQSEAGSHTIQTMYGCDLGPDGRLLRGYEQDAYDGKDYIALNEDLRSWTAADLAAQNTQRKWEAEGWAEQVRAYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*17:02",
+                "id": "NHP09322",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*17:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*17:02",
+            "id": "NHP09322",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*17:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFYTSMSRPGRGEPRFISVGYVDNTQFVRFDSDAENPREEPRAPWMEQKGPEYWDRNTRIFKAETQRAPVNLRNLRNYYNQSEAGSHTIQEMYGCDLGPDGRLLRGYDQHAYDGRDYIALNEDLRSWTAADMAAQNTQRKWEVSGWAEQMRTYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*10:01:01",
+                "id": "NHP09291",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*10:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Chpy-A*10:01:02",
+                "id": "NHP09292",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*10:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*10:01:01",
+            "id": "NHP09291",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*10:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFYTSMSRPGRGEPRFISVGYVDNTQFVRFDSDAESPREEPRAPWMEQEGPEYWDRNTRIFKAETQRAPVALRNLRGYYNQSEAGSHTFQEMYGCDLGPDGRLLRGYDQYAYDGRDYIALNEDLHSWTAADMAAQNTQRKWEAAGVAEQMRTYLEDECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*02:01",
+                "id": "NHP09293",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*02:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*02:01",
+            "id": "NHP09293",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*02:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFYTSVSRPGRGEPRFFAVGYVDDTQFVRFDSDAASPRIEPRAPWVEQEGPEYWEEQTRISKAATQTYRVNLRTLRGYYNQSEAGSHTIQRMYGCDLGPDGRLLRGYEQFAYDGRDYIALNEDLRSWTAADMAAQNTQRKLEAEGWAEQMRAYLEGTCLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*31:01",
+                "id": "NHP09327",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*31:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*31:01",
+            "id": "NHP09327",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*31:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFHISVSRPGRGEPRFFTVGYVDDTQFVRFDSDAASPRKEPRAPWMEQEGPEYWDQETRISKAYAQLYRESLQNLRGYYNQSEAGSHTFQWMYGCDLGPDGRLLRGYEQYAYDGRDYIALNEDLRSWTAADLAAQNTQRKWEAAGEAEQHRTYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*17:06",
+                "id": "NHP09326",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*17:06",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*17:06",
+            "id": "NHP09326",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*17:06",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFHISVSRPGRGEPRFFTVGYVDDTQFVRFDSDAASPRKEPRAPWMEQEGPEYWDQETRISKAYAQLYRESLQNLRGYYNQSEAGSHTVQKMYGCDLGPDGRLLRGYEQYAYDGRDYIALNEDLRSWTAADLAAQNTQRKWEAAGEAEQHRTYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*17:05",
+                "id": "NHP09325",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*17:05",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*17:05",
+            "id": "NHP09325",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*17:05",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFHTSVSRPGRGEPRFFAVGYVDDTQFVRFDSNAASQRMEPRAPWVEQEGPEYWDRETRIMKGETQKAPVDLRILRGYYNQSEAGSHTYQRMYGCDLGPDGRLLRGYEQYAYDGRDYIALNEDLRSWTAADLAAQNTQRKWEAEGWAEQVRAYLEGRCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*03:02",
+                "id": "NHP09295",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*03:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*03:02",
+            "id": "NHP09295",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*03:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFHTSVSRPGRGEPRFFAVGYVDDTQFVRFDSNAASQRMEPRAPWVEQEGPEYWDRETRIMKGETQRAPMDLRILRGYYNQSEAGSHTYQRMYGCDLGPDGRLLRGYEQLAYDGRDYIALNEDLRSWTAADLAAQNTQRKWEAAGWAEQVRAYLEGRCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*03:01",
+                "id": "NHP09294",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*03:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*03:01",
+            "id": "NHP09294",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*03:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTCMSRPGRGEPRFFAVGYVDDTQFVRFDSDAASQRMEPRAQWVEQEGPEYWDRSTRIMKTATQMAPVDLQNLRGYYNQSEAGSHTYQRMYGCDLGPDGRLLRGYHQSAYDGKDYIALNEDLRSWTAADLAAQNTQRKWEAEGWAEQVRAYLEGTCVEWLRRHLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*21:01",
+                "id": "NHP09331",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*21:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*21:01",
+            "id": "NHP09331",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*21:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMFRPGRGEPRFIAVGYVDDTQFVRFDSDAMSPRMEPRAPWVEQEGPEYWDRETQNMKGETQMAPVNLRNLRGYYNQSEAESHTLQRMVGCDLGPDGRLLRGYEQYAYDGKDYIALNEDLRSWTAADLAAQNTQRKWEAAGEAERMRTYLEGTCVEWLRRHLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*32:02",
+                "id": "NHP09330",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*32:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*32:02",
+            "id": "NHP09330",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*32:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMFRPGRGEPRFIAVGYVDDTQFVRFDSDAMSPRMEPRAPWVEQEGPEYWDRETQNMKGETQMAPVNLRNLRGYYNQSEAGSHTLQRMVGCDLGPDGRLLRGYEQYAYDGKDYIALNEDLRSWTAADLAAQNTQRKWEAAGEAERMRTYLEGTCVEWLRRHLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*32:01",
+                "id": "NHP09329",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*32:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*32:01",
+            "id": "NHP09329",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*32:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGEPRFIAVAYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDRETRIMKTETQTYRENLRTALRYYNQSEAGSHTLQEMYGCDLGPDGHLLRGYNQLAYDGRDYIALNEDLRSWTAADMAAQNTQRKWEAAGVAEQHRTYLEGRCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*29:01",
+                "id": "NHP09307",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*29:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*29:01",
+            "id": "NHP09307",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*29:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGEPRFIAVGYVDDTQFLRFDSDAANPRMEPRAPWVEQEGPEYWDRETRIMKTATQTFRVGLQNLRGYYNQSEAGSHTVQKMYGCDLGPDGRLLRGYEQYAYDGRDYIALNEDLRSWTAADMAAQNTQRKWEVARVAEQRRGYLEGTCLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*06:04",
+                "id": "NHP09301",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*06:04",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*06:04",
+            "id": "NHP09301",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*06:04",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDRETRIMKGETQKAPVDLQNLRGYYNQSEAGSHTYQRMYGCDLGPDGRLLRGYEQFAYDGKDYIALNEDLRSWTAADLAAQNTQRKWEAAGVAEQHRTYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*14:01",
+                "id": "NHP09314",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*14:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*14:01",
+            "id": "NHP09314",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*14:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDRETRIMKGETQKAPVDLQNLRGYYNQSEAGSHTYQRMYGCDLGPDGRLLRGYEQFAYDGRDYIALNEDLRSWTAADLAAQNTQRKWEAAGVAEQHRTYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*14:04",
+                "id": "NHP09317",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*14:04",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*14:04",
+            "id": "NHP09317",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*14:04",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGEPRFIAVGYVDDTQFVWFDSDAASQRMEPRAPWVEQEGPEYWDRSTRIMKTATQMAPVALRILRGYYNQSEGGSHTYQRMYGCDLGPDGRLLRGYNQYAYDGKDYIALNEDLRSWTAADLAAQNTQRKWEAAGVAEQKRAYLEGTCVEWLRRYLENGKETLERA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*04:01",
+                "id": "NHP09296",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*04:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*04:01",
+            "id": "NHP09296",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*04:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGQPRFIAVGYVDDTQFVRFDSDAASPRMELRAPWMEQEGPEYWDRETQNMKTATQTYRENLRTALRYYNQSEAGSHTIQRMYGCDLGPDGRLLRGYEQSAYDGKDYIALNEDLRSWTAADMAAQNTQRKWEAAGEAEKMRTYLEAQCLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*22:01",
+                "id": "NHP09311",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*22:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*22:01",
+            "id": "NHP09311",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*22:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGQPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETRIMKTATQTYRENLRTALRYYNQSEAGSHTFQKMYGCDLDPDGRLLRGYEQFAYDGRDYIALNEDLRSWTAADLAAQNTQRKWEAAGVAEQHRAYLEGLCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*08:01",
+                "id": "NHP09305",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*08:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*08:01",
+            "id": "NHP09305",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*08:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGRGQPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRSTRIMKTETQMAPVGLRNLRGYYNQSEAGSHTYQRMYGCDLGPDGRLLRGYEQFAYDGKDYIALNEDLRSWTAADLAAQNTQRKWEAAGEAERMRTYLEGTCVEWLRRHLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*13:01",
+                "id": "NHP09328",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*13:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*13:01",
+            "id": "NHP09328",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*13:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGSWEPRFIAVGYVDDTQFLRFDSDAASPRMEPRAPWVEQEGPEYWDRETRIMKTATQTFRVGLQNLRGYYNQSEAGSHTVQKMYGCDLGPDGRLLRGYEQFAYDGRDYIALNEDLRSWTAADMAAQNTQRKWEVARVAEQRRGYLEGTCLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*06:02",
+                "id": "NHP09298",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*06:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*06:02",
+            "id": "NHP09298",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*06:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGSWEPRFIAVGYVDDTQFLRFDSDAASPRMEPRAPWVEQEGPEYWDRETRIMKTATQTFRVGLQNLRGYYNQSEAGSHTVQKMYGCDLGPDGRLLRGYEQYAYDGRDYIALNEDLRSWTAADMAAQNTQRKWEVARVAEQRRGYLEGTCLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*06:01:01",
+                "id": "NHP09297",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*06:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Chpy-A*06:01:02",
+                "id": "NHP09300",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*06:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Chpy-A*06:05",
+                "id": "NHP09302",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*06:05",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*06:01:01",
+            "id": "NHP09297",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*06:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGSWEPRFIAVGYVDDTQFLRFDSDAASQRMEPRAPWVEQEGPEYWDRETRIMKTATQTFRVSLQNLRGYYNQSEAGSHTLQKMYGCDLGPDGRLLRGYEQYAYDGRDYIALNEDLRSWTAADMAAQNTQRKWEVARVAEQRRGYLEGTCLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*30:02",
+                "id": "NHP09310",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*30:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*30:02",
+            "id": "NHP09310",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*30:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSMSRPGSWEPRFIAVGYVDDTQFLRFDSDAASQRMEPRAPWVEQEGPEYWDRETRIMKTATQTFRVSLQNLRGYYNQSEAGSHTLQKMYGCDLGPDRRLLRGYEQYAYDGRDYIALNEDLRSWTAADMAAQNTQRKWEVARVAEQRRGYLEGTCLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*30:01:01",
+                "id": "NHP09308",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*30:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Chpy-A*30:01:02",
+                "id": "NHP09309",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*30:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*30:01:01",
+            "id": "NHP09308",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*30:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAESPREEPRAPWMEQEGPEYWDRNTQIFKATTQTYRENLRTALRYYNQSEAGSHTIQTMYGCDLGPDGRLLRGYHQSAYDGRDYIALNEDLRSWTAADMAAQNTQRKWEAAGVAEQPRAYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*16:01",
+                "id": "NHP09312",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*16:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*16:01",
+            "id": "NHP09312",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*16:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSVSRPGSWEPRFIAVGYVDDTQFLRFDSDAASPRMEPRAPWVEQEGPEYWDRETRIMKTATQTFRVGLQNLRGYYNQSEAGSHTVQKMYGCDLGPDGRLLRGYEQYAYDGRDYIALNEDLRSWTAADMAAQNTQRKWEVARVAEQRRGYLEGTCLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*06:03",
+                "id": "NHP09299",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*06:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*06:03",
+            "id": "NHP09299",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*06:03",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTYMSRPGRGEPRFIAVGYVDDTQFVRFDSDAANPRMEPRAPWVEQEGPEYWDRETRNMKGETQMAPVGLRNLRGYYNQSEAGSHTFQTMYGCDLGPDGRLLRGYEQFAYDGKDYIALNEDLRSWTAADLAAQNTQRKWEAAGVAEQQRAYLEGECLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*14:05",
+                "id": "NHP09318",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*14:05",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*14:05",
+            "id": "NHP09318",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*14:05",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTYMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDRETRIMKGETQNTPVDLRNLRGYYNQSEAGSHTIQRMYGCDLGPDGRLLRGYEQSAYDGKDYIALNEDLRSWTAADLAAQNTQRKWEAAGVAEQDRAYLEGRCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*14:02",
+                "id": "NHP09315",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*14:02",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "Chpy-A*14:03",
+                "id": "NHP09316",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*14:03",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*14:02",
+            "id": "NHP09315",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*14:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTYMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDRETRNMKGETQKAPVDLQNLRGYYNQSEAGSHTIQRMYGCDLGPDGRLLRGYHQFAYDGKDYIALNEDLRSWTAADLAAQNTQRKWEAAGAAEQRRGYLEGRCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*14:06",
+                "id": "NHP09319",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*14:06",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*14:06",
+            "id": "NHP09319",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*14:06",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTYMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDRETRNMKGETQRAPVDLRNLRGYYNQSEAGSHTIQRMYGCDLGPDGRLLRGYEQSAYDGKDYIALNEDLRSWTAADLAAQNTQRKWEAEGWAEQDRAYLEGRCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*14:07",
+                "id": "NHP09320",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*14:07",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*14:07",
+            "id": "NHP09320",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*14:07",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTYMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETRIMKTETQMAPVNLRNLRGYYNQSEAGSHTYQRMYGCDLGPDGRLLRGYHQLAYDGKDYIALNEDLRSWTAADLAAQNTQRKWEASGWVEQFRTYLEGECLEWLRRHLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*01:01",
+                "id": "NHP09290",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*01:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*01:01",
+            "id": "NHP09290",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*01:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTYMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETRIVKTETQMAPVALRNLRGYYNQSEAGSHTYQTLYGCDLGPDGHLLRGYDQYAYDGKDYITLNEDLRSWTAADTAAQNTQRKWEAEGWAEQDRAYLEGTCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*20:01",
+                "id": "NHP09303",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*20:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*20:01",
+            "id": "NHP09303",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*20:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMSYFYTYMSRPGRGEPRFVVVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRQTQHFKTETQMAPVNLRNLRGYYNQSEAGSHTIQRMYGCDLGPDGRLLRGYEQHAYDGKDYLTLNEDLRSWTAADMAAQNTQRKWEAAGVAEQLRAYLEGTCLEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*27:01",
+                "id": "NHP09304",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*27:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*27:01",
+            "id": "NHP09304",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*27:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMTYFYTSVSRPGRGQPRFFAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETQNMKTATQTFRVGLQNLRGYYNQSEAGSHTYQRKYGCDLDPDGRLLRGYEQFAYDGKDYIALNEDLRSWTAADMAAQNTQRKWEAADVAEQMRAYLEGRCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Chpy-A*28:01",
+                "id": "NHP09306",
+                "locus": "Chpy-A",
+                "protein_allele_name": "Chpy-A*28:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Chpy-A*28:01",
+            "id": "NHP09306",
+            "locus": "Chpy-A",
+            "protein_allele_name": "Chpy-A*28:01",
+            "source": "ipd-mhc"
+        }
+    }
+}

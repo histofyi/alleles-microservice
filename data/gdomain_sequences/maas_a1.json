@@ -1,0 +1,110 @@
+{
+    "GSHSLRYFYTAVSRPGRGEPRFISVGYVDDTQFVRFDSDAESPREEPRAPWVEQEGPEYWDRETRISKANTQTYRESLRNLRGYYNQSEAGSHTIQTMYGCDLGPDGRLLRGYEQFAYDGRDYFALNEDLRSWTAADMAAQNTQRKWEAAGEAEQFRAYLEGKCLESLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Maas-A1*062:01",
+                "id": "NHP05174",
+                "locus": "Maas-A1",
+                "protein_allele_name": "Maas-A1*062:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Maas-A1*062:01",
+            "id": "NHP05174",
+            "locus": "Maas-A1",
+            "protein_allele_name": "Maas-A1*062:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFYTSESRPGRGEPRFISVGYVDDTQFVRFDSDAESPREEPRAPWVEQEGPEYWDQNTRIYKAETQKYRENLRTALRYYNQSEAGSHTIQKMYGCDLGPDGRLLRGYSQYAYDGRDYIALNGDLRSWTAADMAAQNTQRKWEAAGVAERFRTYVEGRCVESLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Maas-A1*064:01",
+                "id": "NHP05171",
+                "locus": "Maas-A1",
+                "protein_allele_name": "Maas-A1*064:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Maas-A1*064:01",
+            "id": "NHP05171",
+            "locus": "Maas-A1",
+            "protein_allele_name": "Maas-A1*064:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFYTSMSRPGRGQPRFMSVGYVDDTQFVRFDSDAESPREEPRAPWVEQEGPEYWDQNTRICKAATQTYREGLQILRGYYNQSEAGSHTYQRMYGCDLGPDGRLLRGYSQYAYDGRDYIALNGDLRSWTAADMAAQNTQRKWEAAGVAERFRTYVEGLCVESLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Maas-A1*054:01",
+                "id": "NHP05170",
+                "locus": "Maas-A1",
+                "protein_allele_name": "Maas-A1*054:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Maas-A1*054:01",
+            "id": "NHP05170",
+            "locus": "Maas-A1",
+            "protein_allele_name": "Maas-A1*054:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMKYFYTSMSRPGRGQPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRETQKMKTETQNAPVNLRNLLRYYNQSEAGSHTIQKMYGCDLGPDARLLRGYEQSAYDGKDYIALNEDLRSWTAADVAAQNTQRKWEAADVAESMRAYLEGECLEWLRRYLEDGKEMLQRT": {
+        "alleles": [
+            {
+                "gene_allele_name": "Maas-A1*128:01",
+                "id": "NHP05169",
+                "locus": "Maas-A1",
+                "protein_allele_name": "Maas-A1*128:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Maas-A1*128:01",
+            "id": "NHP05169",
+            "locus": "Maas-A1",
+            "protein_allele_name": "Maas-A1*128:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMRYFYTSVSRPGRGEPRFISVGYVDDTQFVRFDSDASSQRMEPRAPWVEQEGPEYWDRETRIMKAETQNAPVALRNLRGYYNQSEAGSHTFQRMYGCDLGPDGRLLRGYNQFAYDGKDYIALNDDLRSWTAADLAAQNTQRKWEAAREAEQRRAYLEGRCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Maas-A1*023:01",
+                "id": "NHP05172",
+                "locus": "Maas-A1",
+                "protein_allele_name": "Maas-A1*023:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Maas-A1*023:01",
+            "id": "NHP05172",
+            "locus": "Maas-A1",
+            "protein_allele_name": "Maas-A1*023:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSMSYFYTYMSRPGRGEPRFVAVGYVDDTQFVRFDSDAASQRMEPRAPWVEQEGPEYWDRNTRIMKTETQNAPVALRNLRGYYNQSEAGSHTYQIMYGCDLGPDGRLLRGYDQFAYDGSDYIALNEDLRSWTAADLAAQNTQRKWEAAGVAEQHRTYLEGLCVEWLRRYLENGKETLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "Maas-A1*075:01",
+                "id": "NHP05173",
+                "locus": "Maas-A1",
+                "protein_allele_name": "Maas-A1*075:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "Maas-A1*075:01",
+            "id": "NHP05173",
+            "locus": "Maas-A1",
+            "protein_allele_name": "Maas-A1*075:01",
+            "source": "ipd-mhc"
+        }
+    }
+}

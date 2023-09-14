@@ -1,0 +1,14 @@
+{
+    "GSHSLRYFDITVSRPGLGEPRFISVGYVDDTEFVRYDSDAENPRFKPRVRWMEREGPEYWERITRIAKESEQIYRVGLRTLRGYYNQSEGGSHTIQRLSGCEVGSDGILLRGYEQFAYDGRDYIALNEDLKTWAAADFAAGITRNKLERDGEAERLRAYLEGGSVEWLRRYLELRKETLLRS": {
+        "alleles": [
+            {
+                "gene_allele_name": "Rano-K*u",
+                "id": "RT108393",
+                "locus": "Rano-K",
+                "protein_allele_name": "Rano-K*u",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {}
+    }
+}

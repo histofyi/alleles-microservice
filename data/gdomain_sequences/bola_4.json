@@ -1,0 +1,124 @@
+{
+    "GSHSLKYFYTAVSRPGLGEPRFISVGYVDDTEFVRFDSDAPDPRTEPRVRWMEQEGPEYWDRETRNFKETAQTFRVNLNTLRGYYNQSEAGSHNIQLMYGCDVGPDGRLLRGFTQFGYDGRDYLALNEDLRSWTAADTAAQISKRKREAAGAAEGLRNYLEGRCVEGLRRYLENGKDALLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "BoLA-4*063:01",
+                "id": "BOLA07821",
+                "locus": "BoLA-4",
+                "protein_allele_name": "BoLA-4*063:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "BoLA-4*063:01",
+            "id": "BOLA07821",
+            "locus": "BoLA-4",
+            "protein_allele_name": "BoLA-4*063:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLKYFYTAVSRPGLGEPRFISVGYVDNTEFVRFDSDAPDPRTEPRVRWMEQEGPEYWDRETRNFKETAQTFRVNLNTLRGYYNQSEAGSHNIQLMYGCDVGPDGRLLRGFTQFGYDGRDYLALNEDLRSWTAADTAAQITKRKWEAAGDAESLRNYLEGECVEWLRRYLENGKDALLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "BoLA-4*094:01",
+                "id": "BOLA10111",
+                "locus": "BoLA-4",
+                "protein_allele_name": "BoLA-4*094:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "BoLA-4*094:01",
+            "id": "BOLA10111",
+            "locus": "BoLA-4",
+            "protein_allele_name": "BoLA-4*094:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFSTAVSRPGLEEPRFIIVGYVDDTQFVRFDSDSPNPRAEPRAPWMEQEGPEYWDEETRIVKDTAQTFRANLNTALGYYNQSEAGSHTLQPMYGCDVGSDGSFLRGYSQDAYDGRDYIALNEDLRSWTAADTAAQITKRKWEATGYAESLRNYLEGTCVEWLRRYLENGKDTLLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "BoLA-4*024:02",
+                "id": "BOLA03195",
+                "locus": "BoLA-4",
+                "protein_allele_name": "BoLA-4*024:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "BoLA-4*024:02",
+            "id": "BOLA03195",
+            "locus": "BoLA-4",
+            "protein_allele_name": "BoLA-4*024:02",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFSTAVSRPGLEEPRFIIVGYVDDTQFVRFDSDSPNPRAEPRAPWMEQEGPEYWDEQTRIVKDTAQTFRANLNTALGYYNQSEAGSHNIQAMYGCDVGSDGSFLRGYSQDAYDGRDYIALNEDLRSWTAADTAAQITKRKWEAEGYAESLRNYLEGTCVEWLRRYLENGKDTLLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "BoLA-4*024:01:01:01",
+                "id": "BOLA03194",
+                "locus": "BoLA-4",
+                "protein_allele_name": "BoLA-4*024:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "BoLA-4*024:01:01:02",
+                "id": "BOLA10087",
+                "locus": "BoLA-4",
+                "protein_allele_name": "BoLA-4*024:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "BoLA-4*024:01:01:01",
+            "id": "BOLA03194",
+            "locus": "BoLA-4",
+            "protein_allele_name": "BoLA-4*024:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFSTAVSRPGLGEPRFISVGYVDDTQFVRFDSDSPNPREEPRAPWMEQEGPEYWDEQTRKAKDAAQTFRVGLNNLRGYYNQSEAGSHTYQDMYGCDVGPDGSFLRGFMQYGYDGRDYIALNEDLRSWTAADTAAQITKRKWEAAGVAESFRNYVEGRCVEWLRRYLENGKDALLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "BoLA-4*076:01",
+                "id": "BOLA09831",
+                "locus": "BoLA-4",
+                "protein_allele_name": "BoLA-4*076:01",
+                "source": "ipd-mhc"
+            },
+            {
+                "gene_allele_name": "BoLA-4*076:02",
+                "id": "BOLA10086",
+                "locus": "BoLA-4",
+                "protein_allele_name": "BoLA-4*076:02",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "BoLA-4*076:01",
+            "id": "BOLA09831",
+            "locus": "BoLA-4",
+            "protein_allele_name": "BoLA-4*076:01",
+            "source": "ipd-mhc"
+        }
+    },
+    "GSHSLRYFYTAVSRPGLGEPRFIAVGYVDDTQFVRFDGDAPNPREEPRVPWMEQEGPEYWDRNTRIYKDTAQNFRVGLNTLRGYYNQSEAGSHTLQRMYGCDVGPDGRLLSGFTQFGYDGRDYLALNEDLRSWTAADTAAQITKRKWEEADRAERFRNYVEGRCVEGLRRYLENGKDTLLRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "BoLA-4*095:01",
+                "id": "BOLA10112",
+                "locus": "BoLA-4",
+                "protein_allele_name": "BoLA-4*095:01",
+                "source": "ipd-mhc"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "BoLA-4*095:01",
+            "id": "BOLA10112",
+            "locus": "BoLA-4",
+            "protein_allele_name": "BoLA-4*095:01",
+            "source": "ipd-mhc"
+        }
+    }
+}
