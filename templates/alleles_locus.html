@@ -39,15 +39,24 @@
         </div>
         <div class="column-one-half">
             <div class="inner">
+                <h3 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25 heading-small">Allele group distribution</h3>
                 <div>
                 <img src="data:image/svg+xml;base64,{{svg_pie_chart}}" />
                 <span aria-label="[alttext contents]" class="hidden-aria-texty">{{pie_chart_alt_text}}</span>
                 </div>
             </div>
         </div>
-        <div class="column-full-width">
+        <div class="column-full-width vertical-spacing-top-0-5">
             <div class="inner">
-                <h2>Allele groups </h2>
+                <hr />
+                <h2 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-5">Allele groups </h2>
+                
+                {% set item_count = allele_group_count %}
+
+                {% if item_count > page_size %}
+                <div class="vertical-spacing-bottom-0-5">Page 1 of n</div>
+                {% endif %}
+
                 <table width="100%">
                     <thead>
                         <tr>
@@ -71,10 +80,14 @@
                             {{allele_groups[allele_group].variability}}
                         </td>
                         <td>
-                            {{allele_groups[allele_group].structure_count}}
+                            {% if allele_group in structure_sets%}
+                                {{structure_sets[allele_group]['count'] }}
+                            {% endif %}
                         </td>
                         <td>
-                            {{allele_groups[allele_group].motif_count}}  
+                            {% if allele_group in motif_sets%}
+                                {{motif_sets[allele_group]['count'] }}
+                            {% endif %}
                         </td>
                     </tr>
                 {% endfor %}
