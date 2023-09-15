@@ -16,44 +16,187 @@
                 <h1 class="heading-large vertical-spacing-bottom structure-title">{{allele | deslugify_allele }}</h1>
             </div>
         </div>
-        <div class="column-full-width">
+    </div>
+</section>
+<section>
+    <div class="grid-container">
+        <div class="column-one-third">
             <div class="inner">
-                <h2>Info</h2>
-
-
-
-                {{allele_data.canonical_allele}}
-                {{'Information about allele' | aside | safe}}
-                {{'Structure prediction with location of polymorphisms' | aside | safe}}
-                {{'Information on alleles with identical pocket residues' | aside | safe}}
-                
-                <h2>Binding cleft residues</h2>
                 <div>
-                    <strong>NetMHCPan Pocket Pseudosequence:</strong> 
+                    <h3 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25 heading-small">Species</h3>
+                    <a href="/alleles/species/homo_sapiens">Homo sapiens (Human)</a>
                 </div>
                 <div>
-                {% for residue in allele_data.pocket_pseudosequence %}<span class="residue sequence">{{residue}}</span>{% endfor %}
+                    <h3 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25 heading-small">Locus</h3>
+                    <a href="/alleles/locus/{{locus}}">{{locus | deslugify_locus }}</a>
                 </div>
-                <br>
-                <strong>Number of alleles with identical binding pocket residues:</strong> {{pocket_pseudosequence_match_count}}  
-                <br />
-                {% for match in pocket_pseudosequence_matches%}
-                    <div>{{match}}</div>
-                {% endfor %}
-                {{'Information about motif if known' | aside | safe}}
-                {{'Information on alleles with similar motifs' | aside | safe}}
-                {{allele_data.canonical_sequence}}
-
+                <div>
+                    <h3 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25 heading-small">Allele group</h3>
+                    <a href="/alleles/allele_group/{{allele_group}}">{{allele_group | deslugify_allele_group }}</a>
+                </div>
+                <div>
+                    <h3 class="vertical-spacing-top-0-5  vertical-spacing-bottom-0-25 heading-small">Canonical allele</h3>
+                    <div>
+                        <strong>Gene allele:</strong> {{allele_data.canonical_allele.gene_allele_name}}
+                    </div>
+                    <div>
+                        <strong>Identifier:</strong> <a href="https://www.ebi.ac.uk/ipd/imgt/hla/alleles/allele/?accession={{allele_data.canonical_allele.id}}">{{allele_data.canonical_allele.source}}:{{allele_data.canonical_allele.id}}</a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="vertical-spacing-top-0-5  vertical-spacing-bottom-0-25 heading-small">Experimental structures</h3>
+                    {{structure_count}} structures
+                </div>
+            </div>
+        </div>
+        <div class="column-two-thirds">
+            <div class="inner">
+                {{'Structure prediction/structure with location of polymorphisms' | aside | safe}}
+            </div>
+        </div>
+    </div>
+</section>  
+<section class="vertical-spacing-top-0-5">
+    <div class="grid-container">
+        <div class="column-full-width">
+            <hr />
+            <div class="inner">
+                <h2 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25">Binding cleft residues</h2> 
+                <div class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-5">
+                    <strong>{{pocket_pseudosequence_match_count}} alleles</strong> have identical binding pocket residues to <strong>{{allele | deslugify_allele }}</strong>. Residues shown in bold are polymorphisms compared to the reference allele [insert reference allele]. 
+                </div>
                 
-                {{'Sequence with location of polymorphisms' | aside | safe}}
+                <div class="pseudosequence-wrapper">
+                    {% for label in pocket_pseudosequence_positions %}<div class="pseudusequence-residue-label sequence">{{label}}</div>{% endfor %}
+                </div>
                 
-                {{'Information on structures if there are any' | aside | safe}}
-                {{'Information on quality of structure prediction (comparison to structures)' | aside | safe}}
-                {{'Information on side chain mobility if known' | aside | safe}}
-                {{'Information on structure backbone flexibility if known' | aside | safe}}
-
+                <div class="pseudosequence-wrapper vertical-spacing-bottom-0-5">
+                    {% for residue in allele_data.pocket_pseudosequence %}{% set i = loop.index0 %}<div class="pseudusequence-residue sequence a-pocket {{netmhc_pocket_labels[i]}}-pocket polymorphic-residue">{{residue}}</div>{% endfor %}
+                </div>
+                <div>
+                    <strong>Pocket key:</strong> <span class="pocket a-pocket">A</span> <span class="pocket b-pocket">B</span> <span class="pocket c-pocket">C</span> <span class="pocket d-pocket">D</span> <span class="pocket e-pocket">E</span> <span class="pocket f-pocket">F</span>
+                </div>
+                <div class="vertical-spacing-top vertical-spacing-bottom-0-25">
+                    The residues listed are ones used commonly for peptide epitope prediction algorithms such as <a href="https://services.healthtech.dtu.dk/services/NetMHCpan-4.1/">NetMHCPan</a> and <a href="{{allele | mhc_flurry_url}}">MHCFlurry</a> and also the MHCMotifAtlas.
+                </div>
             </div>
         </div>
     </div>
 </section>
+<section class="vertical-spacing-top-0-5">
+    <div class="grid-container">
+        <div class="column-full-width">
+            <hr />
+            <div class="inner">
+                <h2 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25">Peptide binding motif</h2> 
+            </div>
+        </div>
+        <div class="column-two-thirds">
+            <div class="inner">
+                {{'Information about motif if known' | aside | safe}}
+                {{'Information on alleles with similar motifs' | aside | safe}} 
+                
+                {% set motif = processed_motif %}
+            
+                
+                {% if motif %}
+                <h3 class="heading-small vertical-spacing-bottom-0-25">Nonamer motif</h3>
+                <div class="vertical-spacing-bottom-0-5">Experimentally determined, data from MHCMotifAtlas</div>
+                <table width="100%">
+                    <thead>
+                        <tr>
+                            {% for position in motif %}
+                                <th><strong>P{{position}}</strong></th>
+                            {% endfor %}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            {% for position in motif %}
+                                <td width="11%">
+                                    {% for amino_acid in motif[position] %}
+                                        {% if motif[position][amino_acid]['percentage'] > 5.0 %}
+                                            <div class="motif-row {{motif[position][amino_acid]['grade']}}-frequency"><span class="motif-amino-acid ">{{amino_acid}}</span> <span class="amino-acid-frequency">{{motif[position][amino_acid]['percentage'] | round(1)}}%</span></div>
+                                        {% endif %}
+                                    {% endfor %}
+                                </td>
+                            {% endfor %}
+                        </tr>
+                    </tbody>
+                </table>
+
+                {% endif %}
+            </div>
+        </div>
+        <div class="column-one-third">
+            <div class="inner">
+                {{'motif logoplot' | aside | safe}}
+                {{'motif length preferences' | aside | safe}}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="vertical-spacing-top-0-5">
+    <div class="grid-container">
+        <div class="column-full-width">
+            <div class="inner">
+                <h2 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25">Structure prediction</h2>
+                {{'A legend for the plots, including information on what each plot means' | aside | safe}}
+                <h3 class="heading-small vertical-spacing-top-0-5">AlphaFold quality metrics for the prediction.</h3>
+            </div>
+        </div>
+        <div class="column-one-half">
+            <div class="inner">
+                <h3><strong>a.</strong> pLDDt for {{allele | deslugify_allele}} prediction</h3>
+                <img src="/static/hla_b_07_02_plddt.png" />
+            </div>
+        </div>
+        <div class="column-one-half">
+            <h3><strong>b.</strong> Sequence coverage for {{allele | deslugify_allele}} prediction</h3>
+            <img src="/static/hla_b_07_02_coverage.png" />
+        </div>
+        <div class="column-full-width">
+            <div class="inner">
+                <h3><strong>c.</strong> PAE plots for the 5 ranked predictions for {{allele | deslugify_allele}}</h3>
+                <img src="/static/hla_b_07_02_pae.png" />
+            </div>
+        </div>
+        <div class="column-full-width">
+            <div class="inner">
+                <h3 class="heading-small vertical-spacing-top">Comparison of the prediction to experimentally determined structures.</h3>
+                {{'Information on quality of structure prediction (comparison to structures)' | aside | safe}}
+                {% if structure_count == 0 %}
+                    There are no structures to compare the prediction to.
+                {% else %}
+                    Comparison statistics and plots
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>               
+    
+{% include "section_start.html" %}
+
+                <h2 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25">Movements observed in structures</h2>
+                {{'Information on side chain mobility if known' | aside | safe}}
+                {{'Information on structure backbone flexibility if known' | aside | safe}}
+
+{% include "section_end.html" %}
+{% include "section_start.html" %}
+
+                <h2 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25">Expetimental structures</h2>
+                {{'Information on structures if there are any' | aside | safe}}
+
+{% include "section_end.html" %}
+{% include "section_start.html" %}
+
+                <h2 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25">Sequence</h2>
+                {{allele_data.canonical_sequence}}
+            
+                {{'Sequence with location of polymorphisms' | aside | safe}}
+
+{% include "section_end.html" %}
+
+
 {% endblock %}

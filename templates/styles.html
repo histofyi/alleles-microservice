@@ -67,47 +67,109 @@ question {
     color: #666666;
 }
 
-span.residue {
-    padding: 4px;
+.motif-row {
+    padding-top: 10px;
+}
+
+.motif-amino-acid {
     font-family: 'Courier New', Courier, monospace !important;
-    border: 1px solid #cccccc;
+    font-size: 18pt;
+}
+
+.amino-acid-frequency {
+    font-weight: normal;
+    font-size: 10pt;    
+}
+
+.dominant-frequency {
+    font-weight: bold;
+}
+
+.high-frequency {
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.medium-frequency {
+    font-weight: normal;
+    opacity: 0.5;
+}
+
+.low-frequency {
+    font-weight: normal;
+    opacity: 0.3;
+}
+
+.very-low-frequency {
+    font-weight: normal;
+    opacity: 0.2;
+}
+
+
+div.pseudosequence-wrapper {
+    width: 1200px;
+    overflow: hidden; /* add this to contain floated children */
+    padding:2px;
+}
+
+div.pseudusequence-residue {
+    display: inline-block;
+    width:35px;
+    height:35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 14pt;
+}
+
+div.pseudusequence-residue-label {
+    display: inline-block;
+    width:35px;
+    height:35px;
+    transform: rotate(-90deg); /* Equal to rotateZ(45deg) */
+    text-align: left;
+    line-height: 35px;
+}
+
+.polymorphic-residue {
+    font-weight: bold;
 }
 
 span.pocket {
     padding: 4px;
 }
 
-span.a-pocket {
+.a-pocket {
     background-color: rgba(255, 223, 184, 0.6);
     border: 2px solid rgba(255, 223, 184, 1);
 }
 
-span.b-pocket {
+.b-pocket {
     background-color: rgba(252, 202, 226, 0.6);
     border: 2px solid rgba(252, 202, 226, 1);
 }
 
-span.c-pocket {
+.c-pocket {
     background-color: rgba(174, 211, 211, 0.6);
     border: 2px solid rgba(174, 211, 211, 1);
 }
 
-span.d-pocket {
+.d-pocket {
     background-color: rgba(174, 230, 174, 0.6);
     border: 2px solid rgba(174, 230, 174, 1);
 }
 
-span.e-pocket {
+.e-pocket {
     background-color: rgba(149, 149, 192, 0.6);
     border: 2px solid rgba(149, 149, 192, 1);
 }
 
-span.f-pocket {
+.f-pocket {
     background-color: rgba(228, 187, 123, 0.6);
     border: 2px solid rgba(228, 187, 123, 1);
 }
 
-span.o-pocket {
+.o-pocket {
     border: 2px solid #eeeeee;
+    background-color: #ffffff;
 }
 </style>

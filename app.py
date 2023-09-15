@@ -1,5 +1,5 @@
 from typing import Dict, List, Tuple, Union
-from flask import Flask, request
+from flask import Flask, request, url_for
 
 import os
 import json
@@ -26,14 +26,16 @@ pockets = {
         "f": ["77","80","81","84","95","116","123","143","146","147"]
 }
 
+
 def map_pocket(position:int) -> str:
     for pocket in pockets:
         if str(position) in pockets[pocket]:
             return pocket
     return 'o'
 
-
 netmhcpan_pocket_residues = [7,9,24,45,59,62,63,66,67,69,70,73,74,76,77,80,81,84,95,97,99,114,116,118,143,147,150,152,156,158,159,163,167,171]
+
+netmhc_pocket_labels = [map_pocket(position) for position in netmhcpan_pocket_residues]
 
 
 def top_n(dataset:Dict, n:int=10):
@@ -49,6 +51,45 @@ def top_n(dataset:Dict, n:int=10):
     others_values = [item[1]['percent'] for item in sorted_data[n:]]
     
     return labels, values, others, others_values
+
+
+def get_percentage(val):
+    return val.get('percentage', 0)
+
+
+def assign_grade(percentage):
+    if percentage > 60:
+        return "dominant"
+    elif percentage > 30:
+        return "high"
+    elif percentage > 20:
+        return "medium"
+    elif percentage > 10:
+        return "low"
+    else:
+        return "very-low"
+
+
+def manipulate_data(data):
+    for key, sub_dict in data.items():
+        # Ensure the percentage key exists and set to zero if not
+        for letter, letter_data in sub_dict.items():
+            letter_data.setdefault('percentage', 0)
+        
+        # Set the 'grade' field based on the 'percentage' field
+        for letter, letter_data in sub_dict.items():
+            letter_data['grade'] = assign_grade(letter_data['percentage'])
+        
+        # Order the sub-dictionary by the percentage value
+        sorted_sub_dict = dict(sorted(sub_dict.items(), key=lambda item: get_percentage(item[1]), reverse=True))
+        data[key] = sorted_sub_dict
+
+    return data
+
+
+def reorder_and_grade_motif(data):
+    reordered_motif = manipulate_data(data)
+    return reordered_motif
 
 
 def generate_allele_group_pie_chart(allele_groups:Dict, locus:str) -> Tuple[str, str, str]:
@@ -73,10 +114,9 @@ def generate_allele_group_pie_chart(allele_groups:Dict, locus:str) -> Tuple[str,
     fig.set_figheight(figsize-3)
     ax = fig.subplots()
     bbox_props = dict(boxstyle="square,pad=0.2", fc="w", ec="k", lw=0)
-    wedges, texts = ax.pie(values, textprops={'fontsize': 30}, wedgeprops=dict(width=0.3), startangle=-40)
+    wedges, texts = ax.pie(values, textprops={'fontsize': 30}, wedgeprops=dict(width=0.3), startangle=-260, counterclock=False)
 
     kw = dict(arrowprops=dict(arrowstyle="-"), bbox=bbox_props, zorder=0, va="center")
-
     
     for i, p in enumerate(wedges):
         ang = (p.theta2 - p.theta1)/2. + p.theta1
@@ -95,6 +135,14 @@ def generate_allele_group_pie_chart(allele_groups:Dict, locus:str) -> Tuple[str,
 
     png_data = base64.b64encode(png.getbuffer()).decode("ascii")    
     svg_data = base64.b64encode(svg.getvalue()).decode("ascii")
+
+    return png_data, svg_data, alt_text
+
+
+def generate_motif_length_preference_plot(motif_lengths:Dict, locus:str) -> Tuple[str, str, str]:
+    alt_text = ''
+    png_data = None 
+    svg_data = None
 
     return png_data, svg_data, alt_text
 
@@ -196,7 +244,7 @@ def create_app():
 
     app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 
-    json_datasets = ['species','core','sets', 'motifs']
+    json_datasets = ['species','core','sets', 'amino_acid_distributions', 'peptide_length_distributions']
     
     json_dataset_folders = ['protein_alleles','pocket_pseudosequences', 'gdomain_sequences']
 
@@ -221,9 +269,7 @@ def create_app():
     for locus in app.data['species']['homo_sapiens']['loci']:
         app.data['stats']['allele_groups'][locus] = process_allele_group_count(app.data, locus)
 
-    app.data['stats']['motifs'] = len(app.data['motifs'].keys())
-
-    print (app.data['stats']['motifs'])
+    app.data['stats']['motifs'] = len(app.data['amino_acid_distributions'].keys())
 
     return app
 
@@ -246,6 +292,13 @@ def deslugify_allele_group(text:str) -> str:
 def deslugify_allele(text:str) -> str:
     elements = text.split('_')
     return f"{elements[0]}-{elements[1]}*{elements[2]}:{elements[3]}".upper()
+
+
+@app.template_filter()
+def mhc_flurry_url(allele_number:str) -> str:
+    return f"https://openvax.github.io/mhcflurry-motifs/{allele_number.upper().replace('_','-')}.html"
+
+
 
 
 def add_prototype_message(message_type:str, text:str) -> str:
@@ -330,6 +383,8 @@ def species_page(species_stem, api=False):
                 'allele_group_count': len(locus_group),
                 'allele_count': allele_count
             }
+        
+
         return {
             'species': species_stem,
             'loci': locus_stats
@@ -356,6 +411,33 @@ def locus_page(locus, api=False):
     allele_group_count = 0
     allele_count = 0
 
+    raw_structure_sets = data['sets']['allele_groups']
+
+    structure_sets = {}
+    structure_count = 0
+
+    for allele_group in raw_structure_sets:
+        if locus in allele_group:
+            structure_count += raw_structure_sets[allele_group]['count']
+            structure_set = {}
+            structure_set['count'] = raw_structure_sets[allele_group]['count']
+            structure_set['structures'] = raw_structure_sets[allele_group]['members']
+            structure_sets[allele_group] = structure_set
+
+    raw_motifs = data['amino_acid_distributions']
+
+    motif_sets = {}
+    motif_count = 0
+
+    for allele in raw_motifs:
+        if locus in allele:
+            motif_count += 1
+            allele_group = '_'.join(allele.split('_')[:3])
+            if allele_group not in motif_sets:
+                motif_sets[allele_group] = {'count': 0, 'alleles': []}
+            motif_sets[allele_group]['alleles'].append(allele)
+            motif_sets[allele_group]['count'] += 1
+
     for allele_group in raw_allele_groups:
         allele_group_summary[allele_group] = {
             'count': raw_allele_groups[allele_group]['allele_count'],
@@ -367,19 +449,20 @@ def locus_page(locus, api=False):
     for allele_group in allele_group_summary:
         allele_group_summary[allele_group]['percent'] = round(allele_group_summary[allele_group]['count'] / allele_count * 100, 2)
 
-    print (allele_group_count)
-    print (allele_count)
-
-    print (allele_group_summary)
     pie_chart, svg_pie_chart, alt_text = generate_allele_group_pie_chart(allele_group_summary, locus)
 
     return {
         'locus': locus,
         'allele_groups': raw_allele_groups,
-        'pie_chart': svg_pie_chart, 
         'svg_pie_chart': svg_pie_chart,
         'allele_group_count': allele_group_count,
-        'allele_count': allele_count
+        'allele_count': allele_count, 
+        'structure_count': structure_count,
+        'motif_count': motif_count,
+        'motif_sets': motif_sets,
+        'structure_sets': structure_sets,
+        'page_size': 10,
+        'page_url': url_for('locus_page', locus=locus)
     }
 
 
@@ -444,7 +527,7 @@ def allele_group_page(allele_group, api=False):
         structure_count = data['sets']['allele_groups'][allele_group]['count']
 
     for allele in allele_dict:
-        if allele in data['motifs']:
+        if allele in data['amino_acid_distributions']:
             simplified_motif = [None,['V','L'],None,None,None,None,None,None,['L','V']]
             motif_entry = {'type': 'known', 'simplified_motif': simplified_motif, 'motif_index': motif_index, 'motif_allele': allele}
             allele_dict[allele]['motif'] = motif_entry
@@ -470,10 +553,12 @@ def allele_group_page(allele_group, api=False):
         'locus': locus,
         'allele_group': allele_group,
         'alleles': allele_dict,
-        'allele_count': len(all_allele_group_alleles),
         'known_motif_count': known_motif_count,
         'inferred_motif_count': inferred_motif_count,
-        'structure_count': structure_count
+        'structure_count': structure_count,
+        'allele_count': len(all_allele_group_alleles),
+        'page_size': 25,
+        'page_url': url_for('allele_group_page', allele_group=allele_group)
     }
 
 
@@ -496,20 +581,30 @@ def allele_page(allele, api=False):
 
     allele_data = data['protein_alleles'][locus][allele]
     gdomain_matches = data['gdomain_sequences'][locus][allele_data['gdomain_sequence']]['alleles']
-    print (gdomain_matches)
+
 
     pocket_pseudosequence_matches = data['pocket_pseudosequences'][locus][allele_data['pocket_pseudosequence']]['alleles']
     pocket_pseudosequence_match_alleles = []
     cleaned_pocket_pseudosequence_matches = {}
     for pocket_pseudosequence_match in pocket_pseudosequence_matches:
-        print (pocket_pseudosequence_match)
-        print (pocket_pseudosequence_match['protein_allele_name'])
+
         match_allele_slug = slugify(pocket_pseudosequence_match['protein_allele_name'])
         if match_allele_slug not in pocket_pseudosequence_match_alleles and match_allele_slug != allele:
             pocket_pseudosequence_match_alleles.append(match_allele_slug)
             cleaned_pocket_pseudosequence_matches[match_allele_slug] = pocket_pseudosequence_match
 
-    
+    if allele in data['sets']['alleles']:
+        structures = data['sets']['alleles'][allele]['members']
+    else:
+        structures = []
+
+
+    if allele in data['amino_acid_distributions']:
+        raw_motif = data['amino_acid_distributions'][allele]
+        processed_motif = reorder_and_grade_motif(raw_motif['9'])
+    else:
+        processed_motif = None
+        
     return {
         'locus': locus,
         'allele_group': allele_group,
@@ -517,7 +612,14 @@ def allele_page(allele, api=False):
         'allele_data': allele_data,
         'motif': '',
         'pocket_pseudosequence_matches': cleaned_pocket_pseudosequence_matches,
-        'pocket_pseudosequence_match_count': len(cleaned_pocket_pseudosequence_matches)
+        'pocket_pseudosequence_match_count': len(cleaned_pocket_pseudosequence_matches),
+        'pocket_pseudosequence_positions': netmhcpan_pocket_residues,
+        'netmhc_pocket_labels': netmhc_pocket_labels,
+        'structures': structures,
+        'structure_count': len(structures),
+        'processed_motif': processed_motif,
+        'page_size': 25,
+        'page_url': url_for('allele_page', allele=allele)
     }
 
 
