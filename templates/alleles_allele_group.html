@@ -20,8 +20,12 @@
         <div class="column-one-half">
             <div class="inner">
                 <div>
-                    <h3 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25 heading-small">Species / Locus</h3>
-                    <a href="/alleles/species/homo_sapiens">Homo sapiens (Human)</a> / <a href="/alleles/locus/{{locus}}">{{locus | deslugify_locus }}</a>
+                    <h3 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25 heading-small">Species</h3>
+                    <a href="/alleles/species/homo_sapiens">Homo sapiens (Human)</a>
+                </div>
+                <div>
+                    <h3 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25 heading-small">Locus</h3>
+                    <a href="/alleles/locus/{{locus}}">{{locus | deslugify_locus }}</a>
                 </div>
                 <div>
                     <h3 class="vertical-spacing-top-0-5  vertical-spacing-bottom-0-25 heading-small">Number of alleles</h3>
@@ -34,6 +38,7 @@
                 <div>
                     <h3 class="vertical-spacing-top-0-5  vertical-spacing-bottom-0-25 heading-small">Alleles with known/inferred motif</h3>
                     <strong>{{known_motif_count}}</strong> / {{inferred_motif_count}}
+                    <br /><br />
                     {{'This count is only for the 25 alleles shown, final count will be higher when performed in a pipeline'|aside|safe}}
                 </div>
                 
