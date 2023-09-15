@@ -91,17 +91,23 @@
                 <h2 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25">Peptide binding motif</h2> 
             </div>
         </div>
+        {% set motif = processed_motif %}
+
+        {% if motif %}
         <div class="column-two-thirds">
             <div class="inner">
-                {{'Information about motif if known' | aside | safe}}
-                {{'Information on alleles with similar motifs' | aside | safe}} 
-                
-                {% set motif = processed_motif %}
-            
-                
-                {% if motif %}
-                <h3 class="heading-small vertical-spacing-bottom-0-25">Nonamer motif</h3>
-                <div class="vertical-spacing-bottom-0-5">Experimentally determined, data from MHCMotifAtlas</div>
+                <h3 class="vertical-spacing-bottom-0-25"></h3>        
+            </div>
+        </div>
+        <div class="column-one-third">
+            <div class="inner">     
+                <h3 class="vertical-spacing-bottom-0-25"><strong>a.</strong> Motif logoplot</h3>   
+            </div>
+        </div>
+        <div class="column-two-thirds">
+            <div class="inner">                
+                <h3 class="vertical-spacing-bottom-0-25"><strong>b.</strong> Nonamer motif table</h3>
+                <div class="vertical-spacing-bottom">Experimentally determined motif for {{allele | deslugify_allele}}.</div>
                 <table width="100%">
                     <thead>
                         <tr>
@@ -124,16 +130,18 @@
                         </tr>
                     </tbody>
                 </table>
-
-                {% endif %}
             </div>
         </div>
         <div class="column-one-third">
             <div class="inner">
-                {{'motif logoplot' | aside | safe}}
-                {{'motif length preferences' | aside | safe}}
+            
+                <h3 class="vertical-spacing-bottom-0-25"><strong>c.</strong> Length preference</h3>
+                <div class="">Experimentally determined peptide length preference for {{allele | deslugify_allele}}.</div>
+                <img src="data:image/png;base64,{{peptide_length_png}}" width="100%"/>
+                
             </div>
         </div>
+        {% endif %}
     </div>
 </section>
 

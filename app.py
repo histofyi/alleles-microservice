@@ -133,6 +133,8 @@ def generate_allele_group_pie_chart(allele_groups:Dict, locus:str) -> Tuple[str,
     fig.savefig(png, format="png")
     fig.savefig(svg, format="svg")
 
+
+
     png_data = base64.b64encode(png.getbuffer()).decode("ascii")    
     svg_data = base64.b64encode(svg.getvalue()).decode("ascii")
 
@@ -140,9 +142,37 @@ def generate_allele_group_pie_chart(allele_groups:Dict, locus:str) -> Tuple[str,
 
 
 def generate_motif_length_preference_plot(motif_lengths:Dict, locus:str) -> Tuple[str, str, str]:
+
     alt_text = ''
     png_data = None 
     svg_data = None
+
+    reworked_motif_lengths = {int(key):motif_lengths['lengths'][key] for key in motif_lengths['lengths']}
+
+    labels = sorted(reworked_motif_lengths.keys())
+    values = [reworked_motif_lengths[label]['percentage'] for label in labels]
+
+    fig = Figure()
+    fig.set_figwidth(25)
+    fig.set_figheight(20)
+    ax = fig.subplots()
+    ax.bar(labels, values, color='#0a0039')
+    ax.tick_params(axis='both', which='major', labelsize=55)
+
+    ax.set_xlabel('Peptide length', fontsize=70, labelpad=10)
+    ax.set_ylabel('Percentage of peptides', fontsize=70, labelpad=40)
+    ax.spines[['right', 'top']].set_visible(False)
+
+    
+    png = BytesIO()
+    svg = BytesIO()
+
+    fig.savefig(png, format="png")
+    fig.savefig(svg, format="svg")
+
+    # Embed the result in the html output.
+    png_data = base64.b64encode(png.getbuffer()).decode("ascii")
+    svg_data = base64.b64encode(png.getbuffer()).decode("ascii")
 
     return png_data, svg_data, alt_text
 
@@ -604,6 +634,16 @@ def allele_page(allele, api=False):
         processed_motif = reorder_and_grade_motif(raw_motif['9'])
     else:
         processed_motif = None
+
+    if allele in data['peptide_length_distributions']:
+        raw_peptide_length_distribution = data['peptide_length_distributions'][allele]
+        peptide_length_svg, peptide_length_png, peptide_length_alt_text = generate_motif_length_preference_plot(raw_peptide_length_distribution, locus)
+    else:
+        peptide_length_svg = None
+        peptide_length_png = None
+        peptide_length_alt_text = None
+
+
         
     return {
         'locus': locus,
@@ -618,6 +658,8 @@ def allele_page(allele, api=False):
         'structures': structures,
         'structure_count': len(structures),
         'processed_motif': processed_motif,
+        'peptide_length_png': peptide_length_png,
+        'peptide_length_alt_text': peptide_length_alt_text,
         'page_size': 25,
         'page_url': url_for('allele_page', allele=allele)
     }
