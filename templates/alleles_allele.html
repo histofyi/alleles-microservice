@@ -45,7 +45,7 @@
                 </div>
                 <div>
                     <h3 class="vertical-spacing-top-0-5  vertical-spacing-bottom-0-25 heading-small">Experimental structures</h3>
-                    {{structure_count}} structures
+                    {{structure_count | structure_count_display}} 
                 </div>
             </div>
         </div>
@@ -96,12 +96,18 @@
         {% if motif %}
         <div class="column-two-thirds">
             <div class="inner">
-                <h3 class="vertical-spacing-bottom-0-25"></h3>        
+                <h3 class="vertical-spacing-bottom-0-25"></h3> 
+                <div>
+                    Description of the motif and commentary on the figure panels a., b. and c.
+                </div>
+                
+        
             </div>
         </div>
         <div class="column-one-third">
             <div class="inner">     
-                <h3 class="vertical-spacing-bottom-0-25"><strong>a.</strong> Motif logoplot</h3>   
+                <h3 class="vertical-spacing-bottom-0-25"><strong>a.</strong> Nonamer motif logoplot</h3>   
+                <img src="data:image/svg+xml;base64,{{motif_logo_svg_data}}" />
             </div>
         </div>
         <div class="column-two-thirds">

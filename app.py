@@ -131,8 +131,9 @@ def generate_allele_group_pie_chart(allele_groups:Dict, locus:str) -> Tuple[str,
     png = BytesIO()
     svg = BytesIO()
     fig.savefig(png, format="png")
-    fig.savefig(svg, format="svg")
 
+
+    fig.savefig(svg, format="svg")
 
 
     png_data = base64.b64encode(png.getbuffer()).decode("ascii")    
@@ -141,7 +142,7 @@ def generate_allele_group_pie_chart(allele_groups:Dict, locus:str) -> Tuple[str,
     return png_data, svg_data, alt_text
 
 
-def generate_motif_length_preference_plot(motif_lengths:Dict, locus:str) -> Tuple[str, str, str]:
+def generate_motif_length_preference_plot(motif_lengths:Dict) -> Tuple[str, str, str]:
 
     alt_text = ''
     png_data = None 
@@ -163,18 +164,14 @@ def generate_motif_length_preference_plot(motif_lengths:Dict, locus:str) -> Tupl
     ax.set_ylabel('Percentage of peptides', fontsize=70, labelpad=40)
     ax.spines[['right', 'top']].set_visible(False)
 
-    
     png = BytesIO()
-    svg = BytesIO()
 
     fig.savefig(png, format="png")
-    fig.savefig(svg, format="svg")
 
-    # Embed the result in the html output.
     png_data = base64.b64encode(png.getbuffer()).decode("ascii")
-    svg_data = base64.b64encode(png.getbuffer()).decode("ascii")
 
-    return png_data, svg_data, alt_text
+
+    return png_data, alt_text
 
 
 def load_json_data(dataset_name:str) -> Dict:
@@ -301,10 +298,27 @@ def create_app():
 
     app.data['stats']['motifs'] = len(app.data['amino_acid_distributions'].keys())
 
+    app.files = {}
+
+    with open('data/logo_bytes.txt', 'r') as f:
+        app.files['logoplot'] = f.read()
+
+    print (app.files)
+
     return app
 
 
 app = create_app()
+
+
+@app.template_filter()
+def structure_count_display(structure_count:int) -> str:
+    if structure_count == 0:
+        return 'No structures'
+    elif structure_count == 1:
+        return '1 structure'
+    else:
+        return f"{structure_count} structures"
 
 
 @app.template_filter()
@@ -491,7 +505,7 @@ def locus_page(locus, api=False):
         'motif_count': motif_count,
         'motif_sets': motif_sets,
         'structure_sets': structure_sets,
-        'page_size': 10,
+        'page_size': 25,
         'page_url': url_for('locus_page', locus=locus)
     }
 
@@ -637,9 +651,8 @@ def allele_page(allele, api=False):
 
     if allele in data['peptide_length_distributions']:
         raw_peptide_length_distribution = data['peptide_length_distributions'][allele]
-        peptide_length_svg, peptide_length_png, peptide_length_alt_text = generate_motif_length_preference_plot(raw_peptide_length_distribution, locus)
+        peptide_length_png, peptide_length_alt_text = generate_motif_length_preference_plot(raw_peptide_length_distribution)
     else:
-        peptide_length_svg = None
         peptide_length_png = None
         peptide_length_alt_text = None
 
@@ -660,6 +673,7 @@ def allele_page(allele, api=False):
         'processed_motif': processed_motif,
         'peptide_length_png': peptide_length_png,
         'peptide_length_alt_text': peptide_length_alt_text,
+        'motif_logo_svg_data': app.files['logoplot'],
         'page_size': 25,
         'page_url': url_for('allele_page', allele=allele)
     }
