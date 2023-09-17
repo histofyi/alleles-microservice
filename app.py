@@ -542,6 +542,7 @@ def allele_page(allele, api=False):
     pocket_pseudosequence_matches = data['pocket_pseudosequences'][locus][allele_data['pocket_pseudosequence']]['alleles']
     pocket_pseudosequence_match_alleles = []
     cleaned_pocket_pseudosequence_matches = {}
+
     for pocket_pseudosequence_match in pocket_pseudosequence_matches:
 
         match_allele_slug = slugify(pocket_pseudosequence_match['protein_allele_name'])
@@ -557,16 +558,11 @@ def allele_page(allele, api=False):
 
     if allele in data['sorted_amino_acid_distributions']:
         raw_motif = data['sorted_amino_acid_distributions'][allele]
-        processed_motif = reorder_and_grade_motif(raw_motif['9'])
+        processed_motif = data['sorted_amino_acid_distributions'][allele]['9']
     else:
         processed_motif = None
 
-    if allele in data['peptide_length_distributions']:
-        raw_peptide_length_distribution = data['peptide_length_distributions'][allele]
-        peptide_length_png, peptide_length_alt_text = generate_motif_length_preference_plot(raw_peptide_length_distribution)
-    else:
-        peptide_length_png = None
-        peptide_length_alt_text = None
+
 
 
         
@@ -583,7 +579,6 @@ def allele_page(allele, api=False):
         'structures': structures,
         'structure_count': len(structures),
         'processed_motif': processed_motif,
-        'peptide_length_alt_text': peptide_length_alt_text,
         'page_size': 25,
         'page_url': url_for('allele_page', allele=allele)
     }

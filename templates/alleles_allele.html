@@ -45,7 +45,7 @@
                 </div>
                 <div>
                     <h3 class="vertical-spacing-top-0-5  vertical-spacing-bottom-0-25 heading-small">Experimental structures</h3>
-                    {{structure_count | structure_count_display}} 
+                    {% if structure_count > 0 %}<a href="https://www.histo.fyi/structures/browse/alleles/{{allele}}">{% endif %}{{structure_count | structure_count_display}}{% if structure_count > 0 %}{% endif %}</a> 
                 </div>
             </div>
         </div>
@@ -107,9 +107,10 @@
         <div class="column-one-third">
             <div class="inner">     
                 <h3 class="vertical-spacing-bottom-0-25"><strong>a.</strong> Nonamer motif logoplot</h3>   
-                <img src="data:image/svg+xml;base64,{{motif_logo_svg_data}}" />
+                <img src="https://images.histo.fyi/motifs/logoplots/svg/{{allele}}_9.svg" />
             </div>
         </div>
+
         <div class="column-two-thirds">
             <div class="inner">                
                 <h3 class="vertical-spacing-bottom-0-25"><strong>b.</strong> Nonamer motif table</h3>
@@ -125,13 +126,13 @@
                     <tbody>
                         <tr>
                             {% for position in motif %}
-                                <td width="11%">
-                                    {% for amino_acid in motif[position] %}
-                                        {% if motif[position][amino_acid]['percentage'] > 5.0 %}
-                                            <div class="motif-row {{motif[position][amino_acid]['grade']}}-frequency"><span class="motif-amino-acid ">{{amino_acid}}</span> <span class="amino-acid-frequency">{{motif[position][amino_acid]['percentage'] | round(1)}}%</span></div>
-                                        {% endif %}
-                                    {% endfor %}
-                                </td>
+                            <td width="11%">
+                                {% for amino_acid in motif[position] %}
+                                    {% if amino_acid['percentage'] > 5.0 %}
+                                        <div class="motif-row {{amino_acid['grade']}}-frequency"><span class="motif-amino-acid ">{{amino_acid['amino_acid']}}</span> <span class="amino-acid-frequency">{{amino_acid['percentage'] | round(1)}}%</span></div>
+                                    {% endif %}
+                                {% endfor %}
+                            </td>
                             {% endfor %}
                         </tr>
                     </tbody>
@@ -143,7 +144,7 @@
             
                 <h3 class="vertical-spacing-bottom-0-25"><strong>c.</strong> Length preference</h3>
                 <div class="">Experimentally determined peptide length preference for {{allele | deslugify_allele}}.</div>
-                <img src="data:image/png;base64,{{peptide_length_png}}" width="100%"/>
+                <img src="https://images.histo.fyi/motifs/lengthplots/png/hla_a_01_01.png" width="100%"/>
                 
             </div>
         </div>
