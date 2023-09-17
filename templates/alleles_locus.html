@@ -79,14 +79,13 @@
                         <td>
                             {{allele_groups[allele_group].variability}}
                         </td>
-                        <td>
-                            {% if allele_group in structure_sets%}
-                                {{structure_sets[allele_group]['count'] }}
+                        <td>{% if allele_groups[allele_group].structure_count != 0 %}
+                                {{allele_groups[allele_group].structure_count}}
                             {% endif %}
                         </td>
                         <td>
-                            {% if allele_group in motif_sets%}
-                                {{motif_sets[allele_group]['count'] }}
+                            {% if allele_groups[allele_group].motif_count != 0 %}
+                                {{allele_groups[allele_group].motif_count }}
                             {% endif %}
                         </td>
                     </tr>
