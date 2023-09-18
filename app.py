@@ -34,7 +34,11 @@ netmhc_pocket_labels = [map_pocket(position) for position in netmhcpan_pocket_re
 
 
 
-
+def zero_pad(number:int) -> str:
+    if number < 10:
+        return f"0{number}"
+    else:
+        return str(number)
 
 
 
@@ -133,7 +137,7 @@ def create_app():
     app.jinja_env.trim_blocks = True
     app.jinja_env.lstrip_blocks = True
 
-    json_datasets = ['species','sets', 'peptide_length_distributions', 'simplified_motifs', 'sorted_amino_acid_distributions']
+    json_datasets = ['species','sets', 'peptide_length_distributions', 'simplified_motifs', 'sorted_amino_acid_distributions', 'polymorphisms_and_motifs']
     
     json_dataset_folders = ['protein_alleles','pocket_pseudosequences', 'gdomain_sequences', 'allele_groups', 'reference_alleles']
 
@@ -204,6 +208,32 @@ def deslugify_allele(text:str) -> str:
 @app.template_filter()
 def mhc_flurry_url(allele_number:str) -> str:
     return f"https://openvax.github.io/mhcflurry-motifs/{allele_number.upper().replace('_','-')}.html"
+
+
+@app.template_filter()
+def display_simple_motif(motif:Dict) -> str:
+    spacer = '<span>.</span>'
+    motif_string = "<table width='90%'>"
+    rows = [0,1]
+    motif_string += "<tr>"
+    for position in motif:
+        if motif[position] != []:
+            motif_string += "<td width='10%' class='motif-bar'>|</td>"
+        else:
+            motif_string += "<td width='10%'></td>"
+    motif_string += "</tr>"
+    for row in rows:
+        motif_string += "<tr>"
+        for position in motif:
+            motif_string += "<td width='10%'>"
+            if motif[position] == [] and row == 0:
+                motif_string += "<span class='motif-spacer'>.</span>"
+            elif len(motif[position]) > row:
+                motif_string += f"<span class='motif-amino-acid simplified-{motif[position][row]['grade']}-frequency'>{motif[position][row]['amino_acid']}</span>"
+            motif_string += "</td>"
+        motif_string += "</tr>"
+    motif_string += "</table>"
+    return motif_string
 
 
 
@@ -313,6 +343,9 @@ def locus_page(locus, api=False):
     data = app.data.copy()
 
     raw_allele_groups = data['allele_groups'][locus]
+
+
+
     raw_structure_sets = data['sets']['allele_groups']
     raw_motifs = data['simplified_motifs']
 
@@ -341,9 +374,6 @@ def locus_page(locus, api=False):
             allele_group_summary[allele_group]['motif_count'] += 1
             motif_count += 1
     
-    
-
-
     return {
         'locus': locus,
         'allele_groups': allele_group_summary,
@@ -370,84 +400,69 @@ def allele_group_page(allele_group, api=False):
         allele_group (string): the slugified allele group e.g. hla_a_01
     """
     locus = '_'.join(allele_group.split('_')[0:2])
+
     data = app.data.copy()
     
-    known_motifs = {}
+    allele_group_data = data['allele_groups'][locus][allele_group]
 
-    all_allele_group_alleles = data['stats']['allele_groups'][locus]['allele_groups'][allele_group]['alleles']
-    paged_alleles = all_allele_group_alleles[1:26]
-    reference_allele = data['stats']['allele_groups'][locus]['allele_groups'][allele_group]['alleles'][0]
-    i = 0
-    allele_group_pocket_sequence = data['protein_alleles'][locus][reference_allele]['pocket_pseudosequence']
-    
-    allele_dict = {}
-    
-    allele_dict[reference_allele] = data['protein_alleles'][locus][reference_allele]
-    allele_dict[reference_allele]['pocket_polymorphisms'] = 'Reference'
+    reference_allele = data['reference_alleles'][locus]['allele_groups'][allele_group]
 
-    for allele in paged_alleles:
-        allele_dict[allele] = data['protein_alleles'][locus][allele]
+    sort_order = sorted([int(allele.split('_')[3]) for allele in allele_group_data])
 
-        current_allele_pocket_sequence = data['protein_alleles'][locus][allele]['pocket_pseudosequence']
-        if current_allele_pocket_sequence == allele_group_pocket_sequence:
-            allele_dict[allele]['pocket_polymorphisms'] = None
-        else:
-            polymorphisms = {}
-            for i in range(0, len(current_allele_pocket_sequence)):
-                if current_allele_pocket_sequence[i] != allele_group_pocket_sequence[i]:
-                    position = netmhcpan_pocket_residues[i]
-                    pocket = map_pocket(position)
-                    polymorphisms[position] = {'from': allele_group_pocket_sequence[i], 'to': current_allele_pocket_sequence[i], 'pocket': pocket, 'position': position}
-            allele_dict[allele]['pocket_polymorphisms'] = polymorphisms
+    polymorphisms_and_motifs = data['polymorphisms_and_motifs']
 
-    for allele in allele_dict:     
-        if allele in data['sets']['alleles']:
-            allele_dict[allele]['structure_count'] = data['sets']['alleles'][allele]['count']
-        else:
-            allele_dict[allele]['structures'] = None
-            allele_dict[allele]['structure_count'] = None
-
-    # THIS CURRENTLY ONLY WORKS ON THE PAGED ALLELES, DO IN THE PIPELINE FOR ALL ALLELES
-    motif_index = 1
-
-    known_motif_count = 0
-    inferred_motif_count = 0
-    structure_count = 0
+    allele_count = len(allele_group_data)
 
     if allele_group in data['sets']['allele_groups']:
         structure_count = data['sets']['allele_groups'][allele_group]['count']
-
-    for allele in allele_dict:
-        if allele in data['sorted_amino_acid_distributions']:
-            simplified_motif = [None,['V','L'],None,None,None,None,None,None,['L','V']]
-            motif_entry = {'type': 'known', 'simplified_motif': simplified_motif, 'motif_index': motif_index, 'motif_allele': allele}
-            allele_dict[allele]['motif'] = motif_entry
-            pocket_pseudosequence = data['protein_alleles'][locus][allele]['pocket_pseudosequence']
-            if not pocket_pseudosequence in known_motifs:
-                known_motifs[pocket_pseudosequence] = []
-            known_motifs[pocket_pseudosequence].append(motif_entry)
-            known_motif_count += 1
+    else:
+        structure_count = 0
 
 
-    for allele in allele_dict:
-        if 'motif' not in allele_dict[allele]:
-            pocket_pseudosequence = data['protein_alleles'][locus][allele]['pocket_pseudosequence']
-            if pocket_pseudosequence in known_motifs:
-                motif_entry = known_motifs[pocket_pseudosequence][0]
-                motif_entry['type'] = 'inferred'
-                allele_dict[allele]['motif'] = motif_entry
-                inferred_motif_count += 1
+    
+    reference_allele_info = polymorphisms_and_motifs[locus][reference_allele]
+    reference_allele_info['allele'] = reference_allele
+
+    if reference_allele in data['sets']['alleles']:
+        reference_allele_info['structure_count'] = data['sets']['alleles'][reference_allele]['count']
+
+
+    raw_alleles = [f"{allele_group}_{zero_pad(number)}" for number in sort_order]
+
+    experimental_motif_count = 0
+    inferred_motif_count = 0
+
+    for allele in raw_alleles:
+        if allele in polymorphisms_and_motifs[locus]:
+            if 'motif_type' in polymorphisms_and_motifs[locus][allele]:
+                if polymorphisms_and_motifs[locus][allele]['motif_type'] == 'experimental':
+                    experimental_motif_count += 1
+                elif polymorphisms_and_motifs[locus][allele]['motif_type'] == 'infered':
+                    inferred_motif_count += 1
 
             
+
+    alleles = []
+
+    raw_alleles = [allele for allele in raw_alleles if allele != reference_allele]
+
+    for allele in raw_alleles[0:25]:
+        allele_info = polymorphisms_and_motifs[locus][allele]
+        allele_info['allele'] = allele
+        if allele in data['sets']['alleles']:
+            allele_info['structure_count'] = data['sets']['alleles'][allele]['count']
+        alleles.append(allele_info)
+    
 
     return {
         'locus': locus,
         'allele_group': allele_group,
-        'alleles': allele_dict,
-        'known_motif_count': known_motif_count,
+        'reference_allele_info': reference_allele_info,
+        'alleles': alleles,
+        'known_motif_count': experimental_motif_count,
         'inferred_motif_count': inferred_motif_count,
         'structure_count': structure_count,
-        'allele_count': len(all_allele_group_alleles),
+        'allele_count': allele_count,
         'page_size': 25,
         'page_url': url_for('allele_group_page', allele_group=allele_group)
     }

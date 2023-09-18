@@ -73,52 +73,55 @@
                     </thead>
                     <tbody>
                         <tr class="spacer-row"></tr>
-                {% for allele in alleles %}
-                        <tr class="data-rows">
+
+                        <tr class="reference">
                             <td>
-                               <a href="/alleles/allele/{{allele}}"><nobr>{{allele | deslugify_allele}}</nobr></a>
+                                <a href="/alleles/allele/{{reference_allele_info.allele}}"><nobr>{{reference_allele_info.allele | deslugify_allele}}</nobr></a>
                             </td>
                             <td>
-                                {% if alleles[allele]['structure_count'] %}
-                                    {{ alleles[allele]['structure_count'] }}
-                                {% endif %}
+                                {{reference_allele_info.structure_count}}
                             </td>
                             <td>
-                                {% if alleles[allele]['motif'] %}
-                                    {% if alleles[allele]['motif']['type'] == 'known' %}
-                                        <div class="sequence known-motif">
-                                    {% else %}
-                                        <div class="sequence inferred-motif">
-                                    {% endif%}
-                                    {% for i in range(0,2) %}
-                                    {% for position in alleles[allele]['motif']['simplified_motif'] %}
-                                        {% if not position %}
-                                            <span class="sequence sequence-spacer">.</span>
-                                        {% else %}
-                                            <span class="sequence">{% if i==0 %}<strong>{% endif %}{{position[i]}}{% if i==0 %}</strong>{% endif %}</span>
-                                        {% endif %}
-                                    {% endfor %}
+                                {% if reference_allele_info.motif_type %}
+                                    <div class="{{reference_allele_info.motif_type}}-motif"></div>
+                                    {{reference_allele_info.motif | display_simple_motif | safe}}
+                                {% else %}
                                     <br />
-                                    {% endfor %}
-                                    </div>
-                                {% else %}
-                                <div><br/><br/></div>
+                                    <br />
                                 {% endif %}
                             </td>
                             <td>
-                                {% if alleles[allele]['pocket_polymorphisms'] == 'Reference' %}
-                                    Reference
-                                {% else %}
-                                    {% if alleles[allele]['pocket_polymorphisms'] %}
-                                        {% for residue in alleles[allele]['pocket_polymorphisms'] %}
-                                        {% set polymorphism = alleles[allele]['pocket_polymorphisms'][residue] %}
-                                            <span class="pocket {{ polymorphism.pocket }}-pocket sequence">{{ polymorphism.from }}{{ polymorphism.position }}{{ polymorphism.to }}</span>
-                                        {% endfor %}
-                                    {% endif %}
-                                {% endif %}
+                                Reference allele
                             </td>
                         </tr>
-                {% endfor %}
+
+                        <tr class="spacer-row"></tr>
+                
+                    {% for allele in alleles %}
+                        <tr class="data-rows">
+                            <td>
+                               <a href="/alleles/allele/{{allele.allele}}"><nobr>{{allele.allele | deslugify_allele}}</nobr></a>
+                            </td>
+                            <td>
+                                {{allele.structure_count}}
+                            </td>
+                            <td>
+                                {% if allele.motif_type %}
+                                <div class="{{allele.motif_type}}-motif">
+                                </div>
+                                    {{allele.motif | display_simple_motif | safe}}
+                                {% else %}
+                                    <br />
+                                    <br />
+                                {% endif %}
+                            </td>
+                            <td>
+                                {% for polymorphism in allele.polymorphisms.binding_pocket %}
+                                    <span class="pocket {{ polymorphism.pocket }}-pocket sequence">{{ polymorphism.from }}{{ polymorphism.position }}{{ polymorphism.to }}</span>
+                                {% endfor %}
+                            </td>
+                        </tr>
+                    {% endfor %}
                 </table>
             </div>
         </div>  
