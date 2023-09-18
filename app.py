@@ -5,17 +5,12 @@ import os
 import json
 import toml
 
-import base64
-from io import BytesIO
 
-import matplotlib.pyplot as plt
-from matplotlib.figure import Figure
-import numpy as np
 
 from functions.decorators import templated
 from functions.text import slugify
 
-
+import sys
 
 pockets = {
         "a": ["5","59","63","66","159","163","167","171"],
@@ -38,73 +33,8 @@ netmhcpan_pocket_residues = [7,9,24,45,59,62,63,66,67,69,70,73,74,76,77,80,81,84
 netmhc_pocket_labels = [map_pocket(position) for position in netmhcpan_pocket_residues]
 
 
-def top_n(dataset:Dict, n:int=10):
-    # Sort the dictionary by percentage in descending order
-    sorted_data = sorted(dataset.items(), key=lambda x: x[1]['percent'], reverse=True)
-    
-    # Extract the top 10 labels and values
-    labels = [item[0] for item in sorted_data[:n]]
-    values = [item[1]['percent'] for item in sorted_data[:n]]
-    
-    # Extract the rest of the labels and values for others category
-    others = [item[0] for item in sorted_data[n:]]
-    others_values = [item[1]['percent'] for item in sorted_data[n:]]
-    
-    return labels, values, others, others_values
 
 
-
-def generate_allele_group_pie_chart(allele_groups:Dict, allele_count:int, locus:str) -> Tuple[str, str, str]:
-    labels = []
-    values = []
-    others = []
-
-    for allele_group in allele_groups:
-        allele_groups[allele_group]['percent'] = allele_groups[allele_group]['allele_count']*100/allele_count
-
-    labels, values, others, others_values = top_n(allele_groups, 9)
-
-    labels = [f"{deslugify_allele_group(allele_group)} [{round(allele_groups[allele_group]['percent'], 1)}%]" for allele_group in labels]
-
-    others_percent = sum(others_values)
-
-    if len(others) > 0:
-        labels.append('Others')
-        values.append(others_percent)
-    alt_text = f"Donut chart of the allele group distribution for the {locus} locus. Alleles shown indvidually are {labels}. Alleles shown in the 'Others' category are {others}."
-    figsize = 15
-
-    fig = Figure()
-    fig.set_figwidth(figsize+4)
-    fig.set_figheight(figsize-3)
-    ax = fig.subplots()
-    bbox_props = dict(boxstyle="square,pad=0.2", fc="w", ec="k", lw=0)
-    wedges, texts = ax.pie(values, textprops={'fontsize': 30}, wedgeprops=dict(width=0.3), startangle=-260, counterclock=False)
-
-    kw = dict(arrowprops=dict(arrowstyle="-"), bbox=bbox_props, zorder=0, va="center")
-    
-    for i, p in enumerate(wedges):
-        ang = (p.theta2 - p.theta1)/2. + p.theta1
-        y = np.sin(np.deg2rad(ang))
-        x = np.cos(np.deg2rad(ang))
-        horizontalalignment = {-1: "right", 1: "left"}[int(np.sign(x))]
-        connectionstyle = f"angle,angleA=0,angleB={ang}"
-        kw["arrowprops"].update({"connectionstyle": connectionstyle})
-        ax.annotate(labels[i], xy=(x, y), xytext=(1.35*np.sign(x), 1.4*y),horizontalalignment=horizontalalignment, **kw, size=32)
-
-    # Save it to a temporary buffer.
-    png = BytesIO()
-    svg = BytesIO()
-    fig.savefig(png, format="png")
-
-
-    fig.savefig(svg, format="svg")
-
-
-    png_data = base64.b64encode(png.getbuffer()).decode("ascii")    
-    svg_data = base64.b64encode(svg.getvalue()).decode("ascii")
-
-    return png_data, svg_data, alt_text
 
 
 
@@ -203,7 +133,7 @@ def create_app():
     app.jinja_env.trim_blocks = True
     app.jinja_env.lstrip_blocks = True
 
-    json_datasets = ['species','core','sets', 'peptide_length_distributions', 'simplified_motifs', 'sorted_amino_acid_distributions']
+    json_datasets = ['species','sets', 'peptide_length_distributions', 'simplified_motifs', 'sorted_amino_acid_distributions']
     
     json_dataset_folders = ['protein_alleles','pocket_pseudosequences', 'gdomain_sequences', 'allele_groups', 'reference_alleles']
 
@@ -230,8 +160,14 @@ def create_app():
 
     app.data['stats']['motifs'] = len(app.data['sorted_amino_acid_distributions'].keys())
 
-    app.files = {}
+    dataset_size = 0
 
+    for item in app.data:
+        item_size = sys.getsizeof(app.data[item])
+        dataset_size += item_size
+
+    print (f"Data held in memory for app.data is {round(dataset_size / 1024, 1)}MB")
+        
     return app
 
 
@@ -405,7 +341,7 @@ def locus_page(locus, api=False):
             allele_group_summary[allele_group]['motif_count'] += 1
             motif_count += 1
     
-    pie_chart, svg_pie_chart, alt_text = generate_allele_group_pie_chart(allele_group_summary, allele_count, locus)
+    
 
 
     return {
@@ -415,8 +351,7 @@ def locus_page(locus, api=False):
         'allele_count': allele_count, 
         'structure_count': structure_count,
         'motif_count': motif_count,
-        'svg_pie_chart': svg_pie_chart,
-        'alt_text': alt_text,
+        'alt_text': '',
         'page_size': 25,
         'page_url': url_for('locus_page', locus=locus)
     }
@@ -596,8 +531,3 @@ def allele_identifier_page(datasource, identifier, api=False):
     """
     return f'{datasource=}:{identifier=}'
 
-
-
-
-def build():
-    pass
