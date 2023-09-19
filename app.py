@@ -5,7 +5,7 @@ import os
 import json
 import toml
 
-
+page_size = 25
 
 from functions.decorators import templated
 from functions.text import slugify
@@ -40,6 +40,12 @@ def zero_pad(number:int) -> str:
     else:
         return str(number)
 
+
+def pagination(records:List, page_size:int, page:int) -> Tuple[List, int]:
+    start = (page - 1) * page_size
+    end = page * page_size
+    page_count = (len(records) // page_size) + 1
+    return records[start:end], page_count
 
 
 def load_json_data(dataset_name:str) -> Dict:
@@ -446,7 +452,16 @@ def allele_group_page(allele_group, api=False):
 
     raw_alleles = [allele for allele in raw_alleles if allele != reference_allele]
 
-    for allele in raw_alleles[0:25]:
+    current_page = 1
+
+    if 'page_number' in request.args:
+        current_page = int(request.args['page_number'])
+
+    paged_alleles, page_count = pagination(raw_alleles, page_size, current_page)
+
+    pages = [i for i in range(1, page_count + 1)]
+
+    for allele in paged_alleles:
         allele_info = polymorphisms_and_motifs[locus][allele]
         allele_info['allele'] = allele
         if allele in data['sets']['alleles']:
@@ -463,7 +478,10 @@ def allele_group_page(allele_group, api=False):
         'inferred_motif_count': inferred_motif_count,
         'structure_count': structure_count,
         'allele_count': allele_count,
-        'page_size': 25,
+        'page_size': page_size,
+        'page_count': page_count,
+        'pages': pages,
+        'current_page': current_page,
         'page_url': url_for('allele_group_page', allele_group=allele_group)
     }
 
@@ -500,6 +518,7 @@ def allele_page(allele, api=False):
             pocket_pseudosequence_match_alleles.append(match_allele_slug)
             cleaned_pocket_pseudosequence_matches[match_allele_slug] = pocket_pseudosequence_match
 
+
     if allele in data['sets']['alleles']:
         structures = data['sets']['alleles'][allele]['members']
     else:
@@ -512,10 +531,24 @@ def allele_page(allele, api=False):
     else:
         processed_motif = None
 
+    reference_allele = data['reference_alleles'][locus]['allele_groups'][allele_group]
+    if allele != reference_allele:
+        polymorphisms = data['polymorphisms_and_motifs'][locus][allele]['polymorphisms']
 
+        netmhcpan_polymorphisms = [polymorphism['position'] for polymorphism in polymorphisms['binding_pocket']]
 
+        abd_polymorphisms = []
 
-        
+        for polymorphism in polymorphisms['abd']:
+            if polymorphism['position'] not in netmhcpan_polymorphisms:
+                print (polymorphism)
+                abd_polymorphisms.append(polymorphism)
+
+        polymorphisms['abd'] = abd_polymorphisms
+    else:
+        polymorphisms = None
+        netmhcpan_polymorphisms = None
+
     return {
         'locus': locus,
         'allele_group': allele_group,
@@ -526,6 +559,9 @@ def allele_page(allele, api=False):
         'pocket_pseudosequence_match_count': len(cleaned_pocket_pseudosequence_matches),
         'pocket_pseudosequence_positions': netmhcpan_pocket_residues,
         'netmhc_pocket_labels': netmhc_pocket_labels,
+        'netmhcpan_polymorphisms': netmhcpan_polymorphisms,
+        'polymorphisms': polymorphisms,
+        'reference_allele': reference_allele,
         'structures': structures,
         'structure_count': len(structures),
         'processed_motif': processed_motif,

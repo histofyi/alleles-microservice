@@ -38,8 +38,6 @@
                 <div>
                     <h3 class="vertical-spacing-top-0-5  vertical-spacing-bottom-0-25 heading-small">Alleles with known/inferred motif</h3>
                     <strong>{{known_motif_count}}</strong> / {{inferred_motif_count}}
-                    <br /><br />
-                    {{'This count is only for the 25 alleles shown, final count will be higher when performed in a pipeline'|aside|safe}}
                 </div>
                 
             </div>
@@ -61,6 +59,10 @@
         </div>
         <div class="column-full-width">
             <div class="inner">
+                {% set item_count = allele_count %}
+
+                {% include "pagination.html" %}
+
                 <table width="100%" class="vertical-spacing-bottom">
                     <thead>
                         <tr>
@@ -117,19 +119,15 @@
                             </td>
                             <td>
                                 {% for polymorphism in allele.polymorphisms.binding_pocket %}
-                                    <span class="pocket {{ polymorphism.pocket }}-pocket sequence">{{ polymorphism.from }}{{ polymorphism.position }}{{ polymorphism.to }}</span>
+                                    <span class="pocket {{ polymorphism.pocket }}-pocket">{{ polymorphism.from }}{{ polymorphism.position }}{{ polymorphism.to }}</span>
                                 {% endfor %}
                             </td>
                         </tr>
                     {% endfor %}
                 </table>
+                {% include "pagination.html" %}
             </div>
         </div>  
-        <div class="column-full-width">
-            <div class="inner">
-                {{'Information about alleles, known motif, number of structures' | aside | safe}}
-            </div>
-        </div>
 
     </div>
 </section>
