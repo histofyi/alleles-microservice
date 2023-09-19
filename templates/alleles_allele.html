@@ -65,7 +65,7 @@
                 <div class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-5">
                 {% if allele != reference_allele %}
                 
-                    <strong>{{pocket_pseudosequence_match_count}} alleles</strong> have identical binding pocket residues to <strong>{{allele | deslugify_allele }}</strong>. Residues shown in bold are polymorphisms compared to the reference allele, {{reference_allele | deslugify_allele }}. 
+                    <strong>{{pocket_pseudosequence_match_count}} alleles</strong> have identical binding pocket residues to <strong>{{allele | deslugify_allele }}</strong>. Residues shown in bold are polymorphisms compared to the reference allele, <a href="/alleles/allele/{{reference_allele}}">{{reference_allele | deslugify_allele }}</a>. 
                 </div>
                 
                 <div class="pseudosequence-wrapper">
@@ -82,7 +82,7 @@
                     The residues listed are ones used commonly for peptide epitope prediction algorithms such as <a href="https://services.healthtech.dtu.dk/services/NetMHCpan-4.1/">NetMHCPan</a> and <a href="{{allele | mhc_flurry_url}}">MHCFlurry</a> and also the MHCMotifAtlas.
                 </div>
                 {% else %}
-                    <strong>{{allele | deslugify_allele }}</strong> is the reference allele for the {{allele_group | deslugify_allele_group }} allele group, so there are no polymorphisms to show. 
+                    <strong>{{allele | deslugify_allele }}</strong> is the reference allele for the {{allele_group | deslugify_allele_group }} allele group, so there are no polymorphisms to show. <strong>{{pocket_pseudosequence_match_count}} alleles</strong> have identical binding pocket residues to <strong>{{allele | deslugify_allele }}</strong>. 
                 {% endif %}
             </div>
         </div>
