@@ -33,7 +33,11 @@
                 </div>
                 <div>
                     <h3 class="vertical-spacing-top-0-5  vertical-spacing-bottom-0-25 heading-small">Number of structures</h3>
-                    {{structure_count}}
+                    {% if structure_count > 0 %}
+                        <a href="https://www.histo.fyi/structures/browse/allele_groups/{{allele_group}}">{{structure_count | structure_count_display}}</a>
+                    {% else %}
+                        {{structure_count | structure_count_display}}
+                    {% endif %}
                 </div>
                 <div>
                     <h3 class="vertical-spacing-top-0-5  vertical-spacing-bottom-0-25 heading-small">Alleles with known/inferred motif</h3>
@@ -81,7 +85,9 @@
                                 <a href="/alleles/allele/{{reference_allele_info.allele}}"><nobr>{{reference_allele_info.allele | deslugify_allele}}</nobr></a>
                             </td>
                             <td>
-                                {{reference_allele_info.structure_count}}
+                                {% if reference_allele_info.structure_count %}
+                                    <a href="https://www.histo.fyi/structures/browse/alleles/{{reference_allele_info.allele}}">{{reference_allele_info.structure_count}}</a>
+                                {% endif %}
                             </td>
                             <td>
                                 {% if reference_allele_info.motif_type %}
@@ -105,7 +111,9 @@
                                <a href="/alleles/allele/{{allele.allele}}"><nobr>{{allele.allele | deslugify_allele}}</nobr></a>
                             </td>
                             <td>
-                                {{allele.structure_count}}
+                                {% if allele.structure_count %}
+                                    <a href="https://www.histo.fyi/structures/browse/alleles/{{allele.allele}}">{{allele.structure_count}}</a>
+                                {% endif %}
                             </td>
                             <td>
                                 {% if allele.motif_type %}
