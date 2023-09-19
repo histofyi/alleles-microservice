@@ -61,17 +61,19 @@
         <div class="column-full-width">
             <hr />
             <div class="inner">
-                <h2 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25">Binding cleft residues</h2> 
+                <h2 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25">Peptide binding pocket polymorphisms</h2> 
                 <div class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-5">
-                    <strong>{{pocket_pseudosequence_match_count}} alleles</strong> have identical binding pocket residues to <strong>{{allele | deslugify_allele }}</strong>. Residues shown in bold are polymorphisms compared to the reference allele [insert reference allele]. 
+                {% if allele != reference_allele %}
+                
+                    <strong>{{pocket_pseudosequence_match_count}} alleles</strong> have identical binding pocket residues to <strong>{{allele | deslugify_allele }}</strong>. Residues shown in bold are polymorphisms compared to the reference allele, {{reference_allele | deslugify_allele }}. 
                 </div>
                 
                 <div class="pseudosequence-wrapper">
-                    {% for label in pocket_pseudosequence_positions %}<div class="pseudusequence-residue-label sequence">{{label}}</div>{% endfor %}
+                    {% for label in pocket_pseudosequence_positions %}<div class="pseudusequence-residue-label">{{label}}</div>{% endfor %}
                 </div>
                 
                 <div class="pseudosequence-wrapper vertical-spacing-bottom-0-5">
-                    {% for residue in allele_data.pocket_pseudosequence %}{% set i = loop.index0 %}<div class="pseudusequence-residue sequence a-pocket {{netmhc_pocket_labels[i]}}-pocket polymorphic-residue">{{residue}}</div>{% endfor %}
+                    {% for residue in allele_data.pocket_pseudosequence %}{% set i = loop.index0 %}<div class="pseudusequence-residue sequence a-pocket {{netmhc_pocket_labels[i]}}-pocket {% if pocket_pseudosequence_positions[i] in netmhcpan_polymorphisms %}polymorphic-residue{% else %}non-polymorphic-residue{% endif %}">{{residue}}</div>{% endfor %}
                 </div>
                 <div>
                     <strong>Pocket key:</strong> <span class="pocket a-pocket">A</span> <span class="pocket b-pocket">B</span> <span class="pocket c-pocket">C</span> <span class="pocket d-pocket">D</span> <span class="pocket e-pocket">E</span> <span class="pocket f-pocket">F</span>
@@ -79,6 +81,9 @@
                 <div class="vertical-spacing-top vertical-spacing-bottom-0-25">
                     The residues listed are ones used commonly for peptide epitope prediction algorithms such as <a href="https://services.healthtech.dtu.dk/services/NetMHCpan-4.1/">NetMHCPan</a> and <a href="{{allele | mhc_flurry_url}}">MHCFlurry</a> and also the MHCMotifAtlas.
                 </div>
+                {% else %}
+                    <strong>{{allele | deslugify_allele }}</strong> is the reference allele for the {{allele_group | deslugify_allele_group }} allele group, so there are no polymorphisms to show. 
+                {% endif %}
             </div>
         </div>
     </div>
@@ -180,9 +185,8 @@
         <div class="column-full-width">
             <div class="inner">
                 <h3 class="heading-small vertical-spacing-top">Comparison of the prediction to experimentally determined structures.</h3>
-                {{'Information on quality of structure prediction (comparison to structures)' | aside | safe}}
                 {% if structure_count == 0 %}
-                    There are no structures to compare the prediction to.
+                    There are no structures of <strong>{{allele | deslugify_allele }}</strong> to compare the prediction to.
                 {% else %}
                     Comparison statistics and plots
                 {% endif %}
@@ -190,7 +194,8 @@
         </div>
     </div>
 </section>               
-    
+
+{% if structure_count > 0 %}
 {% include "section_start.html" %}
 
                 <h2 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25">Movements observed in structures</h2>
@@ -198,12 +203,8 @@
                 {{'Information on structure backbone flexibility if known' | aside | safe}}
 
 {% include "section_end.html" %}
-{% include "section_start.html" %}
+{% endif %}
 
-                <h2 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25">Expetimental structures</h2>
-                {{'Information on structures if there are any' | aside | safe}}
-
-{% include "section_end.html" %}
 {% include "section_start.html" %}
 
                 <h2 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25">Sequence</h2>
