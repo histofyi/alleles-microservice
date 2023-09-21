@@ -5,12 +5,78 @@ import os
 import json
 import toml
 
-page_size = 25
+import requests
+import py3Dmol
+
+from io import StringIO
+from Bio.PDB import PDBParser, PDBIO, Select
 
 from functions.decorators import templated
 from functions.text import slugify
 
 import sys
+
+
+class SelectPolymorphicResidues(Select):
+    """ Only accept the specified residues when saving. """
+    def __init__(self, polymorphisms):
+        self.polymorphisms = polymorphisms
+
+    def accept_residue(self, res):
+        if res.id[1] in self.polymorphisms:
+            return True
+        else:
+            return False
+
+
+class SelectChains(Select):
+    """ Only accept the specified chains when saving."""
+    def __init__(self, chain):
+        self.chain = chain
+
+    def accept_chain(self, chain):
+        if chain.get_id() == self.chain:
+            return 1
+        else:          
+            return 0
+
+
+class SelectResidues(Select):
+    """ Only accept the specified residues when saving. """
+    def __init__(self, start, end):
+        self.start = start
+        self.end = end
+
+    def accept_residue(self, res):
+        if res.id[1] >= self.start and res.id[1] <= self.end:
+            return True
+        else:
+            return False
+        
+
+class SelectSideChains(Select):
+    """ Reject backbone atoms apart from CA. """
+    def __init__(self, exclude_atoms):
+        self.exclude_atoms = exclude_atoms
+
+    def accept_residue(self, atoms):
+        if atoms.id[1] in self.exclude_atoms:
+            return False
+        else:
+            return True
+
+
+def pdb_loader(pdb_data, identifier):
+    pdb_file = StringIO(pdb_data)
+    parser = PDBParser(PERMISSIVE=1)
+    try:
+        structure = parser.get_structure(identifier, pdb_file)
+        return structure
+    except:
+        return None
+
+
+page_size = 25
 
 pockets = {
         "a": ["5","59","63","66","159","163","167","171"],
@@ -524,10 +590,27 @@ def allele_page(allele, api=False):
     else:
         structures = []
 
+    # Put something in here for inferred motif
+    polymorphisms_and_motifs = data['polymorphisms_and_motifs']
 
-    if allele in data['sorted_amino_acid_distributions']:
-        raw_motif = data['sorted_amino_acid_distributions'][allele]
-        processed_motif = data['sorted_amino_acid_distributions'][allele]['9']
+    motif_allele = None
+    motif_type = None
+
+    if allele in polymorphisms_and_motifs[locus]:
+        print (polymorphisms_and_motifs[locus][allele])
+        if 'motif_type' in polymorphisms_and_motifs[locus][allele]:
+            if polymorphisms_and_motifs[locus][allele]['motif_type'] == 'experimental':
+                motif_allele = allele
+                motif_type = 'experimental'
+            elif polymorphisms_and_motifs[locus][allele]['motif_type'] == 'infered':
+                motif_allele = polymorphisms_and_motifs[locus][allele]['motif_allele']
+                motif_type = 'infered'
+    if motif_allele:
+        if motif_allele in data['sorted_amino_acid_distributions']:
+            raw_motif = data['sorted_amino_acid_distributions'][motif_allele]
+            processed_motif = data['sorted_amino_acid_distributions'][motif_allele]['9']
+        else:
+            processed_motif = None
     else:
         processed_motif = None
 
@@ -548,6 +631,9 @@ def allele_page(allele, api=False):
     else:
         polymorphisms = None
         netmhcpan_polymorphisms = None
+    reference_allele = data['reference_alleles'][locus]['allele_groups'][allele_group]
+
+    polymorphism_view = polymorphism_structure_viewer(locus, allele, reference_allele, netmhcpan_polymorphisms)
 
     return {
         'locus': locus,
@@ -565,9 +651,62 @@ def allele_page(allele, api=False):
         'structures': structures,
         'structure_count': len(structures),
         'processed_motif': processed_motif,
+        'motif_allele': motif_allele,
+        'motif_type': motif_type,
+        'polymorphism_view': polymorphism_view,
         'page_size': 25,
         'page_url': url_for('allele_page', allele=allele)
     }
+
+
+def extract_polymorphic_residues(pdb_string:str, polymorphisms:List) -> str:
+    structure = pdb_loader(pdb_string, 'test')
+    output = StringIO()
+    io = PDBIO()
+    io.set_structure(structure)
+    io.save(output, SelectPolymorphicResidues(polymorphisms))
+    return output.getvalue()
+
+
+def polymorphism_structure_viewer(locus:str, allele_slug:str, reference_allele_slug:str, polymorphisms:List) -> str:
+    
+    reference_url = f"https://coordinates.histo.fyi/predictions/view/class_i/{locus}/{reference_allele_slug}_canonical.pdb"
+    print (reference_url)
+    
+    allele_url = f"https://coordinates.histo.fyi/predictions/view/class_i/{locus}/{allele_slug}_canonical.pdb"
+    print (allele_url)
+
+    view = py3Dmol.view(width=800, height=500)
+
+    reference_request = requests.get(reference_url)
+    reference_structure = reference_request.text
+
+    #print (len(reference_structure))
+
+    allele_request = requests.get(allele_url)
+    allele_structure = allele_request.text   
+
+    #print (len(allele_structure)) 
+
+    reference_polymporphisms = extract_polymorphic_residues(reference_structure, polymorphisms)
+    allele_polymorphisms = extract_polymorphic_residues(allele_structure, polymorphisms)
+
+    #print (len(reference_polymporphisms))
+    #print (len(allele_polymorphisms))
+
+    #print (allele_polymorphisms)
+
+    view.addModelsAsFrames(reference_structure)
+    view.addModelsAsFrames(reference_polymporphisms)
+    view.addModelsAsFrames(allele_polymorphisms)
+
+
+    view.setStyle({'model': 0}, {"cartoon": {'colorscheme': 'grey'}})
+    view.setStyle({'model': 1}, {"stick": {'colorscheme': 'greyCarbon'}})
+    view.setStyle({'model': 2}, {"stick": {'colorscheme': 'yellowCarbon'}})
+    view.zoomTo()
+
+    return view.write_html()
 
 
 @app.route('/alleles/identifier/<string:datasource>/<string:identifier>/')
@@ -580,5 +719,5 @@ def allele_identifier_page(datasource, identifier, api=False):
         datasource (string): the slugified datasource  e.g. ipd_imgt
         identifier (string): the slugified identifier e.g. hla00001
     """
-    return f'{datasource=}:{identifier=}'
+    return {}
 

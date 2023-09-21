@@ -1,8 +1,5 @@
+{% set nav='alleles' %}
 {% extends "shared/base.html" %}
-
-
-
-
 
 {% block main %}
 
@@ -51,7 +48,12 @@
         </div>
         <div class="column-two-thirds">
             <div class="inner">
-                {{'Structure prediction/structure with location of polymorphisms' | aside | safe}}
+                {% if '-' in allele_data.canonical_sequence %}
+                    {% set truncated_sequence = True %}
+                    Due to an N-terminal truncation of the sequence of this allele, it does not yet have a structural prediction.
+                {% else %}
+                    {{polymorphism_view | safe}}
+                {% endif %}
             </div>
         </div>
     </div>
@@ -88,6 +90,9 @@
         </div>
     </div>
 </section>
+{% set motif = processed_motif %}
+
+{% if motif %}
 <section class="vertical-spacing-top-0-5">
     <div class="grid-container">
         <div class="column-full-width">
@@ -96,14 +101,23 @@
                 <h2 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25">Peptide binding motif</h2> 
             </div>
         </div>
-        {% set motif = processed_motif %}
 
-        {% if motif %}
         <div class="column-two-thirds">
             <div class="inner">
                 <h3 class="vertical-spacing-bottom-0-25"></h3> 
                 <div>
-                    Description of the motif and commentary on the figure panels a., b. and c.
+                    <p>
+                        <strong>HLA-B*15:18</strong> has an experimentally determined motif, shown in the logoplot (<strong>a.</strong>). 
+                    </p>
+                    <p>
+                        The motif is shown in the table below (<strong>b.</strong>), with the amino acids at each position shown in order of decreasing frequency. The amino acids shown in bold are the most common at each position.
+                    </p>
+                    <p>
+                        This allele has a strong preference for nonamer (9 amino acid) peptides (<strong>c.</strong>). It has a dominant preference for a Histidine residue at position 2 of the peptide, which is bound by the B-pocket, and a dominant preference for a Tyrosine residue at the C-terminal position, bound by the F-pocket.
+                    </p>
+                    <p>
+                        Data for the motif of <strong>HLA-B*15:18</strong> is available from the MHCMotifAtlas.
+                    </p>
                 </div>
                 
         
@@ -112,14 +126,14 @@
         <div class="column-one-third">
             <div class="inner">     
                 <h3 class="vertical-spacing-bottom-0-25"><strong>a.</strong> Nonamer motif logoplot</h3>   
-                <img src="https://images.histo.fyi/motifs/logoplots/svg/{{allele}}_9.svg" />
+                <img src="https://images.histo.fyi/motifs/logoplots/svg/{{motif_allele}}_9.svg" />
             </div>
         </div>
 
         <div class="column-two-thirds">
             <div class="inner">                
                 <h3 class="vertical-spacing-bottom-0-25"><strong>b.</strong> Nonamer motif table</h3>
-                <div class="vertical-spacing-bottom">Experimentally determined motif for {{allele | deslugify_allele}}.</div>
+                <div class="vertical-spacing-bottom">{% if motif_type == 'experimental' %}Experimentally determined {% else %}Inferred {% endif %}motif for {{allele | deslugify_allele}}.</div>
                 <table width="100%">
                     <thead>
                         <tr>
@@ -148,38 +162,38 @@
             <div class="inner">
             
                 <h3 class="vertical-spacing-bottom-0-25"><strong>c.</strong> Length preference</h3>
-                <div class="">Experimentally determined peptide length preference for {{allele | deslugify_allele}}.</div>
-                <img src="https://images.histo.fyi/motifs/lengthplots/png/hla_a_01_01.png" width="100%"/>
+                <div class="">{% if motif_type == 'experimental' %}Experimentally determined {% else %}Inferred {% endif %}peptide length preference for {{allele | deslugify_allele}}.</div>
+                <img src="https://images.histo.fyi/motifs/lengthplots/png/{{motif_allele}}.png" width="100%"/>
                 
             </div>
         </div>
-        {% endif %}
     </div>
 </section>
+{% endif %}
 
+{% if not truncated_sequence %}
 <section class="vertical-spacing-top-0-5">
     <div class="grid-container">
         <div class="column-full-width">
             <div class="inner">
                 <h2 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25">Structure prediction</h2>
-                {{'A legend for the plots, including information on what each plot means' | aside | safe}}
                 <h3 class="heading-small vertical-spacing-top-0-5">AlphaFold quality metrics for the prediction.</h3>
             </div>
         </div>
         <div class="column-one-half">
             <div class="inner">
                 <h3><strong>a.</strong> pLDDt for {{allele | deslugify_allele}} prediction</h3>
-                <img src="https://images.histo.fyi/graphs/colabfold_plots/{{locus}}/{{allele}}_plddt.png" />
+                <img src="https://images.histo.fyi/predictions/alphafold/{{locus}}/{{allele}}_plddt.png" />
             </div>
         </div>
         <div class="column-one-half">
             <h3><strong>b.</strong> Sequence coverage for {{allele | deslugify_allele}} prediction</h3>
-            <img src="https://images.histo.fyi/graphs/colabfold_plots/{{locus}}/{{allele}}_coverage.png" />
+            <img src="https://images.histo.fyi/predictions/alphafold/{{locus}}/{{allele}}_coverage.png" />
         </div>
         <div class="column-full-width">
             <div class="inner">
                 <h3><strong>c.</strong> PAE plots for the 5 ranked predictions for {{allele | deslugify_allele}}</h3>
-                <img src="https://images.histo.fyi/graphs/colabfold_plots/{{locus}}/{{allele}}_pae.png" />
+                <img src="https://images.histo.fyi/predictions/alphafold/{{locus}}/{{allele}}_pae.png" />
             </div>
         </div>
         <div class="column-full-width">
@@ -193,7 +207,8 @@
             </div>
         </div>
     </div>
-</section>               
+</section>    
+{% endif %}           
 
 {% if structure_count > 0 %}
 {% include "section_start.html" %}
@@ -205,6 +220,8 @@
 {% include "section_end.html" %}
 {% endif %}
 
+{#
+{% if not truncated_sequence %}
 {% include "section_start.html" %}
 
                 <h2 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25">Sequence</h2>
@@ -213,6 +230,7 @@
                 {{'Sequence with location of polymorphisms' | aside | safe}}
 
 {% include "section_end.html" %}
-
+{% endif %}
+#}
 
 {% endblock %}

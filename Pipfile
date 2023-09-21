@@ -8,6 +8,9 @@ zappa = "*"
 flask = "*"
 matplotlib = "*"
 numpy = "*"
+py3dmol = "*"
+requests = "*"
+biopython = "*"
 
 [dev-packages]
 
