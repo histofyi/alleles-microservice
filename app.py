@@ -9,71 +9,13 @@ import requests
 import py3Dmol
 
 from io import StringIO
-from Bio.PDB import PDBParser, PDBIO, Select
+#from Bio.PDB import PDBParser, PDBIO, Select
 
 from functions.decorators import templated
 from functions.text import slugify
 
 import sys
 
-
-class SelectPolymorphicResidues(Select):
-    """ Only accept the specified residues when saving. """
-    def __init__(self, polymorphisms):
-        self.polymorphisms = polymorphisms
-
-    def accept_residue(self, res):
-        if res.id[1] in self.polymorphisms:
-            return True
-        else:
-            return False
-
-
-class SelectChains(Select):
-    """ Only accept the specified chains when saving."""
-    def __init__(self, chain):
-        self.chain = chain
-
-    def accept_chain(self, chain):
-        if chain.get_id() == self.chain:
-            return 1
-        else:          
-            return 0
-
-
-class SelectResidues(Select):
-    """ Only accept the specified residues when saving. """
-    def __init__(self, start, end):
-        self.start = start
-        self.end = end
-
-    def accept_residue(self, res):
-        if res.id[1] >= self.start and res.id[1] <= self.end:
-            return True
-        else:
-            return False
-        
-
-class SelectSideChains(Select):
-    """ Reject backbone atoms apart from CA. """
-    def __init__(self, exclude_atoms):
-        self.exclude_atoms = exclude_atoms
-
-    def accept_residue(self, atoms):
-        if atoms.id[1] in self.exclude_atoms:
-            return False
-        else:
-            return True
-
-
-def pdb_loader(pdb_data, identifier):
-    pdb_file = StringIO(pdb_data)
-    parser = PDBParser(PERMISSIVE=1)
-    try:
-        structure = parser.get_structure(identifier, pdb_file)
-        return structure
-    except:
-        return None
 
 
 page_size = 25
@@ -659,13 +601,6 @@ def allele_page(allele, api=False):
     }
 
 
-def extract_polymorphic_residues(pdb_string:str, polymorphisms:List) -> str:
-    structure = pdb_loader(pdb_string, 'test')
-    output = StringIO()
-    io = PDBIO()
-    io.set_structure(structure)
-    io.save(output, SelectPolymorphicResidues(polymorphisms))
-    return output.getvalue()
 
 
 def polymorphism_structure_viewer(locus:str, allele_slug:str, reference_allele_slug:str, polymorphisms:List) -> str:
@@ -688,8 +623,8 @@ def polymorphism_structure_viewer(locus:str, allele_slug:str, reference_allele_s
 
     #print (len(allele_structure)) 
 
-    reference_polymporphisms = extract_polymorphic_residues(reference_structure, polymorphisms)
-    allele_polymorphisms = extract_polymorphic_residues(allele_structure, polymorphisms)
+    #reference_polymporphisms = extract_polymorphic_residues(reference_structure, polymorphisms)
+    #allele_polymorphisms = extract_polymorphic_residues(allele_structure, polymorphisms)
 
     #print (len(reference_polymporphisms))
     #print (len(allele_polymorphisms))
@@ -697,8 +632,8 @@ def polymorphism_structure_viewer(locus:str, allele_slug:str, reference_allele_s
     #print (allele_polymorphisms)
 
     view.addModelsAsFrames(reference_structure)
-    view.addModelsAsFrames(reference_polymporphisms)
-    view.addModelsAsFrames(allele_polymorphisms)
+    view.addModelsAsFrames(reference_structure)
+    view.addModelsAsFrames(allele_structure)
 
 
     view.setStyle({'model': 0}, {"cartoon": {'colorscheme': 'grey'}})
