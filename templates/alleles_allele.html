@@ -81,7 +81,7 @@
                     <strong>Pocket key:</strong> <span class="pocket a-pocket">A</span> <span class="pocket b-pocket">B</span> <span class="pocket c-pocket">C</span> <span class="pocket d-pocket">D</span> <span class="pocket e-pocket">E</span> <span class="pocket f-pocket">F</span>
                 </div>
                 <div class="vertical-spacing-top vertical-spacing-bottom-0-25">
-                    The residues listed are ones used commonly for peptide epitope prediction algorithms such as <a href="https://services.healthtech.dtu.dk/services/NetMHCpan-4.1/">NetMHCPan</a> and <a href="{{allele | mhc_flurry_url}}">MHCFlurry</a> and also the MHCMotifAtlas.
+                    The residues listed are ones used commonly for peptide epitope prediction algorithms such as <a href="https://services.healthtech.dtu.dk/services/NetMHCpan-4.1/">NetMHCPan</a> and <a href="{{allele | mhc_flurry_url}}">MHCFlurry</a> and also the <a href="http://mhcmotifatlas.org/">MHCMotifAtlas</a>.
                 </div>
                 {% else %}
                     <strong>{{allele | deslugify_allele }}</strong> is the reference allele for the {{allele_group | deslugify_allele_group }} allele group, so there are no polymorphisms to show. <strong>{{pocket_pseudosequence_match_count}} alleles</strong> have identical binding pocket residues to <strong>{{allele | deslugify_allele }}</strong>. 
@@ -106,6 +106,7 @@
             <div class="inner">
                 <h3 class="vertical-spacing-bottom-0-25"></h3> 
                 <div>
+                    {#
                     <p>
                         <strong>HLA-B*15:18</strong> has an experimentally determined motif, shown in the logoplot (<strong>a.</strong>). 
                     </p>
@@ -116,8 +117,9 @@
                         This allele has a strong preference for nonamer (9 amino acid) peptides (<strong>c.</strong>). It has a dominant preference for a Histidine residue at position 2 of the peptide, which is bound by the B-pocket, and a dominant preference for a Tyrosine residue at the C-terminal position, bound by the F-pocket.
                     </p>
                     <p>
-                        Data for the motif of <strong>HLA-B*15:18</strong> is available from the MHCMotifAtlas.
+                        Data for the motif of <strong>HLA-B*15:18</strong> is available from the <a href="http://mhcmotifatlas.org/">MHCMotifAtlas</a>.
                     </p>
+                    #}
                 </div>
                 
         
@@ -133,7 +135,7 @@
         <div class="column-two-thirds">
             <div class="inner">                
                 <h3 class="vertical-spacing-bottom-0-25"><strong>b.</strong> Nonamer motif table</h3>
-                <div class="vertical-spacing-bottom">{% if motif_type == 'experimental' %}Experimentally determined {% else %}Inferred {% endif %}motif for {{allele | deslugify_allele}}.</div>
+                <div class="vertical-spacing-bottom">{% if motif_type == 'experimental' %}Experimentally determined {% else %}Inferred {% endif %}motif for <strong>{{allele | deslugify_allele}}</strong> {% if motif_type == 'infered' %} based on pocket residue sequence identity with <a href="/alleles/allele/{{motif_allele}}">{{motif_allele | deslugify_allele}}</a>{% endif %}.</div>
                 <table width="100%">
                     <thead>
                         <tr>
