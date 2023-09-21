@@ -1,10 +1,10 @@
+{% set nav='alleles' %}
 {% extends "shared/base.html" %}
 
 
-{% include "styles.html" %}
-
-
 {% block main %}
+
+{% include "styles.html" %}
 
 <section class="">
     <div class="grid-container">
@@ -37,13 +37,13 @@
         <div class="column-one-quarter">
             <div class="inner">
                 <span class="phase-title is-histo">Species covered</span>
-                <span class="heading-extra-large phase-count">{{stats.species.completed_species}}/{{stats.species.total_species}}</span><span class="small">species in IPD resource</span>
+                <span class="heading-extra-large phase-count">{{stats.species.completed_species}}/{{stats.species.total_species}}</span><span class="small">species from IPD/IMGT-HLA</span>
             </div>
         </div>
         <div class="column-one-quarter">
             <div class="inner">
                 <span class="phase-title is-purple">Loci covered</span>
-                <span class="heading-extra-large phase-count">{{stats.loci.completed_loci}}/{{stats.loci.total_loci}}</span><span class="small">loci in IPD resource</span>
+                <span class="heading-extra-large phase-count">{{stats.loci.completed_loci}}/{{stats.loci.total_loci}}</span><span class="small">loci from IPD/IMGT-HLA</span>
             </div>
         </div>
         <div class="column-one-quarter">
