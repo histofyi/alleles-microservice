@@ -131,3 +131,5 @@ dmypy.json
 #MacOS files
 .DS_Store
 
+#Shared template symlink
+templates/shared
