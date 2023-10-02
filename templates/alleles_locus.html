@@ -63,20 +63,20 @@
                     
                 {% for allele_group in allele_groups %}
                     <tr class="data-rows">
-                        <td>
+                        <td class="data-item">
                             <a href="/alleles/allele_group/{{allele_group}}">{{allele_group | deslugify_allele_group}}</a>
                         </td>
-                        <td>
+                        <td class="data-item">
                             {{allele_groups[allele_group].allele_count}}
                         </td>
-                        <td>
+                        <td class="data-item">
                             {{allele_groups[allele_group].variability}}
                         </td>
-                        <td>{% if allele_groups[allele_group].structure_count != 0 %}
+                        <td class="data-item">{% if allele_groups[allele_group].structure_count != 0 %}
                                 {{allele_groups[allele_group].structure_count}}
                             {% endif %}
                         </td>
-                        <td>
+                        <td class="data-item">
                             {% if allele_groups[allele_group].motif_count != 0 %}
                                 {{allele_groups[allele_group].motif_count }}
                             {% endif %}

@@ -13,7 +13,12 @@ tr.spacer-row {
 }
 
 tr.data-rows {
-    border-top: 15px solid transparent;
+    border-bottom: 1px solid #eeeeee !important;
+}
+
+td.data-item {
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 th {
@@ -24,6 +29,7 @@ tr.reference {
     border-top: 15px solid transparent;
     border-bottom: 1px solid #8e8eae !important;
 }
+
 
 /* debugging/prototyping styles */
 
@@ -214,5 +220,53 @@ span.pocket {
 .o-pocket {
     border: 2px solid #eeeeee;
     background-color: #ffffff;
+}
+
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.95);
+  text-align: left;
+  color: #000;
+  border: 1px solid #0a0039;
+  padding: 10px;
+  font-size: 11pt;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -150px; /* Use half of the width (120/2 = 60), to center the tooltip */
+  margin-bottom: 7px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -7px;
+  border-width: 7px;
+  border-style: solid;
+  border-color: #0a0039 transparent transparent transparent;
+}
+
+.tooltip-image {
+    width: 200px;
+    height: auto;
 }
 </style>

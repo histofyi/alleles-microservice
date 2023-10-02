@@ -108,15 +108,15 @@
                 
                     {% for allele in alleles %}
                         <tr class="data-rows">
-                            <td>
+                            <td class="data-item">
                                <a href="/alleles/allele/{{allele.allele}}"><nobr>{{allele.allele | deslugify_allele}}</nobr></a>
                             </td>
-                            <td>
+                            <td class="data-item">
                                 {% if allele.structure_count %}
                                     <a href="https://www.histo.fyi/structures/browse/alleles/{{allele.allele}}">{{allele.structure_count}}</a>
                                 {% endif %}
                             </td>
-                            <td>
+                            <td class="data-item">
                                 {% if allele.motif_type %}
                                 <div class="{{allele.motif_type}}-motif">
                                 </div>
@@ -126,10 +126,24 @@
                                     <br />
                                 {% endif %}
                             </td>
-                            <td>
+                            <td class="data-item">
+                                <div class="vertical-spacing-bottom-0-25">
                                 {% for polymorphism in allele.polymorphisms.binding_pocket %}
-                                    <span class="pocket {{ polymorphism.pocket }}-pocket">{{ polymorphism.from }}{{ polymorphism.position }}{{ polymorphism.to }}</span>
+                                    <span class="pocket {{ polymorphism.pocket }}-pocket tooltip">
+                                        <span class="tooltiptext"><strong><a href="">Position {{ polymorphism.position }}</a></strong> 
+                                            {% if polymorphism.pocket != 'o' %}
+                                                <span class="pocket {{ polymorphism.pocket }}-pocket">{{ polymorphism.pocket | upper }} pocket</span>
+                                            {% endif %}
+                                            <br/>information about the change, location of residue. more information. <img src="/static/donut.png" class="tooltip-image"/>.</span>
+                                            
+                                        {{ polymorphism.from }}{{ polymorphism.position }}{{ polymorphism.to }}
+                                    </span>
+                                    {% if loop.index0 % 7 == 0 and loop.index0 != 0 %}
+                                            </div>
+                                            <div class="vertical-spacing-bottom-0-25">
+                                    {% endif %}
                                 {% endfor %}
+                            </div>
                             </td>
                         </tr>
                     {% endfor %}
