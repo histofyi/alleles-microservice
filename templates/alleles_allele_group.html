@@ -130,12 +130,27 @@
                                 <div class="vertical-spacing-bottom-0-25">
                                 {% for polymorphism in allele.polymorphisms.binding_pocket %}
                                     <span class="pocket {{ polymorphism.pocket }}-pocket tooltip">
-                                        <span class="tooltiptext"><strong><a href="">Position {{ polymorphism.position }}</a></strong> 
-                                            {% if polymorphism.pocket != 'o' %}
-                                                <span class="pocket {{ polymorphism.pocket }}-pocket">{{ polymorphism.pocket | upper }} pocket</span>
-                                            {% endif %}
-                                            <br/>information about the change, location of residue. more information. <img src="/static/donut.png" class="tooltip-image"/>.</span>
-                                            
+                                        <!-- start tooltip contents -->
+                                        <span class="tooltiptext">
+                                        
+                                            <div >
+                                                <div style="float:left;" class="tooltip-heading">
+                                                    <strong><a href="https://www.histo.fyi/positions/class_i/{{locus}}/{{polymorphism.position}}">Position {{ polymorphism.position }}</a></strong> 
+                                                </div>
+                                                <div style="float:right;">
+                                                {% if polymorphism.pocket != 'o' %}
+                                                    <span class="pocket {{ polymorphism.pocket }}-pocket">{{ polymorphism.pocket | upper }} pocket</span>
+                                                {% endif %}
+                                                </div> 
+                                            </div>
+                                            <div class="vertical-spacing-top" style="clear:both;">
+                                                Information about the change, location of residue. more information. 
+                                            </div>
+                                            <hr class="vertical-spacing-bottom-0-25" />
+                                            <div class="vertical-spacing-bottom-0-25"><strong>Position {{ polymorphism.position }} polymorphisms in {{locus | deslugify_locus }}</strong></div>
+                                            <img src="/static/donut.png" class="tooltip-image"/>
+                                        </span>
+                                        <!-- end tooltip contents -->    
                                         {{ polymorphism.from }}{{ polymorphism.position }}{{ polymorphism.to }}
                                     </span>
                                     {% if loop.index0 % 7 == 0 and loop.index0 != 0 %}
