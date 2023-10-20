@@ -10,6 +10,7 @@ matplotlib = "*"
 numpy = "*"
 py3dmol = "*"
 requests = "*"
+blosum = "*"
 
 [dev-packages]
 
