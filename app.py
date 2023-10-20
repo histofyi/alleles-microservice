@@ -16,7 +16,8 @@ from functions.text import slugify
 
 import sys
 
-
+import blosum as bl
+matrix = bl.BLOSUM(62)
 
 page_size = 25
 
@@ -151,7 +152,7 @@ def create_app():
     app.jinja_env.trim_blocks = True
     app.jinja_env.lstrip_blocks = True
 
-    json_datasets = ['species','sets', 'peptide_length_distributions', 'simplified_motifs', 'sorted_amino_acid_distributions', 'polymorphisms_and_motifs']
+    json_datasets = ['species','sets', 'peptide_length_distributions', 'simplified_motifs', 'sorted_amino_acid_distributions', 'polymorphisms_and_motifs','hla_class_i_variability']
     
     json_dataset_folders = ['protein_alleles','pocket_pseudosequences', 'gdomain_sequences', 'allele_groups', 'reference_alleles']
 
@@ -190,6 +191,49 @@ def create_app():
 
 
 app = create_app()
+
+
+@app.template_filter()
+def polymorphism_information(polymorphism:str) -> str:
+    locus_slug = polymorphism.split('|')[0]
+    locus = locus_slug.replace('_','-').upper()
+    polymorphism_details = polymorphism.split('|')[1].split('_')
+    amino_acid = polymorphism_details[0]
+    position = polymorphism_details[1]
+    position_information = app.data['hla_class_i_variability'][locus_slug]['variability'][position]
+    index = position_information['labels'].index(amino_acid)
+    rarity = position_information['rarities'][index]
+    if rarity == 'majority':
+        info_string = f"{amino_acid} is found at position {position} in the majority of {locus} alleles."
+    elif rarity == 'unique':    
+        info_string = f"{amino_acid} is uniquely found at position {position} in this particular {locus} allele."
+    elif 'only' in rarity:    
+        info_string = f"{amino_acid} is found at position {position} in {rarity.replace('_',' ')} {locus} alleles."
+    else:
+        info_string = f"{amino_acid} is {rarity.replace('_',' ')}ly found at position {position} of {locus}."
+    return info_string
+    
+
+
+@app.template_filter()
+def substitution_effect(substitution:str) -> str:
+    from_aa = substitution[0]
+    to_aa = substitution[1]
+    val = matrix[from_aa][to_aa]
+    if val == 0:
+        val_name = 'neutral'
+    elif val <= -2:
+        val_name = 'strongly non-conservative'
+    elif val <= 0:
+        val_name = 'non-conservative'
+
+    elif val <=2:
+        val_name = 'conservative'
+    else:
+        val_name = 'highly conservative'
+
+    info_string = f"The change from {from_aa} to {to_aa} is a {val_name} one."
+    return info_string
 
 
 @app.template_filter()
