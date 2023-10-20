@@ -144,7 +144,12 @@
                                                 </div> 
                                             </div>
                                             <div class="vertical-spacing-top" style="clear:both;">
-                                                Information about the change, location of residue. more information. 
+                                                {% set substitution = polymorphism.from + polymorphism.to %}
+                                                {{substitution | substitution_effect }}
+                                                {% set position_number = polymorphism.position | string() %}
+                                                <br />
+                                                {% set polymorphism_data = locus + "|" + polymorphism.to + "_" + position_number %}
+                                                {{ polymorphism_data | polymorphism_information}}
                                             </div>
                                             <hr class="vertical-spacing-bottom-0-25" />
                                             <div class="vertical-spacing-bottom-0-25"><strong>Position {{ polymorphism.position }} polymorphisms in {{locus | deslugify_locus }}</strong></div>
