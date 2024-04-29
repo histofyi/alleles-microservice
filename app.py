@@ -16,8 +16,45 @@ from functions.text import slugify
 
 import sys
 
-import blosum as bl
-matrix = bl.BLOSUM(62)
+
+def build_pmbec_matrix():
+    with open ('data/pmbec_covariance_matrix.mat', 'r') as f:
+        raw_matrix = f.read()
+
+    aa_list = []
+    new_matrix = {}
+
+    max_val = 0.0
+    min_val = 10.0
+
+    for i, line in enumerate(raw_matrix.split('\n')):   
+        if i == 0:
+            aa_list = line.split()
+            print (aa_list)
+        else:
+            elements = [element for element in line.split()]
+            if len(elements) > 1:
+                new_matrix[elements[0]] = {}
+                for j, element in enumerate(elements[1:]):
+                    new_matrix[elements[0]][aa_list[j]] = element
+                    if float(element) > max_val:
+                        max_val = float(element)
+                    elif float(element) < min_val:
+                        min_val = float(element)
+
+
+    # now perform min max normalisation of the matrix
+    normalised_matrix = {}
+
+    for aa in new_matrix:
+        normalised_matrix[aa] = {}
+        for sub in new_matrix[aa]:
+            normalised_matrix[aa][sub] = round((float(new_matrix[aa][sub]) - min_val) / (max_val - min_val) *10, 1)
+
+    return normalised_matrix
+
+matrix = build_pmbec_matrix()
+
 
 page_size = 25
 
@@ -220,19 +257,19 @@ def substitution_effect(substitution:str) -> str:
     from_aa = substitution[0]
     to_aa = substitution[1]
     val = matrix[from_aa][to_aa]
-    if val == 0:
-        val_name = 'neutral'
-    elif val <= -2:
+    # now write a categorical label for the value
+    if val < 1:
         val_name = 'strongly non-conservative'
-    elif val <= 0:
+    elif val <= 3:
         val_name = 'non-conservative'
-
-    elif val <=2:
+    elif val <= 4:
+        val_name = 'neutral'
+    elif val <= 6:
         val_name = 'conservative'
     else:
         val_name = 'highly conservative'
 
-    info_string = f"The change from {from_aa} to {to_aa} is a {val_name} one."
+    info_string = f"The change from {from_aa} to {to_aa} is a {val_name} one [{val}]."
     return info_string
 
 
