@@ -10,18 +10,13 @@
     <div class="grid-container">
         <div class="column-full-width">
             <div class="inner">
-                <h1 class="heading-extra-large vertical-spacing-bottom">Alleles</h1>
-                {{'Need a welcome paragraph to go in here' | aside | safe}}
+                <h1 class="heading-large vertical-spacing-bottom-0-5">Alleles</h1>
                 <div class="vertical-spacing-bottom-0-25">
-                    This section of the histo.fyi website contains information and structure predictions of Classical MHC Class I alleles.
-                </div>
-                <div class="vertical-spacing-bottom-0-25">
-                    Within this resource you can find information on locations of polymorphisms, peptide binding motifs where known, lists of structures and statistics on the quality of structure predictions.
+                    Within this resource you can find information on locations of polymorphisms, peptide binding motifs where known, relationships to other alleles, lists of structures and structure predictions for HLA class I alleles.
                 </div>
                 <div class="vertical-spacing-bottom-0-25">
                     It is a resource which will grow over time, with more data being added for non-Human Class I and Class II alleles in due course.
                 </div>
-                {{'Edit welcome paragraphs' | todo | safe}}
             </div>
         </div>
     </div>
@@ -29,47 +24,65 @@
 
 <section>
     <div class="grid-container">
-        <div class="column-full-width">
+        <div class="column-full-width vertical-spacing-top-0-5">
             <div class="inner">
-                {{'Need a paragaph about stats to go in here' | aside | safe}}
+                <h2 class="heading-medium vertical-spacing-bottom-0-25">Search</h2>
+                <div>
+                    <form method="POST" action="/alleles/search">
+                        <table class="vertical-spacing-bottom-0-5">
+                            <tr>
+                                <td class="form-item">
+                                    <label for="allele_number"><strong>Allele number</strong><br /><small>e.g. HLA-A*32:01</small></label>
+                                </td>
+                                <td class="form-item">
+                                    <input type="text" name="allele_number" placeholder="HLA-A*32:01" value="HLA-" size="20" class="text-input">
+                                </td>
+                                <td class="form-item">
+                                    <button type="submit" class="button-input">Search</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                    <div>
+                        Or use the <a href="/alleles/search/advanced">advanced search</a> where you can search for polymorphisms and anchor positions in motifs...
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="column-one-quarter">
-            <div class="inner">
-                <span class="phase-title is-histo">Species covered</span>
-                <span class="heading-extra-large phase-count">{{stats.species.completed_species}}/{{stats.species.total_species}}</span><span class="small">species from IPD/IMGT-HLA</span>
-            </div>
-        </div>
-        <div class="column-one-quarter">
-            <div class="inner">
-                <span class="phase-title is-purple">Loci covered</span>
-                <span class="heading-extra-large phase-count">{{stats.loci.completed_loci}}/{{stats.loci.total_loci}}</span><span class="small">loci from IPD/IMGT-HLA</span>
-            </div>
-        </div>
-        <div class="column-one-quarter">
-            <div class="inner">
-                <span class="phase-title is-teal">Allele structure predictions</span>
-                <span class="heading-extra-large phase-count">1000</span><span class="small">AlphaFold predictions</span>
-            </div>
-        </div>
-        <div class="column-one-quarter">
-            <div class="inner">
-                <span class="phase-title is-indigo">Motifs</span>
-                <span class="heading-extra-large phase-count">{{stats.motifs}}</span><span class="small">MHC Motif Atlas motifs</span>
-            </div>
-        </div>
+    </div>
+</section>
+<section>
+    <div class="grid-container">
         <div class="column-full-width vertical-spacing-top">
             <div class="inner">
-                <h2>Species</h2>
+                <h2 class="heading-medium">Statistics</h2>
             </div>
         </div>
-        <div class="column-full-width">
+        <div class="column-one-quarter">
             <div class="inner">
-                {% for species in ['homo_sapiens'] %}
-                    <a href="/alleles/species/{{species}}">{{species}}</a>
-                {% endfor %}
+                <span class="phase-title is-histo">Species</span>
+                <span class="heading-extra-large phase-count">{{stats.species.completed_species}}</span><span class="small"><a href="/alleles/species/homo_sapiens">species</a></span>
             </div>
-        </div>  
+        </div>
+        <div class="column-one-quarter">
+            <div class="inner">
+                <span class="phase-title is-purple">Loci</span>
+                <span class="heading-extra-large phase-count">{{stats.loci.completed_loci}}</span><span class="small"><a href="/alleles/species/homo_sapiens">loci</a></span>
+            </div>
+        </div>
+        <div class="column-one-quarter">
+            <div class="inner">
+                <span class="phase-title is-teal">Allele groups</span>
+                <span class="heading-extra-large phase-count">100</span><span class="small">allele groups</span>
+            </div>
+        </div>
+        <div class="column-one-quarter">
+            <div class="inner">
+                <span class="phase-title is-indigo">Alleles</span>
+                <span class="heading-extra-large phase-count">1000</span><span class="small">alleles</span>
+            </div>
+        </div>
+          
     </div>
 </section>
 {% endblock %}
