@@ -9,12 +9,12 @@
         <div class="column-full-width">
             <div class="inner">
                 <small><strong>Species</strong></small>
-                <h1 class="heading-large vertical-spacing-bottom structure-title">Homo sapiens (Human)</h1>
+                <h1 class="heading-large vertical-spacing-bottom">Homo sapiens (Human)</h1>
             </div>
         </div>
         <div class="column-full-width">
             <div class="inner">
-                <h2>Loci </h2>
+                <h2 class="heading-medium">Loci </h2>
             </div>
         </div>
         {% for locus in loci %}
@@ -24,7 +24,7 @@
                 <span class="heading-extra-large phase-count">{{loci[locus]['allele_group_count']}}</span><span class="small">allele groups </span><br /><br />
                 <span class="heading-large phase-count">{{loci[locus]['allele_count']}}</span><span class="small">alleles</span>
             </div>
-            <br /><br />
+            <br /><br /><br />
         </div>
         {% endfor %}
 
