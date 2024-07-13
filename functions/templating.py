@@ -5,7 +5,7 @@ from flask import render_template
 
 def render(template_name : str, variables : Dict) -> str:
     """
-    This function is used to retrieve the user cookie it does no checking of the privileges of that user
+    This function renders a template with the given variables
 
     Args:
         template_name (string): name of the template, with or without the file extension if it's an HTML template
