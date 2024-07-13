@@ -1,0 +1,42 @@
+{% set nav='alleles' %}
+{% extends "shared/base.html" %}
+
+{% block title %}Allele search{% endblock %}
+
+{% block main %}
+
+{% include "styles.html" %}
+
+<section class="">
+    <div class="grid-container">
+        <div class="column-full-width">
+            <div class="inner">
+                <h1 class="heading-large vertical-spacing-bottom-0-5">Allele search</h1>
+
+                {% if error %}
+                    <div class="vertical-spacing-bottom-0-25">{{error | safe }}</div>
+                {% endif %}
+                {% if suggestions %}
+                    <div class="vertical-spacing-bottom-0-25">Based on your input, here are some suggestions:</div>
+                    <ul>
+                        {% for suggestion in suggestions %}
+                            <li class="vertical-spacing-bottom-0-25">
+                                {% if suggestion.type=='allele_group' %}
+                                    The <a href="/alleles/allele_group/{{suggestion.id | slugify_this}}">{{suggestion.id}}</a> allele group.
+                                {% elif suggestion.type=='allele_number' %}
+                                    The <a href="/alleles/allele/{{suggestion.id | slugify_this}}">{{suggestion.id}}</a> allele.
+                                {% else %}
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+
+                {% include "fragments/lookup_form.html" %}
+
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
