@@ -4,50 +4,54 @@
 
 {% block main %}
 
-{% set column_headings = ['Allele group', 'Number of alleles', 'Variability of alleles', 'Number of structures', 'Known peptide motifs']%}
+{% set column_headings = ['Allele group', 'Number of alleles', 'Consensus motif', 'Known peptide motifs', 'Number of structures']%}
 
 {% include "styles.html" %}
 
 <section>
     <div class="grid-container">
-        <div class="column-full-width">
-            <div class="inner">
-                <small><strong>Locus</strong></small>
-                <h1 class="heading-large ">{{locus | deslugify_locus}}</h1>
-            </div>
-        </div>
         <div class="column-one-half">
             <div class="inner">
-                <div>
-                    <h3 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25 heading-small">Species</h3>
-                    <a href="/alleles/species/homo_sapiens">Homo sapiens (Human)</a>
-                </div>
-                <div>
-                    <h3 class="vertical-spacing-top-0-5  vertical-spacing-bottom-0-25 heading-small">Number of allele groups/alleles</h3>
-                    <strong>{{allele_group_count}}</strong> / {{allele_count}}
-                </div>
-                <div>
-                    <h3 class="vertical-spacing-top-0-5  vertical-spacing-bottom-0-25 heading-small">Number of structures</h3>
-                    {{structure_count}}
-                </div>
-                <div>
-                    <h3 class="vertical-spacing-top-0-5  vertical-spacing-bottom-0-25 heading-small">Number of motifs</h3>
-                    {{motif_count}}
-                </div>
+                <small><strong>Locus</strong></small>
+                <h1 class="heading-large vertical-spacing-bottom-0-25">{{locus | deslugify_locus}}</h1>
+                <div class="vertical-spacing-bottom"><a href="/alleles/species/homo_sapiens">Homo sapiens (Human)</a></div>
+                <h3 class="heading-small">Statistics</h3>
+                <table>
+                    <tr>
+                        <td class="info-item"><strong>Alleles:</strong></td>
+                        <td class="info-item">{{allele_count}}</td>
+                    </tr>
+                    <tr>
+                        <td class="info-item"><strong>Allele groups:</strong></td>
+                        <td class="info-item">{{allele_group_count}}</td>
+                    </tr>
+                    <tr>
+                        <td class="info-item"><strong>Alleles:</strong></td>
+                        <td class="info-item">{{allele_count}}</td>
+                    </tr>
+                    <tr>
+                        <td class="info-item"><strong>Structures:</strong></td>
+                        <td class="info-item">{{structure_count}}</td>
+                    </tr>
+                    <tr>
+                        <td class="info-item"><strong>Motifs:</strong></td>
+                        <td class="info-item">{{motif_count}}</td>
+                    </tr>
+
+                </table>
             </div>
         </div>
         <div class="column-one-half">
             <div class="inner">
                 <h3 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25 heading-small">Allele group distribution</h3>
                 <div>
-                <img src="https://images.histo.fyi/graphs/locus_pie_charts/{{locus}}.svg" />
-                <span aria-label="[alttext contents]" class="hidden-aria-text">{{pie_chart_alt_text}}</span>
+                    <img src="https://images.histo.fyi/graphs/locus_pie_charts/{{locus}}.svg" />
+                    <span aria-label="[alttext contents]" class="hidden-aria-text">{{pie_chart_alt_text}}</span>
                 </div>
             </div>
         </div>
-        <div class="column-full-width vertical-spacing-top-0-5">
             <div class="inner">
-                <hr />
+                <hr class="vertical-spacing-top-0-5"/>
                 <h2 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-5">Allele groups </h2>
 
                 <table width="100%">
