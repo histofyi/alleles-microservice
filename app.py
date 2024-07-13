@@ -1,5 +1,5 @@
 from typing import Dict, List, Tuple, Union
-from flask import Flask, request, url_for
+from flask import Flask, request, url_for, redirect
 
 import os
 import json
@@ -8,10 +8,13 @@ import toml
 import requests
 import py3Dmol
 
+import tidytcells as tt
+
 from io import StringIO
 #from Bio.PDB import PDBParser, PDBIO, Select
 
 from functions.decorators import templated
+from functions.templating import render
 from functions.text import slugify
 
 import sys
@@ -330,6 +333,9 @@ def display_simple_motif(motif:Dict) -> str:
     return motif_string
 
 
+@app.template_filter()
+def slugify_this(text:str) -> str:
+    return slugify(text)
 
 
 def add_prototype_message(message_type:str, text:str) -> str:
@@ -369,17 +375,113 @@ def alleles_home(api=False):
     }
 
 
-@app.route('/alleles/lookup/')
-@app.route('/alleles/lookup')
+@app.route('/alleles/lookup/', methods=['GET', 'POST'])
+@app.route('/alleles/lookup', methods=['GET', 'POST'])
 def alleles_lookup(api=False):
     """
     This is the handler that performs lookups for alleles
 
     Args:
-
+        None
     The arguments are provided either as querystring or post variables
     """
-    return "lookup"
+    # this method can take in data either from a form or from a querystring
+    # first we'll test the method of the request
+    if request.method == 'POST':
+        raw_input = request.form['allele_number']
+    # if it's a get request, we'll get the allele number from the querystring
+    elif request.method == 'GET':
+        raw_input = request.args.get('allele_number')
+    default_input = 'HLA-'
+
+    # we'll initialise the locus and allele_data variables to None
+    allele_slug = None
+    allele_group = None
+    allele_number = None
+    allele_data = None
+    locus = None
+
+    suggestion = False
+
+    # first we'll check if the input is the default input or empty
+    if raw_input is not None:
+        if len(raw_input) == 0:
+            raw_input = None
+        elif raw_input == default_input:
+            raw_input = None
+        
+
+    # next we'll check that there is valid input and attempt to clean it
+    if raw_input is not None:
+        clean_input = tt.mh.standardize(raw_input, precision='protein')
+        
+        # it tidytcells can't clean the input, it will be set to None, it may be that someone has typed an extra character
+        if clean_input is None:
+            clean_input = tt.mh.standardize(raw_input[:-1], precision='protein')
+            suggestion = True
+        else:
+            allele_number = clean_input
+        
+        if clean_input is not None:
+            if ':' not in clean_input:
+                allele_group = clean_input
+                allele_number = f"{clean_input}:01"
+                suggestion = True
+            else:
+                allele_number = clean_input
+                allele_slug = slugify(allele_number)
+                allele_group = allele_number.split(':')[0]
+        else:
+            allele_slug = None
+        
+        if allele_slug:
+            if '_' in allele_slug:
+                data = app.data.copy()
+                locus = '_'.join(allele_slug.split('_')[:2])
+                if locus in data['protein_alleles']:
+                    if allele_slug in data['protein_alleles'][locus]:
+                        allele_data = data['protein_alleles'][locus][allele_slug]
+                    else:
+                        suggestion = True
+        
+    # if we have allele_data, we'll redirect to the allele page
+    if not suggestion:
+        return redirect(url_for('allele_page', allele=allele_slug)) 
+    # if we don't have allele_data, we'll return an error
+    else:
+        if raw_input:
+            error = f"Nothing matched your query <strong>{raw_input}</strong> exactly."
+            suggestions = []
+            if allele_group is not None:
+                suggestions.append({'type':'allele_group', 'id':allele_group})
+            if allele_number is not None:
+                suggestions.append({'type':'allele_number', 'id':allele_number})
+        else:
+            error = f"You didn't enter any text in the search box. Please try again."
+            suggestions = None
+
+        return render("lookup", {'default_input':default_input, 'allele_slug':allele_slug, 'allele_number':allele_number, 'raw_input': raw_input, 'error':error, 'suggestions':suggestions, 'static_route':app.config['STATIC_ROUTE']})
+
+
+@app.route('/alleles/search/', methods=['GET', 'POST'])
+@app.route('/alleles/search', methods=['GET', 'POST'])
+def alleles_search(api=False):
+    """
+    This is the handler that performs searches for alleles
+
+    Args:
+        None
+    The arguments are provided either as querystring or post variables
+    """
+    if request.method == 'POST':
+        search_term = request.form['search_term']
+    elif request.method == 'GET':
+        search_term = request.args.get('search_term')
+    else:
+        search_term = None
+    return {'search_term':search_term}    
+
+
 
 
 @app.route('/alleles/species/<string:species_stem>/')
