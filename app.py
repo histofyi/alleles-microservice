@@ -30,7 +30,6 @@ def build_pmbec_matrix():
     for i, line in enumerate(raw_matrix.split('\n')):   
         if i == 0:
             aa_list = line.split()
-            print (aa_list)
         else:
             elements = [element for element in line.split()]
             if len(elements) > 1:
