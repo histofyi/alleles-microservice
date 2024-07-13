@@ -11,6 +11,7 @@ numpy = "*"
 py3dmol = "*"
 requests = "*"
 blosum = "*"
+tidytcells = "*"
 
 [dev-packages]
 
