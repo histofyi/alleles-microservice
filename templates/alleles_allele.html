@@ -1,6 +1,13 @@
 {% set nav='alleles' %}
 {% extends "shared/base.html" %}
 
+{% block title %}Alleles | {{allele | deslugify_allele }}{% endblock %}
+
+{% block breadcrumbs %}
+<div class="vertical-spacing-bottom-0-5"><small><a href="/alleles">Alleles</a> | <a href="/alleles/species/homo_sapiens/">Human (Homo sapiens)</a> | <a href="/alleles/locus/{{locus}}">{{locus | deslugify_locus}}</a> | <a href="/alleles/allele_group/{{allele_group}}">{{allele_group | deslugify_allele_group | safe}}</a> | <strong>{{allele | deslugify_allele | safe}}</strong></small></div>
+{% endblock %}
+
+
 {% block main %}
 
 {% include "styles.html" %}

@@ -1,7 +1,11 @@
 {% set nav='alleles' %}
 {% extends "shared/base.html" %}
 
+{% block title %}Alleles | {{allele_group | deslugify_allele_group | safe}}{% endblock %}
 
+{% block breadcrumbs %}
+<div class="vertical-spacing-bottom-0-5"><small><a href="/alleles">Alleles</a> | <a href="/alleles/species/homo_sapiens/">Human (Homo sapiens)</a> | <a href="/alleles/locus/{{locus}}">{{locus | deslugify_locus}}</a> | <strong>{{allele_group | deslugify_allele_group | safe}}</strong></small></div>
+{% endblock %}
 {% block main %}
 
 
@@ -12,15 +16,11 @@
 
 <section>
     <div class="grid-container">
-        <div class="column-full-width">
-            <div class="inner">
-                <small><strong>Allele group</strong></small>
-                <h1 class="heading-large">{{allele_group | deslugify_allele_group | safe}}</h1>
-            </div>
-        </div>
-        <div class="column-one-half">
+        <div class="column-two-thirds">
             <div class="inner">
                 <div>
+                    <small><strong>Allele group</strong></small>
+                    <h1 class="heading-large">{{allele_group | deslugify_allele_group | safe}}</h1>
                     <h3 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25 heading-small">Species</h3>
                     <a href="/alleles/species/homo_sapiens">Homo sapiens (Human)</a>
                 </div>
@@ -47,9 +47,12 @@
                 
             </div>
         </div>
-        <div class="column-one-half">
+        <div class="column-one-third">
             <div class="inner">
-                <img src="https://images.histo.fyi/allele_groups/pocket_images/{{locus}}/{{allele_group}}_cleft_labelleled.png" />
+                <img src="https://images.histo.fyi/allele_groups/pocket_images/{{locus}}/{{allele_group}}_cleft_labelleled.png" width="300px"/>
+            </div>
+            <div class="inner">
+                <strong>Pocket key:</strong> <span class="pocket a-pocket">A</span> <span class="pocket b-pocket">B</span> <span class="pocket c-pocket">C</span> <span class="pocket d-pocket">D</span> <span class="pocket e-pocket">E</span> <span class="pocket f-pocket">F</span>
             </div>
         </div>
         <div class="column-one-half">
@@ -58,9 +61,7 @@
             </div>
         </div>
         <div class="column-one-half">
-            <div class="inner">
-                <strong>Pocket key:</strong> <span class="pocket a-pocket">A</span> <span class="pocket b-pocket">B</span> <span class="pocket c-pocket">C</span> <span class="pocket d-pocket">D</span> <span class="pocket e-pocket">E</span> <span class="pocket f-pocket">F</span>
-            </div>
+            
         </div>
         <div class="column-full-width">
             <div class="inner">

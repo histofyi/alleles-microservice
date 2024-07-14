@@ -2,6 +2,12 @@
 
 {% extends "shared/base.html" %}
 
+{% block title %}Alleles | {{locus | deslugify_locus}}{% endblock %}
+
+{% block breadcrumbs %}
+<div class="vertical-spacing-bottom-0-5"><small><a href="/alleles">Alleles</a> | <a href="/alleles/species/homo_sapiens/">Human (Homo sapiens)</a> | <strong>{{locus | deslugify_locus}}</strong></small></div>
+{% endblock %}
+
 {% block main %}
 
 {% set column_headings = ['Allele group', 'Number of alleles', 'Consensus motif', 'Known peptide motifs', 'Number of structures']%}
