@@ -412,21 +412,16 @@ def alleles_lookup(api=False):
 
 @app.route('/alleles/search/', methods=['GET', 'POST'])
 @app.route('/alleles/search', methods=['GET', 'POST'])
+@templated('advanced_search')
 def alleles_search(api=False):
     """
-    This is the handler that performs searches for alleles
+    This is the handler that performs advanced search for alleles
 
     Args:
         None
     The arguments are provided either as querystring or post variables
     """
-    if request.method == 'POST':
-        search_term = request.form['search_term']
-    elif request.method == 'GET':
-        search_term = request.args.get('search_term')
-    else:
-        search_term = None
-    return {'search_term':search_term}    
+    return {'search_term':None}    
 
 
 
