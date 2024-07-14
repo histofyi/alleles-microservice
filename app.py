@@ -249,13 +249,13 @@ def polymorphism_information(polymorphism:str) -> str:
     index = position_information['labels'].index(amino_acid)
     rarity = position_information['rarities'][index]
     if rarity == 'majority':
-        info_string = f"{amino_acid} is found at position {position} in the majority of {locus} alleles."
+        info_string = f"<strong>{amino_acid}</strong> is found at position {position} in the majority of {locus} alleles."
     elif rarity == 'unique':    
-        info_string = f"{amino_acid} is uniquely found at position {position} in this particular {locus} allele."
+        info_string = f"<strong>{amino_acid}</strong> is uniquely found at position {position} in this particular {locus} allele."
     elif 'only' in rarity:    
-        info_string = f"{amino_acid} is found at position {position} in {rarity.replace('_',' ')} {locus} alleles."
+        info_string = f"<strong>{amino_acid}</strong> is found at position {position} in {rarity.replace('_',' ')} {locus} alleles."
     else:
-        info_string = f"{amino_acid} is {rarity.replace('_',' ')}ly found at position {position} of {locus}."
+        info_string = f"<strong>{amino_acid}</strong> is {rarity.replace('_',' ')}ly found at position {position} of {locus}."
     return info_string
     
 
@@ -277,7 +277,7 @@ def substitution_effect(substitution:str) -> str:
     else:
         val_name = 'highly conservative'
 
-    info_string = f"The change from {from_aa} to {to_aa} is a {val_name} one [{val}]."
+    info_string = f"The change from <strong>{from_aa}</strong> to <strong>{to_aa}</strong> is a {val_name} one."
     return info_string
 
 
