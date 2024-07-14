@@ -2,15 +2,15 @@
     <table class="vertical-spacing-bottom-0-25">
         <tr>
             <td class="form-item">
-                <label for="allele_number"><strong>Allele number</strong><br /><small>e.g. HLA-A*32:01</small></label>
+                <label for="allele_number_query"><strong>Allele number</strong><br /><small>e.g. HLA-A*32:01</small></label>
             </td>
             <td class="form-item">
                 {% if raw_input %}
                     {% set value = raw_input %}
                 {% else %}
-                    {% set value = default_input %}
+                    {% set value = form.fields.allele_number_query.default_value %}
                 {% endif %}  
-                <input type="text" name="allele_number" placeholder="HLA-A*32:01" value={{value}} size="20" class="text-input">
+                <input type="text" name="allele_number_query" placeholder="HLA-A*32:01" value="{{value}}" size="20" class="text-input">
             </td>
             <td class="form-item">
                 <button type="submit" class="button-input">Search</button>

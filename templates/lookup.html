@@ -27,9 +27,9 @@
                         {% for suggestion in suggestions %}
                             <li class="vertical-spacing-bottom-0-25">
                                 {% if suggestion.type=='allele_group' %}
-                                    The <a href="/alleles/allele_group/{{suggestion.id | slugify_this}}">{{suggestion.id}}</a> allele group.
+                                    The <a href="/alleles/allele_group/{{suggestion.slug}}">{{suggestion.id}}</a> allele group.
                                 {% elif suggestion.type=='allele_number' %}
-                                    The <a href="/alleles/allele/{{suggestion.id | slugify_this}}">{{suggestion.id}}</a> allele.
+                                    The <a href="/alleles/allele/{{suggestion.slug}}">{{suggestion.id}}</a> allele.
                                 {% else %}
                                 {% endif %}
                             </li>

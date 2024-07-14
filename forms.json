@@ -1,0 +1,9 @@
+{
+    "allele_number_lookup": {
+        "fields": {
+            "allele_number_query": {
+                "default_value": "HLA-"
+            }
+        }
+    }
+}

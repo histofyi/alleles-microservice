@@ -16,6 +16,9 @@ from io import StringIO
 from functions.decorators import templated
 from functions.templating import render
 from functions.text import slugify
+from functions.forms import get_request_data
+
+import handlers
 
 import sys
 
@@ -199,6 +202,9 @@ def create_app():
 
     app.data = {'stats':{}}
 
+    with open('forms.json', 'r') as f:
+        app.data['forms'] = json.load(f)
+
     for dataset in json_datasets:
         app.data[dataset] = load_json_data(dataset)
 
@@ -368,99 +374,40 @@ def alleles_home(api=False):
     This is the handler for the alleles homepage. 
     """
     data = app.data.copy()
-
     return {
         'species':data['species'],
-        'stats':data['stats']
+        'stats':data['stats'], 
+        'form': app.data['forms']['allele_number_lookup']
     }
 
 
 @app.route('/alleles/lookup/', methods=['GET', 'POST'])
 @app.route('/alleles/lookup', methods=['GET', 'POST'])
 def alleles_lookup(api=False):
-    """
-    This is the handler that performs lookups for alleles
-
-    Args:
-        None
-    The arguments are provided either as querystring or post variables
-    """
-    # this method can take in data either from a form or from a querystring
-    # first we'll test the method of the request
-    if request.method == 'POST':
-        raw_input = request.form['allele_number']
-    # if it's a get request, we'll get the allele number from the querystring
-    elif request.method == 'GET':
-        raw_input = request.args.get('allele_number')
-    default_input = 'HLA-'
-
-    # we'll initialise the locus and allele_data variables to None
-    allele_slug = None
-    allele_group = None
-    allele_number = None
-    allele_data = None
-    locus = None
-
-    suggestion = False
-
-    # first we'll check if the input is the default input or empty
-    if raw_input is not None:
-        if len(raw_input) == 0:
-            raw_input = None
-        elif raw_input == default_input:
-            raw_input = None
-        
-
-    # next we'll check that there is valid input and attempt to clean it
-    if raw_input is not None:
-        clean_input = tt.mh.standardize(raw_input, precision='protein')
-        
-        # it tidytcells can't clean the input, it will be set to None, it may be that someone has typed an extra character
-        if clean_input is None:
-            clean_input = tt.mh.standardize(raw_input[:-1], precision='protein')
-            suggestion = True
-        else:
-            allele_number = clean_input
-        
-        if clean_input is not None:
-            if ':' not in clean_input:
-                allele_group = clean_input
-                allele_number = f"{clean_input}:01"
-                suggestion = True
-            else:
-                allele_number = clean_input
-                allele_slug = slugify(allele_number)
-                allele_group = allele_number.split(':')[0]
-        else:
-            allele_slug = None
-        
-        if allele_slug:
-            if '_' in allele_slug:
-                data = app.data.copy()
-                locus = '_'.join(allele_slug.split('_')[:2])
-                if locus in data['protein_alleles']:
-                    if allele_slug in data['protein_alleles'][locus]:
-                        allele_data = data['protein_alleles'][locus][allele_slug]
-                    else:
-                        suggestion = True
-        
-    # if we have allele_data, we'll redirect to the allele page
-    if not suggestion:
-        return redirect(url_for('allele_page', allele=allele_slug)) 
-    # if we don't have allele_data, we'll return an error
+    suggestions = []
+    error = None
+    request_data = get_request_data(request, app.data['forms']['allele_number_lookup'])
+    response_dict = handlers.allele_lookup(request_data, app.data)
+    if response_dict['match_type']['match']:
+        return redirect(url_for('allele_page', allele=response_dict['allele_info']['allele_slug']))
     else:
-        if raw_input:
+        raw_input = response_dict['request_data']['allele_number_query']
+        if response_dict['match_type']['suggestion']:
             error = f"Nothing matched your query <strong>\"{raw_input}\"</strong> exactly."
-            suggestions = []
-            if allele_group is not None:
-                suggestions.append({'type':'allele_group', 'id':allele_group})
-            if allele_number is not None:
-                suggestions.append({'type':'allele_number', 'id':allele_number})
-        else:
-            error = f"You didn't enter any text in the search box. Please try again."
-            suggestions = None
+            if response_dict['allele_info']['allele_group'] is not None:
+                suggestions.append({'type':'allele_group', 'id':response_dict['allele_info']['allele_group'], 'slug':response_dict['allele_info']['allele_group_slug']})
+            if response_dict['allele_info']['allele_number'] is not None:
+                suggestions.append({'type':'allele_number', 'id':response_dict['allele_info']['allele_number'], 'slug':response_dict['allele_info']['allele_slug']})
 
-        return render("lookup", {'default_input':default_input, 'allele_slug':allele_slug, 'allele_number':allele_number, 'raw_input': raw_input, 'error':error, 'suggestions':suggestions, 'static_route':app.config['STATIC_ROUTE']})
+        elif response_dict['request_data']['allele_number_query'] is None:
+            error = f"You didn't enter any text in the search box. Please try again."
+        response_dict['raw_input'] = raw_input
+        response_dict['form'] = app.data['forms']['allele_number_lookup']
+        response_dict['error'] = error
+        response_dict['suggestions'] = suggestions
+        response_dict['static_route'] = app.config['STATIC_ROUTE']
+        return render("lookup", response_dict)
+
 
 
 @app.route('/alleles/search/', methods=['GET', 'POST'])
