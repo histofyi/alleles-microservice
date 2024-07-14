@@ -11,72 +11,79 @@
 
 {% include "styles.html" %}
 
-{% set column_headings = ['Allele', 'Structures', 'Simplified peptide motif', 'Binding site polymorphisms']%}
-{% set column_widths = ['14', '15', '23', '48']%}
+{% set column_headings = ['Allele', 'Structures', 'Simplified peptide motif']%}
+{% set column_widths = ['13', '13', '26']%}
 
 <section>
     <div class="grid-container">
         <div class="column-two-thirds">
             <div class="inner">
-                <div>
-                    <small><strong>Allele group</strong></small>
-                    <h1 class="heading-large">{{allele_group | deslugify_allele_group | safe}}</h1>
-                    <h3 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25 heading-small">Species</h3>
-                    <a href="/alleles/species/homo_sapiens">Homo sapiens (Human)</a>
+            
+                <small><strong>Allele group</strong></small>
+                <h1 class="heading-large vertical-spacing-bottom">{{allele_group | deslugify_allele_group | safe}}</h1>
+                    
+                <h3 class="heading-small">Overview</h3>
+                <div class="vertical-spacing-bottom-0-25">
+                    There are <strong>{{allele_count}}</strong> protein alleles within the {{allele_group | deslugify_allele_group | safe}} group. 
                 </div>
-                <div>
-                    <h3 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-25 heading-small">Locus</h3>
-                    <a href="/alleles/locus/{{locus}}">{{locus | deslugify_locus }}</a>
-                </div>
-                <div>
-                    <h3 class="vertical-spacing-top-0-5  vertical-spacing-bottom-0-25 heading-small">Number of alleles</h3>
-                    {{allele_count}}
-                </div>
-                <div>
-                    <h3 class="vertical-spacing-top-0-5  vertical-spacing-bottom-0-25 heading-small">Number of structures</h3>
-                    {% if structure_count > 0 %}
-                        <a href="https://www.histo.fyi/structures/browse/allele_groups/{{allele_group}}">{{structure_count | structure_count_display}}</a>
+                <div class="vertical-spacing-bottom-0-25">
+                    There 
+                    {% if known_motif_count == 1%}
+                        is <strong>{{known_motif_count}}</strong> experimentally determined motif.
+                    {% elif known_motif_count == 0 %}
+                        are no experimentally determined motifs for this allele group.
                     {% else %}
-                        {{structure_count | structure_count_display}}
+                        are <strong>{{known_motif_count}}</strong> experimentally determined motifs.
+                    {% endif %}
+                    {% if inferred_motif_count > 0 %}
+                    <strong>{{inferred_motif_count}}</strong> alleles have no polymorphisms in the binding site compared to alleles with known motifs (and are likely to bind identical repertoires).
                     {% endif %}
                 </div>
-                <div>
-                    <h3 class="vertical-spacing-top-0-5  vertical-spacing-bottom-0-25 heading-small">Alleles with known/inferred motif</h3>
-                    <strong>{{known_motif_count}}</strong> / {{inferred_motif_count}}
-                </div>
+                <div class="vertical-spacing-bottom-0-25">
+                    There  
+                    {% if structure_count == 0 %}
+                    are no experimental structures
+                    {% elif structure_count == 1 %}
+                    is <strong>{{structure_count}}</strong> experimental structure
+                    {% else %}
+                    are <strong>{{structure_count}}</strong> experimental structures
+                    {% endif %}
+                    available for this allele group.
+                </div>  
+                
                 
             </div>
         </div>
         <div class="column-one-third">
             <div class="inner">
-                <img src="https://images.histo.fyi/allele_groups/pocket_images/{{locus}}/{{allele_group}}_cleft_labelleled.png" width="300px"/>
+                <img src="https://images.histo.fyi/allele_groups/pocket_images/{{locus}}/hla_a_01_cleft_labelleled.png" width="300px"/>
             </div>
-            <div class="inner">
-                <strong>Pocket key:</strong> <span class="pocket a-pocket">A</span> <span class="pocket b-pocket">B</span> <span class="pocket c-pocket">C</span> <span class="pocket d-pocket">D</span> <span class="pocket e-pocket">E</span> <span class="pocket f-pocket">F</span>
-            </div>
-        </div>
-        <div class="column-one-half">
-            <div class="inner">
-                <h2>Alleles</h2>
-            </div>
-        </div>
-        <div class="column-one-half">
             
         </div>
+
+        <div class="column-full-width">
+            <div class="inner">
+                <hr class="vertical-spacing-top-0-5"/>
+                <h2 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-5">{{allele_group | deslugify_allele_group | safe}} group alleles</h2>
+            </div>
+        </div>
+
+
         <div class="column-full-width">
             <div class="inner">
                 {% set item_count = allele_count %}
 
                 {% include "pagination.html" %}
-
                 <table width="100%" class="vertical-spacing-bottom">
                     <thead>
                         <tr>
                             {% set i = 0 %}
+                    
                             {% for column_heading in column_headings %}
                                 {% set i = loop.index0 %}
                                 <th width="{{column_widths[i]}}%"><strong>{{column_heading}}</strong></th>
                             {% endfor %}
+                            <th width="50%"><strong>Binding pocket polymorphisms</strong> <span class="pocket a-pocket">A</span> <span class="pocket b-pocket">B</span> <span class="pocket c-pocket">C</span> <span class="pocket d-pocket">D</span> <span class="pocket e-pocket">E</span> <span class="pocket f-pocket">F</span></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -146,11 +153,11 @@
                                             </div>
                                             <div class="vertical-spacing-top" style="clear:both;">
                                                 {% set substitution = polymorphism.from + polymorphism.to %}
-                                                {{substitution | substitution_effect }}
+                                                {{substitution | substitution_effect | safe}}
                                                 {% set position_number = polymorphism.position | string() %}
                                                 <br />
                                                 {% set polymorphism_data = locus + "|" + polymorphism.to + "_" + position_number %}
-                                                {{ polymorphism_data | polymorphism_information}}
+                                                {{ polymorphism_data | polymorphism_information | safe}}
                                             </div>
                                             <hr class="vertical-spacing-bottom-0-25" />
                                             <div class="vertical-spacing-bottom-0-25"><strong>Position {{ polymorphism.position }} polymorphisms in {{locus | deslugify_locus }}</strong></div>
