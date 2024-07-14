@@ -12,12 +12,17 @@
         <div class="column-full-width">
             <div class="inner">
                 <h1 class="heading-large vertical-spacing-bottom-0-5">Allele search</h1>
+                
+                {% include "fragments/lookup_form.html" %}
 
+                <hr />
+                <h2 class="heading-small vertical-spacing-bottom-0-25 vertical-spacing-top-0-5">Results</h2>
                 {% if error %}
-                    <div class="vertical-spacing-bottom-0-25">{{error | safe }}</div>
+                    <div class="vertical-spacing-bottom-0-5">{{error | safe }}</div>
                 {% endif %}
+                
                 {% if suggestions %}
-                    <div class="vertical-spacing-bottom-0-25">Based on your input, here are some suggestions:</div>
+                    <div class="vertical-spacing-bottom-0-25">Here are some suggestions based on your query:</div>
                     <ul>
                         {% for suggestion in suggestions %}
                             <li class="vertical-spacing-bottom-0-25">
@@ -32,7 +37,7 @@
                     </ul>
                 {% endif %}
 
-                {% include "fragments/lookup_form.html" %}
+                
 
             </div>
         </div>

@@ -450,7 +450,7 @@ def alleles_lookup(api=False):
     # if we don't have allele_data, we'll return an error
     else:
         if raw_input:
-            error = f"Nothing matched your query <strong>{raw_input}</strong> exactly."
+            error = f"Nothing matched your query <strong>\"{raw_input}\"</strong> exactly."
             suggestions = []
             if allele_group is not None:
                 suggestions.append({'type':'allele_group', 'id':allele_group})
