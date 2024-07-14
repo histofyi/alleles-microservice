@@ -1,6 +1,6 @@
 {% if item_count > page_size %}
 
-<p class="vertical-spacing-top-0-25">Page <strong>1</strong> of {{page_count}} | {{page_size}} items per page | ordered by allele number, ascending</p>
+<div class="">Page <strong>1</strong> of {{page_count}}&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;  
 {% for page in pages %}
 {% if page == current_page %}
     <strong>{{page}}</strong>&nbsp;
@@ -8,6 +8,6 @@
     <a href="?page_number={{page}}">{{page}}</a>&nbsp;
 {% endif %}
 {% endfor %}
-<hr />
-<br />
+</div>
+<hr class="vertical-spacing-bottom-0-25"/>
 {% endif %}
