@@ -43,7 +43,7 @@
                         are <strong>{{known_motif_count}}</strong> experimentally determined motifs.
                     {% endif %}
                     {% if inferred_motif_count > 0 %}
-                    <strong>{{inferred_motif_count}}</strong> alleles have no polymorphisms in the binding site compared to alleles with known motifs (and are likely to bind identical repertoires).
+                        <strong>{{inferred_motif_count}}</strong> alleles have no polymorphisms in the binding site compared to alleles with known motifs (and are likely to bind identical repertoires).
                     {% endif %}
                 </div>
                 <div class="vertical-spacing-bottom-0-25">
@@ -107,7 +107,8 @@
                             </td>
                             <td>
                                 {% if reference_allele_info.motif_type %}
-                                    <div class="{{reference_allele_info.motif_type}}-motif"></div>
+                                    <div class="{{reference_allele_info.motif_type}}-motif">
+                                    </div>
                                     {{reference_allele_info.motif | display_simple_motif | safe}}
                                 {% else %}
                                     <br />
