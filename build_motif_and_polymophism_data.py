@@ -1,11 +1,26 @@
+from typing import Dict, List, Union
+
 import json
 
+def map_pocket(position:int) -> str:
+    for pocket in pockets:
+        if str(position) in pockets[pocket]:
+            return pocket
+    return 'o'
 
-simplified_motif_data = None
 
-with open("data/simplified_motifs.json", "r") as simplified_motif_data_file:
-    simplified_motif_data = json.load(simplified_motif_data_file)
+def check_position_for_polymorphism(reference, test):
+    if test == '-':
+        return False
+    if reference == test:
+        return False
+    else:
+        return True
 
+
+
+
+# constants
 
 pockets = {
         "a": ["5","59","63","66","159","163","167","171"],
@@ -17,24 +32,16 @@ pockets = {
 }
 
 netmhcpan_pocket_residues = [7,9,24,45,59,62,63,66,67,69,70,73,74,76,77,80,81,84,95,97,99,114,116,118,143,147,150,152,156,158,159,163,167,171]
-
-
-def map_pocket(position:int) -> str:
-    for pocket in pockets:
-        if str(position) in pockets[pocket]:
-            return pocket
-    return 'o'
-
 netmhc_pocket_labels = [map_pocket(position) for position in netmhcpan_pocket_residues]
 
 
-def check_position_for_polymorphism(reference, test):
-    if test == '-':
-        return False
-    if reference == test:
-        return False
-    else:
-        return True
+
+
+
+
+
+
+
 
 
 def build_sequence_polymorphism_data(reference_sequence, test_sequence):
@@ -74,14 +81,8 @@ def build_allele_polymorphism_data(reference_pocket_pseudosequence, reference_cy
     return {'binding_pocket': binding_pocket_polymorphisms, 'abd': abd_polymorphisms, 'non-abd': non_abd_polymorphisms}
         
 
-    print ('CHECK THIS TOMORROW MORNING')
-    # build a dictionary of abd polymorphisms using the pocket pseudosequences
 
-    # build a dictionary of non-abd polymorphisms using the cytoplasmic pseudosequences and then remove the abd polymorphisms
-    pass
-
-
-def build_motif_and_polymophism_data(locus):
+def build_motif_and_polymophism_data(locus:str) -> Dict:
 
     reference_alleles = {}
     allele_groups = {}
@@ -192,13 +193,20 @@ def build_motif_and_polymophism_data(locus):
     return alleles
 
 
-loci = ['hla_a','hla_b','hla_c', 'hla_e', 'hla_f', 'hla_g']
 
-allele_polymorphism_and_motif_data = {}
+def main():
 
-for locus in loci:
-    allele_polymorphism_and_motif_data[locus] = build_motif_and_polymophism_data(locus)
+    loci = ['hla_a','hla_b','hla_c', 'hla_e', 'hla_f', 'hla_g']
 
-with open("data/allele_polymorphism_and_motif_data.json", "w") as allele_polymorphism_and_motif_data_file:
-    json.dump(allele_polymorphism_and_motif_data, allele_polymorphism_and_motif_data_file, indent=4)
+    allele_polymorphism_and_motif_data = {}
 
+    for locus in loci:
+        allele_polymorphism_and_motif_data[locus] = build_motif_and_polymophism_data(locus)
+
+    with open("data/allele_polymorphism_and_motif_data.json", "w") as f:
+        json.dump(allele_polymorphism_and_motif_data, f, indent=4)
+
+
+
+
+main()
