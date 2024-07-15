@@ -548,6 +548,7 @@ def allele_group_page(allele_group, api=False):
     sort_order = sorted([int(allele.split('_')[3]) for allele in allele_group_data])
 
     polymorphisms_and_motifs = data['polymorphisms_and_motifs']
+    
 
     allele_count = len(allele_group_data)
 
@@ -594,13 +595,13 @@ def allele_group_page(allele_group, api=False):
     pages = [i for i in range(1, page_count + 1)]
 
     for allele in paged_alleles:
-        allele_info = polymorphisms_and_motifs[locus][allele]
-        allele_info['allele'] = allele
-        if allele in data['sets']['alleles']:
-            allele_info['structure_count'] = data['sets']['alleles'][allele]['count']
-        alleles.append(allele_info)
+        if allele in polymorphisms_and_motifs[locus]:
+            allele_info = polymorphisms_and_motifs[locus][allele]
+            allele_info['allele'] = allele
+            if allele in data['sets']['alleles']:
+                allele_info['structure_count'] = data['sets']['alleles'][allele]['count']
+            alleles.append(allele_info)
     
-
     return {
         'locus': locus,
         'allele_group': allele_group,
