@@ -81,13 +81,6 @@
                 "source": "ipd-imgt/hla"
             },
             {
-                "gene_allele_name": "HLA-G*01:04:05",
-                "id": "HLA03555",
-                "locus": "G",
-                "protein_allele_name": "HLA-G*01:04",
-                "source": "ipd-imgt/hla"
-            },
-            {
                 "gene_allele_name": "HLA-G*01:04:06",
                 "id": "HLA18826",
                 "locus": "G",
@@ -113,22 +106,8 @@
                 "source": "ipd-imgt/hla"
             },
             {
-                "gene_allele_name": "HLA-G*01:01:15",
-                "id": "HLA03553",
-                "locus": "G",
-                "protein_allele_name": "HLA-G*01:01",
-                "source": "ipd-imgt/hla"
-            },
-            {
                 "gene_allele_name": "HLA-G*01:01:18",
                 "id": "HLA03557",
-                "locus": "G",
-                "protein_allele_name": "HLA-G*01:01",
-                "source": "ipd-imgt/hla"
-            },
-            {
-                "gene_allele_name": "HLA-G*01:01:19",
-                "id": "HLA03558",
                 "locus": "G",
                 "protein_allele_name": "HLA-G*01:01",
                 "source": "ipd-imgt/hla"
@@ -146,24 +125,6 @@
             "id": "HLA00945",
             "locus": "G",
             "protein_allele_name": "HLA-G*01:01",
-            "source": "ipd-imgt/hla"
-        }
-    },
-    "-SHSMRYFSAAVSRPGRGEPRFIAMGYVDDTQFVRFDSDSACPRMEPRAPWVEQEGPEYWEEETRNTKAHAQTDRMNLQTLRGYYNQSEASSHTLQWMIGCDLVSDGRLIRGYEQYAYDGKDYLALNEDLRSWTAADTAAQISKRKCEAANVAEQRRAYLEGTCVEWLHRYLENGKEMLQRA": {
-        "alleles": [
-            {
-                "gene_allele_name": "HLA-G*01:15",
-                "id": "HLA03399",
-                "locus": "G",
-                "protein_allele_name": "HLA-G*01:15",
-                "source": "ipd-imgt/hla"
-            }
-        ],
-        "canonical_allele": {
-            "gene_allele_name": "HLA-G*01:15",
-            "id": "HLA03399",
-            "locus": "G",
-            "protein_allele_name": "HLA-G*01:15",
             "source": "ipd-imgt/hla"
         }
     },
@@ -370,6 +331,27 @@
                 "source": "ipd-imgt/hla"
             },
             {
+                "gene_allele_name": "HLA-G*01:04:01:08",
+                "id": "HLA38327",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:04",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:04:01:09",
+                "id": "HLA38301",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:04",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:04:01:10",
+                "id": "HLA40273",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:04",
+                "source": "ipd-imgt/hla"
+            },
+            {
                 "gene_allele_name": "HLA-G*01:04:03",
                 "id": "HLA00951",
                 "locus": "G",
@@ -377,8 +359,22 @@
                 "source": "ipd-imgt/hla"
             },
             {
-                "gene_allele_name": "HLA-G*01:04:04",
+                "gene_allele_name": "HLA-G*01:04:04:01",
                 "id": "HLA02287",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:04",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:04:04:02",
+                "id": "HLA38356",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:04",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:04:05",
+                "id": "HLA03555",
                 "locus": "G",
                 "protein_allele_name": "HLA-G*01:04",
                 "source": "ipd-imgt/hla"
@@ -391,10 +387,38 @@
                 "source": "ipd-imgt/hla"
             },
             {
+                "gene_allele_name": "HLA-G*01:04:08",
+                "id": "HLA38134",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:04",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:04:09",
+                "id": "HLA38890",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:04",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:04:10",
+                "id": "HLA40841",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:04",
+                "source": "ipd-imgt/hla"
+            },
+            {
                 "gene_allele_name": "HLA-G*01:23",
                 "id": "HLA26781",
                 "locus": "G",
                 "protein_allele_name": "HLA-G*01:23",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:54",
+                "id": "HLA39676",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:54",
                 "source": "ipd-imgt/hla"
             }
         ],
@@ -403,6 +427,24 @@
             "id": "HLA00949",
             "locus": "G",
             "protein_allele_name": "HLA-G*01:04",
+            "source": "ipd-imgt/hla"
+        }
+    },
+    "GSHSMRYFSAAVSRPGRGEPRFIAMGYVDDTQFVRFDSDSACPRMEPRAPWVEQEGPEYWEEETRNTKAHAQTDRMNLQTLRGYYNQSEASSHTLQWMIGCDLGSDGRLLRGYEQYAYDGKDYLALNEDLRSWTAADTAAQISKPKCEAANVAEQRRAYLEGTCVEWLHRYLENGKEMLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "HLA-G*01:48",
+                "id": "HLA38086",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:48",
+                "source": "ipd-imgt/hla"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "HLA-G*01:48",
+            "id": "HLA38086",
+            "locus": "G",
+            "protein_allele_name": "HLA-G*01:48",
             "source": "ipd-imgt/hla"
         }
     },
@@ -553,6 +595,139 @@
                 "source": "ipd-imgt/hla"
             },
             {
+                "gene_allele_name": "HLA-G*01:01:01:19",
+                "id": "HLA38319",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:01:01:20",
+                "id": "HLA38263",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:01:01:21",
+                "id": "HLA38221",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:01:01:22",
+                "id": "HLA38333",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:01:01:23",
+                "id": "HLA38484",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:01:01:24",
+                "id": "HLA38100",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:01:01:25",
+                "id": "HLA38270",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:01:01:26",
+                "id": "HLA38269",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:01:01:27",
+                "id": "HLA38326",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:01:01:28",
+                "id": "HLA38355",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:01:01:29",
+                "id": "HLA38120",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:01:01:30",
+                "id": "HLA38286",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:01:01:31",
+                "id": "HLA38369",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:01:01:32",
+                "id": "HLA38257",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:01:01:33",
+                "id": "HLA38373",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:01:01:34",
+                "id": "HLA40730",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:01:01:35",
+                "id": "HLA40731",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:01:01:36",
+                "id": "HLA40829",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:01:01:37",
+                "id": "HLA40817",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
                 "gene_allele_name": "HLA-G*01:01:02:01",
                 "id": "HLA00940",
                 "locus": "G",
@@ -602,6 +777,55 @@
                 "source": "ipd-imgt/hla"
             },
             {
+                "gene_allele_name": "HLA-G*01:01:02:08",
+                "id": "HLA38362",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:01:02:09",
+                "id": "HLA38429",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:01:02:10",
+                "id": "HLA38396",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:01:02:11",
+                "id": "HLA38188",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:01:02:12",
+                "id": "HLA38363",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:01:02:13",
+                "id": "HLA40732",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:01:02:14",
+                "id": "HLA40851",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
                 "gene_allele_name": "HLA-G*01:01:03:01",
                 "id": "HLA00941",
                 "locus": "G",
@@ -625,6 +849,13 @@
             {
                 "gene_allele_name": "HLA-G*01:01:03:04",
                 "id": "HLA18110",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:01:03:05",
+                "id": "HLA38366",
                 "locus": "G",
                 "protein_allele_name": "HLA-G*01:01",
                 "source": "ipd-imgt/hla"
@@ -679,6 +910,13 @@
                 "source": "ipd-imgt/hla"
             },
             {
+                "gene_allele_name": "HLA-G*01:01:15",
+                "id": "HLA03553",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
                 "gene_allele_name": "HLA-G*01:01:16",
                 "id": "HLA03552",
                 "locus": "G",
@@ -688,6 +926,13 @@
             {
                 "gene_allele_name": "HLA-G*01:01:17",
                 "id": "HLA03556",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:01:19",
+                "id": "HLA03558",
                 "locus": "G",
                 "protein_allele_name": "HLA-G*01:01",
                 "source": "ipd-imgt/hla"
@@ -730,6 +975,20 @@
             {
                 "gene_allele_name": "HLA-G*01:01:22:04",
                 "id": "HLA28767",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:01:22:05",
+                "id": "HLA38410",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:01:22:06",
+                "id": "HLA38187",
                 "locus": "G",
                 "protein_allele_name": "HLA-G*01:01",
                 "source": "ipd-imgt/hla"
@@ -798,6 +1057,13 @@
                 "source": "ipd-imgt/hla"
             },
             {
+                "gene_allele_name": "HLA-G*01:01:31",
+                "id": "HLA38480",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:01",
+                "source": "ipd-imgt/hla"
+            },
+            {
                 "gene_allele_name": "HLA-G*01:06:01:01",
                 "id": "HLA01357",
                 "locus": "G",
@@ -807,6 +1073,13 @@
             {
                 "gene_allele_name": "HLA-G*01:06:01:02",
                 "id": "HLA27242",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:06",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:06:01:03",
+                "id": "HLA38265",
                 "locus": "G",
                 "protein_allele_name": "HLA-G*01:06",
                 "source": "ipd-imgt/hla"
@@ -854,13 +1127,6 @@
                 "source": "ipd-imgt/hla"
             },
             {
-                "gene_allele_name": "HLA-G*01:38Q",
-                "id": "HLA34275",
-                "locus": "G",
-                "protein_allele_name": "HLA-G*01:38Q",
-                "source": "ipd-imgt/hla"
-            },
-            {
                 "gene_allele_name": "HLA-G*01:39",
                 "id": "HLA34318",
                 "locus": "G",
@@ -879,6 +1145,41 @@
                 "id": "HLA37415",
                 "locus": "G",
                 "protein_allele_name": "HLA-G*01:45",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:47",
+                "id": "HLA38361",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:47",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:49",
+                "id": "HLA38460",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:49",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:51",
+                "id": "HLA38393",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:51",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:52",
+                "id": "HLA38208",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:52",
+                "source": "ipd-imgt/hla"
+            },
+            {
+                "gene_allele_name": "HLA-G*01:55",
+                "id": "HLA39754",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:55",
                 "source": "ipd-imgt/hla"
             }
         ],
@@ -944,24 +1245,6 @@
             "source": "ipd-imgt/hla"
         }
     },
-    "GSHSMRYFSAAVSRPGRGEPRFIAMGYVDDTQFVRFDSDSACPRMEPRAPWVEQEGPEYWEEETRNTKAHAQTDRMNLQTLRGYYNQSEASSHTLQWMIGCDLGSDGYEQYAYDGKDYLALNEDLRSWTAADTAAQISKRKCEAANVAEQRRAYLEGTCVEWLHRYLENGKEMLQRADPPKT": {
-        "alleles": [
-            {
-                "gene_allele_name": "HLA-G*01:36Q",
-                "id": "HLA34252",
-                "locus": "G",
-                "protein_allele_name": "HLA-G*01:36Q",
-                "source": "ipd-imgt/hla"
-            }
-        ],
-        "canonical_allele": {
-            "gene_allele_name": "HLA-G*01:36Q",
-            "id": "HLA34252",
-            "locus": "G",
-            "protein_allele_name": "HLA-G*01:36Q",
-            "source": "ipd-imgt/hla"
-        }
-    },
     "GSHSMRYFSAAVSRPGRGEPRFIAMGYVDDTQFVRFDSDSACPRMEPRAPWVEQEGPEYWEEETRNTKAHAQTDRMNLQTLRGYYNQSEASSHTLQWMIGCDLGSEGRLLRGYEQYAYDGKDYLALNEDLRSWTAADTAAQISKRKCEAANVAEQRRAYLEGTCVEWLHRYLENGKEMLQRA": {
         "alleles": [
             {
@@ -995,6 +1278,60 @@
             "id": "HLA33686",
             "locus": "G",
             "protein_allele_name": "HLA-G*01:34",
+            "source": "ipd-imgt/hla"
+        }
+    },
+    "GSHSMRYFSAAVSRPGRGEPRFIAMGYVDDTQFVRFDSDSACPRMEPRAPWVEQEGPEYWEEETRNTKAHAQTDRMNLQTLRGYYNQSEASSHTLQWMIGCDLVSDGRLIRGYEQYAYDGKDYLALNEDLRSWTAADTAAQISKRKCEAANVAEQRRAYLEGTCVEWLHRYLENGKEMLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "HLA-G*01:15",
+                "id": "HLA03399",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:15",
+                "source": "ipd-imgt/hla"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "HLA-G*01:15",
+            "id": "HLA03399",
+            "locus": "G",
+            "protein_allele_name": "HLA-G*01:15",
+            "source": "ipd-imgt/hla"
+        }
+    },
+    "GSHSMRYFSAAVSRPGRGEPRFIAMGYVDDTQFVRFDSDSACPRMEPRAPWVEQEGPEYWEEETRNTKAYAQTDRMNLQTLRGYYNQSEASSHTLQWMIGCDLGSDGRLLRGYEQYAYDGKDYLALNEDLRSWTAADTAAQISKRKCEAANVAEQRRAYLEGTCVEWLHRYLENGKEMLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "HLA-G*01:53",
+                "id": "HLA38171",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:53",
+                "source": "ipd-imgt/hla"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "HLA-G*01:53",
+            "id": "HLA38171",
+            "locus": "G",
+            "protein_allele_name": "HLA-G*01:53",
+            "source": "ipd-imgt/hla"
+        }
+    },
+    "GSHSMRYFSAAVSRPGRGEPRFIAMGYVDDTQFVRFDSDSACPRMEPRAPWVEQEGPEYWEEETRNTKGHAQTDRMNLQTLRGYYNQSEASSHTLQWMIGCDLGSDGRLIRGYEQYAYDGKDYLALNEDLRSWTAADTAAQISKRKCEAANVAEQRRAYLEGTCVEWLHRYLENGKEMLQRA": {
+        "alleles": [
+            {
+                "gene_allele_name": "HLA-G*01:56",
+                "id": "HLA40888",
+                "locus": "G",
+                "protein_allele_name": "HLA-G*01:56",
+                "source": "ipd-imgt/hla"
+            }
+        ],
+        "canonical_allele": {
+            "gene_allele_name": "HLA-G*01:56",
+            "id": "HLA40888",
+            "locus": "G",
+            "protein_allele_name": "HLA-G*01:56",
             "source": "ipd-imgt/hla"
         }
     },
