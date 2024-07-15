@@ -84,13 +84,14 @@
                         <td class="data-item">
                             {{allele_groups[allele_group].variability}}
                         </td>
-                        <td class="data-item">{% if allele_groups[allele_group].structure_count != 0 %}
-                                {{allele_groups[allele_group].structure_count}}
-                            {% endif %}
-                        </td>
                         <td class="data-item">
                             {% if allele_groups[allele_group].motif_count != 0 %}
                                 {{allele_groups[allele_group].motif_count }}
+                            {% endif %}
+                        </td>
+                        <td class="data-item">
+                            {% if allele_groups[allele_group].structure_count != 0 %}
+                                {{allele_groups[allele_group].structure_count}}
                             {% endif %}
                         </td>
                     </tr>
