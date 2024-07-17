@@ -18,12 +18,12 @@
 
 {% include "styles.html" %}
 
-{% set column_headings = ['Allele', 'Structures', 'Simplified peptide motif']%}
-{% set column_widths = ['13', '13', '26']%}
+{% set column_headings = ['Allele', '1K Genomes Presence', 'Simplified peptide motif']%}
+{% set column_widths = ['13', '23', '26']%}
 
 <section>
     <div class="grid-container">
-        <div class="column-two-thirds">
+        <div class="column-full-width">
             <div class="inner">
             
                 <small><strong>Allele group</strong></small>
@@ -43,7 +43,7 @@
                         are <strong>{{known_motif_count}}</strong> experimentally determined motifs.
                     {% endif %}
                     {% if inferred_motif_count > 0 %}
-                        <strong>{{inferred_motif_count}}</strong> alleles have no polymorphisms in the binding site compared to alleles with known motifs (and are likely to bind identical repertoires).
+                        <strong>{{inferred_motif_count}}</strong> alleles have no polymorphisms in the binding site compared to alleles with known motifs (meaning they are likely to bind near identical repertoires).
                     {% endif %}
                 </div>
                 <div class="vertical-spacing-bottom-0-25">
@@ -58,14 +58,19 @@
                     available for this allele group.
                 </div>  
                 
-                
+                <hr />
             </div>
         </div>
-        <div class="column-one-third">
+        <div class="column-one-half">
             <div class="inner">
-                <img src="https://images.histo.fyi/allele_groups/pocket_images/{{locus}}/hla_a_01_cleft_labelleled.png" width="300px"/>
+                <img src="https://images.histo.fyi/graphs/allele_group_pie_charts/{{allele_group}}.svg" />
             </div>
-            
+        </div>
+
+        <div class="column-one-half">
+            <div class="inner">
+                
+            </div>
         </div>
 
         <div class="column-full-width">
@@ -90,7 +95,20 @@
                                 {% set i = loop.index0 %}
                                 <th width="{{column_widths[i]}}%"><strong>{{column_heading}}</strong></th>
                             {% endfor %}
-                            <th width="50%"><strong>Binding pocket polymorphisms</strong> <span class="pocket a-pocket">A</span> <span class="pocket b-pocket">B</span> <span class="pocket c-pocket">C</span> <span class="pocket d-pocket">D</span> <span class="pocket e-pocket">E</span> <span class="pocket f-pocket">F</span></th>
+                            <th width="40%">
+                                <strong>Binding site polymorphisms</strong> 
+                                {% for pocket in ['A','B','C','D','E','F'] %}
+                                <span class="pocket {{pocket | lower}}-pocket tooltip fake-anchor">
+                                    {{pocket}}
+                                    <span class="tooltiptext pocket-tooltip">
+                                        <div class="tooltip-heading">MHC Class I {{pocket}} pocket</div>
+                                        <div>
+                                            <img src="https://images.histo.fyi/allele_groups/pocket_images/{{locus}}/hla_a_01_cleft_labelleled.png" width="300px"/>
+                                        </div>
+                                    </span>
+                                </span> 
+                                {% endfor %}
+                            </th>
                         </tr>
                     </thead>
                     <tbody>
@@ -99,11 +117,31 @@
                         <tr class="reference">
                             <td>
                                 <a href="/alleles/allele/{{reference_allele_info.allele}}"><nobr>{{reference_allele_info.allele | deslugify_allele}}</nobr></a>
+                                {% if reference_allele_info.structure_count %}
+                                    <br />
+                                    <small><a href="https://www.histo.fyi/structures/browse/alleles/{{reference_allele_info.allele}}">{{reference_allele_info.structure_count}} structure{% if reference_allele_info.structure_count >1%}s{% endif %}</a></small>
+                                {% endif %}
                             </td>
                             <td>
-                                {% if reference_allele_info.structure_count %}
-                                    <a href="https://www.histo.fyi/structures/browse/alleles/{{reference_allele_info.allele}}">{{reference_allele_info.structure_count}}</a>
-                                {% endif %}
+                                <table width="90%">
+                                    <tr>
+                                        <td width="20%">
+                                            O
+                                        </td>
+                                        <td width="20%">
+                                            D
+                                        </td>
+                                        <td width="20%">
+                                            D
+                                        </td>
+                                        <td width="20%">
+                                            D
+                                        </td>
+                                        <td width="20%">
+                                            D
+                                        </td>
+                                    </tr>
+                                </table>
                             </td>
                             <td>
                                 {% if reference_allele_info.motif_type %}
@@ -126,11 +164,12 @@
                         <tr class="data-rows">
                             <td class="data-item">
                                <a href="/alleles/allele/{{allele.allele}}"><nobr>{{allele.allele | deslugify_allele}}</nobr></a>
+                               {% if allele.structure_count %}
+                                    <br />
+                                    <small><a href="https://www.histo.fyi/structures/browse/alleles/{{allele.allele}}">{{allele.structure_count}} structure{% if allele.structure_count >1%}s{% endif %}</a></small>
+                                {% endif %}
                             </td>
                             <td class="data-item">
-                                {% if allele.structure_count %}
-                                    <a href="https://www.histo.fyi/structures/browse/alleles/{{allele.allele}}">{{allele.structure_count}}</a>
-                                {% endif %}
                             </td>
                             <td class="data-item">
                                 {% if allele.motif_type %}
@@ -150,13 +189,13 @@
                                     
                                 
                                 {% for polymorphism in allele.polymorphisms.binding_pocket %}
-                                    <span class="pocket {{ polymorphism.pocket }}-pocket tooltip">
+                                    <span class="pocket {{ polymorphism.pocket }}-pocket tooltip fake-anchor">
                                         <!-- start tooltip contents -->
-                                        <span class="tooltiptext">
+                                        <span class="tooltiptext polymorphism-tooltip">
                                         
                                             <div >
                                                 <div style="float:left;" class="tooltip-heading">
-                                                    <strong><a href="https://www.histo.fyi/positions/class_i/{{locus}}/{{polymorphism.position}}">Position {{ polymorphism.position }}</a></strong> 
+                                                    <strong><!--a href="https://www.histo.fyi/positions/class_i/{{locus}}/{{polymorphism.position}}" -->Position {{ polymorphism.position }}<!--/a --></strong> 
                                                 </div>
                                                 <div style="float:right;">
                                                 {% if polymorphism.pocket != 'o' %}

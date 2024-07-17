@@ -41,6 +41,15 @@ tr.reference {
     border-bottom: 1px solid #8e8eae !important;
 }
 
+img.figure {
+    width: 90%;
+    height: auto;
+    padding:20px;
+}
+
+.fake-anchor {
+    text-decoration: underline;
+}
 
 /* debugging/prototyping styles */
 
@@ -243,7 +252,6 @@ span.pocket {
 /* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 300px;
   background-color: rgba(255, 255, 255, 1);
   text-align: left;
   color: #000;
@@ -252,15 +260,24 @@ span.pocket {
   font-size: 11pt;
   bottom: 100%;
   left: 50%;
-  margin-left: -150px; /* Use half of the width (120/2 = 60), to center the tooltip */
-  margin-bottom: 8px;
-  
  
   /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
 }
 
+
+.tooltip .pocket-tooltip {
+    width:500px;
+    margin-left: -250px; /* Use half of the width (120/2 = 60), to center the tooltip */
+    margin-bottom: 8px;
+}
+
+.tooltip .polymorphism-tooltip {
+    width:300px;
+    margin-left: -150px; /* Use half of the width (120/2 = 60), to center the tooltip */
+    margin-bottom: 8px;
+}
 
 .tooltip .tooltip-heading {
     font-size: 12pt;
