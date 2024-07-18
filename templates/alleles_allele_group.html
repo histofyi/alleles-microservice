@@ -18,8 +18,7 @@
 
 {% include "styles.html" %}
 
-{% set column_headings = ['Allele', '1K Genomes Presence', 'Simplified peptide motif']%}
-{% set column_widths = ['13', '23', '26']%}
+
 
 <section>
     <div class="grid-container">
@@ -89,17 +88,39 @@
                 <table width="100%" class="vertical-spacing-bottom">
                     <thead>
                         <tr>
-                            {% set i = 0 %}
-                    
-                            {% for column_heading in column_headings %}
-                                {% set i = loop.index0 %}
-                                <th width="{{column_widths[i]}}%"><strong>{{column_heading}}</strong></th>
-                            {% endfor %}
+                            <th width="12%"><strong>Allele</strong></th>
+                            <th width="25%">
+                                <div class="vertical-spacing-bottom-0-25"><strong>1KGenomes superpopulation</strong></div>
+                                <table width='90%'>
+                                    <tr>
+                                        {% for superpopulation in ['AFR','AMR','EAS','EUR','SAS'] %}
+                                        <td width='20%'>
+                                            <small>{{superpopulation}}</small>
+                                        </td>
+                                        {% endfor %}
+                                    </tr>
+                                </table>
+                            </th>
+                            <th width="26%">
+                                <div class="vertical-spacing-bottom-0-25"><strong>Simplified peptide motif</strong></div>
+                                <table width='85%'>
+                                    <tr>
+                                        {% for position in [1,2,3,4,5,6,7,8,9] %}
+                                        <td width='10%'>
+                                            <small>P{{position}}</small>
+                                        </td>
+                                        {% endfor %}
+                                    </tr>
+                                </table>
+
+                            </th>
                             <th width="40%">
-                                <strong>Binding site polymorphisms</strong> 
+                                <div class="vertical-spacing-bottom-0-25"><strong>Binding site polymorphisms</strong></div> 
+                                <div><small>Pockets: </small>
+                                <nobr>
                                 {% for pocket in ['A','B','C','D','E','F'] %}
                                 <span class="pocket {{pocket | lower}}-pocket tooltip fake-anchor">
-                                    {{pocket}}
+                                    <small>{{pocket}}</small>
                                     <span class="tooltiptext pocket-tooltip">
                                         <div class="tooltip-heading">MHC Class I {{pocket}} pocket</div>
                                         <div>
@@ -107,7 +128,10 @@
                                         </div>
                                     </span>
                                 </span> 
+                                
                                 {% endfor %}
+                                </nobr>
+                                </div>
                             </th>
                         </tr>
                     </thead>
@@ -116,32 +140,15 @@
 
                         <tr class="reference">
                             <td>
-                                <a href="/alleles/allele/{{reference_allele_info.allele}}"><nobr>{{reference_allele_info.allele | deslugify_allele}}</nobr></a>
+                                <div><a href="/alleles/allele/{{reference_allele_info.allele}}"><nobr>{{reference_allele_info.allele | deslugify_allele}}</nobr></a>
                                 {% if reference_allele_info.structure_count %}
                                     <br />
                                     <small><a href="https://www.histo.fyi/structures/browse/alleles/{{reference_allele_info.allele}}">{{reference_allele_info.structure_count}} structure{% if reference_allele_info.structure_count >1%}s{% endif %}</a></small>
                                 {% endif %}
+                                </div>
                             </td>
                             <td>
-                                <table width="90%">
-                                    <tr>
-                                        <td width="20%">
-                                            O
-                                        </td>
-                                        <td width="20%">
-                                            D
-                                        </td>
-                                        <td width="20%">
-                                            D
-                                        </td>
-                                        <td width="20%">
-                                            D
-                                        </td>
-                                        <td width="20%">
-                                            D
-                                        </td>
-                                    </tr>
-                                </table>
+                                {% include "fragments/1kgenomes_mini_table.html" %}
                             </td>
                             <td>
                                 {% if reference_allele_info.motif_type %}
@@ -177,7 +184,7 @@
                                 </div>
                                     {{allele.motif | display_simple_motif | safe}}
                                 {% else %}
-                                    <br />
+                                    Unknown
                                     <br />
                                 {% endif %}
                             </td>
