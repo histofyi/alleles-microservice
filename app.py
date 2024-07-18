@@ -9,6 +9,7 @@ import requests
 import py3Dmol
 
 import tidytcells as tt
+import numpy as np
 
 from io import StringIO
 #from Bio.PDB import PDBParser, PDBIO, Select
@@ -781,3 +782,29 @@ def allele_identifier_page(datasource, identifier, api=False):
     """
     return {}
 
+
+def gradient(color:Tuple, percent:float) -> Tuple:
+    percent = 1 - percent
+    '''assumes color is rgb between (0, 0, 0) and (255, 255, 255)'''
+    color = np.array(color)
+    white = np.array([255, 255, 255])
+    vector = white-color
+    return color + vector * percent
+
+
+def score_circle(value:float, color:Tuple) -> str:
+    if value == 0.0:
+        r = 200
+        g = 200
+        b = 200
+    else:
+        gradient_value = gradient(color, value)
+        r = int(gradient_value[0])
+        g = int(gradient_value[1])
+        b = int(gradient_value[2])
+    return f'<div class="data-score dot" aria-label="Score: {round(value, 2)}" class="dot" style="background-color: rgb({r}, {g}, {b});"></div>'
+
+
+@app.template_filter()
+def onekall_score_circle(value:float) -> str:
+    return score_circle(value, (33, 113, 181))
