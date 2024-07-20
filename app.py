@@ -195,7 +195,19 @@ def create_app():
     app.jinja_env.trim_blocks = True
     app.jinja_env.lstrip_blocks = True
 
-    json_datasets = ['species','sets', 'peptide_length_distributions', 'simplified_motifs', 'sorted_amino_acid_distributions', 'polymorphisms_and_motifs','hla_class_i_variability']
+    json_datasets = [
+        'species',
+        'sets', 
+        'peptide_length_distributions', 
+        'simplified_motifs', 
+        'sorted_amino_acid_distributions', 
+        'polymorphisms_and_motifs',
+        'hla_class_i_variability', 
+        '1k_allele_groups', 
+        '1k_alleles',
+        'hla_spread',
+        'hla_adr'
+    ]
     
     json_dataset_folders = ['protein_alleles','pocket_pseudosequences', 'gdomain_sequences', 'allele_groups', 'reference_alleles']
 
@@ -467,6 +479,8 @@ def species_page(species_stem, api=False):
         }
 
 
+@app.route('/alleles/locus/<string:locus>/expanded/')
+@app.route('/alleles/locus/<string:locus>/expanded')
 @app.route('/alleles/locus/<string:locus>/')
 @app.route('/alleles/locus/<string:locus>')
 @templated('alleles_locus')
@@ -478,7 +492,10 @@ def locus_page(locus, api=False):
         species_stem (string): the slugified MHC species stem  e.g. hla
         locus (string): the slugified locus e.g. hla_a
     """
-
+    if 'expanded' in request.path:
+        expanded = True
+    else:
+        expanded = False
     data = app.data.copy()
 
     raw_allele_groups = data['allele_groups'][locus]
@@ -513,6 +530,11 @@ def locus_page(locus, api=False):
             allele_group_summary[allele_group]['motif_count'] += 1
             motif_count += 1
     
+
+    if locus not in data['1k_allele_groups']:
+        onek_allele_groups = None
+    else:
+        onek_allele_groups = data['1k_allele_groups'][locus]
     return {
         'locus': locus,
         'allele_groups': allele_group_summary,
@@ -520,12 +542,17 @@ def locus_page(locus, api=False):
         'allele_count': allele_count, 
         'structure_count': structure_count,
         'motif_count': motif_count,
+        'onek_allele_groups': onek_allele_groups,
+        'hla_spread': data['hla_spread'][locus],
+        'hla_adr': data['hla_adr'][locus],
         'alt_text': '',
         'page_size': 25,
+        'expanded': expanded,
         'page_url': url_for('locus_page', locus=locus)
     }
 
-
+@app.route('/alleles/allele_group/<string:allele_group>/expanded/')
+@app.route('/alleles/allele_group/<string:allele_group>/expanded')
 @app.route('/alleles/allele_group/<string:allele_group>/')
 @app.route('/alleles/allele_group/<string:allele_group>')
 @templated('alleles_allele_group')
@@ -538,9 +565,13 @@ def allele_group_page(allele_group, api=False):
         locus (string): the slugified locus e.g. hla_a
         allele_group (string): the slugified allele group e.g. hla_a_01
     """
-    locus = '_'.join(allele_group.split('_')[0:2])
-
+    if 'expanded' in request.path:
+        expanded = True
+    else:
+        expanded = False
     data = app.data.copy()
+
+    locus = '_'.join(allele_group.split('_')[0:2])
     
     allele_group_data = data['allele_groups'][locus][allele_group]
 
@@ -603,6 +634,11 @@ def allele_group_page(allele_group, api=False):
                 allele_info['structure_count'] = data['sets']['alleles'][allele]['count']
             alleles.append(allele_info)
     
+    if allele_group not in data['1k_alleles']:
+        onek_alleles = None
+    else:
+        onek_alleles = data['1k_alleles'][allele_group]
+
     return {
         'locus': locus,
         'allele_group': allele_group,
@@ -612,10 +648,12 @@ def allele_group_page(allele_group, api=False):
         'inferred_motif_count': inferred_motif_count,
         'structure_count': structure_count,
         'allele_count': allele_count,
+        'onek_alleles': onek_alleles,
         'page_size': page_size,
         'page_count': page_count,
         'pages': pages,
         'current_page': current_page,
+        'expanded': expanded,
         'page_url': url_for('allele_group_page', allele_group=allele_group)
     }
 
@@ -793,16 +831,25 @@ def gradient(color:Tuple, percent:float) -> Tuple:
 
 
 def score_circle(value:float, color:Tuple) -> str:
+    if not value:
+        value = 0.0
     if value == 0.0:
-        r = 200
-        g = 200
-        b = 200
+        r = 255
+        g = 255
+        b = 255
+        empty = True
     else:
         gradient_value = gradient(color, value)
         r = int(gradient_value[0])
         g = int(gradient_value[1])
         b = int(gradient_value[2])
-    return f'<div class="data-score dot" aria-label="Score: {round(value, 2)}" class="dot" style="background-color: rgb({r}, {g}, {b});"></div>'
+        empty = False
+    dot_class = 'dot'
+    if empty:
+        dot_class += ' empty-dot'
+    else:
+        dot_class += ' value-dot'
+    return f'<div class="data-score dot" aria-label="Score: {round(value, 2)}" class="{dot_class}" style="background-color: rgb({r}, {g}, {b});"></div>'
 
 
 @app.template_filter()

@@ -16,9 +16,10 @@
 
 {% block main %}
 
-{% set column_headings = ['Allele group', 'Number of alleles', '1K Genomes Presence', 'Peptide motifs', 'Structures']%}
 
 {% include "styles.html" %}
+
+{% set superpopulations = ['AFR','AMR','EAS','EUR','SAS'] %}
 
 <section>
     <div class="grid-container">
@@ -43,11 +44,20 @@
                     <img src="https://images.histo.fyi/graphs/locus_pie_charts/{{locus}}.svg" class="figure" />
                     <span aria-label="[alttext contents]" class="hidden-aria-text">{{pie_chart_alt_text}}</span>
                 </div>
-                <div><small>A diagram showing the largest HLA-A allele groups as a function of number of protein allele sequences.</small></div>
+                <div><small>A diagram showing the largest HLA-A allele groups as a function of number of protein allele sequences within an allele group.</small></div>
             </div>
         </div>
         <div class="column-one-half">
-
+            <h3 class="vertical-spacing-top-0-5 vertical-spacing-bottom-0-5 heading-small">Known bias within this data</h3>
+            <div class="vertical-spacing-bottom-0-25">
+                There is an over-representation of structures, motifs and disease associations/adverse drug reactions for some alleles/allele groups. These over-represented/studied alleles are in general those from populations in from the Global North.
+            </div>
+            <div class="vertical-spacing-bottom-0-25">
+                Historically, there has been a bias of study of diseases and populations, and hence alleles, from the Global North. Absence of data does not imply absence of the allele in the whole population, or diseases related to it.
+            </div>
+            <div class="vertical-spacing-bottom-0-25">
+                The 1K Genomes Project has a relatively low sample size, and is known to contain a limited sampling of the MHC diversity.
+            </div>
         </div>
         <div class="column-full-width">
             <div class="inner">
@@ -57,9 +67,34 @@
                 <table width="100%">
                     <thead>
                         <tr>
-                            {% for column_heading in column_headings %}
-                                <th><strong>{{column_heading}}</strong></th>
-                            {% endfor %}
+                            <td width="12%"><strong>Allele group</strong></th>
+                            <td width="25%"><strong>1KGenomes representation</strong></td>
+                            {% if expanded %}
+                                <td colspan="4">
+                            {% else %}
+                                <td colspan="3">
+                            {% endif %}
+                            <strong>Number of:</strong></td>
+                        </tr>
+                        <tr class="header-row">
+                            <th class="header-row" ></th>
+                            <th class="header-row" >
+                                {% if onek_allele_groups %}
+                                    {% set onek_absent = False %}
+                                {% else %}
+                                    {% set onek_absent = locus | deslugify_locus %}
+                                {% endif %}
+                                {% include "fragments/1kgenomes_mini_tableheader.html" %}
+                            {% if expanded %}
+                                <th class="header-row" width="10%">Alleles<br /><br /></th>
+                                <th width="12%">Peptide motifs<br /><br /></th>
+                                <th width="10%">Structures<br /><br /></th>
+                                <th width="30%">Disease associations / <br />Adverse drug reactions</th>
+                            {% else %}
+                                <th width="21%">Alleles</th>
+                                <th width="21%">Peptide motifs</th>
+                                <th width="21%">Structures</th>
+                            {% endif %}
                         </tr>
                     </thead>
                     <tbody>
@@ -70,22 +105,50 @@
                         <td class="data-item">
                             <a href="/alleles/allele_group/{{allele_group}}">{{allele_group | deslugify_allele_group}}</a>
                         </td>
+                        
+                        <td class="data-item">
+                            {% if onek_allele_groups %}
+                            {% if allele_group in onek_allele_groups %}
+                                {% set onek_data_row = onek_allele_groups[allele_group] %}
+                                {% include "fragments/1kgenomes_mini_table.html" %}
+                            {% else %}
+                                <div class="vertical-spacing-bottom-0-25">Not present in 1K Genomes</div>
+                            {% endif %}
+                            {% endif %}
+                        </td>
                         <td class="data-item">
                             {{allele_groups[allele_group].allele_count}}
                         </td>
                         <td class="data-item">
-                            {{allele_groups[allele_group].variability}}
-                        </td>
-                        <td class="data-item">
                             {% if allele_groups[allele_group].motif_count != 0 %}
                                 {{allele_groups[allele_group].motif_count }}
+                            {% else %}
+                                0
                             {% endif %}
                         </td>
                         <td class="data-item">
                             {% if allele_groups[allele_group].structure_count != 0 %}
                                 {{allele_groups[allele_group].structure_count}}
+                            {% else %}
+                                0
                             {% endif %}
                         </td>
+                        {% if expanded %}
+                        <td class="data-item">
+                            {% if allele_group in hla_spread %}
+                                {{hla_spread[allele_group]['total_count']}} 
+                            {% else %}
+                                0
+                            {% endif %}
+                            / 
+                            {% if allele_group in hla_adr['allele_groups'] %}
+                            {{hla_adr['allele_groups'][allele_group]['reaction_count']}} 
+                            {% else %}
+                                0
+                            {% endif %}
+                            
+                        </td>
+                        {% endif %}
                     </tr>
                 {% endfor %}
                     </tbody>

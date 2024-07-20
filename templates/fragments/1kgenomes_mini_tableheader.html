@@ -1,0 +1,14 @@
+
+    {% if not onek_absent %}
+        <table width='70%'>
+            <tr>
+                {% for superpopulation in superpopulations %}
+                <td width='20%'>
+                   <div class="rotated"><small>{{superpopulation}}</small></div>
+                </td>
+                {% endfor %}
+            </tr>
+        </table>
+    {% else %}
+        <div class="vertical-spacing-bottom-0-25">{{onek_absent}} not in 1K Genomes</div>
+    {% endif %}

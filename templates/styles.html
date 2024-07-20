@@ -2,11 +2,15 @@
 
 th {
     text-align: left;
+    vertical-align: bottom !important;
 }
 
 td {
     vertical-align: top !important;
 }
+
+
+
 
 tr.spacer-row {
     height: 10px;
@@ -40,6 +44,9 @@ th {
     padding-bottom: 15px;
 }
 
+div.rotated {
+    transform: rotate(-90deg);
+}
 
 .dot {
     height: 20px; 
@@ -48,6 +55,13 @@ th {
     border: 1px solid rgb(200, 200, 200);
 }
     
+.empty-dot {
+    border: 1px solid rgb(220, 220, 220) !important;
+}
+
+.value-dot {
+    border: 1px solid rgb(200, 200, 200);
+}
 
 tr.reference {
     border-top: 15px solid transparent;
@@ -291,6 +305,19 @@ span.pocket {
     margin-left: -150px; /* Use half of the width (120/2 = 60), to center the tooltip */
     margin-bottom: 8px;
 }
+
+.tooltip .score-tooltip {
+    width:120px;
+    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+    margin-bottom: 8px;
+}
+
+.tooltip .absent-tooltip {
+    width:180px;
+    margin-left: -90px; /* Use half of the width (120/2 = 60), to center the tooltip */
+    margin-bottom: 8px;
+}
+
 
 .tooltip .tooltip-heading {
     font-size: 12pt;

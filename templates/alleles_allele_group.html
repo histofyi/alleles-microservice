@@ -18,7 +18,7 @@
 
 {% include "styles.html" %}
 
-
+{% set superpopulations = ['AFR','AMR','EAS','EUR','SAS'] %}
 
 <section>
     <div class="grid-container">
@@ -90,16 +90,7 @@
                         <tr>
                             <th width="12%"><strong>Allele</strong></th>
                             <th width="25%">
-                                <div class="vertical-spacing-bottom-0-25"><strong>1KGenomes superpopulation</strong></div>
-                                <table width='90%'>
-                                    <tr>
-                                        {% for superpopulation in ['AFR','AMR','EAS','EUR','SAS'] %}
-                                        <td width='20%'>
-                                            <small>{{superpopulation}}</small>
-                                        </td>
-                                        {% endfor %}
-                                    </tr>
-                                </table>
+                                {% include "fragments/1kgenomes_mini_tableheader.html" %}
                             </th>
                             <th width="26%">
                                 <div class="vertical-spacing-bottom-0-25"><strong>Simplified peptide motif</strong></div>
@@ -148,7 +139,8 @@
                                 </div>
                             </td>
                             <td>
-                                {% include "fragments/1kgenomes_mini_table.html" %}
+                                {% set onek_allele = reference_allele_info.allele %}
+                                {% include "fragments/1kgenome_allele_display.html" %}
                             </td>
                             <td>
                                 {% if reference_allele_info.motif_type %}
@@ -177,6 +169,8 @@
                                 {% endif %}
                             </td>
                             <td class="data-item">
+                                {% set onek_allele = allele.allele %}
+                                {% include "fragments/1kgenome_allele_display.html" %}
                             </td>
                             <td class="data-item">
                                 {% if allele.motif_type %}
@@ -225,7 +219,7 @@
                                         <!-- end tooltip contents -->    
                                         {{ polymorphism.from }}{{ polymorphism.position }}{{ polymorphism.to }}
                                     </span>
-                                    {% if loop.index0 % 7 == 0 and loop.index0 != 0 %}
+                                    {% if loop.index0 % 5 == 0 and loop.index0 != 0 %}
                                             </div>
                                             <div class="vertical-spacing-bottom-0-25">
                                     {% endif %}

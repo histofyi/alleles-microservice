@@ -1,0 +1,10 @@
+{% if onek_alleles %}
+    {% if onek_allele in onek_alleles%}
+        {% set onek_data_row = onek_alleles[onek_allele] %}
+        {% include "fragments/1kgenomes_mini_table.html" %}
+    {% else %}
+        Not present in 1K Genomes
+    {% endif %}
+{% else %}
+    
+{% endif %}

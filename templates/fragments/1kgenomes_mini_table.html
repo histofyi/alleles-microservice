@@ -1,19 +1,19 @@
-<table width="90%">
+<table width="70%">
     <tr>
+        {% for superpopulation in superpopulations %}
         <td width="20%" class="dot-container">
-            <div class="vertical-spacing-bottom-0-25">{{1.0 | onekall_score_circle | safe}}</div>
+            {% if onek_data_row[superpopulation]['min_max_normalised'] %}
+            <div class="vertical-spacing-bottom-0-25 tooltip">
+                {{onek_data_row[superpopulation]['min_max_normalised'] | onekall_score_circle | safe}}
+                <span class="tooltiptext score-tooltip">{{onek_data_row[superpopulation]['percentage'] | round(1)}}% of {{superpopulation}}</span>
+            </div>
+            {% else %}
+            <div class="vertical-spacing-bottom-0-25 tooltip">
+                <div class="dot empty-dot"></div>
+                <span class="tooltiptext absent-tooltip">Not present in {{superpopulation}}</span>
+            </div>
+            {% endif %}
         </td>
-        <td width="20%" class="dot-container">
-            <div class="vertical-spacing-bottom-0-25">{{0.1 | onekall_score_circle | safe}}</div>
-        </td>
-        <td width="20%" class="dot-container">
-            <div class="vertical-spacing-bottom-0-25">{{0 | onekall_score_circle | safe}}</div>
-        </td>
-        <td width="20%" class="dot-container">
-            <div class="vertical-spacing-bottom-0-25">{{0.7 | onekall_score_circle | safe}}</div>
-        </td>
-        <td width="20%" class="dot-container">
-            <div class="vertical-spacing-bottom-0-25">{{0.3 | onekall_score_circle | safe}}</div>
-        </td>
+        {% endfor %}
     </tr>
 </table>

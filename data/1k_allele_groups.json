@@ -1,0 +1,1871 @@
+{
+    "hla_a": {
+        "hla_a_01": {
+            "AFR": {
+                "count": 59,
+                "percentage": 4.149,
+                "min_max_normalised": 0.238
+            },
+            "AMR": {
+                "count": 34,
+                "percentage": 4.57,
+                "min_max_normalised": 0.134
+            },
+            "EAS": {
+                "count": 20,
+                "percentage": 1.866,
+                "min_max_normalised": 0.063
+            },
+            "EUR": {
+                "count": 132,
+                "percentage": 12.476,
+                "min_max_normalised": 0.398
+            },
+            "SAS": {
+                "count": 178,
+                "percentage": 16.39,
+                "min_max_normalised": 1.0
+            }
+        },
+        "hla_a_02": {
+            "AFR": {
+                "count": 248,
+                "percentage": 17.44,
+                "min_max_normalised": 1.0
+            },
+            "AMR": {
+                "count": 253,
+                "percentage": 34.005,
+                "min_max_normalised": 1.0
+            },
+            "EAS": {
+                "count": 315,
+                "percentage": 29.384,
+                "min_max_normalised": 1.0
+            },
+            "EUR": {
+                "count": 332,
+                "percentage": 31.38,
+                "min_max_normalised": 1.0
+            },
+            "SAS": {
+                "count": 166,
+                "percentage": 15.285,
+                "min_max_normalised": 0.933
+            }
+        },
+        "hla_a_03": {
+            "AFR": {
+                "count": 89,
+                "percentage": 6.259,
+                "min_max_normalised": 0.359
+            },
+            "AMR": {
+                "count": 68,
+                "percentage": 9.14,
+                "min_max_normalised": 0.269
+            },
+            "EAS": {
+                "count": 17,
+                "percentage": 1.586,
+                "min_max_normalised": 0.054
+            },
+            "EUR": {
+                "count": 164,
+                "percentage": 15.501,
+                "min_max_normalised": 0.494
+            },
+            "SAS": {
+                "count": 61,
+                "percentage": 5.617,
+                "min_max_normalised": 0.343
+            }
+        },
+        "hla_a_11": {
+            "AFR": {
+                "count": 1,
+                "percentage": 0.07,
+                "min_max_normalised": 0.004
+            },
+            "AMR": {
+                "count": 29,
+                "percentage": 3.898,
+                "min_max_normalised": 0.115
+            },
+            "EAS": {
+                "count": 283,
+                "percentage": 26.399,
+                "min_max_normalised": 0.898
+            },
+            "EUR": {
+                "count": 63,
+                "percentage": 5.955,
+                "min_max_normalised": 0.19
+            },
+            "SAS": {
+                "count": 176,
+                "percentage": 16.206,
+                "min_max_normalised": 0.989
+            }
+        },
+        "hla_a_23": {
+            "AFR": {
+                "count": 158,
+                "percentage": 11.111,
+                "min_max_normalised": 0.637
+            },
+            "AMR": {
+                "count": 23,
+                "percentage": 3.091,
+                "min_max_normalised": 0.091
+            },
+            "EAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "EUR": {
+                "count": 22,
+                "percentage": 2.079,
+                "min_max_normalised": 0.066
+            },
+            "SAS": {
+                "count": 7,
+                "percentage": 0.645,
+                "min_max_normalised": 0.039
+            }
+        },
+        "hla_a_24": {
+            "AFR": {
+                "count": 14,
+                "percentage": 0.985,
+                "min_max_normalised": 0.056
+            },
+            "AMR": {
+                "count": 112,
+                "percentage": 15.054,
+                "min_max_normalised": 0.443
+            },
+            "EAS": {
+                "count": 219,
+                "percentage": 20.429,
+                "min_max_normalised": 0.695
+            },
+            "EUR": {
+                "count": 93,
+                "percentage": 8.79,
+                "min_max_normalised": 0.28
+            },
+            "SAS": {
+                "count": 167,
+                "percentage": 15.378,
+                "min_max_normalised": 0.938
+            }
+        },
+        "hla_a_25": {
+            "AFR": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "AMR": {
+                "count": 5,
+                "percentage": 0.672,
+                "min_max_normalised": 0.02
+            },
+            "EAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "EUR": {
+                "count": 16,
+                "percentage": 1.512,
+                "min_max_normalised": 0.048
+            },
+            "SAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            }
+        },
+        "hla_a_26": {
+            "AFR": {
+                "count": 28,
+                "percentage": 1.969,
+                "min_max_normalised": 0.113
+            },
+            "AMR": {
+                "count": 9,
+                "percentage": 1.21,
+                "min_max_normalised": 0.036
+            },
+            "EAS": {
+                "count": 41,
+                "percentage": 3.825,
+                "min_max_normalised": 0.13
+            },
+            "EUR": {
+                "count": 32,
+                "percentage": 3.025,
+                "min_max_normalised": 0.096
+            },
+            "SAS": {
+                "count": 62,
+                "percentage": 5.709,
+                "min_max_normalised": 0.348
+            }
+        },
+        "hla_a_29": {
+            "AFR": {
+                "count": 37,
+                "percentage": 2.602,
+                "min_max_normalised": 0.149
+            },
+            "AMR": {
+                "count": 43,
+                "percentage": 5.78,
+                "min_max_normalised": 0.17
+            },
+            "EAS": {
+                "count": 19,
+                "percentage": 1.772,
+                "min_max_normalised": 0.06
+            },
+            "EUR": {
+                "count": 41,
+                "percentage": 3.875,
+                "min_max_normalised": 0.123
+            },
+            "SAS": {
+                "count": 10,
+                "percentage": 0.921,
+                "min_max_normalised": 0.056
+            }
+        },
+        "hla_a_30": {
+            "AFR": {
+                "count": 215,
+                "percentage": 15.12,
+                "min_max_normalised": 0.867
+            },
+            "AMR": {
+                "count": 34,
+                "percentage": 4.57,
+                "min_max_normalised": 0.134
+            },
+            "EAS": {
+                "count": 16,
+                "percentage": 1.493,
+                "min_max_normalised": 0.051
+            },
+            "EUR": {
+                "count": 33,
+                "percentage": 3.119,
+                "min_max_normalised": 0.099
+            },
+            "SAS": {
+                "count": 12,
+                "percentage": 1.105,
+                "min_max_normalised": 0.067
+            }
+        },
+        "hla_a_31": {
+            "AFR": {
+                "count": 14,
+                "percentage": 0.985,
+                "min_max_normalised": 0.056
+            },
+            "AMR": {
+                "count": 34,
+                "percentage": 4.57,
+                "min_max_normalised": 0.134
+            },
+            "EAS": {
+                "count": 36,
+                "percentage": 3.358,
+                "min_max_normalised": 0.114
+            },
+            "EUR": {
+                "count": 26,
+                "percentage": 2.457,
+                "min_max_normalised": 0.078
+            },
+            "SAS": {
+                "count": 29,
+                "percentage": 2.67,
+                "min_max_normalised": 0.163
+            }
+        },
+        "hla_a_32": {
+            "AFR": {
+                "count": 18,
+                "percentage": 1.266,
+                "min_max_normalised": 0.073
+            },
+            "AMR": {
+                "count": 14,
+                "percentage": 1.882,
+                "min_max_normalised": 0.055
+            },
+            "EAS": {
+                "count": 5,
+                "percentage": 0.466,
+                "min_max_normalised": 0.016
+            },
+            "EUR": {
+                "count": 45,
+                "percentage": 4.253,
+                "min_max_normalised": 0.136
+            },
+            "SAS": {
+                "count": 42,
+                "percentage": 3.867,
+                "min_max_normalised": 0.236
+            }
+        },
+        "hla_a_33": {
+            "AFR": {
+                "count": 120,
+                "percentage": 8.439,
+                "min_max_normalised": 0.484
+            },
+            "AMR": {
+                "count": 17,
+                "percentage": 2.285,
+                "min_max_normalised": 0.067
+            },
+            "EAS": {
+                "count": 90,
+                "percentage": 8.396,
+                "min_max_normalised": 0.286
+            },
+            "EUR": {
+                "count": 11,
+                "percentage": 1.04,
+                "min_max_normalised": 0.033
+            },
+            "SAS": {
+                "count": 99,
+                "percentage": 9.116,
+                "min_max_normalised": 0.556
+            }
+        },
+        "hla_a_34": {
+            "AFR": {
+                "count": 60,
+                "percentage": 4.219,
+                "min_max_normalised": 0.242
+            },
+            "AMR": {
+                "count": 2,
+                "percentage": 0.269,
+                "min_max_normalised": 0.008
+            },
+            "EAS": {
+                "count": 2,
+                "percentage": 0.187,
+                "min_max_normalised": 0.006
+            },
+            "EUR": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "SAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            }
+        },
+        "hla_a_36": {
+            "AFR": {
+                "count": 56,
+                "percentage": 3.938,
+                "min_max_normalised": 0.226
+            },
+            "AMR": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "EAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "EUR": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "SAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            }
+        },
+        "hla_a_66": {
+            "AFR": {
+                "count": 59,
+                "percentage": 4.149,
+                "min_max_normalised": 0.238
+            },
+            "AMR": {
+                "count": 2,
+                "percentage": 0.269,
+                "min_max_normalised": 0.008
+            },
+            "EAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "EUR": {
+                "count": 5,
+                "percentage": 0.473,
+                "min_max_normalised": 0.015
+            },
+            "SAS": {
+                "count": 1,
+                "percentage": 0.092,
+                "min_max_normalised": 0.006
+            }
+        },
+        "hla_a_68": {
+            "AFR": {
+                "count": 146,
+                "percentage": 10.267,
+                "min_max_normalised": 0.589
+            },
+            "AMR": {
+                "count": 59,
+                "percentage": 7.93,
+                "min_max_normalised": 0.233
+            },
+            "EAS": {
+                "count": 6,
+                "percentage": 0.56,
+                "min_max_normalised": 0.019
+            },
+            "EUR": {
+                "count": 38,
+                "percentage": 3.592,
+                "min_max_normalised": 0.114
+            },
+            "SAS": {
+                "count": 72,
+                "percentage": 6.63,
+                "min_max_normalised": 0.404
+            }
+        },
+        "hla_a_69": {
+            "AFR": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "AMR": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "EAS": {
+                "count": 1,
+                "percentage": 0.093,
+                "min_max_normalised": 0.003
+            },
+            "EUR": {
+                "count": 4,
+                "percentage": 0.378,
+                "min_max_normalised": 0.012
+            },
+            "SAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            }
+        },
+        "hla_a_74": {
+            "AFR": {
+                "count": 84,
+                "percentage": 5.907,
+                "min_max_normalised": 0.339
+            },
+            "AMR": {
+                "count": 4,
+                "percentage": 0.538,
+                "min_max_normalised": 0.016
+            },
+            "EAS": {
+                "count": 2,
+                "percentage": 0.187,
+                "min_max_normalised": 0.006
+            },
+            "EUR": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "SAS": {
+                "count": 4,
+                "percentage": 0.368,
+                "min_max_normalised": 0.022
+            }
+        },
+        "hla_a_80": {
+            "AFR": {
+                "count": 16,
+                "percentage": 1.125,
+                "min_max_normalised": 0.065
+            },
+            "AMR": {
+                "count": 2,
+                "percentage": 0.269,
+                "min_max_normalised": 0.008
+            },
+            "EAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "EUR": {
+                "count": 1,
+                "percentage": 0.095,
+                "min_max_normalised": 0.003
+            },
+            "SAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            }
+        }
+    },
+    "hla_b": {
+        "hla_b_07": {
+            "AFR": {
+                "count": 86,
+                "percentage": 6.091,
+                "min_max_normalised": 0.379
+            },
+            "AMR": {
+                "count": 48,
+                "percentage": 6.46,
+                "min_max_normalised": 0.329
+            },
+            "EAS": {
+                "count": 53,
+                "percentage": 4.944,
+                "min_max_normalised": 0.305
+            },
+            "EUR": {
+                "count": 125,
+                "percentage": 11.815,
+                "min_max_normalised": 0.776
+            },
+            "SAS": {
+                "count": 65,
+                "percentage": 5.991,
+                "min_max_normalised": 0.468
+            }
+        },
+        "hla_b_08": {
+            "AFR": {
+                "count": 37,
+                "percentage": 2.62,
+                "min_max_normalised": 0.163
+            },
+            "AMR": {
+                "count": 19,
+                "percentage": 2.557,
+                "min_max_normalised": 0.13
+            },
+            "EAS": {
+                "count": 5,
+                "percentage": 0.466,
+                "min_max_normalised": 0.029
+            },
+            "EUR": {
+                "count": 87,
+                "percentage": 8.223,
+                "min_max_normalised": 0.54
+            },
+            "SAS": {
+                "count": 52,
+                "percentage": 4.793,
+                "min_max_normalised": 0.374
+            }
+        },
+        "hla_b_13": {
+            "AFR": {
+                "count": 17,
+                "percentage": 1.204,
+                "min_max_normalised": 0.075
+            },
+            "AMR": {
+                "count": 4,
+                "percentage": 0.538,
+                "min_max_normalised": 0.027
+            },
+            "EAS": {
+                "count": 74,
+                "percentage": 6.903,
+                "min_max_normalised": 0.425
+            },
+            "EUR": {
+                "count": 30,
+                "percentage": 2.836,
+                "min_max_normalised": 0.186
+            },
+            "SAS": {
+                "count": 24,
+                "percentage": 2.212,
+                "min_max_normalised": 0.173
+            }
+        },
+        "hla_b_14": {
+            "AFR": {
+                "count": 22,
+                "percentage": 1.558,
+                "min_max_normalised": 0.097
+            },
+            "AMR": {
+                "count": 45,
+                "percentage": 6.057,
+                "min_max_normalised": 0.308
+            },
+            "EAS": {
+                "count": 1,
+                "percentage": 0.093,
+                "min_max_normalised": 0.006
+            },
+            "EUR": {
+                "count": 28,
+                "percentage": 2.647,
+                "min_max_normalised": 0.174
+            },
+            "SAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            }
+        },
+        "hla_b_15": {
+            "AFR": {
+                "count": 179,
+                "percentage": 12.677,
+                "min_max_normalised": 0.789
+            },
+            "AMR": {
+                "count": 67,
+                "percentage": 9.017,
+                "min_max_normalised": 0.459
+            },
+            "EAS": {
+                "count": 142,
+                "percentage": 13.246,
+                "min_max_normalised": 0.816
+            },
+            "EUR": {
+                "count": 67,
+                "percentage": 6.333,
+                "min_max_normalised": 0.416
+            },
+            "SAS": {
+                "count": 139,
+                "percentage": 12.811,
+                "min_max_normalised": 1.0
+            }
+        },
+        "hla_b_18": {
+            "AFR": {
+                "count": 45,
+                "percentage": 3.187,
+                "min_max_normalised": 0.198
+            },
+            "AMR": {
+                "count": 29,
+                "percentage": 3.903,
+                "min_max_normalised": 0.199
+            },
+            "EAS": {
+                "count": 4,
+                "percentage": 0.373,
+                "min_max_normalised": 0.023
+            },
+            "EUR": {
+                "count": 41,
+                "percentage": 3.875,
+                "min_max_normalised": 0.255
+            },
+            "SAS": {
+                "count": 22,
+                "percentage": 2.028,
+                "min_max_normalised": 0.158
+            }
+        },
+        "hla_b_27": {
+            "AFR": {
+                "count": 17,
+                "percentage": 1.204,
+                "min_max_normalised": 0.075
+            },
+            "AMR": {
+                "count": 10,
+                "percentage": 1.346,
+                "min_max_normalised": 0.068
+            },
+            "EAS": {
+                "count": 20,
+                "percentage": 1.866,
+                "min_max_normalised": 0.115
+            },
+            "EUR": {
+                "count": 50,
+                "percentage": 4.726,
+                "min_max_normalised": 0.311
+            },
+            "SAS": {
+                "count": 18,
+                "percentage": 1.659,
+                "min_max_normalised": 0.129
+            }
+        },
+        "hla_b_35": {
+            "AFR": {
+                "count": 130,
+                "percentage": 9.207,
+                "min_max_normalised": 0.573
+            },
+            "AMR": {
+                "count": 146,
+                "percentage": 19.65,
+                "min_max_normalised": 1.0
+            },
+            "EAS": {
+                "count": 47,
+                "percentage": 4.384,
+                "min_max_normalised": 0.27
+            },
+            "EUR": {
+                "count": 120,
+                "percentage": 11.342,
+                "min_max_normalised": 0.745
+            },
+            "SAS": {
+                "count": 126,
+                "percentage": 11.613,
+                "min_max_normalised": 0.906
+            }
+        },
+        "hla_b_37": {
+            "AFR": {
+                "count": 2,
+                "percentage": 0.142,
+                "min_max_normalised": 0.009
+            },
+            "AMR": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "EAS": {
+                "count": 7,
+                "percentage": 0.653,
+                "min_max_normalised": 0.04
+            },
+            "EUR": {
+                "count": 10,
+                "percentage": 0.945,
+                "min_max_normalised": 0.062
+            },
+            "SAS": {
+                "count": 33,
+                "percentage": 3.041,
+                "min_max_normalised": 0.237
+            }
+        },
+        "hla_b_38": {
+            "AFR": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "AMR": {
+                "count": 11,
+                "percentage": 1.48,
+                "min_max_normalised": 0.075
+            },
+            "EAS": {
+                "count": 40,
+                "percentage": 3.731,
+                "min_max_normalised": 0.23
+            },
+            "EUR": {
+                "count": 20,
+                "percentage": 1.89,
+                "min_max_normalised": 0.124
+            },
+            "SAS": {
+                "count": 17,
+                "percentage": 1.567,
+                "min_max_normalised": 0.122
+            }
+        },
+        "hla_b_39": {
+            "AFR": {
+                "count": 15,
+                "percentage": 1.062,
+                "min_max_normalised": 0.066
+            },
+            "AMR": {
+                "count": 40,
+                "percentage": 5.384,
+                "min_max_normalised": 0.274
+            },
+            "EAS": {
+                "count": 25,
+                "percentage": 2.332,
+                "min_max_normalised": 0.144
+            },
+            "EUR": {
+                "count": 22,
+                "percentage": 2.079,
+                "min_max_normalised": 0.137
+            },
+            "SAS": {
+                "count": 2,
+                "percentage": 0.184,
+                "min_max_normalised": 0.014
+            }
+        },
+        "hla_b_40": {
+            "AFR": {
+                "count": 11,
+                "percentage": 0.779,
+                "min_max_normalised": 0.048
+            },
+            "AMR": {
+                "count": 65,
+                "percentage": 8.748,
+                "min_max_normalised": 0.445
+            },
+            "EAS": {
+                "count": 174,
+                "percentage": 16.231,
+                "min_max_normalised": 1.0
+            },
+            "EUR": {
+                "count": 65,
+                "percentage": 6.144,
+                "min_max_normalised": 0.404
+            },
+            "SAS": {
+                "count": 123,
+                "percentage": 11.336,
+                "min_max_normalised": 0.885
+            }
+        },
+        "hla_b_41": {
+            "AFR": {
+                "count": 18,
+                "percentage": 1.275,
+                "min_max_normalised": 0.079
+            },
+            "AMR": {
+                "count": 8,
+                "percentage": 1.077,
+                "min_max_normalised": 0.055
+            },
+            "EAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "EUR": {
+                "count": 13,
+                "percentage": 1.229,
+                "min_max_normalised": 0.081
+            },
+            "SAS": {
+                "count": 1,
+                "percentage": 0.092,
+                "min_max_normalised": 0.007
+            }
+        },
+        "hla_b_42": {
+            "AFR": {
+                "count": 90,
+                "percentage": 6.374,
+                "min_max_normalised": 0.396
+            },
+            "AMR": {
+                "count": 6,
+                "percentage": 0.808,
+                "min_max_normalised": 0.041
+            },
+            "EAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "EUR": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "SAS": {
+                "count": 1,
+                "percentage": 0.092,
+                "min_max_normalised": 0.007
+            }
+        },
+        "hla_b_44": {
+            "AFR": {
+                "count": 86,
+                "percentage": 6.091,
+                "min_max_normalised": 0.379
+            },
+            "AMR": {
+                "count": 77,
+                "percentage": 10.363,
+                "min_max_normalised": 0.527
+            },
+            "EAS": {
+                "count": 33,
+                "percentage": 3.078,
+                "min_max_normalised": 0.19
+            },
+            "EUR": {
+                "count": 161,
+                "percentage": 15.217,
+                "min_max_normalised": 1.0
+            },
+            "SAS": {
+                "count": 83,
+                "percentage": 7.65,
+                "min_max_normalised": 0.597
+            }
+        },
+        "hla_b_45": {
+            "AFR": {
+                "count": 65,
+                "percentage": 4.603,
+                "min_max_normalised": 0.286
+            },
+            "AMR": {
+                "count": 10,
+                "percentage": 1.346,
+                "min_max_normalised": 0.068
+            },
+            "EAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "EUR": {
+                "count": 6,
+                "percentage": 0.567,
+                "min_max_normalised": 0.037
+            },
+            "SAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            }
+        },
+        "hla_b_46": {
+            "AFR": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "AMR": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "EAS": {
+                "count": 168,
+                "percentage": 15.672,
+                "min_max_normalised": 0.966
+            },
+            "EUR": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "SAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            }
+        },
+        "hla_b_47": {
+            "AFR": {
+                "count": 2,
+                "percentage": 0.142,
+                "min_max_normalised": 0.009
+            },
+            "AMR": {
+                "count": 3,
+                "percentage": 0.404,
+                "min_max_normalised": 0.021
+            },
+            "EAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "EUR": {
+                "count": 4,
+                "percentage": 0.378,
+                "min_max_normalised": 0.025
+            },
+            "SAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            }
+        },
+        "hla_b_48": {
+            "AFR": {
+                "count": 3,
+                "percentage": 0.212,
+                "min_max_normalised": 0.013
+            },
+            "AMR": {
+                "count": 22,
+                "percentage": 2.961,
+                "min_max_normalised": 0.151
+            },
+            "EAS": {
+                "count": 21,
+                "percentage": 1.959,
+                "min_max_normalised": 0.121
+            },
+            "EUR": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "SAS": {
+                "count": 10,
+                "percentage": 0.922,
+                "min_max_normalised": 0.072
+            }
+        },
+        "hla_b_49": {
+            "AFR": {
+                "count": 41,
+                "percentage": 2.904,
+                "min_max_normalised": 0.181
+            },
+            "AMR": {
+                "count": 13,
+                "percentage": 1.75,
+                "min_max_normalised": 0.089
+            },
+            "EAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "EUR": {
+                "count": 22,
+                "percentage": 2.079,
+                "min_max_normalised": 0.137
+            },
+            "SAS": {
+                "count": 4,
+                "percentage": 0.369,
+                "min_max_normalised": 0.029
+            }
+        },
+        "hla_b_50": {
+            "AFR": {
+                "count": 14,
+                "percentage": 0.992,
+                "min_max_normalised": 0.062
+            },
+            "AMR": {
+                "count": 11,
+                "percentage": 1.48,
+                "min_max_normalised": 0.075
+            },
+            "EAS": {
+                "count": 3,
+                "percentage": 0.28,
+                "min_max_normalised": 0.017
+            },
+            "EUR": {
+                "count": 11,
+                "percentage": 1.04,
+                "min_max_normalised": 0.068
+            },
+            "SAS": {
+                "count": 14,
+                "percentage": 1.29,
+                "min_max_normalised": 0.101
+            }
+        },
+        "hla_b_51": {
+            "AFR": {
+                "count": 31,
+                "percentage": 2.195,
+                "min_max_normalised": 0.137
+            },
+            "AMR": {
+                "count": 39,
+                "percentage": 5.249,
+                "min_max_normalised": 0.267
+            },
+            "EAS": {
+                "count": 69,
+                "percentage": 6.437,
+                "min_max_normalised": 0.397
+            },
+            "EUR": {
+                "count": 71,
+                "percentage": 6.711,
+                "min_max_normalised": 0.441
+            },
+            "SAS": {
+                "count": 99,
+                "percentage": 9.124,
+                "min_max_normalised": 0.712
+            }
+        },
+        "hla_b_52": {
+            "AFR": {
+                "count": 32,
+                "percentage": 2.266,
+                "min_max_normalised": 0.141
+            },
+            "AMR": {
+                "count": 16,
+                "percentage": 2.153,
+                "min_max_normalised": 0.11
+            },
+            "EAS": {
+                "count": 37,
+                "percentage": 3.451,
+                "min_max_normalised": 0.213
+            },
+            "EUR": {
+                "count": 4,
+                "percentage": 0.378,
+                "min_max_normalised": 0.025
+            },
+            "SAS": {
+                "count": 98,
+                "percentage": 9.032,
+                "min_max_normalised": 0.705
+            }
+        },
+        "hla_b_53": {
+            "AFR": {
+                "count": 227,
+                "percentage": 16.076,
+                "min_max_normalised": 1.0
+            },
+            "AMR": {
+                "count": 9,
+                "percentage": 1.211,
+                "min_max_normalised": 0.062
+            },
+            "EAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "EUR": {
+                "count": 7,
+                "percentage": 0.662,
+                "min_max_normalised": 0.043
+            },
+            "SAS": {
+                "count": 4,
+                "percentage": 0.369,
+                "min_max_normalised": 0.029
+            }
+        },
+        "hla_b_54": {
+            "AFR": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "AMR": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "EAS": {
+                "count": 29,
+                "percentage": 2.705,
+                "min_max_normalised": 0.167
+            },
+            "EUR": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "SAS": {
+                "count": 1,
+                "percentage": 0.092,
+                "min_max_normalised": 0.007
+            }
+        },
+        "hla_b_55": {
+            "AFR": {
+                "count": 2,
+                "percentage": 0.142,
+                "min_max_normalised": 0.009
+            },
+            "AMR": {
+                "count": 3,
+                "percentage": 0.404,
+                "min_max_normalised": 0.021
+            },
+            "EAS": {
+                "count": 25,
+                "percentage": 2.332,
+                "min_max_normalised": 0.144
+            },
+            "EUR": {
+                "count": 24,
+                "percentage": 2.268,
+                "min_max_normalised": 0.149
+            },
+            "SAS": {
+                "count": 19,
+                "percentage": 1.751,
+                "min_max_normalised": 0.137
+            }
+        },
+        "hla_b_56": {
+            "AFR": {
+                "count": 4,
+                "percentage": 0.283,
+                "min_max_normalised": 0.018
+            },
+            "AMR": {
+                "count": 7,
+                "percentage": 0.942,
+                "min_max_normalised": 0.048
+            },
+            "EAS": {
+                "count": 11,
+                "percentage": 1.026,
+                "min_max_normalised": 0.063
+            },
+            "EUR": {
+                "count": 12,
+                "percentage": 1.134,
+                "min_max_normalised": 0.075
+            },
+            "SAS": {
+                "count": 2,
+                "percentage": 0.184,
+                "min_max_normalised": 0.014
+            }
+        },
+        "hla_b_57": {
+            "AFR": {
+                "count": 54,
+                "percentage": 3.824,
+                "min_max_normalised": 0.238
+            },
+            "AMR": {
+                "count": 20,
+                "percentage": 2.692,
+                "min_max_normalised": 0.137
+            },
+            "EAS": {
+                "count": 12,
+                "percentage": 1.119,
+                "min_max_normalised": 0.069
+            },
+            "EUR": {
+                "count": 47,
+                "percentage": 4.442,
+                "min_max_normalised": 0.292
+            },
+            "SAS": {
+                "count": 96,
+                "percentage": 8.848,
+                "min_max_normalised": 0.691
+            }
+        },
+        "hla_b_58": {
+            "AFR": {
+                "count": 117,
+                "percentage": 8.286,
+                "min_max_normalised": 0.515
+            },
+            "AMR": {
+                "count": 8,
+                "percentage": 1.077,
+                "min_max_normalised": 0.055
+            },
+            "EAS": {
+                "count": 57,
+                "percentage": 5.317,
+                "min_max_normalised": 0.328
+            },
+            "EUR": {
+                "count": 10,
+                "percentage": 0.945,
+                "min_max_normalised": 0.062
+            },
+            "SAS": {
+                "count": 32,
+                "percentage": 2.949,
+                "min_max_normalised": 0.23
+            }
+        },
+        "hla_b_59": {
+            "AFR": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "AMR": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "EAS": {
+                "count": 5,
+                "percentage": 0.466,
+                "min_max_normalised": 0.029
+            },
+            "EUR": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "SAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            }
+        },
+        "hla_b_67": {
+            "AFR": {
+                "count": 1,
+                "percentage": 0.071,
+                "min_max_normalised": 0.004
+            },
+            "AMR": {
+                "count": 1,
+                "percentage": 0.135,
+                "min_max_normalised": 0.007
+            },
+            "EAS": {
+                "count": 8,
+                "percentage": 0.746,
+                "min_max_normalised": 0.046
+            },
+            "EUR": {
+                "count": 1,
+                "percentage": 0.095,
+                "min_max_normalised": 0.006
+            },
+            "SAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            }
+        },
+        "hla_b_73": {
+            "AFR": {
+                "count": 2,
+                "percentage": 0.142,
+                "min_max_normalised": 0.009
+            },
+            "AMR": {
+                "count": 1,
+                "percentage": 0.135,
+                "min_max_normalised": 0.007
+            },
+            "EAS": {
+                "count": 1,
+                "percentage": 0.093,
+                "min_max_normalised": 0.006
+            },
+            "EUR": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "SAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            }
+        },
+        "hla_b_78": {
+            "AFR": {
+                "count": 26,
+                "percentage": 1.841,
+                "min_max_normalised": 0.115
+            },
+            "AMR": {
+                "count": 2,
+                "percentage": 0.269,
+                "min_max_normalised": 0.014
+            },
+            "EAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "EUR": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "SAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            }
+        },
+        "hla_b_81": {
+            "AFR": {
+                "count": 30,
+                "percentage": 2.125,
+                "min_max_normalised": 0.132
+            },
+            "AMR": {
+                "count": 1,
+                "percentage": 0.135,
+                "min_max_normalised": 0.007
+            },
+            "EAS": {
+                "count": 1,
+                "percentage": 0.093,
+                "min_max_normalised": 0.006
+            },
+            "EUR": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "SAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            }
+        },
+        "hla_b_82": {
+            "AFR": {
+                "count": 6,
+                "percentage": 0.425,
+                "min_max_normalised": 0.026
+            },
+            "AMR": {
+                "count": 2,
+                "percentage": 0.269,
+                "min_max_normalised": 0.014
+            },
+            "EAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "EUR": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "SAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            }
+        }
+    },
+    "hla_c": {
+        "hla_c_01": {
+            "AFR": {
+                "count": 10,
+                "percentage": 0.702,
+                "min_max_normalised": 0.0
+            },
+            "AMR": {
+                "count": 72,
+                "percentage": 9.677,
+                "min_max_normalised": 0.507
+            },
+            "EAS": {
+                "count": 216,
+                "percentage": 20.168,
+                "min_max_normalised": 0.806
+            },
+            "EUR": {
+                "count": 41,
+                "percentage": 3.886,
+                "min_max_normalised": 0.141
+            },
+            "SAS": {
+                "count": 49,
+                "percentage": 4.516,
+                "min_max_normalised": 0.187
+            }
+        },
+        "hla_c_02": {
+            "AFR": {
+                "count": 110,
+                "percentage": 7.725,
+                "min_max_normalised": 0.292
+            },
+            "AMR": {
+                "count": 20,
+                "percentage": 2.688,
+                "min_max_normalised": 0.136
+            },
+            "EAS": {
+                "count": 1,
+                "percentage": 0.093,
+                "min_max_normalised": 0.004
+            },
+            "EUR": {
+                "count": 47,
+                "percentage": 4.455,
+                "min_max_normalised": 0.162
+            },
+            "SAS": {
+                "count": 9,
+                "percentage": 0.829,
+                "min_max_normalised": 0.034
+            }
+        },
+        "hla_c_03": {
+            "AFR": {
+                "count": 120,
+                "percentage": 8.427,
+                "min_max_normalised": 0.321
+            },
+            "AMR": {
+                "count": 93,
+                "percentage": 12.5,
+                "min_max_normalised": 0.657
+            },
+            "EAS": {
+                "count": 268,
+                "percentage": 25.023,
+                "min_max_normalised": 1.0
+            },
+            "EUR": {
+                "count": 136,
+                "percentage": 12.891,
+                "min_max_normalised": 0.475
+            },
+            "SAS": {
+                "count": 82,
+                "percentage": 7.558,
+                "min_max_normalised": 0.313
+            }
+        },
+        "hla_c_04": {
+            "AFR": {
+                "count": 353,
+                "percentage": 24.789,
+                "min_max_normalised": 1.0
+            },
+            "AMR": {
+                "count": 141,
+                "percentage": 18.952,
+                "min_max_normalised": 1.0
+            },
+            "EAS": {
+                "count": 60,
+                "percentage": 5.602,
+                "min_max_normalised": 0.224
+            },
+            "EUR": {
+                "count": 141,
+                "percentage": 13.365,
+                "min_max_normalised": 0.493
+            },
+            "SAS": {
+                "count": 115,
+                "percentage": 10.599,
+                "min_max_normalised": 0.439
+            }
+        },
+        "hla_c_05": {
+            "AFR": {
+                "count": 25,
+                "percentage": 1.756,
+                "min_max_normalised": 0.044
+            },
+            "AMR": {
+                "count": 40,
+                "percentage": 5.376,
+                "min_max_normalised": 0.279
+            },
+            "EAS": {
+                "count": 4,
+                "percentage": 0.373,
+                "min_max_normalised": 0.015
+            },
+            "EUR": {
+                "count": 94,
+                "percentage": 8.91,
+                "min_max_normalised": 0.327
+            },
+            "SAS": {
+                "count": 10,
+                "percentage": 0.922,
+                "min_max_normalised": 0.038
+            }
+        },
+        "hla_c_06": {
+            "AFR": {
+                "count": 102,
+                "percentage": 7.163,
+                "min_max_normalised": 0.268
+            },
+            "AMR": {
+                "count": 38,
+                "percentage": 5.108,
+                "min_max_normalised": 0.264
+            },
+            "EAS": {
+                "count": 38,
+                "percentage": 3.548,
+                "min_max_normalised": 0.142
+            },
+            "EUR": {
+                "count": 104,
+                "percentage": 9.858,
+                "min_max_normalised": 0.363
+            },
+            "SAS": {
+                "count": 153,
+                "percentage": 14.101,
+                "min_max_normalised": 0.584
+            }
+        },
+        "hla_c_07": {
+            "AFR": {
+                "count": 258,
+                "percentage": 18.118,
+                "min_max_normalised": 0.723
+            },
+            "AMR": {
+                "count": 141,
+                "percentage": 18.952,
+                "min_max_normalised": 1.0
+            },
+            "EAS": {
+                "count": 195,
+                "percentage": 18.207,
+                "min_max_normalised": 0.728
+            },
+            "EUR": {
+                "count": 285,
+                "percentage": 27.014,
+                "min_max_normalised": 1.0
+            },
+            "SAS": {
+                "count": 262,
+                "percentage": 24.147,
+                "min_max_normalised": 1.0
+            }
+        },
+        "hla_c_08": {
+            "AFR": {
+                "count": 66,
+                "percentage": 4.635,
+                "min_max_normalised": 0.163
+            },
+            "AMR": {
+                "count": 68,
+                "percentage": 9.14,
+                "min_max_normalised": 0.479
+            },
+            "EAS": {
+                "count": 105,
+                "percentage": 9.804,
+                "min_max_normalised": 0.392
+            },
+            "EUR": {
+                "count": 29,
+                "percentage": 2.749,
+                "min_max_normalised": 0.099
+            },
+            "SAS": {
+                "count": 51,
+                "percentage": 4.7,
+                "min_max_normalised": 0.195
+            }
+        },
+        "hla_c_12": {
+            "AFR": {
+                "count": 19,
+                "percentage": 1.334,
+                "min_max_normalised": 0.026
+            },
+            "AMR": {
+                "count": 30,
+                "percentage": 4.032,
+                "min_max_normalised": 0.207
+            },
+            "EAS": {
+                "count": 67,
+                "percentage": 6.256,
+                "min_max_normalised": 0.25
+            },
+            "EUR": {
+                "count": 56,
+                "percentage": 5.308,
+                "min_max_normalised": 0.194
+            },
+            "SAS": {
+                "count": 166,
+                "percentage": 15.3,
+                "min_max_normalised": 0.634
+            }
+        },
+        "hla_c_14": {
+            "AFR": {
+                "count": 16,
+                "percentage": 1.124,
+                "min_max_normalised": 0.017
+            },
+            "AMR": {
+                "count": 8,
+                "percentage": 1.075,
+                "min_max_normalised": 0.05
+            },
+            "EAS": {
+                "count": 72,
+                "percentage": 6.723,
+                "min_max_normalised": 0.269
+            },
+            "EUR": {
+                "count": 23,
+                "percentage": 2.18,
+                "min_max_normalised": 0.077
+            },
+            "SAS": {
+                "count": 37,
+                "percentage": 3.41,
+                "min_max_normalised": 0.141
+            }
+        },
+        "hla_c_15": {
+            "AFR": {
+                "count": 30,
+                "percentage": 2.107,
+                "min_max_normalised": 0.058
+            },
+            "AMR": {
+                "count": 34,
+                "percentage": 4.57,
+                "min_max_normalised": 0.236
+            },
+            "EAS": {
+                "count": 44,
+                "percentage": 4.108,
+                "min_max_normalised": 0.164
+            },
+            "EUR": {
+                "count": 32,
+                "percentage": 3.033,
+                "min_max_normalised": 0.109
+            },
+            "SAS": {
+                "count": 121,
+                "percentage": 11.152,
+                "min_max_normalised": 0.462
+            }
+        },
+        "hla_c_16": {
+            "AFR": {
+                "count": 167,
+                "percentage": 11.728,
+                "min_max_normalised": 0.458
+            },
+            "AMR": {
+                "count": 46,
+                "percentage": 6.183,
+                "min_max_normalised": 0.321
+            },
+            "EAS": {
+                "count": 1,
+                "percentage": 0.093,
+                "min_max_normalised": 0.004
+            },
+            "EUR": {
+                "count": 54,
+                "percentage": 5.118,
+                "min_max_normalised": 0.187
+            },
+            "SAS": {
+                "count": 29,
+                "percentage": 2.673,
+                "min_max_normalised": 0.111
+            }
+        },
+        "hla_c_17": {
+            "AFR": {
+                "count": 109,
+                "percentage": 7.654,
+                "min_max_normalised": 0.289
+            },
+            "AMR": {
+                "count": 12,
+                "percentage": 1.613,
+                "min_max_normalised": 0.079
+            },
+            "EAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "EUR": {
+                "count": 12,
+                "percentage": 1.137,
+                "min_max_normalised": 0.039
+            },
+            "SAS": {
+                "count": 1,
+                "percentage": 0.092,
+                "min_max_normalised": 0.004
+            }
+        },
+        "hla_c_18": {
+            "AFR": {
+                "count": 39,
+                "percentage": 2.739,
+                "min_max_normalised": 0.085
+            },
+            "AMR": {
+                "count": 1,
+                "percentage": 0.134,
+                "min_max_normalised": 0.0
+            },
+            "EAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            },
+            "EUR": {
+                "count": 1,
+                "percentage": 0.095,
+                "min_max_normalised": 0.0
+            },
+            "SAS": {
+                "count": 0,
+                "percentage": 0,
+                "min_max_normalised": null
+            }
+        }
+    }
+}
